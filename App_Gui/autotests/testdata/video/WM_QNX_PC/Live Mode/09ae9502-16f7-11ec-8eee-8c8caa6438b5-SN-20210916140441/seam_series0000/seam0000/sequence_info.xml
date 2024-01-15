@@ -1,0 +1,14 @@
+<video_recorder>
+	<date_time>210916-160451211</date_time>
+	<is_livemode>true</is_livemode>
+	<product_name>Live Mode</product_name>
+	<product_instance>09ae9502-16f7-11ec-8eee-8c8caa6438b5</product_instance>
+	<product_UUID>00000000-0000-0000-0000-000000000000</product_UUID>
+	<product_type>0</product_type>
+	<product_number>0</product_number>
+	<seam_series>0</seam_series>
+	<seam>0</seam>
+	<trigger_delta>3000</trigger_delta>
+	<nb_images>2</nb_images>
+	<nb_samples>0</nb_samples>
+</video_recorder>

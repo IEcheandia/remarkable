@@ -1,0 +1,258 @@
+{
+  "Name": "Check power graph 4",
+  "ID": "8",
+  "Description": "No description",
+  "Ramps": [
+    {
+      "StartID": 0,
+      "Length": 0.2609866683681806,
+      "StartPower": 0.0,
+      "EndPower": 0.1,
+      "StartPowerRing": 0.0,
+      "EndPowerRing": 0.9
+    },
+    {
+      "StartID": 11,
+      "Length": 0.2609866683681806,
+      "StartPower": 0.1,
+      "EndPower": 0.05,
+      "StartPowerRing": 0.9,
+      "EndPowerRing": 0.45
+    },
+    {
+      "StartID": 24,
+      "Length": 0.26105238000551856,
+      "StartPower": 0.05,
+      "EndPower": 0.0,
+      "StartPowerRing": 0.9,
+      "EndPowerRing": 0.0
+    }
+  ],
+  "Figure": [
+    {
+      "EndPosition": [
+        0.5,
+        0.0
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.48296291314453416,
+        -0.12940952255126037
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.43301270189221935,
+        -0.24999999999999997
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.3535533905932738,
+        -0.35355339059327373
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.25000000000000006,
+        -0.4330127018922193
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.12940952255126048,
+        -0.4829629131445341
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        3.061616997868383e-17,
+        -0.5
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.12940952255126031,
+        -0.48296291314453416
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.2499999999999999,
+        -0.43301270189221935
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.35355339059327373,
+        -0.3535533905932738
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.43301270189221924,
+        -0.25000000000000017
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.4829629131445341,
+        -0.1294095225512605
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.5,
+        -6.123233995736766e-17
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.4829629131445342,
+        0.12940952255126018
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.4330127018922194,
+        0.24999999999999986
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.35355339059327395,
+        0.35355339059327356
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.2500000000000002,
+        0.4330127018922192
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.12940952255126076,
+        0.48296291314453405
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -9.184850993605148e-17,
+        0.5
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.12940952255126015,
+        0.4829629131445342
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.24999999999999967,
+        0.4330127018922195
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.3535533905932737,
+        0.35355339059327384
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.4330127018922192,
+        0.2500000000000002
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.48296291314453405,
+        0.12940952255126079
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.5,
+        -0.0
+      ],
+      "Power": 0.1,
+      "RingPower": 0.9,
+      "Velocity": -1.0
+    }
+  ]
+}

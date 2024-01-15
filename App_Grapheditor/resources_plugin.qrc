@@ -1,0 +1,51 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/grapheditor">
+    <!-- Graph editor pages -->
+    <file alias="/FilterComponent.qml">qml/pages/FilterComponent.qml</file>
+    <file alias="/MacroComponent.qml">qml/pages/MacroComponent.qml</file>
+    <file alias="/GraphAndAttribute.qml">qml/pages/GraphAndAttribute.qml</file>
+    <file alias="/GraphEditorMenu.qml">qml/pages/GraphEditorMenu.qml</file>
+    <file alias="/FilterGraphView.qml">qml/pages/FilterGraphView.qml</file>
+    <file alias="/InsertObjects.qml">qml/pages/InsertObjects.qml</file>
+    <file alias="/MainView.qml">qml/pages/MainView.qml</file>
+
+    <!-- Graph editor components -->
+    <file alias="/GraphLoaderComponent.qml">qml/components/GraphLoaderComponent.qml</file>
+    <file alias="/AttributesComponent.qml">qml/components/AttributesComponent.qml</file>
+    <file alias="/FilterCommentAttributes.qml">qml/components/FilterCommentAttributes.qml</file>
+    <file alias="/FilterGroupAttributes.qml">qml/components/FilterGroupAttributes.qml</file>
+    <file alias="/FilterInPortAttributes.qml">qml/components/FilterInPortAttributes.qml</file>
+    <file alias="/FilterPortAttributes.qml">qml/components/FilterPortAttributes.qml</file>
+    <file alias="/FilterMacroAttributes.qml">qml/components/FilterMacroAttributes.qml</file>
+    <file alias="/FilterNodeAttributes.qml">qml/components/FilterNodeAttributes.qml</file>
+    <file alias="/FilterDescription.qml">qml/components/FilterDescription.qml</file>
+    <file alias="/ButtonLayout.qml">qml/components/ButtonLayout.qml</file>
+    <file alias="/FileHandling.qml">qml/components/FileHandling.qml</file>
+    <file alias="/PositionGroupBox.qml">qml/components/PositionGroupBox.qml</file>
+    <file alias="/SizeGroupBox.qml">qml/components/SizeGroupBox.qml</file>
+    <file alias="/SearchGroupBox.qml">qml/components/SearchGroupBox.qml</file>
+
+    <!-- Filter objects -->
+    <file alias="/FilterNode.qml">qml/objects/FilterNode.qml</file>
+    <file alias="/FilterGroup.qml">qml/objects/FilterGroup.qml</file>
+    <file alias="/FilterConnector.qml">qml/objects/FilterConnector.qml</file>
+    <file alias="/FilterVerticalDock.qml">qml/objects/FilterVerticalDock.qml</file>
+    <file alias="/FilterPort.qml">qml/objects/FilterPort.qml</file>
+    <file alias="/FilterComment.qml">qml/objects/FilterComment.qml</file>
+
+    <!-- Dialogs -->
+    <file alias="/SaveGraphDialog.qml">qml/dialogs/SaveGraphDialog.qml</file>
+    <file alias="/SaveAsGraphDialog.qml">qml/dialogs/SaveAsGraphDialog.qml</file>
+    <file alias="/NewPortInterface.qml">qml/dialogs/NewPortInterface.qml</file>
+    <file alias="/SearchObjectInterface.qml">qml/pages/SearchObjectInterface.qml</file>
+    <file alias="/GraphProperties.qml">qml/dialogs/GraphProperties.qml</file>
+    <file alias="/PlausibilityCheck.qml">qml/dialogs/PlausibilityCheck.qml</file>
+    <file alias="/GridProperties.qml">qml/dialogs/GridProperties.qml</file>
+    <file alias="/QuitMessage.qml">qml/dialogs/QuitMessage.qml</file>
+    <file alias="/ZoomConfiguration.qml">qml/dialogs/ZoomConfiguration.qml</file>
+    <file alias="/ChangeGraphDialog.qml">qml/dialogs/ChangeGraphDialog.qml</file>
+    <file alias="/GraphLoaderDialog.qml">qml/dialogs/GraphLoaderDialog.qml</file>
+
+</qresource>
+</RCC>
+

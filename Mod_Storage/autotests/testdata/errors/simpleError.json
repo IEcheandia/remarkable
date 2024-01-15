@@ -1,0 +1,10 @@
+{
+    "error": 1007,
+    "maxLimit": 99000,
+    "minLimit": -99000,
+    "name": "My Simple Error",
+    "shift": 3.7,
+    "uuid": "94f507f1-4215-4fbd-afd1-fe34b77347e5",
+    "value": 517,
+    "variantId": "3b5fe50f-6fd5-4fbc-bd78-06b892e1f97d"
+}

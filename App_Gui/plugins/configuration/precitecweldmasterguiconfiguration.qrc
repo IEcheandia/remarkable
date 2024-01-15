@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/precitec/weldmaster/gui/configuration">
+        <file alias="BackupPage.qml">qml/BackupPage.qml</file>
+        <file alias="RestorePage.qml">qml/RestorePage.qml</file>
+        <file alias="UpdatePage.qml">qml/UpdatePage.qml</file>
+        <file alias="ShutdownPage.qml">qml/ShutdownPage.qml</file>
+        <file alias="HardwareConfigurationBackup.qml">qml/HardwareConfigurationBackup.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,14 @@
+testCase(
+    NAME
+        moduleLoggerTest
+    SRCS
+        moduleLoggerTest.cpp
+        ../../Interfaces/src/logMessage.cpp
+        ../src/moduleLogger.cpp
+        ../src/baseModule.cpp
+        ../../System/src/protocolInfo.cpp
+    LIBS
+        System
+        Framework_Module
+        Interfaces
+)

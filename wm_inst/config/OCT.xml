@@ -1,0 +1,12 @@
+<key_value_configuration>
+	<SampleFrequency>70000</SampleFrequency>
+	<LampIntensity>8</LampIntensity>
+	<DetectionWindowLeft>400</DetectionWindowLeft>
+	<DetectionWindowRight>9600</DetectionWindowRight>
+	<QualityThreshold>25</QualityThreshold>
+	<DataAveraging>1</DataAveraging>
+	<SpectralAveraging>1</SpectralAveraging>
+	<WeldingDepthSystemOffset>0</WeldingDepthSystemOffset>
+	<MaxNumProfilesToSend>1024</MaxNumProfilesToSend>
+	<MaxNumBufferLines>8192</MaxNumBufferLines>
+</key_value_configuration>

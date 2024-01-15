@@ -1,0 +1,19 @@
+[Unit]
+Description=Weldmaster mount backup
+Wants=local-fs.target
+Before=local-fs.target shutdown.target
+Conflicts=shutdown.target
+DefaultDependencies=no
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+StandardInput=null
+ProtectSystem=full
+ProtectHome=true
+ExecStart=@CMAKE_INSTALL_PREFIX@/@WM_INSTALL_DIR@/batch/mount_backup.sh START
+ExecReload=@CMAKE_INSTALL_PREFIX@/@WM_INSTALL_DIR@/batch/mount_backup.sh START
+ExecStop=@CMAKE_INSTALL_PREFIX@/@WM_INSTALL_DIR@/batch/mount_backup.sh STOP
+
+[Install]
+WantedBy=sysinit.target

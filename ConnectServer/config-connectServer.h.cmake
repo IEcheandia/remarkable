@@ -1,0 +1,2 @@
+#define ETHERCAT_LIB "${ETHERCAT_DIR}"
+#define SISODIR_LIB "${SISODIR5}/lib64"

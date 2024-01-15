@@ -1,0 +1,49 @@
+{
+    "Name" : "Test ramp out",
+    "ID" : "8",
+    "Description" : "Test for ramping out",
+    "Ramps" :
+    [
+        {
+            "StartID" : 4,
+            "Length" : 0.03,
+            "StartPower" : 1.0,
+            "EndPower" : 0.0,
+            "StartPowerRing" : 0.0,
+            "EndPowerRing" : 0.5
+        }
+    ],
+    "Figure" :
+    [
+        {
+            "EndPosition" : [0.0, 0.0],
+            "Power" : 0.25,
+            "RingPower" : 0.25,
+            "Velocity" : 100.0
+        },
+        {
+            "EndPosition" : [0.5, 0.0],
+            "Power" : 0.3,
+            "RingPower" : 0.2,
+            "Velocity" : 200.0
+        },
+        {
+            "EndPosition" : [1.25, 0.0],
+            "Power" : 0.8,
+            "RingPower" : 0.3,
+            "Velocity" : 130.0
+        },
+        {
+            "EndPosition" : [1.5, 0],
+            "Power" : 0.75,
+            "RingPower" : 0.3,
+            "Velocity" : 150.5
+        },
+        {
+            "EndPosition" : [2.0, 0.0],
+            "Power" : 0.3,
+            "RingPower" : 0.3,
+            "Velocity" : 250.0
+        }
+    ]
+}

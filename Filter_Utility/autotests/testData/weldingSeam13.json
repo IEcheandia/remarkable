@@ -1,0 +1,57 @@
+{
+    "Name" : "Test ramp in with ramp mid",
+    "ID" : "13",
+    "Description" : "Test for ramping in the middle",
+    "Ramps" :
+    [
+        {
+            "StartID" : 0,
+            "Length" : 0.02,
+            "StartPower" : 0.0,
+            "EndPower" : 1.0,
+            "StartPowerRing" : 0.0,
+            "EndPowerRing" : 0.5
+        },
+        {
+            "StartID" : 2,
+            "Length" : 0.04,
+            "StartPower" : 0.5,
+            "EndPower" : 0.2,
+            "StartPowerRing" : 0.5,
+            "EndPowerRing" : 0.1
+        }
+    ],
+    "Figure" :
+    [
+        {
+            "EndPosition" : [0.0, 0.0],
+            "Power" : 0.25,
+            "RingPower" : 0.25,
+            "Velocity" : 100.0
+        },
+        {
+            "EndPosition" : [0.02, 0.0],
+            "Power" : 0.3,
+            "RingPower" : 0.2,
+            "Velocity" : 200.0
+        },
+        {
+            "EndPosition" : [1.25, 0.0],
+            "Power" : 0.3,
+            "RingPower" : 0.15,
+            "Velocity" : 130.0
+        },
+        {
+            "EndPosition" : [1.27, 0],
+            "Power" : 0.3,
+            "RingPower" : 0.9,
+            "Velocity" : 150.5
+        },
+        {
+            "EndPosition" : [2.0, 0.0],
+            "Power" : 0.3,
+            "RingPower" : 0.1,
+            "Velocity" : 250.0
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+This is some weird, long text containing beautiful, irregular colons
+so it does not match the structure of the data lines below.
+These lines should be ignored.
+1,2,3,4
+0.678,-42.42,7.25e-2,8.765E3

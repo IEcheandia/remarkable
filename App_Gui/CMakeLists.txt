@@ -1,0 +1,251 @@
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOMOC ON)
+
+set(Lib_Gui_SRCS
+    src/serviceToGuiServer.cpp
+    src/resultSettingFilterModel.cpp
+)
+add_library(Mod_Gui SHARED ${Lib_Gui_SRCS})
+target_link_libraries(Mod_Gui
+    Qt5::Core
+    Qt5::Concurrent
+)
+
+add_subdirectory(plugins)
+
+include_directories(../Mod_Storage/src)
+include_directories(../Framework_Module/include)
+include_directories(../System/include)
+include_directories(plugins/general/)
+include_directories(plugins/filterparametereditor/)
+
+install(TARGETS Mod_Gui DESTINATION ${WM_LIB_INSTALL_DIR})
+
+set(App_Gui_SRCS
+    src/abstractDeviceKeyModel.cpp
+    src/abstractParameterSetDeltaModel.cpp
+    src/abstractWizardFilterModel.cpp
+    src/assemblyImageInspectionModel.cpp
+    src/assemblyImagesModel.cpp
+    src/axisInformation.cpp
+    src/axisController.cpp
+    src/axisStatusModel.cpp
+    src/checkedFilterModel.cpp
+    src/configurationTabModel.cpp
+    src/deleteProductInstanceController.cpp
+    src/detectionController.cpp
+    src/deviceKeyModel.cpp
+    src/deviceKeySortFilterModel.cpp
+    src/deviceKeyValueChangeEntry.cpp
+    src/deviceNotificationServer.cpp
+    src/deviceProxyWrapper.cpp
+    src/deviceServer.cpp
+    src/devicesTabModel.cpp
+    src/divideBy16Validator.cpp
+    src/emergencyConfigurationTabModel.cpp
+    src/errorTemplateModel.cpp
+    src/errorTemplateFilterModel.cpp
+    src/fieldIlluminationModel.cpp
+    src/filterParameterOnSeamConfigurationController.cpp
+    src/hardwareRoiController.cpp
+    src/hardwareRoiGigEController.cpp
+    src/hardwareRoiFlushedChangeEntry.cpp
+    src/hardwareParameterFilterModel.cpp
+    src/abstractHardwareParameterModel.cpp
+    src/hardwareParameterController.cpp
+    src/hardwareParameterSeamModel.cpp
+    src/hardwareParameterSeriesModel.cpp
+    src/hardwareParameterProductModel.cpp
+    src/hardwareParameterOverriddenModel.cpp
+    src/hardwareParameterOverridesModel.cpp
+    src/hardwareParametersOverviewModel.cpp
+    src/hardwareParametersOverviewSortFilterModel.cpp
+    src/historyModel.cpp
+    src/idmController.cpp
+    src/idmCalibrationController.cpp
+    src/infoBoxModel.cpp
+    src/infoBoxFilterModel.cpp
+    src/infoTabModel.cpp
+    src/cameraCalibrationModel.cpp
+    src/ledCalibrationController.cpp
+    src/sampleItem.cpp
+    src/filterAttributeSortFilterModel.cpp
+    src/filterInstanceGroupFilterModel.cpp
+    src/liveModeController.cpp
+    src/latestResultsModel.cpp
+    src/lineLaserModel.cpp
+    src/abstractLaserControlModel.cpp
+    src/laserControlModel.cpp
+    src/abstractLaserControlTaskModel.cpp
+    src/laserControlMeasureModel.cpp
+    src/laserControlProductModel.cpp
+    src/main.cpp
+    src/resultSettingFilterModel.cpp
+    src/abstractModule.cpp
+    src/hardwareModule.cpp
+    src/simulationModule.cpp
+    src/openVpnController.cpp
+    src/parameterSetsDeltaModel.cpp
+    src/parameterSetToGraphDeltaModel.cpp
+    src/productController.cpp
+    src/separatelyProductExporter.cpp
+    src/productAddedChangeEntry.cpp
+    src/productInstancesDeletedChangeEntry.cpp
+    src/productDeletedChangeEntry.cpp
+    src/productFilterModel.cpp
+    src/productModifiedChangeEntry.cpp
+    src/productTypeValidator.cpp
+    src/productWizardFilterModel.cpp
+    src/quitSystemFaultChangeEntry.cpp
+    src/recorderServer.cpp
+    src/referenceCurvesController.cpp
+    src/referenceResultTypeFilterModel.cpp
+    src/remoteDesktopController.cpp
+    src/referenceRunYAxisChangeEntry.cpp
+    src/resultsDataSetModel.cpp
+    src/seamSeriesResultsModel.cpp
+    src/scanTrackerController.cpp
+    src/scanTrackerInformation.cpp
+    src/scanTrackerFrequencyModel.cpp
+    src/screenConfigurationController.cpp
+    src/seamsOnAssemblyImageFilterModel.cpp
+    src/seamsOnAssemblyImageModel.cpp
+    src/seamSeriesWizardFilterModel.cpp
+    src/seamWizardFilterModel.cpp
+    src/seamProduceInstanceCopyHandler.cpp
+    src/emptyProductInstanceCreator.cpp
+    src/simulationController.cpp
+    src/simulationImageFilterModel.cpp
+    src/simulationImageModel.cpp
+    src/simpleErrorModel.cpp
+    src/seamErrorModel.cpp
+    src/intervalErrorFilterModel.cpp
+    src/intervalErrorModel.cpp
+    src/seamErrorValueFilterModel.cpp
+    src/errorNioFilterModel.cpp
+    src/systemStatusServer.cpp
+    src/securityTabModel.cpp
+    src/securityFilterModel.cpp
+    src/toolCenterPointController.cpp
+    src/verificationController.cpp
+    src/weldHeadServer.cpp
+    src/wizardFilterModel.cpp
+    src/wizardModel.cpp
+    src/moduleLogger.cpp
+    src/abstractVideoImportModel.cpp
+    src/videoImportProductModel.cpp
+    src/videoImportProductInstanceModel.cpp
+    src/seamIntervalsVisualizeController.cpp
+    src/ledChannel.cpp
+    src/latestProductErrorsModel.cpp
+    src/errorsDataModel.cpp
+    src/scanImageCalibrationController.cpp
+    src/calibrationChangeEntry.cpp
+    src/resultsModel.cpp
+    src/resultsStatisticsModel.cpp
+    src/resultsFilterModel.cpp
+    src/focusPositionController.cpp
+    src/latestInstanceModel.cpp
+    src/laserControlDelayController.cpp
+    src/colorMapModel.cpp
+    src/errorGroupModel.cpp
+    src/errorGroupFilterModel.cpp
+    src/overlyingErrorModel.cpp
+    src/seamSeriesErrorModel.cpp
+    src/productErrorModel.cpp
+    src/productInstanceTransferHandler.cpp
+    src/productInstancesTransferController.cpp
+    src/intervalErrorConfigModel.cpp
+    src/intervalErrorSimpleConfigModel.cpp
+    src/staticErrorConfigController.cpp
+    src/referenceErrorConfigController.cpp
+    src/seamTable.cpp
+    src/seamSelectionModel.cpp
+    src/seamPropertyModel.cpp
+    src/seamPropertyFilterModel.cpp
+    src/scanfieldCalibrationController.cpp
+    src/referenceImageController.cpp
+    src/scrollBarSynchController.cpp
+    src/measureTaskNumberValidator.cpp
+    src/laserControlPresetFilterModel.cpp
+    src/laserControlPresetModel.cpp
+    src/abstractPlotterDataModel.cpp
+    src/abstractSingleSeamDataModel.cpp
+    src/abstractMultiSeamDataModel.cpp
+    src/plotterFilterModel.cpp
+    src/linkedSeamWizardFilterModel.cpp
+    src/referenceCurvesModel.cpp
+    src/lwmController.cpp
+    src/hardwareParameters.cpp
+    src/scanLabController.cpp
+    src/topBarButtonModel.cpp
+    src/topBarButtonFilterModel.cpp
+    src/lwmResultFilterModel.cpp
+    src/subGraphAlternativesModel.cpp
+    src/scanfieldSeamModel.cpp
+    src/scanfieldSeamFilterModel.cpp
+    src/scanfieldSeamController.cpp
+    src/scanfieldModule.cpp
+    src/hardwareParametersModule.cpp
+    src/parametersExporter.cpp
+    src/xlsxWorkbook.cpp
+    src/xlsxAbstractWorksheet.cpp
+    src/xlsxHardwareParametersWorksheet.cpp
+    src/xlsxProductSeamGraphWorksheets.cpp
+    src/xlsxSeamGraphParametersWorksheet.cpp
+    src/productInstancesCacheEditor.cpp
+    src/instanceResultModel.cpp
+    src/instanceResultSortModel.cpp
+    src/referenceCurveConstructor.cpp
+    src/productInstancesCacheController.cpp
+    src/figureSimulationPilotLaserController.cpp
+    src/assemblyImageFromProductInstanceTableModel.cpp
+    src/basicFigureSelectionModel.cpp
+    src/scanTracker2DHardwareParameterController.cpp
+    src/resultTemplateModel.cpp
+    src/resultTemplateFilterModel.cpp
+    src/bmpToJpgConverter.cpp
+    src/scanfieldImageToJpgConverter.cpp
+    src/SettingNameFilterModel.cpp
+    src/postProcessingModule.cpp
+    src/postProcessingController.cpp
+    src/postProcessingSequenceDataReady.cpp 
+    src/postProcessingTriggerServer.cpp
+)
+qt5_add_resources(App_Gui_SRCS resources.qrc)
+qt5_add_resources(App_Gui_SRCS application.qrc)
+
+add_executable(App_Gui ${App_Gui_SRCS})
+
+target_link_libraries(App_Gui
+    precitecweldmasterguigeneral
+    Precitec::precitecusermanagement
+    Precitec::precitecplotter
+    Precitec::precitecnotifications
+    Precitec::precitecnetworkmanagement
+    Qt5::Concurrent
+    Qt5::Core
+    Qt5::Quick
+    Qt5::QuickControls2
+    Qt5::Widgets
+    Qt5::Pdf
+    ${POCO_LIBS}
+    Framework_Module
+    Interfaces
+    Mod_Storage
+    Mod_Gui
+    Analyzer_Interface
+    fliplib
+    Mod_Analyzer
+    Mod_GrabberNoHw
+    Mod_InspectionControl
+    
+)
+
+install(TARGETS App_Gui DESTINATION ${WM_BIN_INSTALL_DIR})
+
+if (BUILD_TESTING)
+    add_subdirectory(autotests)
+endif ()
+add_subdirectory(src/KeyValueConfigUpdater)
+add_subdirectory(ts)

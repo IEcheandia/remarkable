@@ -1,0 +1,35 @@
+{
+    "date": "2021-05-25T14:19:00.793Z",
+    "nio": [
+        {
+            "count": 1,
+            "type": 1004
+        }
+    ],
+    "nioSwitchedOff": false,
+    "processedSeamSeries": [
+        {
+            "nio": [
+                {
+                    "count": 1,
+                    "type": 1004
+                }
+            ],
+            "uuid": "45bbcc22-f179-4057-86d5-a9812699e28e"
+        }
+    ],
+    "processedSeams": [
+        {
+            "nio": [
+                {
+                    "count": 1,
+                    "type": 1004
+                }
+            ],
+            "seamSeriesUuid": "45bbcc22-f179-4057-86d5-a9812699e28e",
+            "uuid": "e0677e0d-0887-43d1-b3d5-c6554dccd81a"
+        }
+    ],
+    "serialNumber": 531161900,
+    "uuid": "25222f96-c21b-11eb-a08a-38afd7af6851"
+}

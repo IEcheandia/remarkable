@@ -1,0 +1,36 @@
+{
+  "Name": "Another test figure",
+  "ID": "2",
+  "Description": "A short description",
+  "MicroVectorFactor": 100,
+  "Figure": [
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": 0.0
+    },
+    {
+      "EndPosition": [
+        0.0,
+        3.0
+      ],
+      "Power": 0.15
+    },
+    {
+      "EndPosition": [
+        0.0,
+        -3.0
+      ],
+      "Power": -0.75
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": 0.6
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+"attributes": [
+    {"variantId": "3C57ACDE-707E-4C7D-A6B5-0E9352568095", "uuid": "553C51F1-F66D-4B36-92B4-6E84D464F833", "name": "Scanner_New_X_Position", "type": "int", "mandatory": true, "maxLength": 0, "minValue": 0, "maxValue": 7168, "defaultValue": 640, "unit": "", "description": "Scanner_New_X_Position", "toolTip": "Scanner_New_X_Position", "userLevel": 0, "visible": true, "step": 1, "enum": "", "contentName": "Scanner_New_X_Position", "editListOrder": 0, "publicity": true},
+    {"variantId": "3C57ACDE-707E-4C7D-A6B5-0E9352568095", "uuid": "F8DAF95D-B164-4686-8BAB-02FA473FCA94", "name": "Scanner_New_Y_Position", "type": "int", "mandatory": true, "maxLength": 0, "minValue": 0, "maxValue": 4096, "defaultValue": 512, "unit": "", "description": "Scanner_New_Y_Position", "toolTip": "Scanner_New_Y_Position", "userLevel": 0, "visible": true, "step": 1, "enum": "", "contentName": "Scanner_New_Y_Position", "editListOrder": 0, "publicity": true},
+    {"variantId": "3C57ACDE-707E-4C7D-A6B5-0E9352568095", "uuid": "5C6D790E-3956-452F-825A-5D3EF1419E79", "name": "Scanner_DriveToPosition", "type": "bool", "mandatory": true, "maxLength": 0, "minValue": 0, "maxValue": 1, "defaultValue": 0, "unit": "", "description": "Scanner_DriveToPosition", "toolTip": "Scanner_DriveToPosition", "userLevel": 0, "visible": true, "step": 1, "enum": "", "contentName": "Scanner_DriveToPosition", "editListOrder": 0, "publicity": true},
+    {"variantId": "3C57ACDE-707E-4C7D-A6B5-0E9352568095", "uuid": "837fdee9-86d5-41d2-827f-1a6b0f5ece86", "name": "Scanner_DriveWithOCTReference", "type": "bool", "mandatory": true, "maxLength": 0, "minValue": 0, "maxValue": 1, "defaultValue": 0, "unit": "", "description": "Scanner_DriveWithOCTReference", "toolTip": "Scanner_DriveWithOCTReference", "userLevel": 0, "visible": true, "step": 1, "enum": "", "contentName": "Scanner_DriveWithOCTReference", "editListOrder": 0, "publicity": true}
+]
+}
+
+

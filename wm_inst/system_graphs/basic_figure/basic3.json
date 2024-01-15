@@ -1,0 +1,145 @@
+{
+  "Name": "Circle",
+  "ID": "3",
+  "Description": "Circle with 16 vectors",
+  "MicroVectorFactor": 1,
+  "PowerModulationMode": 1,
+  "Figure": [
+    {
+      "EndPosition": [
+        0.5,
+        0.0
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        0.46193976625564337,
+        -0.1913417161825449
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        0.3535533905932738,
+        -0.35355339059327373
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        0.19134171618254492,
+        -0.46193976625564337
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        0.0,
+        -0.5
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.19134171618254486,
+        -0.46193976625564337
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.35355339059327373,
+        -0.3535533905932738
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.46193976625564337,
+        -0.19134171618254495
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.5,
+        0.0
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.4619397662556434,
+        0.19134171618254484
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.35355339059327384,
+        0.35355339059327373
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.19134171618254517,
+        0.46193976625564326
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.5
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        0.191341716182545,
+        0.4619397662556433
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        0.3535533905932737,
+        0.35355339059327384
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        0.46193976625564326,
+        0.1913417161825452
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        0.5,
+        0.0
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    }
+  ]
+}

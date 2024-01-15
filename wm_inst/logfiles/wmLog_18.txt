@@ -1,0 +1,1279 @@
+
+System booting Weldmaster Version 5.22.0.Beta-f0ed40221 id f0ed40221  ... 
+
+START| 09.01.2024 - 18:16:52.059 | GrabberMod | Modul GrabberModul wurde gestartet.
+DEBUG| 09.01.2024 - 18:16:52.063 | GrabberMod | registered: /ImageShMemWM-QNX-PC with 1324505961
+START| 09.01.2024 - 18:16:52.419 | CHRCommuni | Modul CHRCommunicationModul wurde gestartet.
+DEBUG| 09.01.2024 - 18:16:52.423 | CHRCommuni | m_oIDMDevice1Enable (bool): 0
+DEBUG| 09.01.2024 - 18:16:52.423 | CHRCommuni | m_oIDMDevice1IpAdress (string): 192.168.170.2
+DEBUG| 09.01.2024 - 18:16:52.423 | CHRCommuni | m_oCLS2Device1Enable (bool): 0
+DEBUG| 09.01.2024 - 18:16:52.423 | CHRCommuni | m_oCLS2Device1IpAddress (string): 192.168.170.3
+DEBUG| 09.01.2024 - 18:16:53.733 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Caliper-2Pins-Backup.xml )
+DEBUG| 09.01.2024 - 18:16:53.735 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Caliper-2Pins-V3.xml )
+DEBUG| 09.01.2024 - 18:16:53.735 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Caliper-2Pins-v2.xml )
+DEBUG| 09.01.2024 - 18:16:53.749 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Caliper-6x.xml )
+DEBUG| 09.01.2024 - 18:16:53.766 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Caliper-2Pins.xml )
+DEBUG| 09.01.2024 - 18:16:53.904 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Caliper-8x.xml )
+DEBUG| 09.01.2024 - 18:16:54.088 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Caliper_hairpin_macro_v1.xml )
+DEBUG| 09.01.2024 - 18:16:54.109 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Display Algo Status.xml )
+DEBUG| 09.01.2024 - 18:16:54.119 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/HairPin Detection V3.4.xml )
+DEBUG| 09.01.2024 - 18:16:54.263 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Metrology Matching Demo.xml )
+DEBUG| 09.01.2024 - 18:16:54.268 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Move Scanner to Position - with Skip.xml )
+DEBUG| 09.01.2024 - 18:16:54.273 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/SwitchCase 0 to 15.xml )
+DEBUG| 09.01.2024 - 18:16:54.285 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Transfer mm to px 2.xml )
+DEBUG| 09.01.2024 - 18:16:55.709 | UserInterf | TModule<MsgServer>::startServer reActivating Event Results with protocol ProcessInfo[ CHID: 0 - PID: 67502 - Node: localNode] using: xFerMemSIMULATION4
+DEBUG| 09.01.2024 - 18:16:55.721 | UserInterf | TModule<MsgServer>::startServer reActivating Event Recorder with protocol ProcessInfo[ CHID: 0 - PID: 67502 - Node: localNode] using: xFerMemSIMULATION3
+DEBUG| 09.01.2024 - 18:16:55.730 | UserInterf | TModule<MsgServer>::startServer reActivating Event SystemStatus with protocol ProcessInfo[ CHID: 0 - PID: 67502 - Node: localNode] using: xFerMemSIMULATION6
+DEBUG| 09.01.2024 - 18:16:55.921 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Caliper-6x_build_graph.xml )
+DEBUG| 09.01.2024 - 18:16:55.921 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Fallback Step 1 Coordinates From Json Manual offset + End of Seam.xml )
+DEBUG| 09.01.2024 - 18:16:55.926 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Fallback Step 3 Welding v5 End of Seam.xml )
+DEBUG| 09.01.2024 - 18:16:55.930 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/FiducialDetection.xml )
+DEBUG| 09.01.2024 - 18:16:55.935 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Debug_Graph_V2.xml )
+DEBUG| 09.01.2024 - 18:16:55.936 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/DummyOCT.xml )
+DEBUG| 09.01.2024 - 18:16:55.940 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Graph_TaskPort.xml )
+DEBUG| 09.01.2024 - 18:16:55.941 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection Laserline V2.1.xml )
+DEBUG| 09.01.2024 - 18:16:55.942 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection Laserline V2.2.xml )
+DEBUG| 09.01.2024 - 18:16:55.953 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection Laserline V2.3.xml )
+DEBUG| 09.01.2024 - 18:16:55.976 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection Laserline V2.4.xml )
+DEBUG| 09.01.2024 - 18:16:56.049 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection Laserline.xml )
+DEBUG| 09.01.2024 - 18:16:56.075 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection ST66-ROI-from-DummyPosition.xml )
+DEBUG| 09.01.2024 - 18:16:56.125 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection SpecialPin V2.1.xml )
+DEBUG| 09.01.2024 - 18:16:56.159 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection SpecialPin V2.2.xml )
+DEBUG| 09.01.2024 - 18:16:56.173 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection SpecialPin V2.3.xml )
+DEBUG| 09.01.2024 - 18:16:56.231 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection SpecialPin V2.5 Bin.xml )
+DEBUG| 09.01.2024 - 18:16:56.362 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection SpecialPin V2.8.xml )
+DEBUG| 09.01.2024 - 18:16:56.373 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection V3.0 - ST66.xml )
+DEBUG| 09.01.2024 - 18:16:56.420 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection V3.2.xml )
+DEBUG| 09.01.2024 - 18:16:56.609 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection V3.3.xml )
+DEBUG| 09.01.2024 - 18:16:56.862 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection V3.4.xml )
+DEBUG| 09.01.2024 - 18:16:56.876 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Single Figure Welding V16.xml )
+DEBUG| 09.01.2024 - 18:16:57.039 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Single Figure Welding V18.xml )
+DEBUG| 09.01.2024 - 18:16:57.054 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin SingleFigure Welding V15.xml )
+DEBUG| 09.01.2024 - 18:16:57.217 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Welding SpecialPin V2.3.xml )
+DEBUG| 09.01.2024 - 18:16:57.258 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Welding SpecialPin V2.4-SM.xml )
+DEBUG| 09.01.2024 - 18:16:57.399 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Welding SpecialPin V2.5.xml )
+DEBUG| 09.01.2024 - 18:16:57.452 | UserInterf | registered: /ImageShMemSIMULATION with -1929366122
+DEBUG| 09.01.2024 - 18:16:57.583 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Welding SpecialPin V2.6.xml )
+DEBUG| 09.01.2024 - 18:16:57.652 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Welding SpecialPin V2.7-OCT.xml )
+DEBUG| 09.01.2024 - 18:16:57.844 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Z-OCT Measurement-ST75.xml )
+DEBUG| 09.01.2024 - 18:16:57.965 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Z-OCT Measurement.xml )
+DEBUG| 09.01.2024 - 18:16:58.024 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Z-OCT Measurement convergent.xml )
+DEBUG| 09.01.2024 - 18:16:58.158 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Move Scanner To Position.xml )
+DEBUG| 09.01.2024 - 18:16:58.208 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Move scanner with contour.xml )
+DEBUG| 09.01.2024 - 18:16:58.211 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/MoveScannerGraph.xml )
+DEBUG| 09.01.2024 - 18:16:58.229 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Scanmaster Focus Point V2.xml )
+DEBUG| 09.01.2024 - 18:16:58.256 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Scanner Movement to SwitchCase Position.xml )
+DEBUG| 09.01.2024 - 18:16:58.336 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Scanmaster Focus Point.xml )
+DEBUG| 09.01.2024 - 18:16:58.341 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Spot Welding TA.xml )
+DEBUG| 09.01.2024 - 18:16:58.377 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Spot Welding.xml )
+DEBUG| 09.01.2024 - 18:16:58.397 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Step1 Scanner Movement to SwitchCase Position.xml )
+DEBUG| 09.01.2024 - 18:16:58.459 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Step2 FiducialDetection.xml )
+DEBUG| 09.01.2024 - 18:16:58.500 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Step4 HairPin Detection ST66-ROI-from-BufferPosition.xml )
+DEBUG| 09.01.2024 - 18:16:58.523 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Step3 moveScanner to Buffer Position.xml )
+DEBUG| 09.01.2024 - 18:16:58.555 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Test Prepositioning.xml )
+DEBUG| 09.01.2024 - 18:16:58.580 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/WeldingOnSpot.xml )
+DEBUG| 09.01.2024 - 18:16:58.633 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/d969550b-35b6-4902-9b27-b677e31eab77.xml )
+DEBUG| 09.01.2024 - 18:16:58.640 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/test tabelle.xml )
+DEBUG| 09.01.2024 - 18:16:58.675 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/testgraph plc.xml )
+DEBUG| 09.01.2024 - 18:16:59.668 | UserInterf | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Test IDM.xml )
+START| 09.01.2024 - 18:17:53.620 | VIWeldHead | Modul VIWeldHeadControl wurde gestartet.
+INFO | 09.01.2024 - 18:17:53.623 | VIWeldHead | parsing configuration file: /home/developer/git/weldmaster/qnx/wm_i
+DEBUG| 09.01.2024 - 18:17:53.624 | VIWeldHead | ----------------AXIS X--------------------
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | ProductCode          : 0x0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | VendorID             : 0x0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Instance             : 0x0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Homeable             : 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | HomingDirPositive    : 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | MountingRightTop     : 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Axis Length          : 100000
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Axis SoftLimitsActive: 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Axis lowerSoftEnd    : -1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Axis upperSoftEnd    : -1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | ----------------AXIS Y--------------------
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | ProductCode          : 0x380
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | VendorID             : 0xab
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Instance             : 0x1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Homeable             : 1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | HomingDirPositive    : 1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | MountingRightTop     : 1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Axis Length          : 100000
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Axis SoftLimitsActive: 1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Axis lowerSoftEnd    : -30000
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Axis upperSoftEnd    : -1000
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | ----------------AXIS Z--------------------
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | ProductCode          : 0x380
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | VendorID             : 0xab
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Instance             : 0x2
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Homeable             : 1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | HomingDirPositive    : 1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | MountingRightTop     : 1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Axis Length          : 100000
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Axis SoftLimitsActive: 1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Axis lowerSoftEnd    : -30000
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Axis upperSoftEnd    : -1000
+INFO | 09.01.2024 - 18:17:53.625 | VIWeldHead | configuration file successful parsed: /home/developer/git/weldmaster/qnx/wm_i
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLineLaser1Enable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLineLaser1_OutputViaCamera (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLineLaser2Enable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLineLaser2_OutputViaCamera (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oFieldLight1Enable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oFieldLight1_OutputViaCamera (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaInEnable[eAnalogIn1] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaInEnable[eAnalogIn2] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaInEnable[eAnalogIn3] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaInEnable[eAnalogIn4] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaInEnable[eAnalogIn5] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaInEnable[eAnalogIn6] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaInEnable[eAnalogIn7] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaInEnable[eAnalogIn8] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaOutEnable[eAnalogOut1] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaOutEnable[eAnalogOut2] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaOutEnable[eAnalogOut3] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaOutEnable[eAnalogOut4] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaOutEnable[eAnalogOut5] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaOutEnable[eAnalogOut6] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaOutEnable[eAnalogOut7] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oGenPurposeAnaOutEnable[eAnalogOut8] (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLED_IlluminationEnable (bool): 1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLED_MaxCurrent_mA_Chan1 (int) : 1000
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLED_MaxCurrent_mA_Chan2 (int) : 1000
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLED_MaxCurrent_mA_Chan3 (int) : 1000
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLED_MaxCurrent_mA_Chan4 (int) : 1000
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLED_MaxCurrent_mA_Chan5 (int) : 1000
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLED_MaxCurrent_mA_Chan6 (int) : 1000
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLED_MaxCurrent_mA_Chan7 (int) : 1000
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLED_MaxCurrent_mA_Chan8 (int) : 1000
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oScanTrackerEnable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLaserControlEnable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oZCollimatorEnable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oZCollimatorType (int): 1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | LiquidLensControllerEnable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLaserPowerInputEnable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oEncoderInput1Enable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oEncoderInput2Enable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oRobotTrackSpeedEnable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oAxisXEnable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oAxisYEnable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oAxisZEnable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oFastAnalogSignal1Enable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oFastAnalogSignal2Enable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oFastAnalogSignal3Enable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oFastAnalogSignal4Enable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oFastAnalogSignal5Enable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oFastAnalogSignal6Enable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oFastAnalogSignal7Enable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oFastAnalogSignal8Enable (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oLWM40_No1_Enable (bool): 1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oScanlabScannerEnable (bool): 1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_scannerGeneralMode (int): 1
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | Scanner model is: 0
+DEBUG| 09.01.2024 - 18:17:53.625 | VIWeldHead | m_oIsSOUVIS6000_Application (bool): 0
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_1].led_brightness (int): 20
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_2].led_brightness (int): 20
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_3].led_brightness (int): 20
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_4].led_brightness (int): 20
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_5].led_brightness (int): 20
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_6].led_brightness (int): 20
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_7].led_brightness (int): 20
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_8].led_brightness (int): 20
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_1].led_enable (int): 0
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_2].led_enable (int): 0
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_3].led_enable (int): 0
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_4].led_enable (int): 0
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_5].led_enable (int): 0
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_6].led_enable (int): 0
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_7].led_enable (int): 0
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_8].led_enable (int): 0
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_1].led_pulse_width (int): 80
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_2].led_pulse_width (int): 80
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_3].led_pulse_width (int): 80
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_4].led_pulse_width (int): 80
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_5].led_pulse_width (int): 80
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_6].led_pulse_width (int): 80
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_7].led_pulse_width (int): 80
+DEBUG| 09.01.2024 - 18:17:53.627 | VIWeldHead | m_oLEDI_Parameters[LED_PANEL_8].led_pulse_width (int): 80
+DEBUG| 09.01.2024 - 18:18:11.842 | VIWeldHead | m_oScanlabScannerEnable (bool): 1
+DEBUG| 09.01.2024 - 18:18:11.842 | VIWeldHead | m_oScanlabScannerIpAddress: <192.168.170.105>
+DEBUG| 09.01.2024 - 18:18:11.842 | VIWeldHead | Scanner model is: 0
+DEBUG| 09.01.2024 - 18:18:11.842 | VIWeldHead | m_scannerGeneralMode (int): 0
+DEBUG| 09.01.2024 - 18:18:11.842 | VIWeldHead | m_oScanlabLensType (int): 2
+DEBUG| 09.01.2024 - 18:18:11.842 | VIWeldHead | m_scanlabCorrectionFile (string): 
+INFO | 09.01.2024 - 18:18:11.842 | VIWeldHead | Current contour point limit is 62400.
+DEBUG| 09.01.2024 - 18:18:11.842 | VIWeldHead | m_oIsSCANMASTER_Application (bool): 1
+DEBUG| 09.01.2024 - 18:18:11.842 | VIWeldHead | m_oIsSCANMASTER_ThreeStepInterface (bool): 0
+DEBUG| 09.01.2024 - 18:18:11.842 | VIWeldHead | m_oIsSCANMASTER_GeneralApplication (bool): 1
+DEBUG| 09.01.2024 - 18:18:11.842 | VIWeldHead | m_oIsOCT_with_reference_arms (bool): 0
+DEBUG| 09.01.2024 - 18:18:11.842 | VIWeldHead | WobbleFigureFile (std::string): /home/developer/git/weldmaster/qnx/wm_i
+DEBUG| 09.01.2024 - 18:18:11.842 | VIWeldHead | WobbleFigureFile (std::string): /figureWobble
+DEBUG| 09.01.2024 - 18:18:11.842 | VIWeldHead | WobbleFigureFile (std::string): -1
+DEBUG| 09.01.2024 - 18:18:11.842 | VIWeldHead | WobbleFigureFile (std::string): .json
+DEBUG| 09.01.2024 - 18:18:11.842 | VIWeldHead | WeldingFigureFile (std::string): -1
+DEBUG| 09.01.2024 - 18:18:11.843 | VIWeldHead | Scanlab::reloadFiberSwitchCalibration
+DEBUG| 09.01.2024 - 18:18:11.858 | VIWeldHead | 47.4689, 0, 0, 0, 
+DEBUG| 09.01.2024 - 18:18:11.858 | VIWeldHead | 0.79653, 0.638694, 5.34977, 2.9602, 
+DEBUG| 09.01.2024 - 18:18:11.859 | VIWeldHead | Scanlab DLL version:   0
+DEBUG| 09.01.2024 - 18:18:11.859 | VIWeldHead | Scanlab BIOS version:  0
+DEBUG| 09.01.2024 - 18:18:11.859 | VIWeldHead | Scanlab HEX version:   0
+DEBUG| 09.01.2024 - 18:18:11.859 | VIWeldHead | Scanlab RTC version:   600
+DEBUG| 09.01.2024 - 18:18:11.859 | VIWeldHead | Scanlab RTC options:   0x0
+DEBUG| 09.01.2024 - 18:18:11.859 | VIWeldHead | Scanlab serial number: 0
+DEBUG| 09.01.2024 - 18:18:11.860 | VIWeldHead | Current cor file is Welding
+DEBUG| 09.01.2024 - 18:18:11.860 | VIWeldHead | Correction file loaded successfully
+DEBUG| 09.01.2024 - 18:18:11.860 | VIWeldHead | Current cor file is Pilot
+DEBUG| 09.01.2024 - 18:18:11.860 | VIWeldHead | Correction file loaded successfully
+DEBUG| 09.01.2024 - 18:18:11.860 | VIWeldHead | Current cor file is HeightMeasurement
+DEBUG| 09.01.2024 - 18:18:11.860 | VIWeldHead | Correction file loaded successfully
+DEBUG| 09.01.2024 - 18:18:11.860 | VIWeldHead | Scanlab correction file: IntelliScanIII30_F_Theta_460
+DEBUG| 09.01.2024 - 18:18:11.860 | VIWeldHead | m_oCalibValueBitsPerMM: 0
+INFO | 09.01.2024 - 18:18:11.860 | VIWeldHead | Startup of Scanlab scanner was successful
+DEBUG| 09.01.2024 - 18:18:11.860 | VIWeldHead | Laser power delay compensation (WeldHeadDefaults) found: 0
+DEBUG| 09.01.2024 - 18:18:11.860 | VIWeldHead | Laser power delay compensation in 10us (int): 0
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | ++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | IncomingLWM40_1_Plasma:
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oActive:   0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | VendorID:    0xfe
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | ProductCode: 0x44c0c62
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | Instance:    0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | SlaveType:   0xffffffff
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | StartBit:    0x0
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | Length:      0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oProductIndex: 0xf
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oInstance: 0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oChannel:  0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | --------------------------------------------------
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | ++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | IncomingLWM40_1_Temperature:
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oActive:   0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | VendorID:    0xfe
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | ProductCode: 0x44c0c62
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | Instance:    0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | SlaveType:   0xfffffffe
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | StartBit:    0x0
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | Length:      0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oProductIndex: 0xf
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oInstance: 0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oChannel:  0x2
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | --------------------------------------------------
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | ++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | IncomingLWM40_1_BackReflection:
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oActive:   0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | VendorID:    0xfe
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | ProductCode: 0x44c0c62
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | Instance:    0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | SlaveType:   0xfffffffd
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | StartBit:    0x0
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | Length:      0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oProductIndex: 0xf
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oInstance: 0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oChannel:  0x3
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | --------------------------------------------------
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | ++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | IncomingLWM40_1_AnalogInput:
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oActive:   0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | VendorID:    0xfe
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | ProductCode: 0x44c0c62
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | Instance:    0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | SlaveType:   0xfffffffc
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | StartBit:    0x0
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | Length:      0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oProductIndex: 0xf
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oInstance: 0x1
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | m_oChannel:  0x4
+DEBUG| 09.01.2024 - 18:18:11.861 | VIWeldHead | --------------------------------------------------
+START| 09.01.2024 - 18:18:12.179 | VIServiceM | Modul VIServiceModul wurde gestartet.
+DEBUG| 09.01.2024 - 18:18:12.180 | VIServiceM | m_oFieldbusViaSeparateFieldbusBoard (bool): 0
+DEBUG| 09.01.2024 - 18:18:12.180 | VIServiceM | m_etherCATMasterIsActive (bool): 1
+START| 09.01.2024 - 18:18:12.449 | Calibratio | Modul CalibrationModul wurde gestartet.
+DEBUG| 09.01.2024 - 18:18:12.456 | Calibratio | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/calib/GraphCalibrationNoAxis.xml )
+DEBUG| 09.01.2024 - 18:18:12.467 | Calibratio | 1st load of '/home/developer/git/weldmaster/qnx/wm_inst/lib/libFilter_LineTracking.so'
+DEBUG| 09.01.2024 - 18:18:12.469 | Calibratio | Filter.ParallelTracking component initializing.
+DEBUG| 09.01.2024 - 18:18:12.471 | Calibratio | 1st load of '/home/developer/git/weldmaster/qnx/wm_inst/lib/libFilter_Utility.so'
+DEBUG| 09.01.2024 - 18:18:12.479 | Calibratio | Filter.Utility component initializing.
+DEBUG| 09.01.2024 - 18:18:12.481 | Calibratio | 1st load of '/home/developer/git/weldmaster/qnx/wm_inst/lib/libFilter_LineGeometry.so'
+DEBUG| 09.01.2024 - 18:18:12.486 | Calibratio | Filter.LineGeometry component initializing.
+DEBUG| 09.01.2024 - 18:18:12.486 | Calibratio | 1st load of '/home/developer/git/weldmaster/qnx/wm_inst/lib/libFilter_Calibration.so'
+DEBUG| 09.01.2024 - 18:18:12.487 | Calibratio | Filter.Calibration component initializing.
+DEBUG| 09.01.2024 - 18:18:12.488 | Calibratio | 1st load of '/home/developer/git/weldmaster/qnx/wm_inst/lib/libFilter_ImageProcessing.so'
+DEBUG| 09.01.2024 - 18:18:12.494 | Calibratio | Filter.ImageProcessing component initializing.
+DEBUG| 09.01.2024 - 18:18:12.496 | Calibratio | 1st load of '/home/developer/git/weldmaster/qnx/wm_inst/lib/libFilter_ImageSource.so'
+DEBUG| 09.01.2024 - 18:18:12.498 | Calibratio | Filter.ImageSource component initializing.
+DEBUG| 09.01.2024 - 18:18:12.505 | Calibratio | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/calib/GraphCalibrationLED.xml )
+DEBUG| 09.01.2024 - 18:18:12.511 | Calibratio | 1st load of '/home/developer/git/weldmaster/qnx/wm_inst/lib/libFilter_Results.so'
+DEBUG| 09.01.2024 - 18:18:12.515 | Calibratio | Filter.Results component initializing.
+DEBUG| 09.01.2024 - 18:18:12.518 | Calibratio | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/calib/GraphCalibrationNoAxis.xml )
+DEBUG| 09.01.2024 - 18:18:12.532 | Calibratio | registered: /ImageShMemWM-QNX-PC with 1324505961
+INFO | 09.01.2024 - 18:18:12.534 | Calibratio | Calibration manager simulation = F
+DEBUG| 09.01.2024 - 18:18:12.577 | Calibratio | TModule<MsgServer>::startServer reActivating Event Sensor with protocol ProcessInfo[ CHID: 0 - PID: 67701 - Node: localNode] using: xFerMemWM-QNX-PC10
+START| 09.01.2024 - 18:18:12.814 | StorageMod | Modul StorageModul wurde gestartet.
+DEBUG| 09.01.2024 - 18:18:13.553 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Caliper-2Pins-Backup.xml )
+DEBUG| 09.01.2024 - 18:18:13.553 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Caliper-2Pins-V3.xml )
+DEBUG| 09.01.2024 - 18:18:13.554 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Caliper-2Pins-v2.xml )
+DEBUG| 09.01.2024 - 18:18:13.554 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Caliper-2Pins.xml )
+DEBUG| 09.01.2024 - 18:18:13.554 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Caliper-6x.xml )
+DEBUG| 09.01.2024 - 18:18:13.554 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Caliper-8x.xml )
+DEBUG| 09.01.2024 - 18:18:13.693 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Display Algo Status.xml )
+DEBUG| 09.01.2024 - 18:18:13.694 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Caliper_hairpin_macro_v1.xml )
+DEBUG| 09.01.2024 - 18:18:13.699 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/HairPin Detection V3.4.xml )
+DEBUG| 09.01.2024 - 18:18:13.769 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Metrology Matching Demo.xml )
+DEBUG| 09.01.2024 - 18:18:13.778 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Move Scanner to Position - with Skip.xml )
+DEBUG| 09.01.2024 - 18:18:13.780 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/SwitchCase 0 to 15.xml )
+DEBUG| 09.01.2024 - 18:18:13.789 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/macros/Transfer mm to px 2.xml )
+DEBUG| 09.01.2024 - 18:18:16.104 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Debug_Graph_V2.xml )
+DEBUG| 09.01.2024 - 18:18:16.104 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Fallback Step 3 Welding v5 End of Seam.xml )
+DEBUG| 09.01.2024 - 18:18:16.104 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Caliper-6x_build_graph.xml )
+DEBUG| 09.01.2024 - 18:18:16.104 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Graph_TaskPort.xml )
+DEBUG| 09.01.2024 - 18:18:16.104 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Fallback Step 1 Coordinates From Json Manual offset + End of Seam.xml )
+DEBUG| 09.01.2024 - 18:18:16.104 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/FiducialDetection.xml )
+DEBUG| 09.01.2024 - 18:18:16.104 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection Laserline V2.1.xml )
+DEBUG| 09.01.2024 - 18:18:16.105 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/DummyOCT.xml )
+DEBUG| 09.01.2024 - 18:18:16.107 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection Laserline V2.2.xml )
+DEBUG| 09.01.2024 - 18:18:16.108 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection Laserline V2.3.xml )
+DEBUG| 09.01.2024 - 18:18:16.113 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection Laserline V2.4.xml )
+DEBUG| 09.01.2024 - 18:18:16.124 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection Laserline.xml )
+DEBUG| 09.01.2024 - 18:18:16.194 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection ST66-ROI-from-DummyPosition.xml )
+DEBUG| 09.01.2024 - 18:18:16.205 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection SpecialPin V2.1.xml )
+DEBUG| 09.01.2024 - 18:18:16.229 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection SpecialPin V2.2.xml )
+DEBUG| 09.01.2024 - 18:18:16.235 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection SpecialPin V2.3.xml )
+DEBUG| 09.01.2024 - 18:18:16.307 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection SpecialPin V2.5 Bin.xml )
+DEBUG| 09.01.2024 - 18:18:16.326 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection SpecialPin V2.8.xml )
+DEBUG| 09.01.2024 - 18:18:16.354 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection V3.0 - ST66.xml )
+DEBUG| 09.01.2024 - 18:18:16.402 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection V3.2.xml )
+DEBUG| 09.01.2024 - 18:18:16.451 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection V3.3.xml )
+DEBUG| 09.01.2024 - 18:18:16.498 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Detection V3.4.xml )
+DEBUG| 09.01.2024 - 18:18:16.664 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Single Figure Welding V16.xml )
+DEBUG| 09.01.2024 - 18:18:16.668 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Single Figure Welding V18.xml )
+DEBUG| 09.01.2024 - 18:18:16.720 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin SingleFigure Welding V15.xml )
+DEBUG| 09.01.2024 - 18:18:16.764 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Welding SpecialPin V2.3.xml )
+DEBUG| 09.01.2024 - 18:18:16.791 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Welding SpecialPin V2.4-SM.xml )
+DEBUG| 09.01.2024 - 18:18:16.818 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Welding SpecialPin V2.5.xml )
+DEBUG| 09.01.2024 - 18:18:16.857 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Welding SpecialPin V2.6.xml )
+DEBUG| 09.01.2024 - 18:18:16.863 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Welding SpecialPin V2.7-OCT.xml )
+DEBUG| 09.01.2024 - 18:18:16.955 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Z-OCT Measurement convergent.xml )
+DEBUG| 09.01.2024 - 18:18:16.959 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Z-OCT Measurement-ST75.xml )
+DEBUG| 09.01.2024 - 18:18:16.991 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/HairPin Z-OCT Measurement.xml )
+DEBUG| 09.01.2024 - 18:18:17.047 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Move Scanner To Position.xml )
+DEBUG| 09.01.2024 - 18:18:17.053 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Move scanner with contour.xml )
+DEBUG| 09.01.2024 - 18:18:17.057 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Scanmaster Focus Point V2.xml )
+DEBUG| 09.01.2024 - 18:18:17.060 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/MoveScannerGraph.xml )
+DEBUG| 09.01.2024 - 18:18:17.067 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Scanmaster Focus Point.xml )
+DEBUG| 09.01.2024 - 18:18:17.067 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Scanner Movement to SwitchCase Position.xml )
+DEBUG| 09.01.2024 - 18:18:17.091 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Spot Welding TA.xml )
+DEBUG| 09.01.2024 - 18:18:17.103 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Spot Welding.xml )
+DEBUG| 09.01.2024 - 18:18:17.116 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Step1 Scanner Movement to SwitchCase Position.xml )
+DEBUG| 09.01.2024 - 18:18:17.121 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Step2 FiducialDetection.xml )
+DEBUG| 09.01.2024 - 18:18:17.138 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Step3 moveScanner to Buffer Position.xml )
+DEBUG| 09.01.2024 - 18:18:17.173 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Step4 HairPin Detection ST66-ROI-from-BufferPosition.xml )
+DEBUG| 09.01.2024 - 18:18:17.174 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Test Prepositioning.xml )
+DEBUG| 09.01.2024 - 18:18:17.187 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/WeldingOnSpot.xml )
+DEBUG| 09.01.2024 - 18:18:17.192 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/test tabelle.xml )
+DEBUG| 09.01.2024 - 18:18:17.201 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/testgraph plc.xml )
+DEBUG| 09.01.2024 - 18:18:17.254 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/d969550b-35b6-4902-9b27-b677e31eab77.xml )
+DEBUG| 09.01.2024 - 18:18:17.878 | StorageMod | XmlGraphBuilder::build( /home/developer/git/weldmaster/qnx/wm_inst/config/graphs/Test IDM.xml )
+START| 09.01.2024 - 18:18:23.210 | VideoRecor | Modul VideoRecorderModul wurde gestartet.
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | parametrize - 'SAXParseException': No element found in '/home/developer/gi
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | Could not read parameters from file:
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | '/home/developer/git/weldmaster/qnx/wm_i'.
+WARN | 09.01.2024 - 18:18:23.212 | VideoRecor | A non-critcal  error occurred in the procedure 'parametrize'. Message: 'No element found in '/home/developer/gi'. See log file.
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | parametrize - 'Null pointer': 
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | Parameter 'IsEnabled' of type '4' could not be converted. Reset to default value.
+WARN | 09.01.2024 - 18:18:23.212 | VideoRecor | A non-critcal  error occurred in the procedure 'parametrize'. Message: 'Parameter 'IsEnabled' of type '4' could'. See log file.
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | parametrize - 'Null pointer': 
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | Parameter 'IsShutOff' of type '4' could not be converted. Reset to default value.
+WARN | 09.01.2024 - 18:18:23.212 | VideoRecor | A non-critcal  error occurred in the procedure 'parametrize'. Message: 'Parameter 'IsShutOff' of type '4' could'. See log file.
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | parametrize - 'Null pointer': 
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | Parameter 'MaxDiskUsage' of type '6' could not be converted. Reset to default value.
+WARN | 09.01.2024 - 18:18:23.212 | VideoRecor | A non-critcal  error occurred in the procedure 'parametrize'. Message: 'Parameter 'MaxDiskUsage' of type '6' co'. See log file.
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | parametrize - 'Null pointer': 
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | Parameter 'NbLiveModeToKeep' of type '3' could not be converted. Reset to default value.
+WARN | 09.01.2024 - 18:18:23.212 | VideoRecor | A non-critcal  error occurred in the procedure 'parametrize'. Message: 'Parameter 'NbLiveModeToKeep' of type '3'. See log file.
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | parametrize - 'Null pointer': 
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | Parameter 'NbMaxImgLive' of type '3' could not be converted. Reset to default value.
+WARN | 09.01.2024 - 18:18:23.212 | VideoRecor | A non-critcal  error occurred in the procedure 'parametrize'. Message: 'Parameter 'NbMaxImgLive' of type '3' co'. See log file.
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | parametrize - 'Null pointer': 
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | Parameter 'NbProductsToKeep' of type '3' could not be converted. Reset to default value.
+WARN | 09.01.2024 - 18:18:23.212 | VideoRecor | A non-critcal  error occurred in the procedure 'parametrize'. Message: 'Parameter 'NbProductsToKeep' of type '3'. See log file.
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | parametrize - 'Null pointer': 
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | Parameter 'NioMode' of type '2' could not be converted. Reset to default value.
+WARN | 09.01.2024 - 18:18:23.212 | VideoRecor | A non-critcal  error occurred in the procedure 'parametrize'. Message: 'Parameter 'NioMode' of type '2' could n'. See log file.
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | parametrize - 'Null pointer': 
+DEBUG| 09.01.2024 - 18:18:23.212 | VideoRecor | Parameter 'SkipIfFull' of type '4' could not be converted. Reset to default value.
+WARN | 09.01.2024 - 18:18:23.212 | VideoRecor | A non-critcal  error occurred in the procedure 'parametrize'. Message: 'Parameter 'SkipIfFull' of type '4' coul'. See log file.
+INFO | 09.01.2024 - 18:18:23.212 | VideoRecor | Current disk usage is 38.9%%.
+DEBUG| 09.01.2024 - 18:18:23.213 | VideoRecor | readCache: Nb of old entries in cache file found: 0
+DEBUG| 09.01.2024 - 18:18:23.213 | VideoRecor | UpdateCacheCmd: Nb of entries to delete: -50, 50 entries remaining.
+DEBUG| 09.01.2024 - 18:18:23.213 | VideoRecor | readCache: Nb of old entries in cache file found: 0
+DEBUG| 09.01.2024 - 18:18:23.213 | VideoRecor | UpdateCacheCmd: Nb of entries to delete: -500, 500 entries remaining.
+DEBUG| 09.01.2024 - 18:18:23.213 | VideoRecor | registered: /ImageShMemWM-QNX-PC with 1324505961
+DEBUG| 09.01.2024 - 18:18:23.213 | VideoRecor | Created: '/home/developer/git/weldmaster/qnx/wm_inst/video/WM-QNX-PC/Live Mode/livemode_tmp_240109-181823213/seam_series0000/seam0000'.
+DEBUG| 09.01.2024 - 18:18:23.213 | VideoRecor | Created: '/home/developer/git/weldmaster/qnx/wm_inst/video/WM-QNX-PC/Live Mode/livemode_tmp_240109-181823213/00000000-0000-0000-0000-000000000000.id'.
+DEBUG| 09.01.2024 - 18:18:23.213 | VideoRecor | Created: '/home/developer/git/weldmaster/qnx/wm_inst/video/WM-QNX-PC/Live Mode/00000000-0000-0000-0000-000000000000.id'.
+DEBUG| 09.01.2024 - 18:18:23.235 | VideoRecor | App_VideoRecorder::runClientCode()
+START| 09.01.2024 - 18:18:23.455 | VIInspecti | Modul VIInspectionControl wurde gestartet.
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oIsInvertedEmergencyStopActivated (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oGenPurposeDigOut1Enable (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oSeamEndDigOut1Enable (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oGenPurposeDigOutMultipleEnable (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oGenPurposeDigIn1Enable (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oGenPurposeDigInMultipleEnable (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oProductNumberFromWMEnable (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oCabinetTemperatureOkEnable (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oContinuouslyModeActive (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oFieldbusInterfaceStandard (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oFieldbusInterfaceLight (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oFieldbusInterfaceFull (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oFieldbusExtendedProductInfo (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oProductTypeOutOfInterfaceFull (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oProductNumberOutOfInterfaceFull (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oQualityErrorFieldOnSeamSeries (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oHeadMonitorGatewayEnable (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oHeadMonitorSendsNotReady (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oNIOResultSwitchedOff (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oIsSOUVIS6000_Application (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oSOUVIS6000_Machine_Type (int): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oSOUVIS6000_Is_PreInspection (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oSOUVIS6000_Is_PostInspection_Top (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oSOUVIS6000_Is_PostInspection_Bottom (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oSOUVIS6000_Automatic_Seam_No (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oSOUVIS6000_CrossSectionMeasurementEnable (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oSOUVIS6000_CrossSection_Leading_System (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oIsSCANMASTER_Application (bool): 1
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oIsSCANMASTER_ThreeStepInterface (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_oIsSCANMASTER_GeneralApplication (bool): 1
+DEBUG| 09.01.2024 - 18:18:23.457 | VIInspecti | m_isCommunicationToLWMDeviceActive (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.458 | VIInspecti | AnalogTriggerLevel:  5.000, 16383
+DEBUG| 09.01.2024 - 18:18:23.458 | VIInspecti | m_oContinuouslyModeActive (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.458 | VIInspecti | m_oIsSOUVIS6000_Application (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.458 | VIInspecti | m_oSOUVIS6000_Is_PreInspection (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.458 | VIInspecti | m_oSOUVIS6000_Is_PostInspection_Top (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.458 | VIInspecti | m_oSOUVIS6000_Is_PostInspection_Bottom (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.458 | VIInspecti | m_oSOUVIS6000_CrossSectionMeasurementEnable (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.458 | VIInspecti | m_oSOUVIS6000_CrossSection_Leading_System (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.459 | VIInspecti | CyclicTaskThread is started
+INFO | 09.01.2024 - 18:18:23.465 | VIInspecti | parsing configuration file: /home/developer/git/weldmaster/qnx/wm_i
+INFO | 09.01.2024 - 18:18:23.470 | VIInspecti | configuration file successful parsed: /home/developer/git/weldmaster/qnx/wm_i
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 51
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3fa3052
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x2
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   8
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    2
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    6
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    0
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 2
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 4
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    2
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 5
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    3
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 0
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    5
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 12
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    8
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      8
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 13
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    16
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      8
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 7
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    32
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 14
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    48
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      8
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 15
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    56
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 55
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    59
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 54
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    60
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 53
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    61
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      3
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 52
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    64
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      16
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 9
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    80
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      8
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    96
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      32
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | CommandType: 11
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    224
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      800
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Digital 8 Bit Input no: 1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | m_oActive:   0x1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | VendorID:    0x2
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | ProductCode: 0x3fa3052
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Instance:    0x2
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | SlaveType:   0x8
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | StartBit:    0x6
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | Length:      0x1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | m_oProductIndex: 0x2
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | m_oInstance: 0x2
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | m_oChannel:  0x1
+DEBUG| 09.01.2024 - 18:18:23.470 | VIInspecti | --------------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Gateway Input no: 0
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | m_oActive:   0x1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    0x1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   0xfffffff6
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    0x0
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      0x1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | m_oProductIndex: 0xa
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | m_oInstance: 0x1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | m_oChannel:  0x1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | CommandType: 81
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    0
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | CommandType: 84
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | CommandType: 85
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    2
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | CommandType: 95
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    3
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | CommandType: 94
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    4
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | CommandType: 88
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    8
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      16
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | CommandType: 80
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    32
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | CommandType: 101
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    35
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | CommandType: 87
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    40
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      16
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | CommandType: 89
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    57
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      3
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | CommandType: 110
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    60
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | CommandType: 90
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    64
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      16
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | CommandType: 91
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    80
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      8
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | CommandType: 92
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    96
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      32
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | CommandType: 93
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   -10
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    224
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      800
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ++++++++++++++++++++++++++++++++++++++++++++++++++
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Gateway Output no: 0
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | m_oActive:   0x1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | VendorID:    0x1b
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | ProductCode: 0x3d
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Instance:    0x1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | SlaveType:   0xfffffff6
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | StartBit:    0x0
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | Length:      0x1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | m_oProductIndex: 0xa
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | m_oInstance: 0x1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | m_oChannel:  0x1
+DEBUG| 09.01.2024 - 18:18:23.471 | VIInspecti | --------------------------------------------------
+DEBUG| 09.01.2024 - 18:18:23.514 | VIWeldHead | TModule<MsgServer>::startServer reActivating Event InspectionCmd with protocol ProcessInfo[ CHID: 0 - PID: 67670 - Node: localNode] using: xFerMemWM-QNX-PC1
+DEBUG| 09.01.2024 - 18:18:23.521 | Calibratio | TModule<MsgServer>::startServer reActivating Event Sensor with protocol ProcessInfo[ CHID: 0 - PID: 67701 - Node: localNode] using: xFerMemWM-QNX-PC10
+DEBUG| 09.01.2024 - 18:18:23.529 | VIInspecti | TModule<MsgServer>::startServer reActivating Event Results with protocol ProcessInfo[ CHID: 0 - PID: 67754 - Node: localNode] using: xFerMemWM-QNX-PC4
+DEBUG| 09.01.2024 - 18:18:23.538 | StorageMod | TModule<MsgServer>::startServer reActivating Event Results with protocol ProcessInfo[ CHID: 0 - PID: 67720 - Node: localNode] using: xFerMemWM-QNX-PC4
+DEBUG| 09.01.2024 - 18:18:23.548 | VIWeldHead | TModule<MsgServer>::startServer reActivating Event Results with protocol ProcessInfo[ CHID: 0 - PID: 67670 - Node: localNode] using: xFerMemWM-QNX-PC4
+DEBUG| 09.01.2024 - 18:18:23.556 | UserInterf | TModule<MsgServer>::startServer reActivating Event Results with protocol ProcessInfo[ CHID: 0 - PID: 67502 - Node: localNode] using: xFerMemWM-QNX-PC4
+DEBUG| 09.01.2024 - 18:18:23.586 | VIInspecti | Start fetching all product data 
+START| 09.01.2024 - 18:18:23.853 | TriggerMod | Modul TriggerModul wurde gestartet.
+DEBUG| 09.01.2024 - 18:18:23.853 | TriggerMod | ImageTriggerViaEncoderSignals (bool): 0
+DEBUG| 09.01.2024 - 18:18:23.853 | TriggerMod | ERROR: Failed to open /dev/cpu_dma_latency: Permission denied
+ERR  | 09.01.2024 - 18:18:23.853 | TriggerMod | Change of latency failed ! (002)
+START| 09.01.2024 - 18:18:24.185 | TCPCommuni | Modul TCPCommunicationModul wurde gestartet.
+DEBUG| 09.01.2024 - 18:18:24.187 | TCPCommuni | m_oIsSOUVIS6000_Application (bool): 0
+DEBUG| 09.01.2024 - 18:18:24.187 | TCPCommuni | m_oSOUVIS6000_Machine_Type (int): 0
+DEBUG| 09.01.2024 - 18:18:24.187 | TCPCommuni | m_oSOUVIS6000_Is_PreInspection (bool): 0
+DEBUG| 09.01.2024 - 18:18:24.187 | TCPCommuni | m_oSOUVIS6000_Is_PostInspection_Top (bool): 0
+DEBUG| 09.01.2024 - 18:18:24.187 | TCPCommuni | m_oSOUVIS6000_Is_PostInspection_Bottom (bool): 0
+DEBUG| 09.01.2024 - 18:18:24.187 | TCPCommuni | m_oSOUVIS6000_CrossSectionMeasurementEnable (bool): 0
+DEBUG| 09.01.2024 - 18:18:24.187 | TCPCommuni | m_oSOUVIS6000_CrossSection_Leading_System (bool): 0
+DEBUG| 09.01.2024 - 18:18:24.231 | StorageMod | TModule<MsgServer>::startServer reActivating message Db with protocol ProcessInfo[ CHID: 0 - PID: 67720 - Node: localNode]
+START| 09.01.2024 - 18:18:24.450 | WorkflowMo | Modul WorkflowModul wurde gestartet.
+DEBUG| 09.01.2024 - 18:18:24.450 | WorkflowMo | Initializing the central device manager.
+DEBUG| 09.01.2024 - 18:18:24.450 | WorkflowMo | CentralDeviceManager: Grabber ...
+DEBUG| 09.01.2024 - 18:18:24.451 | WorkflowMo | SecuredDeviceHandler initializing Grabber interface.
+DEBUG| 09.01.2024 - 18:18:24.451 | WorkflowMo | CentralDeviceManager: Calibration ...
+DEBUG| 09.01.2024 - 18:18:24.451 | WorkflowMo | SecuredDeviceHandler initializing CalibrationControl interface.
+DEBUG| 09.01.2024 - 18:18:24.451 | WorkflowMo | CentralDeviceManager: VideoRecorder ...
+DEBUG| 09.01.2024 - 18:18:24.451 | WorkflowMo | SecuredDeviceHandler initializing Videorecorder interface.
+DEBUG| 09.01.2024 - 18:18:24.451 | WorkflowMo | CentralDeviceManager: WeldHeadControl ...
+DEBUG| 09.01.2024 - 18:18:24.451 | WorkflowMo | SecuredDeviceHandler initializing WeldHeadControl interface.
+DEBUG| 09.01.2024 - 18:18:24.451 | WorkflowMo | CentralDeviceManager: Service ...
+DEBUG| 09.01.2024 - 18:18:24.451 | WorkflowMo | SecuredDeviceHandler initializing Service interface.
+DEBUG| 09.01.2024 - 18:18:24.451 | WorkflowMo | CentralDeviceManager: Inspection ...
+DEBUG| 09.01.2024 - 18:18:24.451 | WorkflowMo | SecuredDeviceHandler initializing InspectionControl interface.
+DEBUG| 09.01.2024 - 18:18:24.451 | WorkflowMo | CentralDeviceManager: Storage ...
+DEBUG| 09.01.2024 - 18:18:24.451 | WorkflowMo | SecuredDeviceHandler initializing Storage interface.
+DEBUG| 09.01.2024 - 18:18:24.455 | WorkflowMo | InspectManager Jan  8 2024 16:54:22
+DEBUG| 09.01.2024 - 18:18:24.457 | WorkflowMo | ChangeState: eInit
+DEBUG| 09.01.2024 - 18:18:24.458 | WorkflowMo | registered: /ImageShMemWM-QNX-PC with 1324505961
+DEBUG| 09.01.2024 - 18:18:24.459 | WorkflowMo | CentralDeviceManager: Workflow ...
+DEBUG| 09.01.2024 - 18:18:24.459 | WorkflowMo | SecuredDeviceHandler initializing Workflow interface.
+DEBUG| 09.01.2024 - 18:18:24.459 | WorkflowMo | Assigned station id: e0fa0428-af12-11ee-8d03-c475abfb68eb
+DEBUG| 09.01.2024 - 18:18:24.527 | WorkflowMo | TModule<MsgServer>::startServer reActivating Event Sensor with protocol ProcessInfo[ CHID: 0 - PID: 67786 - Node: localNode] using: xFerMemWM-QNX-PC10
+DEBUG| 09.01.2024 - 18:18:24.531 | WorkflowMo | TModule<MsgServer>::startServer reActivating Event Sensor with protocol ProcessInfo[ CHID: 0 - PID: 67786 - Node: localNode] using: xFerMemWM-QNX-PC10
+DEBUG| 09.01.2024 - 18:18:24.611 | WorkflowMo | TModule<MsgServer>::startServer reActivating Event InspectionCmd with protocol ProcessInfo[ CHID: 0 - PID: 67786 - Node: localNode] using: xFerMemWM-QNX-PC1
+DEBUG| 09.01.2024 - 18:18:24.753 | VIInspecti | TModule<MsgServer>::startServer reActivating Event TriggerCmd with protocol ProcessInfo[ CHID: 0 - PID: 67754 - Node: localNode] using: xFerMemWM-QNX-PC11
+DEBUG| 09.01.2024 - 18:18:24.759 | VIWeldHead | TModule<MsgServer>::startServer reActivating Event TriggerCmd with protocol ProcessInfo[ CHID: 0 - PID: 67670 - Node: localNode] using: xFerMemWM-QNX-PC11
+DEBUG| 09.01.2024 - 18:18:24.769 | GrabberMod | TModule<MsgServer>::startServer reActivating Event TriggerCmd with protocol ProcessInfo[ CHID: 0 - PID: 67539 - Node: localNode] using: xFerMemWM-QNX-PC11
+DEBUG| 09.01.2024 - 18:18:24.778 | VIInspecti | TModule<MsgServer>::startServer reActivating Event Results with protocol ProcessInfo[ CHID: 0 - PID: 67754 - Node: localNode] using: xFerMemWM-QNX-PC4
+DEBUG| 09.01.2024 - 18:18:24.787 | StorageMod | TModule<MsgServer>::startServer reActivating Event Results with protocol ProcessInfo[ CHID: 0 - PID: 67720 - Node: localNode] using: xFerMemWM-QNX-PC4
+DEBUG| 09.01.2024 - 18:18:24.795 | VIWeldHead | TModule<MsgServer>::startServer reActivating Event Results with protocol ProcessInfo[ CHID: 0 - PID: 67670 - Node: localNode] using: xFerMemWM-QNX-PC4
+DEBUG| 09.01.2024 - 18:18:24.804 | UserInterf | TModule<MsgServer>::startServer reActivating Event Results with protocol ProcessInfo[ CHID: 0 - PID: 67502 - Node: localNode] using: xFerMemWM-QNX-PC4
+DEBUG| 09.01.2024 - 18:18:24.811 | UserInterf | TModule<MsgServer>::startServer reActivating Event Recorder with protocol ProcessInfo[ CHID: 0 - PID: 67502 - Node: localNode] using: xFerMemWM-QNX-PC13
+DEBUG| 09.01.2024 - 18:18:24.827 | VideoRecor | TModule<MsgServer>::startServer reActivating Event VideoRecorder with protocol ProcessInfo[ CHID: 0 - PID: 67743 - Node: localNode] using: xFerMemWM-QNX-PC18
+DEBUG| 09.01.2024 - 18:18:24.831 | UserInterf | TModule<MsgServer>::startServer reActivating Event DeviceNotification with protocol ProcessInfo[ CHID: 0 - PID: 67502 - Node: localNode] using: xFerMemWM-QNX-PC6
+DEBUG| 09.01.2024 - 18:18:24.849 | VIWeldHead | TModule<MsgServer>::startServer reActivating message WeldHeadMsg with protocol ProcessInfo[ CHID: 0 - PID: 67670 - Node: localNode]
+DEBUG| 09.01.2024 - 18:18:24.855 | GrabberMod | TModule<MsgServer>::startServer reActivating message GrabberStatus with protocol ProcessInfo[ CHID: 0 - PID: 67539 - Node: localNode]
+DEBUG| 09.01.2024 - 18:18:24.862 | StorageMod | TModule<MsgServer>::startServer reActivating message Db with protocol ProcessInfo[ CHID: 0 - PID: 67720 - Node: localNode]
+DEBUG| 09.01.2024 - 18:18:24.876 | GrabberMod | TModule<MsgServer>::startServer reActivating message Device with protocol ProcessInfo[ CHID: 0 - PID: 67539 - Node: localNode]
+DEBUG| 09.01.2024 - 18:18:24.907 | VIWeldHead | TModule<MsgServer>::startServer reActivating message Device with protocol ProcessInfo[ CHID: 0 - PID: 67670 - Node: localNode]
+DEBUG| 09.01.2024 - 18:18:25.027 | WorkflowMo | Trying to connect to wmHost...
+DEBUG| 09.01.2024 - 18:18:25.027 | WorkflowMo | Host connection established...[OK]
+DEBUG| 09.01.2024 - 18:18:25.038 | WorkflowMo | m_oLineLaserCameraCommandSet (int): 0
+DEBUG| 09.01.2024 - 18:18:25.039 | WorkflowMo | SecuredWeldHeadServer: Line-laser 1 is controlled by the weldhead process / beckhoff module.
+DEBUG| 09.01.2024 - 18:18:25.039 | WorkflowMo | SecuredWeldHeadServer: Line-laser 2 is controlled by the weldhead process / beckhoff module.
+DEBUG| 09.01.2024 - 18:18:25.039 | WorkflowMo | SecuredWeldHeadServer: field-light 1 is controlled by the weldhead process / beckhoff module.
+DEBUG| 09.01.2024 - 18:18:25.039 | WorkflowMo | Startup workflow manager...
+DEBUG| 09.01.2024 - 18:18:25.039 | WorkflowMo | ChangeState: eInit
+DEBUG| 09.01.2024 - 18:18:25.039 | WorkflowMo | Initalizing workflow manager...
+INFO | 09.01.2024 - 18:18:25.039 | Calibratio | Calibrate called, Method: 4
+FATAL| 09.01.2024 - 18:18:25.240 | VIWeldHead | No welding correction file available
+ERR  | 09.01.2024 - 18:18:25.240 | VIWeldHead | Set correction file mode to welding
+DEBUG| 09.01.2024 - 18:18:25.240 | VIWeldHead | New correction mode: Welding
+INFO | 09.01.2024 - 18:18:25.240 | Calibratio | Initialize calibration data...
+INFO | 09.01.2024 - 18:18:25.241 | Calibratio | CalibrationData loadConfig (useSensorModelFromConfig N)
+INFO | 09.01.2024 - 18:18:25.241 | Calibratio | Reading calibration parameters from file /home/developer/git/weldmaster/qnx/wm_inst/config/calibrationData0.xml
+DEBUG| 09.01.2024 - 18:18:25.243 | Calibratio | Setting sensor model from Undefined to -1 (Undefined) 
+DEBUG| 09.01.2024 - 18:18:25.243 | Calibratio | Setting sensor model from Undefined to 0 (Linear magnification (coax)) 
+DEBUG| 09.01.2024 - 18:18:25.244 | GrabberMod | 0DEBUG| 09.01.2024 - 18:18:25.244 | GrabberMod | getImage imagekey NOT found   0.0.0.0
+DEBUG| 09.01.2024 - 18:18:25.244 | GrabberMod | 0DEBUG| 09.01.2024 - 18:18:25.244 | GrabberMod | getImage imagekey NOT found   0.0.0.0
+DEBUG| 09.01.2024 - 18:18:25.245 | Calibratio | Setting sensor model from Linear magnification (coax) to 0 (Linear magnification (coax)) 
+INFO | 09.01.2024 - 18:18:25.271 | Calibratio | Coax calibration loaded
+DEBUG| 09.01.2024 - 18:18:25.271 | Calibratio | checkCalibrationValuesConsistency: compare with parameters on disk
+INFO | 09.01.2024 - 18:18:25.272 | Calibratio | Reading calibration parameters from file /home/developer/git/weldmaster/qnx/wm_inst/config/calibrationData0.xml
+DEBUG| 09.01.2024 - 18:18:25.278 | Calibratio | getOSCalibrationDataFromHW sendCalibDataChangedSignal 
+DEBUG| 09.01.2024 - 18:18:25.278 | Calibratio | Export to file /home/developer/git/weldmaster/qnx/wm_i
+INFO | 09.01.2024 - 18:18:25.281 | WorkflowMo | Received calibDataChanged 1 signal for sensor 0
+DEBUG| 09.01.2024 - 18:18:25.281 | WorkflowMo | InspectManager::loadCalibDataAfterSignal(sensorId 0, init 1 ) 
+DEBUG| 09.01.2024 - 18:18:25.281 | WorkflowMo | Setting sensor model from Undefined to -1 (Undefined) 
+DEBUG| 09.01.2024 - 18:18:25.282 | WorkflowMo | InspectManager has processed loadCalibDataAfterSignal 
+INFO | 09.01.2024 - 18:18:25.282 | Calibratio | sendCalibDataChangedSignal with init true, preparing call to set3DCoords
+DEBUG| 09.01.2024 - 18:18:25.374 | WorkflowMo | InspectManager::reloadCalibData
+DEBUG| 09.01.2024 - 18:18:25.390 | WorkflowMo | Setting sensor model from Undefined to 0 (Linear magnification (coax)) 
+DEBUG| 09.01.2024 - 18:18:25.408 | WorkflowMo | Calib Data Reloaded OKSensor 0 ---> coax values: 0.21384, 1.9995, magnification at center = 32.3978 , 32.2184 angle=83.8956 degrees
+DEBUG| 09.01.2024 - 18:18:25.412 | Calibratio | exiting sendCalibDataChangedSignal
+DEBUG| 09.01.2024 - 18:18:25.413 | WorkflowMo | Calling receive products, inspectManager calibration data initialized? Y
+DEBUG| 09.01.2024 - 18:18:25.413 | WorkflowMo | Station ID:  e0fa0428-af12-11ee-8d03-c475abfb68eb
+DEBUG| 09.01.2024 - 18:18:25.413 | WorkflowMo | NumProducts: 7
+DEBUG| 09.01.2024 - 18:18:25.413 | WorkflowMo | *************** Updating product 'Live Mode'... ***************
+DEBUG| 09.01.2024 - 18:18:25.416 | WorkflowMo | InspectManager::changeProduct() getProductParameter returns oProdParams.size() <0>
+DEBUG| 09.01.2024 - 18:18:25.416 | WorkflowMo | Product::lStopSetValues() no parameters defined
+DEBUG| 09.01.2024 - 18:18:25.416 | WorkflowMo | Product::createSumErrors() no summerrors defined
+DEBUG| 09.01.2024 - 18:18:25.417 | WorkflowMo | cacheHwParamSet: ParamSet has null guid!
+DEBUG| 09.01.2024 - 18:18:25.418 | WorkflowMo | Building graph with id f9bb3465-cfdb-4de2-8c8d-eb974c667aca
+DEBUG| 09.01.2024 - 18:18:25.419 | WorkflowMo | *************** Product 'Live Mode' updated. 5 ms
+DEBUG| 09.01.2024 - 18:18:25.420 | WorkflowMo | *************** Updating product 'Verification'... ***************
+DEBUG| 09.01.2024 - 18:18:25.421 | WorkflowMo | InspectManager::changeProduct() getProductParameter returns oProdParams.size() <0>
+DEBUG| 09.01.2024 - 18:18:25.421 | WorkflowMo | Product::lStopSetValues() no parameters defined
+DEBUG| 09.01.2024 - 18:18:25.421 | WorkflowMo | Product::createSumErrors() no summerrors defined
+DEBUG| 09.01.2024 - 18:18:25.423 | WorkflowMo | cacheHwParamSet: ParamSet has null guid!
+DEBUG| 09.01.2024 - 18:18:25.425 | WorkflowMo | Building graph with id d969550b-35b6-4902-9b27-b677e31eab77
+DEBUG| 09.01.2024 - 18:18:25.425 | WorkflowMo | 1st load of '/home/developer/git/weldmaster/qnx/wm_inst/lib/libFilter_Utility.so'
+DEBUG| 09.01.2024 - 18:18:25.433 | WorkflowMo | Filter.Utility component initializing.
+DEBUG| 09.01.2024 - 18:18:25.435 | WorkflowMo | 1st load of '/home/developer/git/weldmaster/qnx/wm_inst/lib/libFilter_Results.so'
+DEBUG| 09.01.2024 - 18:18:25.438 | WorkflowMo | Filter.Results component initializing.
+DEBUG| 09.01.2024 - 18:18:25.440 | WorkflowMo | 1st load of '/home/developer/git/weldmaster/qnx/wm_inst/lib/libFilter_ImageSource.so'
+DEBUG| 09.01.2024 - 18:18:25.440 | WorkflowMo | Filter.ImageSource component initializing.
+INFO | 09.01.2024 - 18:18:25.442 | WorkflowMo | Product 'Verification' updated.
+DEBUG| 09.01.2024 - 18:18:25.443 | WorkflowMo | *************** Product 'Verification' updated. 23 ms
+DEBUG| 09.01.2024 - 18:18:25.443 | WorkflowMo | *************** Updating product 'product_determine'... ***************
+DEBUG| 09.01.2024 - 18:18:25.444 | WorkflowMo | InspectManager::changeProduct() getProductParameter returns oProdParams.size() <0>
+DEBUG| 09.01.2024 - 18:18:25.444 | WorkflowMo | Product::lStopSetValues() no parameters defined
+DEBUG| 09.01.2024 - 18:18:25.444 | WorkflowMo | Product::createSumErrors() no summerrors defined
+DEBUG| 09.01.2024 - 18:18:25.444 | WorkflowMo | cacheHwParamSet: ParamSet has null guid!
+DEBUG| 09.01.2024 - 18:18:25.444 | WorkflowMo | Building graph with id 2f84d9a6-8d9f-4db2-b77a-3b8dfcf77b46
+INFO | 09.01.2024 - 18:18:25.447 | WorkflowMo | Product 'product_determine' updated.
+DEBUG| 09.01.2024 - 18:18:25.447 | WorkflowMo | *************** Product 'product_determine' updated. 5 ms
+DEBUG| 09.01.2024 - 18:18:25.447 | WorkflowMo | *************** Updating product 'Product_SimulationTest'... ***************
+DEBUG| 09.01.2024 - 18:18:25.449 | WorkflowMo | InspectManager::changeProduct() getProductParameter returns oProdParams.size() <0>
+DEBUG| 09.01.2024 - 18:18:25.449 | WorkflowMo | Product::lStopSetValues() no parameters defined
+DEBUG| 09.01.2024 - 18:18:25.449 | WorkflowMo | Product::createSumErrors() no summerrors defined
+DEBUG| 09.01.2024 - 18:18:25.449 | WorkflowMo | cacheHwParamSet: ParamSet has null guid!
+DEBUG| 09.01.2024 - 18:18:25.450 | WorkflowMo | Building graph with id 2f84d9a6-8d9f-4db2-b77a-3b8dfcf77b46
+INFO | 09.01.2024 - 18:18:25.452 | WorkflowMo | Product 'Product_SimulationTest' updated.
+DEBUG| 09.01.2024 - 18:18:25.452 | WorkflowMo | *************** Product 'Product_SimulationTest' updated. 5 ms
+DEBUG| 09.01.2024 - 18:18:25.452 | WorkflowMo | *************** Updating product 'Test Marking Engine'... ***************
+DEBUG| 09.01.2024 - 18:18:25.453 | WorkflowMo | InspectManager::changeProduct() getProductParameter returns oProdParams.size() <0>
+DEBUG| 09.01.2024 - 18:18:25.453 | WorkflowMo | Product::lStopSetValues() no parameters defined
+DEBUG| 09.01.2024 - 18:18:25.453 | WorkflowMo | Product::createSumErrors() no summerrors defined
+DEBUG| 09.01.2024 - 18:18:25.454 | WorkflowMo | Building graph with id a8a580fc-de66-4440-8747-8a35a29d7d42
+DEBUG| 09.01.2024 - 18:18:25.457 | WorkflowMo | 1st load of '/home/developer/git/weldmaster/qnx/wm_inst/lib/libFilter_GapTracking.so'
+DEBUG| 09.01.2024 - 18:18:25.460 | VIInspecti | CyclicTaskThread is active
+DEBUG| 09.01.2024 - 18:18:25.461 | WorkflowMo | Filter.GapTracking component initializing.
+DEBUG| 09.01.2024 - 18:18:25.466 | WorkflowMo | cacheHwParamSet: ParamSet has null guid!
+INFO | 09.01.2024 - 18:18:25.466 | WorkflowMo | Product 'Test Marking Engine' updated.
+DEBUG| 09.01.2024 - 18:18:25.466 | WorkflowMo | *************** Product 'Test Marking Engine' updated. 14 ms
+DEBUG| 09.01.2024 - 18:18:25.466 | WorkflowMo | *************** Updating product 'ProductTest'... ***************
+DEBUG| 09.01.2024 - 18:18:25.467 | WorkflowMo | InspectManager::changeProduct() getProductParameter returns oProdParams.size() <0>
+DEBUG| 09.01.2024 - 18:18:25.467 | WorkflowMo | Product::lStopSetValues() no parameters defined
+DEBUG| 09.01.2024 - 18:18:25.467 | WorkflowMo | Product::createSumErrors() no summerrors defined
+DEBUG| 09.01.2024 - 18:18:25.467 | WorkflowMo | cacheHwParamSet: ParamSet has null guid!
+DEBUG| 09.01.2024 - 18:18:25.468 | WorkflowMo | Building graph with id 16e7d86d-f748-4fb7-a090-873e101bc522
+INFO | 09.01.2024 - 18:18:25.471 | WorkflowMo | Product 'ProductTest' updated.
+DEBUG| 09.01.2024 - 18:18:25.471 | WorkflowMo | *************** Product 'ProductTest' updated. 5 ms
+DEBUG| 09.01.2024 - 18:18:25.471 | WorkflowMo | *************** Updating product 'Area 26 - ST66 - C225-C234'... ***************
+DEBUG| 09.01.2024 - 18:18:25.505 | WorkflowMo | InspectManager::changeProduct() getProductParameter returns oProdParams.size() <1950>
+DEBUG| 09.01.2024 - 18:18:25.508 | WorkflowMo | Product::createSumErrors() start with p_rParamList.size() <1950>
+DEBUG| 09.01.2024 - 18:18:25.509 | WorkflowMo | Product::createSumErrors() adjusted p_rParamList.size() <1950> summerrors <150>
+DEBUG| 09.01.2024 - 18:18:25.515 | WorkflowMo | cacheHwParamSet: ParamSet has null guid!
+DEBUG| 09.01.2024 - 18:18:25.526 | WorkflowMo | Building graph with id c20a9f7e-ec37-4fa9-b8ac-563973b16b97
+DEBUG| 09.01.2024 - 18:18:25.528 | WorkflowMo | 1st load of '/home/developer/git/weldmaster/qnx/wm_inst/lib/libFilter_SampleSource.so'
+DEBUG| 09.01.2024 - 18:18:25.531 | WorkflowMo | Filter.SampleSource component initializing.
+DEBUG| 09.01.2024 - 18:18:25.567 | WorkflowMo | Building graph with id 82db837a-91df-42af-bf89-decef4dd333a
+DEBUG| 09.01.2024 - 18:18:25.569 | WorkflowMo | 1st load of '/home/developer/git/weldmaster/qnx/wm_inst/lib/libFilter_ImageProcessing.so'
+DEBUG| 09.01.2024 - 18:18:25.578 | WorkflowMo | Filter.ImageProcessing component initializing.
+DEBUG| 09.01.2024 - 18:18:25.585 | WorkflowMo | Building graph with id 457bb253-ff57-4fba-ba75-c120d8cb9849
+DEBUG| 09.01.2024 - 18:18:25.640 | WorkflowMo | Building graph with id 805acad6-fc86-4e42-96e9-7d3d7427ca96
+DEBUG| 09.01.2024 - 18:18:26.415 | WorkflowMo | Building graph with id 0be0aac4-3d53-4561-972b-dd0894829ce9
+DEBUG| 09.01.2024 - 18:18:26.543 | WorkflowMo | Building graph with id 97cc332f-b759-45f5-8c60-eadd6e631798
+INFO | 09.01.2024 - 18:18:26.632 | WorkflowMo | Product 'Area 26 - ST66 - C225-C234' updated.
+DEBUG| 09.01.2024 - 18:18:26.632 | WorkflowMo | *************** Product 'Area 26 - ST66 - C225-C234' updated. 1161 ms
+INFO | 09.01.2024 - 18:18:26.635 | WorkflowMo | Bereit für Verarbeitung (Live/Automatic)
+DEBUG| 09.01.2024 - 18:18:26.635 | WorkflowMo | ChangeState: eOperate
+DEBUG| 09.01.2024 - 18:18:26.635 | WorkflowMo | Running workflow manager...
+DEBUG| 09.01.2024 - 18:18:26.635 | VIInspecti | VI_InspectionControl::setSystemReady: 1
+DEBUG| 09.01.2024 - 18:18:26.636 | VIInspecti | VI_InspectionControl::setSystemErrorField: 0x0,0x0
+DEBUG| 09.01.2024 - 18:18:26.637 | WorkflowMo | UpsMonitorServer: UDPsocketThread is started
+START| 09.01.2024 - 18:18:26.828 | SchedulerM | Modul SchedulerModul wurde gestartet.
+DEBUG| 09.01.2024 - 18:18:26.851 | SchedulerM | TModule<MsgServer>::startServer reActivating Event SchedulerEvents with protocol ProcessInfo[ CHID: 0 - PID: 67836 - Node: localNode] using: xFerMemWM-QNX-PC51
+DEBUG| 09.01.2024 - 18:18:26.856 | SchedulerM | TModule<MsgServer>::startServer reActivating Event SchedulerEvents with protocol ProcessInfo[ CHID: 0 - PID: 67836 - Node: localNode] using: xFerMemWM-QNX-PC51
+ERR  | 09.01.2024 - 18:18:26.870 | SchedulerM | Poco exception caught in 'monitor':
+ERR  | 09.01.2024 - 18:18:26.870 | SchedulerM | I/O error: cannot initialize inotify
+DEBUG| 09.01.2024 - 18:18:26.910 | UserInterf | registered: /ImageShMemWM-QNX-PC with 1324505961
+START| 09.01.2024 - 18:18:27.037 | LoggerServ | Modul LoggerServer wurde gestartet.
+DEBUG| 09.01.2024 - 18:18:27.088 | LoggerServ | LoggerServer::activateHostConnections()
+DEBUG| 09.01.2024 - 18:18:27.089 | WorkflowMo | TModule<MsgServer>::startServer reActivating Event InspectionCmd with protocol ProcessInfo[ CHID: 0 - PID: 67786 - Node: localNode] using: xFerMemWM-QNX-PC1
+DEBUG| 09.01.2024 - 18:18:27.107 | VIWeldHead | TModule<MsgServer>::startServer reActivating Event InspectionCmd with protocol ProcessInfo[ CHID: 0 - PID: 67670 - Node: localNode] using: xFerMemWM-QNX-PC1
+INFO | 09.01.2024 - 18:18:27.176 | WorkflowMo | SignalNotReady called - current error state: Axis 
+DEBUG| 09.01.2024 - 18:18:27.176 | VIInspecti | VI_InspectionControl::setSystemReady: 0
+DEBUG| 09.01.2024 - 18:18:27.176 | VIInspecti | VI_InspectionControl::setSystemErrorField: 0x4,0x4
+DEBUG| 09.01.2024 - 18:18:27.177 | VIWeldHead | SetLineLaser1Intensity: Value: 0%% (0)
+DEBUG| 09.01.2024 - 18:18:27.177 | VIWeldHead | SetLineLaser2Intensity: Value: 0%% (0)
+DEBUG| 09.01.2024 - 18:18:27.178 | VIWeldHead | SetFieldLight1Intensity: Value: 0%% (0)
+DEBUG| 09.01.2024 - 18:18:27.178 | WorkflowMo | ChangeState: eNotReady
+DEBUG| 09.01.2024 - 18:18:27.178 | VIInspecti | VI_InspectionControl::setSumErrorLatched: 1
+DEBUG| 09.01.2024 - 18:18:27.178 | VIInspecti | VI_InspectionControl::setSystemReady: 0
+DEBUG| 09.01.2024 - 18:18:27.178 | VIInspecti | VI_InspectionControl::setSystemErrorField: 0x4,0x4
+DEBUG| 09.01.2024 - 18:18:45.589 | VIInspecti | Finishing fetching data from DB - Fetching Execution time: 22002788 ms
+DEBUG| 09.01.2024 - 18:18:56.637 | WorkflowMo | UpsMonitorServer: UDP socket is active
+INFO | 09.01.2024 - 18:19:01.597 | WorkflowMo | Ack. system fault.
+DEBUG| 09.01.2024 - 18:19:01.597 | WorkflowMo | NotReady::quitSystemFault()!
+INFO | 09.01.2024 - 18:19:01.597 | WorkflowMo | Bereit für Verarbeitung (Live/Automatic)
+DEBUG| 09.01.2024 - 18:19:01.597 | WorkflowMo | ChangeState: eOperate
+DEBUG| 09.01.2024 - 18:19:01.597 | VIInspecti | VI_InspectionControl::setSystemReady: 1
+DEBUG| 09.01.2024 - 18:19:01.597 | VIInspecti | VI_InspectionControl::setSystemErrorField: 0x0,0x0
+DEBUG| 09.01.2024 - 18:19:03.378 | WorkflowMo | activate - Live Mode	ProductId: 274a7eca-7654-4893-9d6a-351e6c688a95	p_oProductNb: 0 activated.
+DEBUG| 09.01.2024 - 18:19:03.379 | WorkflowMo | ChangeState: eLiveMode
+DEBUG| 09.01.2024 - 18:19:03.379 | WorkflowMo | activateHwParamSet() - 00000000-0000-0000-0000-000000000000 applied!
+DEBUG| 09.01.2024 - 18:19:03.380 | VideoRecor | Renamed: /home/developer/git/weldmaster/qnx/wm_inst/video/WM-QNX-PC/Live Mode/livemode_tmp_240109-181823213/00000000-0000-0000-0000-000000000000.id
+DEBUG| 09.01.2024 - 18:19:03.380 | WorkflowMo | activateHwParamSet() - 00000000-0000-0000-0000-000000000000 applied!
+DEBUG| 09.01.2024 - 18:19:03.380 | VideoRecor | to: /home/developer/git/weldmaster/qnx/wm_inst/video/WM-QNX-PC/Live Mode/livemode_tmp_240109-181823213/2fa721f0-af13-11ee-9b8a-c475abfb68eb.id.
+DEBUG| 09.01.2024 - 18:19:03.381 | WorkflowMo | activateHwParamSet() - 00000000-0000-0000-0000-000000000000 applied!
+DEBUG| 09.01.2024 - 18:19:03.381 | WorkflowMo | changeSeamInterval 168 us
+DEBUG| 09.01.2024 - 18:19:03.382 | WorkflowMo | startInspect - trigger distance [ms]: 100	nb of triggers: 2147483647
+DEBUG| 09.01.2024 - 18:19:03.382 | VIInspecti | burst: nbTrig:2147483647, Delta[um]3000, Dist[ns]:100000000, State:3
+DEBUG| 09.01.2024 - 18:19:03.382 | VIWeldHead | burst: nbTrig:2147483647, Delta[um]3000, Dist[ns]:100000000, State:3
+ERR  | 09.01.2024 - 18:19:03.382 | GrabberMod | ERROR: sched_scheduler failed: Operation not permitted
+DEBUG| 09.01.2024 - 18:19:03.382 | VIWeldHead | SendSensorDataThread is started: Cycle Time: 100000000
+DEBUG| 09.01.2024 - 18:19:03.382 | GrabberMod | getImage imagekey NOT found   0.0.0.0
+DEBUG| 09.01.2024 - 18:19:03.382 | GrabberMod | getSamples samplekey NOT found   0.0.0.0
+DEBUG| 09.01.2024 - 18:19:03.383 | WorkflowMo | 	processImage::BImage[1]	0
+DEBUG| 09.01.2024 - 18:19:03.383 | StorageMod | Created: '/home/developer/git/weldmaster/qnx/wm_inst/data/results//.tmp//274a7eca-7654-4893-9d6a-351e6c688a95/2fa721f0-af13-11ee-9b8a-c475abfb68eb-SN-0/seam_series0000/seam0000'.
+DEBUG| 09.01.2024 - 18:19:03.385 | WorkflowMo | Signal adapter started 
+DEBUG| 09.01.2024 - 18:19:03.385 | WorkflowMo | 	processSample::Sample[10034]	0
+DEBUG| 09.01.2024 - 18:19:03.385 | VIWeldHead | ResultDoubleArray: 20102 , 0
+DEBUG| 09.01.2024 - 18:19:03.387 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 1 spent 1936.7 us waiting
+DEBUG| 09.01.2024 - 18:19:03.387 | VIWeldHead | ResultDoubleArray: 20102 , 0
+DEBUG| 09.01.2024 - 18:19:03.387 | WorkflowMo | 	processSample::Sample[10035]	0
+DEBUG| 09.01.2024 - 18:19:03.387 | WorkflowMo | Signal adapter started 
+DEBUG| 09.01.2024 - 18:19:03.387 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 2 spent 1332.56 us waiting
+DEBUG| 09.01.2024 - 18:19:03.387 | VIWeldHead | ResultDoubleArray: 20102 , 0
+DEBUG| 09.01.2024 - 18:19:03.387 | WorkflowMo | 	processSample::Sample[10036]	0
+DEBUG| 09.01.2024 - 18:19:03.387 | WorkflowMo | Signal adapter started 
+DEBUG| 09.01.2024 - 18:19:03.388 | WorkflowMo | Signal adapter started 
+DEBUG| 09.01.2024 - 18:19:03.388 | VIWeldHead | ResultDoubleArray: 20102 , 0
+DEBUG| 09.01.2024 - 18:19:03.388 | WorkflowMo | 	processSample::Sample[10037]	0
+DEBUG| 09.01.2024 - 18:19:03.388 | WorkflowMo | Signal adapter started 
+DEBUG| 09.01.2024 - 18:19:03.388 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 4 spent 523.448 us waiting
+DEBUG| 09.01.2024 - 18:19:03.388 | VIWeldHead | ResultDoubleArray: 20102 , 0
+DEBUG| 09.01.2024 - 18:19:03.483 | GrabberMod | getImage imagekey NOT found   0.0.0.1
+DEBUG| 09.01.2024 - 18:19:03.483 | GrabberMod | getSamples samplekey NOT found   0.0.0.1
+DEBUG| 09.01.2024 - 18:19:03.483 | WorkflowMo | 	processSample::Sample[10034]	1
+DEBUG| 09.01.2024 - 18:19:03.484 | WorkflowMo | Signal adapter started 
+DEBUG| 09.01.2024 - 18:19:03.484 | WorkflowMo | 	processSample::Sample[10035]	1
+DEBUG| 09.01.2024 - 18:19:03.485 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 6 spent 1491.09 us waiting
+DEBUG| 09.01.2024 - 18:19:03.485 | WorkflowMo | 	processSample::Sample[10036]	1
+DEBUG| 09.01.2024 - 18:19:03.485 | VIWeldHead | ResultDoubleArray: 20102 , 0
+DEBUG| 09.01.2024 - 18:19:03.485 | VIWeldHead | ResultDoubleArray: 20102 , 0
+DEBUG| 09.01.2024 - 18:19:03.485 | WorkflowMo | Signal adapter started 
+DEBUG| 09.01.2024 - 18:19:03.485 | WorkflowMo | 	processSample::Sample[10037]	1
+DEBUG| 09.01.2024 - 18:19:03.485 | VIWeldHead | ResultDoubleArray: 20102 , 0
+DEBUG| 09.01.2024 - 18:19:03.485 | WorkflowMo | Signal adapter started 
+DEBUG| 09.01.2024 - 18:19:03.485 | WorkflowMo | Signal adapter started 
+DEBUG| 09.01.2024 - 18:19:03.485 | VIWeldHead | ResultDoubleArray: 20102 , 0
+ERR  | 09.01.2024 - 18:19:03.486 | WorkflowMo | Inconsistency with received image number! ImageNumber in context 1 Last Processed Image 1
+DEBUG| 09.01.2024 - 18:19:03.486 | WorkflowMo | 	processImage::BImage[1]	1
+DEBUG| 09.01.2024 - 18:19:03.486 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.486 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 1. 
+DEBUG| 09.01.2024 - 18:19:03.486 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.582 | GrabberMod | getImage imagekey NOT found   0.0.0.2
+DEBUG| 09.01.2024 - 18:19:03.582 | GrabberMod | getSamples samplekey NOT found   0.0.0.2
+DEBUG| 09.01.2024 - 18:19:03.582 | WorkflowMo | 	processSample::Sample[10034]	2
+DEBUG| 09.01.2024 - 18:19:03.583 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.583 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 2. 
+DEBUG| 09.01.2024 - 18:19:03.583 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 10 spent 410.309 us waiting
+DEBUG| 09.01.2024 - 18:19:03.583 | WorkflowMo | 	processSample::Sample[10035]	2
+DEBUG| 09.01.2024 - 18:19:03.583 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.583 | WorkflowMo | 	processSample::Sample[10036]	2
+DEBUG| 09.01.2024 - 18:19:03.583 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.583 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.583 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 2. 
+DEBUG| 09.01.2024 - 18:19:03.583 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.583 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 2. 
+DEBUG| 09.01.2024 - 18:19:03.583 | WorkflowMo | 	processSample::Sample[10037]	2
+DEBUG| 09.01.2024 - 18:19:03.583 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.583 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.583 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 2. 
+DEBUG| 09.01.2024 - 18:19:03.584 | VIWeldHead | ResultDoubleArray: 20102 , 3
+ERR  | 09.01.2024 - 18:19:03.584 | WorkflowMo | Inconsistency with received image number! ImageNumber in context 2 Last Processed Image 2
+DEBUG| 09.01.2024 - 18:19:03.585 | WorkflowMo | 	processImage::BImage[1]	2
+DEBUG| 09.01.2024 - 18:19:03.585 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.585 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 2. 
+DEBUG| 09.01.2024 - 18:19:03.585 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.682 | GrabberMod | getImage imagekey NOT found   0.0.0.3
+DEBUG| 09.01.2024 - 18:19:03.682 | GrabberMod | getSamples samplekey NOT found   0.0.0.3
+DEBUG| 09.01.2024 - 18:19:03.682 | WorkflowMo | 	processSample::Sample[10034]	3
+DEBUG| 09.01.2024 - 18:19:03.683 | WorkflowMo | 	processSample::Sample[10035]	3
+DEBUG| 09.01.2024 - 18:19:03.683 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.684 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.684 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 3. 
+DEBUG| 09.01.2024 - 18:19:03.685 | WorkflowMo | 	processSample::Sample[10036]	3
+DEBUG| 09.01.2024 - 18:19:03.685 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.685 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 17 spent 1829.89 us waiting
+DEBUG| 09.01.2024 - 18:19:03.685 | WorkflowMo | 	processSample::Sample[10037]	3
+DEBUG| 09.01.2024 - 18:19:03.685 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.686 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.686 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 3. 
+DEBUG| 09.01.2024 - 18:19:03.686 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.686 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 3. 
+DEBUG| 09.01.2024 - 18:19:03.686 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.686 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 3. 
+DEBUG| 09.01.2024 - 18:19:03.686 | VIWeldHead | ResultDoubleArray: 20102 , 3
+ERR  | 09.01.2024 - 18:19:03.686 | WorkflowMo | Inconsistency with received image number! ImageNumber in context 3 Last Processed Image 3
+DEBUG| 09.01.2024 - 18:19:03.686 | WorkflowMo | 	processImage::BImage[1]	3
+DEBUG| 09.01.2024 - 18:19:03.686 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.686 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 3. 
+DEBUG| 09.01.2024 - 18:19:03.686 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 19 spent 802.611 us waiting
+DEBUG| 09.01.2024 - 18:19:03.686 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.783 | WorkflowMo | 	processSample::Sample[10034]	4
+DEBUG| 09.01.2024 - 18:19:03.783 | GrabberMod | getImage imagekey NOT found   0.0.0.4
+DEBUG| 09.01.2024 - 18:19:03.783 | GrabberMod | getSamples samplekey NOT found   0.0.0.4
+DEBUG| 09.01.2024 - 18:19:03.784 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.784 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 4. 
+DEBUG| 09.01.2024 - 18:19:03.784 | WorkflowMo | 	processSample::Sample[10035]	4
+DEBUG| 09.01.2024 - 18:19:03.784 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.784 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.784 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 4. 
+DEBUG| 09.01.2024 - 18:19:03.784 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 21 spent 842.877 us waiting
+DEBUG| 09.01.2024 - 18:19:03.784 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.784 | WorkflowMo | 	processSample::Sample[10036]	4
+DEBUG| 09.01.2024 - 18:19:03.784 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.784 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 4. 
+DEBUG| 09.01.2024 - 18:19:03.784 | WorkflowMo | 	processSample::Sample[10037]	4
+DEBUG| 09.01.2024 - 18:19:03.784 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.784 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.784 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 4. 
+DEBUG| 09.01.2024 - 18:19:03.784 | VIWeldHead | ResultDoubleArray: 20102 , 3
+ERR  | 09.01.2024 - 18:19:03.784 | WorkflowMo | Inconsistency with received image number! ImageNumber in context 4 Last Processed Image 4
+DEBUG| 09.01.2024 - 18:19:03.784 | WorkflowMo | 	processImage::BImage[1]	4
+DEBUG| 09.01.2024 - 18:19:03.784 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.784 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 4. 
+DEBUG| 09.01.2024 - 18:19:03.784 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.882 | GrabberMod | getImage imagekey NOT found   0.0.0.5
+DEBUG| 09.01.2024 - 18:19:03.883 | WorkflowMo | 	processSample::Sample[10034]	5
+DEBUG| 09.01.2024 - 18:19:03.884 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.884 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 5. 
+DEBUG| 09.01.2024 - 18:19:03.884 | WorkflowMo | 	processSample::Sample[10035]	5
+DEBUG| 09.01.2024 - 18:19:03.884 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.884 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 5. 
+DEBUG| 09.01.2024 - 18:19:03.884 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 26 spent 1151.73 us waiting
+DEBUG| 09.01.2024 - 18:19:03.884 | WorkflowMo | 	processSample::Sample[10036]	5
+DEBUG| 09.01.2024 - 18:19:03.884 | WorkflowMo | Signal adapter started 
+DEBUG| 09.01.2024 - 18:19:03.884 | VIWeldHead | ResultDoubleArray: 20102 , 3
+ERR  | 09.01.2024 - 18:19:03.884 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 5. 
+DEBUG| 09.01.2024 - 18:19:03.884 | WorkflowMo | 	processSample::Sample[10037]	5
+DEBUG| 09.01.2024 - 18:19:03.884 | WorkflowMo | Signal adapter started 
+DEBUG| 09.01.2024 - 18:19:03.884 | VIWeldHead | ResultDoubleArray: 20102 , 3
+ERR  | 09.01.2024 - 18:19:03.884 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 5. 
+DEBUG| 09.01.2024 - 18:19:03.884 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.884 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.884 | GrabberMod | getSamples samplekey NOT found   0.0.0.5
+ERR  | 09.01.2024 - 18:19:03.885 | WorkflowMo | Inconsistency with received image number! ImageNumber in context 5 Last Processed Image 5
+DEBUG| 09.01.2024 - 18:19:03.885 | WorkflowMo | 	processImage::BImage[1]	5
+DEBUG| 09.01.2024 - 18:19:03.885 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.885 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 5. 
+DEBUG| 09.01.2024 - 18:19:03.885 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.983 | GrabberMod | getImage imagekey NOT found   0.0.0.6
+DEBUG| 09.01.2024 - 18:19:03.983 | WorkflowMo | 	processSample::Sample[10034]	6
+DEBUG| 09.01.2024 - 18:19:03.984 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.984 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 6. 
+DEBUG| 09.01.2024 - 18:19:03.984 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 30 spent 485.669 us waiting
+DEBUG| 09.01.2024 - 18:19:03.984 | WorkflowMo | 	processSample::Sample[10035]	6
+DEBUG| 09.01.2024 - 18:19:03.984 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.985 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 31 spent 1385.91 us waiting
+DEBUG| 09.01.2024 - 18:19:03.985 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.985 | WorkflowMo | 	processSample::Sample[10036]	6
+DEBUG| 09.01.2024 - 18:19:03.985 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.985 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 6. 
+DEBUG| 09.01.2024 - 18:19:03.985 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.985 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 6. 
+DEBUG| 09.01.2024 - 18:19:03.985 | WorkflowMo | 	processSample::Sample[10037]	6
+DEBUG| 09.01.2024 - 18:19:03.985 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.985 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.985 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 6. 
+DEBUG| 09.01.2024 - 18:19:03.985 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:03.985 | GrabberMod | getSamples samplekey NOT found   0.0.0.6
+ERR  | 09.01.2024 - 18:19:03.985 | WorkflowMo | Inconsistency with received image number! ImageNumber in context 6 Last Processed Image 6
+DEBUG| 09.01.2024 - 18:19:03.986 | WorkflowMo | 	processImage::BImage[1]	6
+DEBUG| 09.01.2024 - 18:19:03.986 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:03.986 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 6. 
+DEBUG| 09.01.2024 - 18:19:03.986 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.082 | GrabberMod | getImage imagekey NOT found   0.0.0.7
+DEBUG| 09.01.2024 - 18:19:04.082 | GrabberMod | getSamples samplekey NOT found   0.0.0.7
+DEBUG| 09.01.2024 - 18:19:04.082 | WorkflowMo | 	processSample::Sample[10034]	7
+DEBUG| 09.01.2024 - 18:19:04.083 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.083 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 7. 
+DEBUG| 09.01.2024 - 18:19:04.083 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 35 spent 704.061 us waiting
+DEBUG| 09.01.2024 - 18:19:04.083 | WorkflowMo | 	processSample::Sample[10035]	7
+DEBUG| 09.01.2024 - 18:19:04.083 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.083 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.083 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 7. 
+DEBUG| 09.01.2024 - 18:19:04.083 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.083 | WorkflowMo | 	processSample::Sample[10036]	7
+DEBUG| 09.01.2024 - 18:19:04.083 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.083 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 7. 
+DEBUG| 09.01.2024 - 18:19:04.083 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.083 | WorkflowMo | 	processSample::Sample[10037]	7
+DEBUG| 09.01.2024 - 18:19:04.083 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.083 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 7. 
+DEBUG| 09.01.2024 - 18:19:04.083 | VIWeldHead | ResultDoubleArray: 20102 , 3
+ERR  | 09.01.2024 - 18:19:04.083 | WorkflowMo | Inconsistency with received image number! ImageNumber in context 7 Last Processed Image 7
+DEBUG| 09.01.2024 - 18:19:04.083 | WorkflowMo | 	processImage::BImage[1]	7
+DEBUG| 09.01.2024 - 18:19:04.084 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.084 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 7. 
+DEBUG| 09.01.2024 - 18:19:04.084 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEFLT| 01.01.1970 - 01:00:00.000 | WorkflowMo | DEBUG| 09.01.2024 - 18:19:04.183 | GrabberMod | getImage imagekey NOT found   0.0.0.8
+DEBUG| 09.01.2024 - 18:19:04.183 | WorkflowMo | 	processSample::Sample[10034]	8
+DEBUG| 09.01.2024 - 18:19:04.183 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.183 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 8. 
+DEBUG| 09.01.2024 - 18:19:04.183 | WorkflowMo | 	processSample::Sample[10035]	8
+DEBUG| 09.01.2024 - 18:19:04.184 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.184 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 41. 
+DEBUG| 09.01.2024 - 18:19:04.184 | WorkflowMo | 	processSample::Sample[10036]	8
+DEBUG| 09.01.2024 - 18:19:04.184 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.184 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.184 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 8. 
+DEBUG| 09.01.2024 - 18:19:04.184 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.184 | WorkflowMo | 	processSample::Sample[10037]	8
+DEBUG| 09.01.2024 - 18:19:04.184 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.184 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.184 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 8. 
+DEBUG| 09.01.2024 - 18:19:04.184 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.184 | GrabberMod | getSamples samplekey NOT found   0.0.0.8
+ERR  | 09.01.2024 - 18:19:04.184 | WorkflowMo | Inconsistency with received image number! ImageNumber in context 8 Last Processed Image 8
+DEBUG| 09.01.2024 - 18:19:04.184 | WorkflowMo | 	processImage::BImage[1]	8
+DEBUG| 09.01.2024 - 18:19:04.185 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.185 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.185 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 8. 
+DEBUG| 09.01.2024 - 18:19:04.283 | WorkflowMo | 	processSample::Sample[10034]	9
+DEBUG| 09.01.2024 - 18:19:04.283 | GrabberMod | getImage imagekey NOT found   0.0.0.9
+DEBUG| 09.01.2024 - 18:19:04.283 | GrabberMod | getSamples samplekey NOT found   0.0.0.9
+DEBUG| 09.01.2024 - 18:19:04.284 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.284 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 9. 
+DEBUG| 09.01.2024 - 18:19:04.284 | WorkflowMo | 	processSample::Sample[10035]	9
+DEBUG| 09.01.2024 - 18:19:04.284 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.284 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.284 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 9. 
+DEBUG| 09.01.2024 - 18:19:04.284 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.284 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 46 spent 1146.74 us waiting
+DEBUG| 09.01.2024 - 18:19:04.284 | WorkflowMo | 	processSample::Sample[10036]	9
+DEBUG| 09.01.2024 - 18:19:04.284 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.284 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 9. 
+DEBUG| 09.01.2024 - 18:19:04.284 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.284 | WorkflowMo | 	processSample::Sample[10037]	9
+DEBUG| 09.01.2024 - 18:19:04.284 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.284 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 9. 
+DEBUG| 09.01.2024 - 18:19:04.285 | VIWeldHead | ResultDoubleArray: 20102 , 3
+ERR  | 09.01.2024 - 18:19:04.285 | WorkflowMo | Inconsistency with received image number! ImageNumber in context 9 Last Processed Image 9
+DEBUG| 09.01.2024 - 18:19:04.285 | WorkflowMo | 	processImage::BImage[1]	9
+DEBUG| 09.01.2024 - 18:19:04.285 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.285 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 9. 
+DEBUG| 09.01.2024 - 18:19:04.285 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.383 | WorkflowMo | 	processSample::Sample[10034]	10
+DEBUG| 09.01.2024 - 18:19:04.383 | GrabberMod | getImage imagekey NOT found   0.0.0.10
+DEBUG| 09.01.2024 - 18:19:04.383 | GrabberMod | getSamples samplekey NOT found   0.0.0.10
+DEBUG| 09.01.2024 - 18:19:04.384 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.384 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 10. 
+DEBUG| 09.01.2024 - 18:19:04.384 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 50 spent 471.739 us waiting
+DEBUG| 09.01.2024 - 18:19:04.385 | WorkflowMo | 	processSample::Sample[10035]	10
+DEBUG| 09.01.2024 - 18:19:04.385 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.385 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.385 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 10. 
+DEBUG| 09.01.2024 - 18:19:04.385 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.385 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 51 spent 1526.04 us waiting
+DEBUG| 09.01.2024 - 18:19:04.385 | WorkflowMo | 	processSample::Sample[10036]	10
+DEBUG| 09.01.2024 - 18:19:04.385 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.385 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 10. 
+DEBUG| 09.01.2024 - 18:19:04.385 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.385 | WorkflowMo | updateInspectManagerTime at new frame: InspectManager at 52 spent 404.247 us waiting
+DEBUG| 09.01.2024 - 18:19:04.385 | WorkflowMo | 	processSample::Sample[10037]	10
+DEBUG| 09.01.2024 - 18:19:04.385 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.385 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 10. 
+DEBUG| 09.01.2024 - 18:19:04.385 | VIWeldHead | ResultDoubleArray: 20102 , 3
+ERR  | 09.01.2024 - 18:19:04.386 | WorkflowMo | Inconsistency with received image number! ImageNumber in context 10 Last Processed Image 10
+DEBUG| 09.01.2024 - 18:19:04.386 | WorkflowMo | 	processImage::BImage[1]	10
+DEBUG| 09.01.2024 - 18:19:04.386 | WorkflowMo | Signal adapter started 
+ERR  | 09.01.2024 - 18:19:04.386 | WorkflowMo | Processing mode overtriggered, inconsistency with image number: 10. 
+DEBUG| 09.01.2024 - 18:19:04.386 | VIWeldHead | ResultDoubleArray: 20102 , 3
+DEBUG| 09.01.2024 - 18:19:04.391 | WorkflowMo | StopInspect: number of signaled images= 55, number of images skipped from sensor = 0, number of images skipped in inspection = 0 
+INFO | 09.01.2024 - 18:19:04.391 | WorkflowMo | Total number of frames: 55 , skipped: 46 
+INFO | 09.01.2024 - 18:19:04.391 | WorkflowMo | Mean processing time sample: 0.00270129 ms.
+INFO | 09.01.2024 - 18:19:04.391 | WorkflowMo | Mean processing time image: 0.0157739 ms.
+INFO | 09.01.2024 - 18:19:04.391 | WorkflowMo | Mean sendData time: 0.346526 ms.
+INFO | 09.01.2024 - 18:19:04.391 | WorkflowMo | Mean waiting time: 0.448859 ms.
+INFO | 09.01.2024 - 18:19:04.391 | WorkflowMo | Mean processing time overlay included: 0.81386 ms.
+INFO | 09.01.2024 - 18:19:04.391 | WorkflowMo | Bereit für Verarbeitung (Live/Automatic)
+DEBUG| 09.01.2024 - 18:19:04.391 | WorkflowMo | ChangeState: eOperate
+DEBUG| 09.01.2024 - 18:19:04.391 | VIInspecti | VI_InspectionControl::setSystemReady: 1
+DEBUG| 09.01.2024 - 18:19:04.391 | VIInspecti | VI_InspectionControl::setSystemErrorField: 0x0,0x0
+DEBUG| 09.01.2024 - 18:19:04.392 | VideoRecor | Config file written:
+DEBUG| 09.01.2024 - 18:19:04.392 | VideoRecor | '/home/developer/git/weldmaster/qnx/wm_inst/video/WM-QNX-PC/Live Mode/livemode_tmp_240109-181823213/seam_series0000/seam0000/sequence_info.xml'.
+DEBUG| 09.01.2024 - 18:19:04.396 | VideoRecor | Deleted: '/home/developer/git/weldmaster/qnx/wm_inst/video/WM-QNX-PC/Live Mode/livemode_tmp_240109-181823213/seam_series0000/seam0000'.
+DEBUG| 09.01.2024 - 18:19:04.396 | VideoRecor | Deleted: '/home/developer/git/weldmaster/qnx/wm_inst/video/WM-QNX-PC/Live Mode/livemode_tmp_240109-181823213/seam_series0000'.
+DEBUG| 09.01.2024 - 18:19:04.396 | VideoRecor | Deleted: '/home/developer/git/weldmaster/qnx/wm_inst/video/WM-QNX-PC/Live Mode/livemode_tmp_240109-181823213'.
+DEBUG| 09.01.2024 - 18:19:04.396 | VideoRecor | Created: '/home/developer/git/weldmaster/qnx/wm_inst/video/WM-QNX-PC/Live Mode/livemode_tmp_240109-181904391/seam_series0000/seam0000'.
+DEBUG| 09.01.2024 - 18:19:04.397 | VideoRecor | Created: '/home/developer/git/weldmaster/qnx/wm_inst/video/WM-QNX-PC/Live Mode/livemode_tmp_240109-181904391/00000000-0000-0000-0000-000000000000.id'.
+DEBUG| 09.01.2024 - 18:19:04.397 | VideoRecor | Created: '/home/developer/git/weldmaster/qnx/wm_inst/video/WM-QNX-PC/Live Mode/00000000-0000-0000-0000-000000000000.id'.
+DEBUG| 09.01.2024 - 18:19:04.397 | StorageMod | readCache: Nb of old entries in cache file found: 1
+DEBUG| 09.01.2024 - 18:19:04.397 | StorageMod | cachePath: Enqueued current product folder in cache:
+DEBUG| 09.01.2024 - 18:19:04.397 | StorageMod | /home/developer/git/weldmaster/qnx/wm_inst/data/results/274a7eca-7654-4893-9d6a-351e6c688a95/2fa721f0-af13-11ee-9b8a-c475abfb68eb-SN-0/
+DEBUG| 09.01.2024 - 18:19:09.460 | GrabberMod | 0DEBUG| 09.01.2024 - 18:19:09.460 | GrabberMod | getImage imagekey NOT found   0.0.0.11
+DEBUG| 09.01.2024 - 18:19:09.460 | GrabberMod | 0DEBUG| 09.01.2024 - 18:19:09.460 | GrabberMod | getImage imagekey NOT found   0.0.0.11
+DEBUG| 09.01.2024 - 18:19:09.460 | GrabberMod | 0DEBUG| 09.01.2024 - 18:19:09.460 | GrabberMod | getImage imagekey NOT found   0.0.0.11
+DEBUG| 09.01.2024 - 18:19:09.460 | GrabberMod | 0DEBUG| 09.01.2024 - 18:19:09.460 | GrabberMod | getImage imagekey NOT found   0.0.0.11
+DEBUG| 09.01.2024 - 18:19:09.460 | GrabberMod | 0DEBUG| 09.01.2024 - 18:19:09.460 | GrabberMod | getImage imagekey NOT found   0.0.0.11
+DEBUG| 09.01.2024 - 18:19:09.460 | GrabberMod | 0DEBUG| 09.01.2024 - 18:19:09.460 | GrabberMod | getImage imagekey NOT found   0.0.0.11
+DEBUG| 09.01.2024 - 18:19:12.880 | UserInterf | Initializing the central device manager.
+DEBUG| 09.01.2024 - 18:19:12.880 | UserInterf | CentralDeviceManager: Grabber ...
+DEBUG| 09.01.2024 - 18:19:12.881 | UserInterf | SecuredDeviceHandler initializing Grabber interface.
+DEBUG| 09.01.2024 - 18:19:12.881 | UserInterf | CentralDeviceManager: Calibration ...
+DEBUG| 09.01.2024 - 18:19:12.882 | UserInterf | SecuredDeviceHandler initializing CalibrationControl interface.
+DEBUG| 09.01.2024 - 18:19:12.882 | UserInterf | CentralDeviceManager: VideoRecorder ...
+DEBUG| 09.01.2024 - 18:19:12.882 | UserInterf | SecuredDeviceHandler initializing Videorecorder interface.
+DEBUG| 09.01.2024 - 18:19:12.882 | UserInterf | CentralDeviceManager: WeldHeadControl ...
+DEBUG| 09.01.2024 - 18:19:12.882 | UserInterf | SecuredDeviceHandler initializing WeldHeadControl interface.
+DEBUG| 09.01.2024 - 18:19:12.882 | UserInterf | CentralDeviceManager: Service ...
+DEBUG| 09.01.2024 - 18:19:12.882 | UserInterf | SecuredDeviceHandler initializing Service interface.
+DEBUG| 09.01.2024 - 18:19:12.882 | UserInterf | CentralDeviceManager: Inspection ...
+DEBUG| 09.01.2024 - 18:19:12.882 | UserInterf | SecuredDeviceHandler initializing InspectionControl interface.
+DEBUG| 09.01.2024 - 18:19:12.882 | UserInterf | CentralDeviceManager: Storage ...
+DEBUG| 09.01.2024 - 18:19:12.882 | UserInterf | SecuredDeviceHandler initializing Storage interface.
+DEBUG| 09.01.2024 - 18:19:12.887 | UserInterf | PostProcessingController Jan  8 2024 16:55:46
+DEBUG| 09.01.2024 - 18:19:12.984 | WorkflowMo | HW Results were disabled!

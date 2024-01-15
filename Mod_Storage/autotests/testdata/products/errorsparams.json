@@ -1,0 +1,238 @@
+{
+    "active": true,
+    "assemblyImage": "",
+    "default": false,
+    "endless": false,
+    "lengthUnit": "millimeter",
+    "name": "Product erroparams",
+    "filterParameterSets": [
+        {
+            "parameters": [
+            ],
+            "uuid": "11460dee-3fae-4296-9651-f4bcd73f4019"
+        },
+        {
+            "parameters": [
+                {
+                    "filterId": "fa1f0904-bff4-4acf-be40-069f4a114076",
+                    "name": "NioType",
+                    "type": "fehler",
+                    "typeId": "c533649b-5f59-4177-ab78-da1925f89579",
+                    "uuid": "1b144038-74bc-44e2-8eca-b0dbd7a902f0",
+                    "value": "5015"
+                },
+                {
+                    "filterId": "fa1f0904-bff4-4acf-be40-069f4a114076",
+                    "name": "NioType",
+                    "type": "fehler",
+                    "typeId": "c533649b-5f59-4177-ab78-da1925f89579",
+                    "uuid": "97e45dbf-3327-4b72-9e3d-3b6dafca3b3f",
+                    "value": "5015"
+                },
+                {
+                    "filterId": "c24ac66d-bcae-4bb4-8a10-2ceaee1b648a",
+                    "name": "NioType",
+                    "type": "fehler",
+                    "typeId": "86bb9a88-1f9e-4ebb-8ac2-4705c912dace",
+                    "uuid": "1da1db9e-1b08-40a2-86f8-94b7da61f38c",
+                    "value": "5018"
+                },
+                {
+                    "filterId": "c24ac66d-bcae-4bb4-8a10-2ceaee1b648a",
+                    "name": "NioType",
+                    "type": "fehler",
+                    "typeId": "86bb9a88-1f9e-4ebb-8ac2-4705c912dace",
+                    "uuid": "d3722b6a-c4cf-4bf0-9d37-f364882341de",
+                    "value": "5018"
+                },
+                {
+                    "filterId": "fa1f0904-bff4-4acf-be40-069f4a114076",
+                    "name": "NioType",
+                    "type": "fehler",
+                    "typeId": "c533649b-5f59-4177-ab78-da1925f89579",
+                    "uuid": "0fd70b10-4bc5-4f78-b734-5eb116599fde",
+                    "value": "5099"
+                },
+                {
+                    "filterId": "2f9bbd08-c76f-4da1-a42d-090fdbd0e499",
+                    "name": "NioType",
+                    "type": "fehler",
+                    "typeId": "f9f3821c-cdc8-4b56-8e2f-084ebbf1d2a7",
+                    "uuid": "1451187a-041c-4929-8542-22c0d80fb9f4",
+                    "value": "5089"
+                },
+                {
+                    "filterId": "2f9bbd08-c76f-4da1-a42d-090fdbd0e499",
+                    "name": "NioType",
+                    "type": "fehler",
+                    "typeId": "f9f3821c-cdc8-4b56-8e2f-084ebbf1d2a7",
+                    "uuid": "bb2873c4-691c-42c9-a827-6824b2edd6e5",
+                    "value": "5089"
+                },
+                {
+                    "filterId": "0aeeb48e-b33d-48f9-9052-ffe932dc0e69",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "013ed3fc-8a7d-4a3e-938b-a057e9f03e64",
+                    "value": "0"
+                },
+                {
+                    "filterId": "0aeeb48e-b33d-48f9-9052-ffe932dc0e69",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "c25dd9fc-9565-4e9b-9e31-af53b23742f6",
+                    "value": "5"
+                }
+            ],
+            "uuid": "ab88334b-f504-42ca-984c-cf3fe7386610"
+        },
+        {
+            "parameters": [
+            ],
+            "uuid": "19b12ca6-edcb-4fe8-96d4-03f113cb6680"
+        }
+    ],
+    "hardware": {
+        "parameterSet": {
+        },
+        "startPosYAxis": 0
+    },
+    "seamSeries": [
+        {
+            "graph": "00000000-0000-0000-0000-000000000000",
+            "graphParamSet": "00000000-0000-0000-0000-000000000000",
+            "hardware": {
+                "parameterSet": {
+                }
+            },
+            "name": "",
+            "number": 0,
+            "seams": [
+                {
+                    "graph": "00000000-0000-0000-0000-000000000000",
+                    "graphParamSet": "00000000-0000-0000-0000-000000000000",
+                    "hardware": {
+                        "parameterSet": {
+                        }
+                    },
+                    "name": "Seam 1",
+                    "number": 0,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "seamIntervals": [
+                        {
+                            "graph": "4f93a651-902d-48b6-b388-62e654748d9a",
+                            "graphParamSet": "ab88334b-f504-42ca-984c-cf3fe7386610",
+                            "hardware": {
+                                "parameterSet": {
+                                }
+                            },
+                            "length": "100000",
+                            "name": "Seam 1",
+                            "number": 0,
+                            "sumError": [
+                            ],
+                            "triggerDelta": 3000,
+                            "uuid": "0804b350-a86b-428b-8a91-73f70a0ebf00",
+                            "velocity": 30000
+                        }
+                    ],
+                    "sumError": [
+                        {
+                            "error": 1806,
+                            "length": 10,
+                            "max": 10,
+                            "maxLimit": 0,
+                            "min": -10,
+                            "minLimit": 0,
+                            "name": "Failure in length all",
+                            "uuid": "08d09211-b911-41a2-b3ae-a93c7cf15d5a",
+                            "value": 517,
+                            "variantId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6"
+                        },
+                        {
+                            "error": 1002,
+                            "length": 80,
+                            "max": 990,
+                            "maxLimit": 0,
+                            "min": -990,
+                            "minLimit": 0,
+                            "name": "Envelope failure in length all",
+                            "uuid": "37241445-0f27-4f40-a2c5-3faded88c70a",
+                            "value": 525,
+                            "variantId": "f8f4e0a8-d259-40f9-b134-68aa24e0a06c"
+                        }
+                    ],
+                    "triggerDelta": 3000,
+                    "uuid": "40a0cfb9-d929-48c7-abc0-9be6ebd88946",
+                    "velocity": 30000
+                },
+                {
+                    "graph": "00000000-0000-0000-0000-000000000000",
+                    "graphParamSet": "00000000-0000-0000-0000-000000000000",
+                    "hardware": {
+                        "parameterSet": {
+                        }
+                    },
+                    "name": "Seam 2",
+                    "number": 1,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "seamIntervals": [
+                        {
+                            "graph": "00000000-0000-0000-0000-000000000000",
+                            "graphParamSet": "19b12ca6-edcb-4fe8-96d4-03f113cb6680",
+                            "hardware": {
+                                "parameterSet": {
+                                }
+                            },
+                            "length": "0",
+                            "name": "Seam 2",
+                            "number": 0,
+                            "sumError": [
+                            ],
+                            "triggerDelta": 0,
+                            "uuid": "711610a7-8de4-4459-affd-6978d0d12f00",
+                            "velocity": 0
+                        }
+                    ],
+                    "sumError": [
+                        {
+                            "error": 5004,
+                            "length": 0,
+                            "max": 0,
+                            "maxLimit": 0,
+                            "min": 0,
+                            "minLimit": 0,
+                            "name": "Failure in length all",
+                            "uuid": "137fc07e-8cad-4563-b741-c296c3f16d87",
+                            "value": 0,
+                            "variantId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6"
+                        }
+                    ],
+                    "triggerDelta": 0,
+                    "uuid": "c75c6953-4895-4279-b7fc-3fbe3ade67ed",
+                    "velocity": 0
+                }
+            ],
+            "sumError": [
+            ],
+            "triggerDelta": 0,
+            "uuid": "1ae19eb6-ffb0-4e04-9edb-262e3d3ca319",
+            "velocity": 0
+        }
+    ],
+    "trigger": {
+        "mode": "Burst",
+        "source": "Software"
+    },
+    "type": 3,
+    "uuid": "59d29f32-f1c9-4bd7-a0c8-d1e1493c1cf6"
+}
+

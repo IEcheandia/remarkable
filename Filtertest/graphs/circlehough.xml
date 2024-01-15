@@ -1,0 +1,123 @@
+<graph id="00000000-0000-0000-0000-000000000001" name="testgraph">
+  <components path="./lib">
+    <component file="Filter_ImageSource*"     id="ImageSourceFilterLibrary"/>
+    <component file="Filter_SampleSource*"    id="SampleSourceFilterLibrary"/>
+    <component file="Filter_ImageProcessing*" id="ImageProcessingFilterLibrary"/>
+    <component file="Filter_Utility*"         id="UtilityFilterLibrary"/>
+    <component file="Filter_LineGeometry*"    id="LineGeometryFilterLibrary"/>
+    <component file="Filter_LineTracking*"    id="LineTrackingFilterLibrary"/>
+    <component file="Filter_PoreAnalysis*"    id="PoreAnalysisFilterLibrary"/>
+    <component file="Filter_GapTracking*"     id="GapTrackingFilterLibrary"/>
+    <component file="Filter_Results*"         id="ResultsFilterLibrary"/>
+  </components>
+  <filters>
+
+
+    <filter component="ImageSourceFilterLibrary" id="ImageSource" name="precitec::filter::ImageSource">
+      <param name="sensorid" type="int">1</param>
+    </filter>
+
+    <filter component="ImageProcessingFilterLibrary" id="ROISelector" name="precitec::filter::ROISelector">
+      <param name="Verbosity" type="int">0</param>
+      <param name="X"         type="UInt32">0</param>
+      <param name="Y"         type="UInt32">0</param>
+      <param name="Width"     type="UInt32">1000</param>
+      <param name="Height"    type="UInt32">1000</param>
+      <param name="rgbRed"    type="UInt32">0</param>
+      <param name="rgbGreen"  type="UInt32">255</param>
+      <param name="rgbBlue"   type="UInt32">0</param>
+      <param name="rgbAlpha"  type="UInt32">255</param>
+      <in pipe="ImageFrame" sender="ImageSource"/>
+    </filter>
+
+	<filter component="UtilityFilterLibrary" id="ParameterStart" name="precitec::filter::ParameterFilter">
+
+      <param name="scalar" type="double">60</param>
+
+      <in pipe="ImageFrame" sender="ImageSource"/>
+
+    </filter>
+    
+    
+	<filter component="UtilityFilterLibrary" id="ParameterEnd" name="precitec::filter::ParameterFilter">
+
+      <param name="scalar" type="double">200</param>
+
+      <in pipe="ImageFrame" sender="ImageSource"/>
+
+    </filter>
+        
+	<filter component="ImageProcessingFilterLibrary" id="EdgeDetection" name="precitec::filter::EdgeDetection">
+	  <param name="Verbosity"    type="int">3</param>
+      <param name="EdgeOp"       type="int">0</param>
+	  <param name="Mode"         type="int">0</param>
+	  <in pipe="ImageFrame" sender="ROISelector"/>
+    </filter>
+
+    
+	<filter component="ImageProcessingFilterLibrary" id="CircleHoughBig" name="precitec::filter::CircleHough">
+	  <param name="Verbosity"    type="int">1</param>
+      <param name="ScoreThreshold"  type="double">0.0</param>
+      <param name="SearchOutsideROI"  type="bool">1</param>
+      <in group="1" pipe="EdgeDetectionImageFrameOut" sender="EdgeDetection">image</in>
+      <in group="1" pipe="Scalar" sender="ParameterStart">radiusStart</in>
+
+      <in group="1" pipe="Scalar" sender="ParameterEnd">radiusEnd</in>
+
+    </filter>
+
+    <filter component="UtilityFilterLibrary" id="RadiusSmaller" name="precitec::filter::ArithmeticConstant">
+
+      <param name="Value" type="double">20</param>
+
+      <param name="Operation" type="int">1</param> <!-- subtraction -->
+      <in pipe="Radius" sender="CircleHoughBig"/>
+
+    </filter>
+    
+	<filter component="ImageProcessingFilterLibrary" id="CircleHoughSmall" name="precitec::filter::CircleHough">
+	  <param name="Verbosity"    type="int">1</param>
+      <param name="ScoreThreshold"  type="double">0.0</param>
+      <param name="SearchOutsideROI"  type="bool">1</param>
+      <in group="1" pipe="EdgeDetectionImageFrameOut" sender="EdgeDetection">image</in>
+      <in group="1" pipe="DataOut" sender="RadiusSmaller">radiusStart</in>
+
+      <in group="1" pipe="Radius" sender="CircleHoughBig">radiusEnd</in>
+
+    </filter>
+    
+    
+	<filter component="ResultsFilterLibrary" id="ResultX" name="precitec::filter::PureResult">
+	  <param name="ResultType"    type="int">300</param>
+	  <in pipe="CenterX" sender="CircleHoughBig"/>
+    </filter>
+    
+	<filter component="ResultsFilterLibrary" id="ResultY" name="precitec::filter::PureResult">
+	  <param name="ResultType"    type="int">301</param>
+	  <in pipe="CenterY" sender="CircleHoughBig"/>
+    </filter>
+    
+	<filter component="ResultsFilterLibrary" id="ResultRadius" name="precitec::filter::PureResult">
+	  <param name="ResultType"    type="int">302</param>
+	  <in pipe="Radius" sender="CircleHoughBig"/>
+    </filter>
+    
+    
+	<filter component="ResultsFilterLibrary" id="ResultX2" name="precitec::filter::PureResult">
+	  <param name="ResultType"    type="int">303</param>
+	  <in pipe="CenterX" sender="CircleHoughSmall"/>
+    </filter>
+    
+	<filter component="ResultsFilterLibrary" id="ResultY2" name="precitec::filter::PureResult">
+	  <param name="ResultType"    type="int">304</param>
+	  <in pipe="CenterY" sender="CircleHoughSmall"/>
+    </filter>
+    
+	<filter component="ResultsFilterLibrary" id="ResultRadius2" name="precitec::filter::PureResult">
+	  <param name="ResultType"    type="int">305</param>
+	  <in pipe="Radius" sender="CircleHoughSmall"/>
+    </filter>
+   
+   
+  </filters>
+</graph>

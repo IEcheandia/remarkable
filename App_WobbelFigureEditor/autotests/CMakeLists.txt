@@ -1,0 +1,383 @@
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-error=catch-value")
+
+qtTestCase(
+     NAME
+        testFileModel
+     SRCS
+        testFileModel.cpp
+        ../src/FileModel.cpp
+        ../src/fileType.h
+     LIBS
+        Qt5::Concurrent
+)
+
+qtTestCase(
+     NAME
+        testWobbleFigureEditor
+     SRCS
+        wobbleFigureEditorTest.cpp
+        ../src/WobbleFigureEditor.cpp
+        ../src/commandManager.cpp
+        ../src/actionPointPositionSeamFigure.cpp
+        ../src/actionPointPositionWobbleFigure.cpp
+        ../src/actionPointPositionOverlay.cpp
+        ../src/actionPointPropertieSeamLaserPower.cpp
+        ../src/actionPointPropertieWobbleLaserPower.cpp
+        ../src/actionPointPropertieSeamRingPower.cpp
+        ../src/actionPointPropertieWobbleRingPower.cpp
+        ../src/actionPointPropertieSeamVelocity.cpp
+        ../src/actionPointRampSeamFigure.cpp
+        ../src/actionPointCreateSeamFigure.cpp
+        ../src/FileModel.cpp
+        ../src/WobbleFigure.cpp
+        ../src/LaserPoint.cpp
+        ../src/LaserTrajectory.cpp
+        ../src/FigureCreator.cpp
+        ../src/fileType.h
+        ../src/powerModulationMode.h
+        ../src/figureEditorSettings.cpp
+        ../src/laserPointController.cpp
+        ../src/trajectoryColorsValidator.cpp
+        ../../Interfaces/src/systemConfiguration.cpp
+        ../../Filtertest/dummyLogger.cpp
+     LIBS
+        Qt5::Quick
+        Qt5::Concurrent
+        Qt5::QuickControls2
+        ${POCO_LIBS}
+        Interfaces
+        /usr/lib/x86_64-linux-gnu/libQuickQanava.so
+        /usr/lib/x86_64-linux-gnu/libQuickContainers.so
+)
+
+qtTestCase(
+     NAME
+        testWobbleFigureModel
+     SRCS
+        testWobbleFigureModel.cpp
+        ../src/wobbleFigureModel.cpp
+)
+
+qtTestCase(
+     NAME
+        testFigureAnalyzer
+     SRCS
+        figureAnalyzerTest.cpp
+        ../src/FigureAnalyzer.cpp
+        ../src/WobbleFigureEditor.cpp
+        ../src/commandManager.cpp
+        ../src/actionPointPositionSeamFigure.cpp
+        ../src/actionPointPositionWobbleFigure.cpp
+        ../src/actionPointPositionOverlay.cpp
+        ../src/actionPointPropertieSeamLaserPower.cpp
+        ../src/actionPointPropertieWobbleLaserPower.cpp
+        ../src/actionPointPropertieSeamRingPower.cpp
+        ../src/actionPointPropertieWobbleRingPower.cpp
+        ../src/actionPointPropertieSeamVelocity.cpp
+        ../src/actionPointRampSeamFigure.cpp
+        ../src/actionPointCreateSeamFigure.cpp
+        ../src/FileModel.cpp
+        ../src/WobbleFigure.cpp
+        ../src/LaserPoint.cpp
+        ../src/LaserTrajectory.cpp
+        ../src/FigureCreator.cpp
+        ../src/fileType.h
+        ../src/powerModulationMode.h
+        ../src/figureEditorSettings.cpp
+        ../../Interfaces/src/systemConfiguration.cpp
+        ../../Filtertest/dummyLogger.cpp
+        ../src/simulationController.cpp
+        ../src/laserPointController.cpp
+        ../src/trajectoryColorsValidator.cpp
+     LIBS
+        Qt5::Quick
+        Qt5::Concurrent
+        Qt5::QuickControls2
+        ${POCO_LIBS}
+        Interfaces
+        /usr/lib/x86_64-linux-gnu/libQuickQanava.so
+        /usr/lib/x86_64-linux-gnu/libQuickContainers.so
+)
+
+qtTestCase(
+     NAME
+        testFigureEditorSettings
+     SRCS
+        figureEditorSettingsTest.cpp
+        ../src/figureEditorSettings.cpp
+        ../../Filtertest/dummyLogger.cpp
+        ../../Interfaces/src/systemConfiguration.cpp
+        ../src/fileType.h
+     LIBS
+        Qt5::Gui
+        ${POCO_LIBS}
+        Interfaces
+)
+
+
+qtTestCase(
+     NAME
+        testFigureCreator
+     SRCS
+        figureCreatorTest.cpp
+        ../src/FigureCreator.cpp
+        ../src/FileModel.cpp
+        ../src/fileType.h
+        ../../Filtertest/dummyLogger.cpp
+     LIBS
+        Qt5::Gui
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        Interfaces
+)
+
+qtTestCase(
+     NAME
+        testLaserPointController
+     SRCS
+        laserPointControllerTest.cpp
+        ../src/laserPointController.cpp
+        ../src/trajectoryColorsValidator.cpp
+        ../src/WobbleFigure.cpp
+        ../src/LaserPoint.cpp
+        ../src/LaserTrajectory.cpp
+        ../src/fileType.h
+        ../src/figureEditorSettings.cpp
+        ../../Interfaces/src/systemConfiguration.cpp
+        ../../Filtertest/dummyLogger.cpp
+     LIBS
+        Qt5::Quick
+        Qt5::QuickControls2
+        Interfaces
+        /usr/lib/x86_64-linux-gnu/libQuickQanava.so
+        /usr/lib/x86_64-linux-gnu/libQuickContainers.so
+)
+
+qtTestCase(
+     NAME
+        testAbstractDataExchangeController
+     SRCS
+        abstractDataExchangeControllerTest.cpp
+        ../src/abstractDataExchangeController.cpp
+        ../src/figureEditorSettings.cpp
+        ../../Filtertest/dummyLogger.cpp
+        ../../Interfaces/src/systemConfiguration.cpp
+        ../src/fileType.h
+     LIBS
+        Qt5::Gui
+        ${POCO_LIBS}
+        Interfaces
+        Mod_Storage
+)
+
+qtTestCase(
+     NAME
+        testImportSeamDataController
+     SRCS
+        importSeamDataControllerTest.cpp
+        ../src/importSeamDataController.cpp
+        ../src/abstractDataExchangeController.cpp
+        ../src/figureEditorSettings.cpp
+        ../../Filtertest/dummyLogger.cpp
+        ../../Interfaces/src/systemConfiguration.cpp
+        ../src/fileType.h
+     LIBS
+        Qt5::Gui
+        ${POCO_LIBS}
+        Interfaces
+        Mod_Storage
+)
+
+qtTestCase(
+     NAME
+        testSimulationController
+     SRCS
+        simulationControllerTest.cpp
+        ../src/simulationController.cpp
+        ../src/FileModel.cpp
+        ../src/laserPointController.cpp
+        ../src/trajectoryColorsValidator.cpp
+        ../src/WobbleFigure.cpp
+        ../src/LaserPoint.cpp
+        ../src/LaserTrajectory.cpp
+        ../src/figureEditorSettings.cpp
+        ../../Filtertest/dummyLogger.cpp
+        ../../Interfaces/src/systemConfiguration.cpp
+        ../src/fileType.h
+     LIBS
+        Qt5::Quick
+        Qt5::QuickControls2
+        Qt5::Concurrent
+        Interfaces
+        /usr/lib/x86_64-linux-gnu/libQuickQanava.so
+        /usr/lib/x86_64-linux-gnu/libQuickContainers.so
+)
+
+qtTestCase(
+     NAME
+        testPlausibilityChecker
+     SRCS
+        plausibilityCheckerTest.cpp
+        ../src/plausibilityChecker.cpp
+        ../src/figureEditorSettings.cpp
+        ../src/FigureAnalyzer.cpp
+        ../src/WobbleFigureEditor.cpp
+        ../src/commandManager.cpp
+        ../src/actionPointPositionSeamFigure.cpp
+        ../src/actionPointPositionWobbleFigure.cpp
+        ../src/actionPointPositionOverlay.cpp
+        ../src/actionPointPropertieSeamLaserPower.cpp
+        ../src/actionPointPropertieWobbleLaserPower.cpp
+        ../src/actionPointPropertieSeamRingPower.cpp
+        ../src/actionPointPropertieWobbleRingPower.cpp
+        ../src/actionPointPropertieSeamVelocity.cpp
+        ../src/actionPointRampSeamFigure.cpp
+        ../src/actionPointCreateSeamFigure.cpp
+        ../src/FileModel.cpp
+        ../src/WobbleFigure.cpp
+        ../src/LaserPoint.cpp
+        ../src/LaserTrajectory.cpp
+        ../src/FigureCreator.cpp
+        ../src/fileType.h
+        ../src/powerModulationMode.h
+        ../../Interfaces/src/systemConfiguration.cpp
+        ../../Filtertest/dummyLogger.cpp
+        ../src/simulationController.cpp
+        ../src/laserPointController.cpp
+        ../src/trajectoryColorsValidator.cpp
+     LIBS
+        Qt5::Gui
+        ${POCO_LIBS}
+        Interfaces
+        Qt5::Quick
+        Qt5::Concurrent
+        Qt5::QuickControls2
+        /usr/lib/x86_64-linux-gnu/libQuickQanava.so
+        /usr/lib/x86_64-linux-gnu/libQuickContainers.so
+)
+
+qtTestCase(
+    NAME
+        testGridController
+    SRCS
+        gridControllerTest.cpp
+        ../src/gridController.cpp
+        ../src/figureEditorSettings.cpp
+        ../../Filtertest/dummyLogger.cpp
+        ../../Interfaces/src/systemConfiguration.cpp
+        ../src/fileType.h
+    LIBS
+        Qt5::Gui
+        ${POCO_LIBS}
+        Interfaces
+        Qt5::Quick
+        Qt5::QuickControls2
+        /usr/lib/x86_64-linux-gnu/libQuickQanava.so
+        /usr/lib/x86_64-linux-gnu/libQuickContainers.so
+)
+
+qtTestCase(
+    NAME
+        testRampModel
+    SRCS
+        rampModelTest.cpp
+        ../src/rampModel.cpp
+        ../src/WobbleFigureEditor.cpp
+        ../src/commandManager.cpp
+        ../src/actionPointPositionSeamFigure.cpp
+        ../src/actionPointPositionWobbleFigure.cpp
+        ../src/actionPointPositionOverlay.cpp
+        ../src/actionPointPropertieSeamLaserPower.cpp
+        ../src/actionPointPropertieWobbleLaserPower.cpp
+        ../src/actionPointPropertieSeamRingPower.cpp
+        ../src/actionPointPropertieWobbleRingPower.cpp
+        ../src/actionPointPropertieSeamVelocity.cpp
+        ../src/actionPointRampSeamFigure.cpp
+        ../src/actionPointCreateSeamFigure.cpp
+        ../src/FileModel.cpp
+        ../src/WobbleFigure.cpp
+        ../src/LaserPoint.cpp
+        ../src/LaserTrajectory.cpp
+        ../src/FigureCreator.cpp
+        ../src/fileType.h
+        ../src/powerModulationMode.h
+        ../src/figureEditorSettings.cpp
+        ../src/laserPointController.cpp
+        ../src/trajectoryColorsValidator.cpp
+        ../../Interfaces/src/systemConfiguration.cpp
+        ../../Filtertest/dummyLogger.cpp
+    LIBS
+        Qt5::Gui
+        Qt5::Quick
+        Qt5::Concurrent
+        Qt5::QuickControls2
+        ${POCO_LIBS}
+        Interfaces
+        /usr/lib/x86_64-linux-gnu/libQuickQanava.so
+        /usr/lib/x86_64-linux-gnu/libQuickContainers.so
+)
+
+qtTestCase(
+    NAME
+        testRampValidator
+    SRCS
+        rampValidatorTest.cpp
+        ../src/rampValidator.cpp
+        ../src/WobbleFigureEditor.cpp
+        ../src/commandManager.cpp
+        ../src/actionPointPositionSeamFigure.cpp
+        ../src/actionPointPositionWobbleFigure.cpp
+        ../src/actionPointPositionOverlay.cpp
+        ../src/actionPointPropertieSeamLaserPower.cpp
+        ../src/actionPointPropertieWobbleLaserPower.cpp
+        ../src/actionPointPropertieSeamRingPower.cpp
+        ../src/actionPointPropertieWobbleRingPower.cpp
+        ../src/actionPointPropertieSeamVelocity.cpp
+        ../src/actionPointRampSeamFigure.cpp
+        ../src/actionPointCreateSeamFigure.cpp
+        ../src/FileModel.cpp
+        ../src/WobbleFigure.cpp
+        ../src/LaserPoint.cpp
+        ../src/LaserTrajectory.cpp
+        ../src/FigureCreator.cpp
+        ../src/fileType.h
+        ../src/powerModulationMode.h
+        ../src/figureEditorSettings.cpp
+        ../../Interfaces/src/systemConfiguration.cpp
+        ../../Filtertest/dummyLogger.cpp
+        ../src/laserPointController.cpp
+        ../src/trajectoryColorsValidator.cpp
+    LIBS
+        Qt5::Gui
+        Qt5::Quick
+        Qt5::Concurrent
+        Qt5::QuickControls2
+        ${POCO_LIBS}
+        Interfaces
+        /usr/lib/x86_64-linux-gnu/libQuickQanava.so
+        /usr/lib/x86_64-linux-gnu/libQuickContainers.so
+)
+
+qtTestCase(
+    NAME
+        testValueConverter
+    SRCS
+        valueConverterTest.cpp
+        ../src/valueConverter.cpp
+    LIBS
+        Qt5::Gui
+)
+
+qtTestCase(
+    NAME
+        testFileSaveHandler
+    SRCS
+        fileSaveHandlerTest.cpp
+        ../src/fileSaveHandler.cpp
+        ../src/FileModel.cpp
+        ../src/fileType.h
+    LIBS
+        Qt5::Concurrent
+)

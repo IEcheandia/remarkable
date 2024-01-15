@@ -1,0 +1,14 @@
+<VI_Config>
+	<VI_InspectionControl>
+		<S6K_ProductNumber>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>16</StartBit>
+				<Length>32</Length>
+			</Input>
+		</S6K_ProductNumber>
+	</VI_InspectionControl>
+</VI_Config>

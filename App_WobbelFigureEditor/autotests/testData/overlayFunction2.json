@@ -1,0 +1,15 @@
+{
+  "Name": "Testfile A",
+  "ID": "2",
+  "Description": "This is a simple and short test file.",
+  "FunctionValues": [
+    [
+      -1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0
+    ]
+  ]
+}

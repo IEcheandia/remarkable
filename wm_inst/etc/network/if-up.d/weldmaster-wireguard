@@ -1,0 +1,12 @@
+#!/bin/bash
+
+/usr/sbin/nft list table inet filter | grep "${IFACE}"
+FOUND=$?
+
+if [[ $FOUND == 1 ]]; then
+    cat /sys/class/net/${IFACE}/uevent | grep "wireguard"
+    IS_WIREGUARD=$?
+    if [[ $IS_WIREGUARD == 0 ]]; then
+        /usr/sbin/nft add rule inet filter input position 6 iif ${IFACE} accept
+    fi
+fi

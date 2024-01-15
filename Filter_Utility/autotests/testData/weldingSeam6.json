@@ -1,0 +1,49 @@
+{
+    "Name" : "Test ramp in",
+    "ID" : "5",
+    "Description" : "Test for ramping in",
+    "Ramps" :
+    [
+        {
+            "StartID" : 0,
+            "Length" : 0.06,
+            "StartPower" : 0.0,
+            "EndPower" : 1.0,
+            "StartPowerRing" : 0.75,
+            "EndPowerRing" : 0.25
+        }
+    ],
+    "Figure" :
+    [
+        {
+            "EndPosition" : [0.0, 0.0],
+            "Power" : 0.25,
+            "RingPower" : 0.25,
+            "Velocity" : 100.0
+        },
+        {
+            "EndPosition" : [0.025, 0.0],
+            "Power" : 0.3,
+            "RingPower" : 0.2,
+            "Velocity" : 200.0
+        },
+        {
+            "EndPosition" : [0.05, 0.0],
+            "Power" : 0.3,
+            "RingPower" : 0.3,
+            "Velocity" : 130.0
+        },
+        {
+            "EndPosition" : [1.5, 0],
+            "Power" : 0.5,
+            "RingPower" : 0.5,
+            "Velocity" : 150.5
+        },
+        {
+            "EndPosition" : [2.0, 0.0],
+            "Power" : 0.7,
+            "RingPower" : 0.7,
+            "Velocity" : 250.0
+        }
+    ]
+}

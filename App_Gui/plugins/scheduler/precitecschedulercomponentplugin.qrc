@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/precitec/scheduler">
+        <file alias="Scheduler.qml">qml/Scheduler.qml</file>
+        <file alias="AddTask.qml">qml/AddTask.qml</file>
+        <file alias="EditTask.qml">qml/EditTask.qml</file>
+        <file alias="CronTriggerConfiguration.qml">qml/CronTriggerConfiguration.qml</file>
+        <file alias="BackupConfigurationComponent.qml">qml/BackupConfigurationComponent.qml</file>
+        <file alias="BackupLocalTaskConfiguration.qml">qml/BackupLocalTaskConfiguration.qml</file>
+        <file alias="BackupRemoteTaskConfiguration.qml">qml/BackupRemoteTaskConfiguration.qml</file>
+        <file alias="TransferDirectoryTaskConfiguration.qml">qml/TransferDirectoryTaskConfiguration.qml</file>
+        <file alias="TransferFileTaskConfiguration.qml">qml/TransferFileTaskConfiguration.qml</file>
+        <file alias="TransferMetaDataTaskConfiguration.qml">qml/TransferMetaDataTaskConfiguration.qml</file>
+        <file alias="ResultExcelConfiguration.qml">qml/ResultExcelConfiguration.qml</file>
+        <file alias="DeleteBackupsTaskConfiguration.qml">qml/DeleteBackupsTaskConfiguration.qml</file>
+        <file alias="ExportProductTaskConfiguration.qml">qml/ExportProductTaskConfiguration.qml</file>
+    </qresource>
+</RCC>

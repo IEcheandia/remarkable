@@ -1,0 +1,12 @@
+{
+    "uuid": "14f819a6-e946-4e55-98e7-727c8f8d7754",
+    "name": "Default 1",
+    "power1": 53,
+    "power2": 60,
+    "power3": 20,
+    "power4": 60,
+    "offset1": 25,
+    "offset2": 100,
+    "offset3": 0,
+    "offset4": 100
+}

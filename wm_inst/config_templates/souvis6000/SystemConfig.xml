@@ -1,0 +1,22 @@
+<SystemConfig>
+	<File_New_Created>false</File_New_Created>
+	<Type_of_Sensor>2</Type_of_Sensor>
+	<LineLaser2Enable>true</LineLaser2Enable>
+	<LineLaser2_OutputViaCamera>true</LineLaser2_OutputViaCamera>
+	<LED_IlluminationEnable>true</LED_IlluminationEnable>
+	<LED_MaxCurrent_mA_Chan1>1000</LED_MaxCurrent_mA_Chan1>
+	<LED_MaxCurrent_mA_Chan2>1000</LED_MaxCurrent_mA_Chan2>
+	<LED_MaxCurrent_mA_Chan3>1000</LED_MaxCurrent_mA_Chan3>
+	<LED_MaxCurrent_mA_Chan4>1000</LED_MaxCurrent_mA_Chan4>
+	<FieldbusViaSeparateFieldbusBoard>true</FieldbusViaSeparateFieldbusBoard>
+	<ImageTriggerViaEncoderSignals>true</ImageTriggerViaEncoderSignals>
+	<SOUVIS6000_Application>true</SOUVIS6000_Application>
+	<SOUVIS6000_Is_PreInspection>true</SOUVIS6000_Is_PreInspection>
+	<SOUVIS6000_Is_PostInspection_Top>false</SOUVIS6000_Is_PostInspection_Top>
+	<SOUVIS6000_Is_PostInspection_Bottom>false</SOUVIS6000_Is_PostInspection_Bottom>
+	<SOUVIS6000_IP_Address_MachineControl>127.0.0.1</SOUVIS6000_IP_Address_MachineControl>
+	<PlotterLineWidth>3</PlotterLineWidth>
+	<PlotterPointsVisible>1</PlotterPointsVisible>
+	<PlotterLinesVisible>1</PlotterLinesVisible>
+	<PlotterBlocksVisible>1</PlotterBlocksVisible>
+</SystemConfig>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Sgm2Loc>
+  <Precitec.Filter.AudiExponentialFilter.Beschreibung Text="Special operations filter."/>
+  <Precitec.Filter.AudiExponentialFilter.Tooltip Text="Special operations filter."/>
+  <Precitec.Filter.AudiExponentialFilter.Gruppe Text="Image processing"/>
+  <Precitec.Filter.AudiExponentialFilter.Name Text="AudiExponentialFilter"/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.MaxValue.Beschreibung Text="If value is greater than 'maximum limit' use 'default value'."/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.MaxValue.Tooltip Text="If value is greater than 'maximum limit' use 'default value'."/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.MaxValue.Name Text="Maximum limt"/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.MaxValue.Unit Text=""/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.DefaultValue.Beschreibung Text="If value is greater than 'maximum limit' use 'default value'."/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.DefaultValue.Tooltip Text="If value is greater than 'maximum limit' use 'default value'."/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.DefaultValue.Name Text="Default value"/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.DefaultValue.Unit Text=""/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.PreFactorOfExponential.Beschreibung Text="Prefactor exponential function."/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.PreFactorOfExponential.Tooltip Text="Prefactor exponential function."/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.PreFactorOfExponential.Name Text="Prefactor exponential function"/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.PreFactorOfExponential.Unit Text=""/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.FactorOfExponential.Beschreibung Text="Exponential factor."/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.FactorOfExponential.Tooltip Text="Exponential factor"/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.FactorOfExponential.Name Text="Exponential factor"/>
+  <Precitec.Filter.Attribute.AudiExponentialFilter.FactorOfExponential.Unit Text=""/>
+  <Precitec.Filter.Audi.Gruppe Text="Audi"/>
+</Sgm2Loc>

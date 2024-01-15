@@ -1,0 +1,23 @@
+module precitec.gui.filterparametereditor
+AttributeCheckBox 1.0 AttributeCheckBox.qml
+AttributeComboBox 1.0 AttributeComboBox.qml
+AttributeDoubleSpinBox 1.0 AttributeDoubleSpinBox.qml
+AttributeIntSpinBox 1.0 AttributeIntSpinBox.qml
+AttributeLabel 1.0 AttributeLabel.qml
+AttributeMilliFromMicroSpinBox 1.0 AttributeMilliFromMicroSpinBox.qml
+AttributeResult 1.0 AttributeResult.qml
+AttributeSensor 1.0 AttributeSensor.qml
+AttributeString 1.0 AttributeString.qml
+AttributeText 1.0 AttributeText.qml
+AttributeError 1.0 AttributeError.qml
+AttributeFile 1.0 AttributeFile.qml
+AttributeSeamFigure 1.0 AttributeSeamFigure.qml
+AttributeWobbleFigure 1.0 AttributeWobbleFigure.qml
+FilterParameterEditor 1.0 FilterParameterEditor.qml
+FilterInstanceListBox 1.0 FilterInstanceListBox.qml
+FilterGroupsListBox 1.0 FilterGroupsListBox.qml
+ParameterEditor 1.0 ParameterEditor.qml
+ImplicitWidthDelegate 1.0 ImplicitWidthDelegate.qml
+BackButtonGroupBox 1.0 BackButtonGroupBox.qml
+MilliFromMicroSpinBox 1.0 MilliFromMicroSpinBox.qml
+SpinBoxIndicator 1.0 SpinBoxIndicator.qml

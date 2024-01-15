@@ -1,0 +1,2038 @@
+{
+    "assemblyImage": "",
+    "default": false,
+    "endless": false,
+    "errorLevels": [
+        {
+            "blue": 0,
+            "green": 100,
+            "red": 0,
+            "value": 0
+        },
+        {
+            "blue": 0,
+            "green": 255,
+            "red": 255,
+            "value": 0.5
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 255,
+            "value": 1
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 139,
+            "value": 1.0099999904632568
+        }
+    ],
+    "filterParameterSets": [
+        {
+            "parameters": [
+                {
+                    "filterId": "f1961f7b-f5e3-424f-a9c4-0ec34ab87ec1",
+                    "name": "sensorid",
+                    "type": "sensor",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "5c5c84f0-242c-445e-a595-51cee0dd53e8",
+                    "value": 10033
+                },
+                {
+                    "filterId": "f1961f7b-f5e3-424f-a9c4-0ec34ab87ec1",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "790ccaa1-daab-4a69-ae92-6b89f7b4a014",
+                    "value": 1
+                },
+                {
+                    "filterId": "f1961f7b-f5e3-424f-a9c4-0ec34ab87ec1",
+                    "name": "DefaultValue",
+                    "type": "int",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "d96688ef-0f02-47df-a4c3-a9c1909fbbb0",
+                    "value": 100
+                },
+                {
+                    "filterId": "8bf19834-5e11-4616-8495-14f9808f8d9d",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "0878118f-dd36-4ddf-b95f-7a4230296afd",
+                    "value": 8
+                },
+                {
+                    "filterId": "8bf19834-5e11-4616-8495-14f9808f8d9d",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "a25bb4a1-192c-4812-bb8b-cba3fcfcd91f",
+                    "value": 1
+                },
+                {
+                    "filterId": "8bf19834-5e11-4616-8495-14f9808f8d9d",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "3cfec36e-e699-4c12-ab3a-e3b455d4e7db",
+                    "value": 1
+                },
+                {
+                    "filterId": "edb96703-b518-4811-afdd-21cf50c460ee",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "1ecb49af-4407-4605-b90e-f09e0e2dd6b8",
+                    "uuid": "201cb0b4-ad45-4bb3-8719-339ef815fc4d",
+                    "value": 0
+                },
+                {
+                    "filterId": "edb96703-b518-4811-afdd-21cf50c460ee",
+                    "name": "name",
+                    "type": "int",
+                    "typeId": "1ecb49af-4407-4605-b90e-f09e0e2dd6b8",
+                    "uuid": "3207f289-f2c2-4e99-82a5-3b85c6ce8a4f",
+                    "value": 14
+                },
+                {
+                    "filterId": "88e6f2a3-e50e-4aff-8f7e-31fa5a8c1730",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "7a218133-6c5d-4a8e-b627-7ee7e19cad20",
+                    "value": 1
+                },
+                {
+                    "filterId": "88e6f2a3-e50e-4aff-8f7e-31fa5a8c1730",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "89bf90d0-d3af-48eb-99e1-dfcc94fd1001",
+                    "value": 1
+                },
+                {
+                    "filterId": "48d5a657-0631-4d49-a893-3286a7586c74",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "e9f85cd4-0ba1-45dc-aac5-450ab1604abb",
+                    "value": 1
+                },
+                {
+                    "filterId": "48d5a657-0631-4d49-a893-3286a7586c74",
+                    "name": "DefaultValue",
+                    "type": "int",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "3876a0de-ddf9-4ef3-b961-d07e85bf8d34",
+                    "value": 100
+                },
+                {
+                    "filterId": "48d5a657-0631-4d49-a893-3286a7586c74",
+                    "name": "sensorid",
+                    "type": "sensor",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "84154609-3326-4f4d-9a4a-fce0938baf9c",
+                    "value": 10032
+                },
+                {
+                    "filterId": "7e6c798b-133a-4557-8b7b-366954f6cc84",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "f5e7a6fe-7df5-44a3-affe-726d122d3962",
+                    "uuid": "5a47e131-cbc7-49fa-a4ad-46595d2805a9",
+                    "value": 1
+                },
+                {
+                    "filterId": "7e6c798b-133a-4557-8b7b-366954f6cc84",
+                    "name": "Slot",
+                    "type": "uint",
+                    "typeId": "f5e7a6fe-7df5-44a3-affe-726d122d3962",
+                    "uuid": "0c04bc1c-ea92-4247-bbd2-f2ec215472d7",
+                    "value": 1
+                },
+                {
+                    "filterId": "729331a9-05d8-4b0c-b9ea-3eb3db18034a",
+                    "name": "ResultType",
+                    "type": "result",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "a8d4b850-80f0-4273-aafc-03f2de5683b2",
+                    "value": 744
+                },
+                {
+                    "filterId": "729331a9-05d8-4b0c-b9ea-3eb3db18034a",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "ca2a3aac-681d-4493-af55-4032ba20e986",
+                    "value": 1
+                },
+                {
+                    "filterId": "76e3e90a-4eb1-46fa-aa29-57eb92e622d6",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "083a0914-88b4-4256-98a5-31915bda7383",
+                    "value": 7
+                },
+                {
+                    "filterId": "76e3e90a-4eb1-46fa-aa29-57eb92e622d6",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "22722b1b-754a-4e74-9728-fe53ae3198cc",
+                    "value": 1
+                },
+                {
+                    "filterId": "31062a3f-7ed8-491c-ae04-5d56d28a70e8",
+                    "name": "InputPositionUnit",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "aa59380d-0269-4baf-8b76-115b67044d46",
+                    "value": 0
+                },
+                {
+                    "filterId": "31062a3f-7ed8-491c-ae04-5d56d28a70e8",
+                    "name": "Result",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "1e02a566-443a-498d-8579-15db04494d1d",
+                    "value": 0
+                },
+                {
+                    "filterId": "31062a3f-7ed8-491c-ae04-5d56d28a70e8",
+                    "name": "InputContourType",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "d87fdb35-6849-4980-a7b1-67bfeab002f9",
+                    "value": 1
+                },
+                {
+                    "filterId": "31062a3f-7ed8-491c-ae04-5d56d28a70e8",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "3bbf7892-b126-456a-97a9-85ee597584fd",
+                    "value": 4
+                },
+                {
+                    "filterId": "44e38d0a-60d2-4255-9aa0-5ec57f275736",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "ec49e64e-c956-4c16-9da5-194f0c315497",
+                    "value": 1
+                },
+                {
+                    "filterId": "44e38d0a-60d2-4255-9aa0-5ec57f275736",
+                    "name": "ResultType",
+                    "type": "result",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "e52d2a15-7b2b-42e6-a0f9-c4344d1285c8",
+                    "value": 745
+                },
+                {
+                    "filterId": "3da5fd2d-2987-4721-b20f-861334df5853",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "86009ad1-81f1-4c1c-9032-d7ca976eba18",
+                    "value": 0
+                },
+                {
+                    "filterId": "3da5fd2d-2987-4721-b20f-861334df5853",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "653215a1-c9c2-47ac-ba99-d81030d756aa",
+                    "value": 1
+                },
+                {
+                    "filterId": "a4dcd64f-806b-47c2-a67b-a3f2e47e7a4a",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "6de00217-3a16-4e0b-8e9d-126ba3c001e9",
+                    "value": 1
+                },
+                {
+                    "filterId": "a4dcd64f-806b-47c2-a67b-a3f2e47e7a4a",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "6ed65be3-1063-4ee2-a672-66379e1f820d",
+                    "value": 0
+                },
+                {
+                    "filterId": "8aa52f70-ccce-495f-a4f9-b789887d611e",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "2def49ef-7cd4-4954-9f1d-50b75208d717",
+                    "value": 2
+                },
+                {
+                    "filterId": "8aa52f70-ccce-495f-a4f9-b789887d611e",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "9ea22fe8-ea0f-44e9-88e9-842dd616269c",
+                    "value": 255
+                },
+                {
+                    "filterId": "8aa52f70-ccce-495f-a4f9-b789887d611e",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "4f4934ba-a0d5-4f07-a4c4-9832b7b6550b",
+                    "value": 1
+                },
+                {
+                    "filterId": "733cedac-e6f1-4076-bb96-b8b291096ac2",
+                    "name": "GridSize",
+                    "type": "double",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "5db9e8d7-7bb7-4d20-b71c-68e3300af3b9",
+                    "value": 1
+                },
+                {
+                    "filterId": "733cedac-e6f1-4076-bb96-b8b291096ac2",
+                    "name": "sensorid",
+                    "type": "int",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "9fedd47a-4232-44ea-a159-8576b7ed1a2a",
+                    "value": 1
+                },
+                {
+                    "filterId": "733cedac-e6f1-4076-bb96-b8b291096ac2",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "9778de84-92af-42f9-b0c1-b8225182cfc6",
+                    "value": 1
+                },
+                {
+                    "filterId": "89727eb7-f817-4757-ae2d-ba1c92cdb00c",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "9e482e53-a2e4-482d-8a36-3eb96043d8f2",
+                    "value": 0
+                },
+                {
+                    "filterId": "89727eb7-f817-4757-ae2d-ba1c92cdb00c",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "36995bf7-1d3e-4a3d-97cc-c5e97c2d78b2",
+                    "value": 1
+                },
+                {
+                    "filterId": "7b7f3cff-3235-41f7-97dd-bec8a586e51d",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "8b573284-47a0-4958-bb32-2cd3d36307e6",
+                    "value": 8
+                },
+                {
+                    "filterId": "7b7f3cff-3235-41f7-97dd-bec8a586e51d",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "79735203-e1e0-41c0-a1b9-96eb402bfb89",
+                    "value": 1
+                },
+                {
+                    "filterId": "be2b7ff3-e6e1-42a8-beb5-c156bc2a59fc",
+                    "name": "Constant",
+                    "type": "enum",
+                    "typeId": "0dcc8697-aed5-4f3f-86aa-66f843e0502a",
+                    "uuid": "a539a790-1669-4070-b2db-56716003ce75",
+                    "value": 5
+                },
+                {
+                    "filterId": "be2b7ff3-e6e1-42a8-beb5-c156bc2a59fc",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "0dcc8697-aed5-4f3f-86aa-66f843e0502a",
+                    "uuid": "cea643f0-5887-44eb-9fb2-d20cbecdce2d",
+                    "value": 1
+                },
+                {
+                    "filterId": "40f59145-fbf2-45d8-8c94-e39dd3fde80e",
+                    "name": "InputContourType",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "bcad5427-3c4f-4a30-b881-5b3bd1c25f70",
+                    "value": 1
+                },
+                {
+                    "filterId": "40f59145-fbf2-45d8-8c94-e39dd3fde80e",
+                    "name": "InputPositionUnit",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "ba3f4570-67b0-4c5f-92b8-875716241d00",
+                    "value": 0
+                },
+                {
+                    "filterId": "40f59145-fbf2-45d8-8c94-e39dd3fde80e",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "a3586ed7-110c-4658-b2b7-ae23c674ef89",
+                    "value": 1
+                },
+                {
+                    "filterId": "40f59145-fbf2-45d8-8c94-e39dd3fde80e",
+                    "name": "Result",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "c5171aed-e5d2-409a-a3b2-cdd76565e1bf",
+                    "value": 1
+                },
+                {
+                    "filterId": "09efa715-e3ec-4ed2-85bb-fa559580470b",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "aa478021-916a-4d11-9f89-3be97b4fde76",
+                    "value": 7
+                },
+                {
+                    "filterId": "09efa715-e3ec-4ed2-85bb-fa559580470b",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "d8326c60-8fa7-4f14-9b1c-aac598f118a1",
+                    "value": 1
+                }
+            ],
+            "uuid": "97917e70-0edc-41c5-87e3-331cfced81ac"
+        },
+        {
+            "parameters": [
+                {
+                    "filterId": "a2c3fa85-ce0f-4a3f-8b2e-1972b0b14cc0",
+                    "name": "ResultType",
+                    "type": "result",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "c6c91cd1-bfe6-43f2-81d9-9207eef10fae",
+                    "value": 745
+                },
+                {
+                    "filterId": "a2c3fa85-ce0f-4a3f-8b2e-1972b0b14cc0",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "19db086d-5926-41f3-a769-f0f2ee365218",
+                    "value": 1
+                },
+                {
+                    "filterId": "590a8908-1f2f-400c-a460-1aa207e400a8",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "d0c1d935-0fe2-4283-bd36-4faf4f533860",
+                    "value": 1
+                },
+                {
+                    "filterId": "590a8908-1f2f-400c-a460-1aa207e400a8",
+                    "name": "sensorid",
+                    "type": "sensor",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "f8e5ae76-ba94-4424-87b5-52a849c01deb",
+                    "value": 10028
+                },
+                {
+                    "filterId": "590a8908-1f2f-400c-a460-1aa207e400a8",
+                    "name": "DefaultValue",
+                    "type": "int",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "6de76355-d3ab-4c93-b91f-642fffd28cea",
+                    "value": 100
+                },
+                {
+                    "filterId": "b2f6e1a5-34f2-4537-b0f0-30de1b0591ec",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "09efdf60-e719-46a3-8d77-82fe0e9ae1f3",
+                    "value": 1
+                },
+                {
+                    "filterId": "b2f6e1a5-34f2-4537-b0f0-30de1b0591ec",
+                    "name": "DefaultValue",
+                    "type": "int",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "d9ebb0cd-cf13-4cf2-935e-a0375661b52e",
+                    "value": 100
+                },
+                {
+                    "filterId": "b2f6e1a5-34f2-4537-b0f0-30de1b0591ec",
+                    "name": "sensorid",
+                    "type": "sensor",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "a4b69764-3d01-47cd-9657-c9f2aa86c463",
+                    "value": 10033
+                },
+                {
+                    "filterId": "da514328-e8a6-4b45-8ab6-3b22565c3afe",
+                    "name": "sensorid",
+                    "type": "int",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "35e6fc43-2fa7-4127-9797-7c2c8396630f",
+                    "value": 1
+                },
+                {
+                    "filterId": "da514328-e8a6-4b45-8ab6-3b22565c3afe",
+                    "name": "GridSize",
+                    "type": "double",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "1e2ec6c6-1be1-4033-bdc1-7e9fe4f695c6",
+                    "value": 1
+                },
+                {
+                    "filterId": "da514328-e8a6-4b45-8ab6-3b22565c3afe",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "bb6e892b-c5cd-41e1-b54f-a2a0ab3142cc",
+                    "value": 1
+                },
+                {
+                    "filterId": "bc936600-c803-44dd-8e76-45ed1281b1e0",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "f468ef16-78c8-47a1-9b24-65b5a74781a5",
+                    "value": 2
+                },
+                {
+                    "filterId": "bc936600-c803-44dd-8e76-45ed1281b1e0",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "e7d13c2a-7217-43ab-9067-cf52a18fe271",
+                    "value": 255
+                },
+                {
+                    "filterId": "bc936600-c803-44dd-8e76-45ed1281b1e0",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "43c1d3e9-0bab-43ce-ab7d-de314375de4e",
+                    "value": 1
+                },
+                {
+                    "filterId": "427e114c-47c5-4b87-9a8b-56f99b5097ab",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "51806d3a-07ba-43ab-a09d-ef26142f4377",
+                    "value": 1
+                },
+                {
+                    "filterId": "427e114c-47c5-4b87-9a8b-56f99b5097ab",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "7dff4165-ee82-46ef-a616-fe450a7c6241",
+                    "value": 0
+                },
+                {
+                    "filterId": "d7d3ce0e-2ee8-460a-a892-591fc2c4cfb4",
+                    "name": "Result",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "be4bf732-c40e-43b6-91cc-353c3784e611",
+                    "value": 1
+                },
+                {
+                    "filterId": "d7d3ce0e-2ee8-460a-a892-591fc2c4cfb4",
+                    "name": "InputPositionUnit",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "4c80d0af-5b0d-4bdd-bd2d-8015eeaa0a89",
+                    "value": 0
+                },
+                {
+                    "filterId": "d7d3ce0e-2ee8-460a-a892-591fc2c4cfb4",
+                    "name": "InputContourType",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "6c203025-756b-4e62-9490-89c7976dd85a",
+                    "value": 1
+                },
+                {
+                    "filterId": "d7d3ce0e-2ee8-460a-a892-591fc2c4cfb4",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "b6c74d70-d78f-4ad0-b319-e48be23498b8",
+                    "value": 4
+                },
+                {
+                    "filterId": "1810edab-2beb-46b4-813e-5a86d60f892e",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "b093dc5a-4c7e-492a-a7bf-15b51588d107",
+                    "value": 255
+                },
+                {
+                    "filterId": "1810edab-2beb-46b4-813e-5a86d60f892e",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "56493814-eab7-47f6-a970-22a34982215c",
+                    "value": 2
+                },
+                {
+                    "filterId": "1810edab-2beb-46b4-813e-5a86d60f892e",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "e20e7b37-6c0f-4701-aaeb-def57ed4e92d",
+                    "value": 1
+                },
+                {
+                    "filterId": "caf7c391-1bb3-40dd-8c71-5b6748c6cd0c",
+                    "name": "Constant",
+                    "type": "enum",
+                    "typeId": "0dcc8697-aed5-4f3f-86aa-66f843e0502a",
+                    "uuid": "d320ba9a-5c20-492d-a73b-01a0a1e21cfa",
+                    "value": 5
+                },
+                {
+                    "filterId": "caf7c391-1bb3-40dd-8c71-5b6748c6cd0c",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "0dcc8697-aed5-4f3f-86aa-66f843e0502a",
+                    "uuid": "0bc06cfd-323a-479e-8ec0-a5589ea27f8d",
+                    "value": 1
+                },
+                {
+                    "filterId": "21bbc2bb-7b7e-48b8-98ca-6006d78237d1",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "e1e75923-0b95-4a59-b7a6-0c70c46e5b98",
+                    "value": 1
+                },
+                {
+                    "filterId": "21bbc2bb-7b7e-48b8-98ca-6006d78237d1",
+                    "name": "ResultType",
+                    "type": "result",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "6b77462c-0006-4dbe-af7d-5055ae5c9526",
+                    "value": 744
+                },
+                {
+                    "filterId": "e873068f-c529-4ad1-b908-650f27e4255d",
+                    "name": "Constant",
+                    "type": "enum",
+                    "typeId": "0dcc8697-aed5-4f3f-86aa-66f843e0502a",
+                    "uuid": "df308f8d-d012-4487-89ed-ea26598c34a7",
+                    "value": 5
+                },
+                {
+                    "filterId": "e873068f-c529-4ad1-b908-650f27e4255d",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "0dcc8697-aed5-4f3f-86aa-66f843e0502a",
+                    "uuid": "0ddc57e2-91eb-4189-b40b-ef8a85d64e97",
+                    "value": 1
+                },
+                {
+                    "filterId": "f3db21be-a98b-49d5-b1cb-6b69005093a4",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "2d2d51fd-625d-4ef2-bdf6-c742c30e9df0",
+                    "uuid": "bdf02519-39bc-41b4-93e6-01c67ab1e39b",
+                    "value": 1
+                },
+                {
+                    "filterId": "f3db21be-a98b-49d5-b1cb-6b69005093a4",
+                    "name": "Slot",
+                    "type": "uint",
+                    "typeId": "2d2d51fd-625d-4ef2-bdf6-c742c30e9df0",
+                    "uuid": "fa3f0db7-1d66-47eb-a250-9ee71747081a",
+                    "value": 4
+                },
+                {
+                    "filterId": "56fd9739-dc10-448f-b77e-71a44c49fd56",
+                    "name": "Slot",
+                    "type": "uint",
+                    "typeId": "355eb4d9-a094-4038-9606-ad771a162aa6",
+                    "uuid": "3f2a2f55-e970-4e68-81ca-6bba23b45cef",
+                    "value": 1
+                },
+                {
+                    "filterId": "56fd9739-dc10-448f-b77e-71a44c49fd56",
+                    "name": "DataOffset",
+                    "type": "int",
+                    "typeId": "355eb4d9-a094-4038-9606-ad771a162aa6",
+                    "uuid": "b7f41a0a-f4cc-459c-a09b-8081c85381d3",
+                    "value": 0
+                },
+                {
+                    "filterId": "56fd9739-dc10-448f-b77e-71a44c49fd56",
+                    "name": "SeamOffset",
+                    "type": "int",
+                    "typeId": "355eb4d9-a094-4038-9606-ad771a162aa6",
+                    "uuid": "731479bd-60c4-4185-a120-9c0664898c26",
+                    "value": -1
+                },
+                {
+                    "filterId": "56fd9739-dc10-448f-b77e-71a44c49fd56",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "355eb4d9-a094-4038-9606-ad771a162aa6",
+                    "uuid": "8263128f-5113-4a53-a92e-cdfe370eb64a",
+                    "value": 1
+                },
+                {
+                    "filterId": "b7501778-a6a4-4a1a-9f89-91213062eaee",
+                    "name": "DefaultValue",
+                    "type": "int",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "9f2cfdac-5b6c-43c3-a3ea-14920726a52d",
+                    "value": 100
+                },
+                {
+                    "filterId": "b7501778-a6a4-4a1a-9f89-91213062eaee",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "4a9a29d6-d601-4a9c-9549-beabccd38ddf",
+                    "value": 1
+                },
+                {
+                    "filterId": "b7501778-a6a4-4a1a-9f89-91213062eaee",
+                    "name": "sensorid",
+                    "type": "sensor",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "c5733236-d91e-46bb-94cc-fd0f1b0d5b33",
+                    "value": 10032
+                },
+                {
+                    "filterId": "c783aad7-2a26-4385-b31c-9cb7a5d063bf",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "46b8f8f6-d08d-4a4a-8612-327b1bdecffb",
+                    "value": 1
+                },
+                {
+                    "filterId": "c783aad7-2a26-4385-b31c-9cb7a5d063bf",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "9137efb0-d43d-4dda-a993-5c91f014be83",
+                    "value": 1000
+                },
+                {
+                    "filterId": "c783aad7-2a26-4385-b31c-9cb7a5d063bf",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "c03a74ba-dc1d-4ded-98fc-9a712b1b3667",
+                    "value": 3
+                },
+                {
+                    "filterId": "edbddb17-7a02-4e92-a08c-a1ab6f649fe8",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "3753431b-e805-4063-be67-22cdb0554c91",
+                    "value": 1
+                },
+                {
+                    "filterId": "edbddb17-7a02-4e92-a08c-a1ab6f649fe8",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "148ee1de-6603-47cf-8b3d-b97b7a2e16a2",
+                    "value": 7
+                },
+                {
+                    "filterId": "65e0d07c-828c-40c9-a1e6-b26bb794691c",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "a8555fef-622c-4b62-81a1-84fe6a7e7c9d",
+                    "value": 1
+                },
+                {
+                    "filterId": "65e0d07c-828c-40c9-a1e6-b26bb794691c",
+                    "name": "ResultType",
+                    "type": "result",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "dcd36f68-e590-47df-9edc-d4702a85e630",
+                    "value": 736
+                },
+                {
+                    "filterId": "3285e3bd-35b0-41b6-b44c-c9b96fc45617",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "b6dc5573-eb8b-4f30-a196-7b5436c424ab",
+                    "value": 1
+                },
+                {
+                    "filterId": "3285e3bd-35b0-41b6-b44c-c9b96fc45617",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "13b7b4c8-aa4e-4de6-87fc-870e1e934ccb",
+                    "value": 8
+                },
+                {
+                    "filterId": "3285e3bd-35b0-41b6-b44c-c9b96fc45617",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "e64e58f4-5b2f-4c3f-9382-8c3eeac1be1b",
+                    "value": 1
+                },
+                {
+                    "filterId": "aa35e06f-f4f4-4d99-ac57-d063f8a46bbe",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "d07b7d42-a5fd-43c8-b51b-d5c56c03285b",
+                    "uuid": "50c42cac-bf81-4994-a256-66f3e859331f",
+                    "value": 3
+                },
+                {
+                    "filterId": "aa35e06f-f4f4-4d99-ac57-d063f8a46bbe",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "d07b7d42-a5fd-43c8-b51b-d5c56c03285b",
+                    "uuid": "6248363e-7454-4429-a78c-8f6ec2bdadf6",
+                    "value": 1
+                },
+                {
+                    "filterId": "a09913f0-ced5-4eca-8362-d86ee9739aa4",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "15f53428-bbfd-4c32-ae26-c209ea78b93e",
+                    "value": 0
+                },
+                {
+                    "filterId": "a09913f0-ced5-4eca-8362-d86ee9739aa4",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "773d9e46-ad2c-44f7-a2c9-c752447821c8",
+                    "value": 1
+                },
+                {
+                    "filterId": "c033e7c7-e566-41f7-9067-d9a8ad74de0e",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "5fcff0d5-fc75-4cd8-b8b5-19e23ef2311f",
+                    "value": 1
+                },
+                {
+                    "filterId": "c033e7c7-e566-41f7-9067-d9a8ad74de0e",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "78eea48c-6f95-4194-87df-835887763ab4",
+                    "value": 7
+                }
+            ],
+            "uuid": "8f977e53-7127-423f-aeb2-f32e03427580"
+        },
+        {
+            "parameters": [
+                {
+                    "filterId": "1332a8cb-d2a3-4c02-a9c0-96972ec3b47e",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "b5aa8cd3-8afd-44ee-a747-0d5a4a85b674",
+                    "value": 1
+                },
+                {
+                    "filterId": "1332a8cb-d2a3-4c02-a9c0-96972ec3b47e",
+                    "name": "DefaultValue",
+                    "type": "int",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "dc40e728-4843-4f59-b909-c7c60611fdd9",
+                    "value": 100
+                },
+                {
+                    "filterId": "1332a8cb-d2a3-4c02-a9c0-96972ec3b47e",
+                    "name": "sensorid",
+                    "type": "sensor",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "c9c3c307-1077-41c0-adf0-41f25ae9739f",
+                    "value": 10032
+                },
+                {
+                    "filterId": "6f2ffda2-b6c0-4587-b673-76c84a39a343",
+                    "name": "GridSize",
+                    "type": "double",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "29500088-fc6d-4c8c-a409-96409ddd9918",
+                    "value": 1
+                },
+                {
+                    "filterId": "6f2ffda2-b6c0-4587-b673-76c84a39a343",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "9a755a97-a689-4035-9f05-1e95dfcf03bc",
+                    "value": 1
+                },
+                {
+                    "filterId": "6f2ffda2-b6c0-4587-b673-76c84a39a343",
+                    "name": "sensorid",
+                    "type": "int",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "ea89217a-099b-4775-9dbd-c560a5fb14f2",
+                    "value": 1
+                },
+                {
+                    "filterId": "86a603ac-0478-4d86-8660-bb4d965cbe7b",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "0af32e2c-398f-44af-b673-1d1a451cc18b",
+                    "value": 2.27
+                },
+                {
+                    "filterId": "86a603ac-0478-4d86-8660-bb4d965cbe7b",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "f4ba4515-555b-46ce-a72d-d365663f0f6c",
+                    "value": 1
+                },
+                {
+                    "filterId": "5e7b7a44-84ce-4409-88ec-18a472b4cdd5",
+                    "name": "sensorid",
+                    "type": "sensor",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "4cc9de43-c048-4c3a-8afe-ca0c39b098cd",
+                    "value": 10033
+                },
+                {
+                    "filterId": "5e7b7a44-84ce-4409-88ec-18a472b4cdd5",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "688857f7-aa7b-40aa-b1a4-3b3a8dc24d6c",
+                    "value": 1
+                },
+                {
+                    "filterId": "5e7b7a44-84ce-4409-88ec-18a472b4cdd5",
+                    "name": "DefaultValue",
+                    "type": "int",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "5024c03e-25fe-447b-a1de-b65f9aa5cd7e",
+                    "value": 100
+                },
+                {
+                    "filterId": "6f3410bf-f8a5-4797-a508-6e5685111e8f",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "a6323da3-d4fd-41bf-9706-0fd2f923aa40",
+                    "value": 1
+                },
+                {
+                    "filterId": "6f3410bf-f8a5-4797-a508-6e5685111e8f",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "182be9bd-a66a-4b76-954e-2f5b5782bc28",
+                    "value": 2
+                },
+                {
+                    "filterId": "6f3410bf-f8a5-4797-a508-6e5685111e8f",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "a87bb6e3-e817-4bdf-8415-12b79820f05b",
+                    "value": -1
+                },
+                {
+                    "filterId": "8bfdabd0-5edf-4237-9dc7-e603514adc42",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "27bce186-5cf2-430a-824c-ca2478abbde8",
+                    "value": 1
+                },
+                {
+                    "filterId": "8bfdabd0-5edf-4237-9dc7-e603514adc42",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "4fdd6537-777d-43f1-b436-a87ed5bb494e",
+                    "value": 0
+                },
+                {
+                    "filterId": "8bfdabd0-5edf-4237-9dc7-e603514adc42",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "dcf3f7da-082b-41a5-bf2b-4ad9248f4094",
+                    "value": 0
+                },
+                {
+                    "filterId": "1fecc3d7-4939-4071-a083-c8c36d8b9db0",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "59a41368-c506-44ca-af15-3ee25e624c6a",
+                    "value": 1
+                },
+                {
+                    "filterId": "1fecc3d7-4939-4071-a083-c8c36d8b9db0",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "0c0088f7-aeb8-4c79-ae3c-974930ee5c6c",
+                    "value": 100
+                },
+                {
+                    "filterId": "1fecc3d7-4939-4071-a083-c8c36d8b9db0",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "cdbe3ff0-c5c4-40cc-b258-1bf87f158e22",
+                    "value": 2
+                },
+                {
+                    "filterId": "8146d495-fa4e-4e20-bd8c-b23e1d83f42b",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "70e88b15-3f7c-4860-8084-3a79f38a027e",
+                    "value": 1
+                },
+                {
+                    "filterId": "8146d495-fa4e-4e20-bd8c-b23e1d83f42b",
+                    "name": "ResultType",
+                    "type": "result",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "815ef40c-2d19-4018-84ef-cbf2951fe851",
+                    "value": 738
+                },
+                {
+                    "filterId": "393c7f70-2c63-4e94-a336-505cb813a68b",
+                    "name": "DefaultValue",
+                    "type": "int",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "73ebc14e-9a68-4769-b796-7805d20a1713",
+                    "value": 0
+                },
+                {
+                    "filterId": "393c7f70-2c63-4e94-a336-505cb813a68b",
+                    "name": "sensorid",
+                    "type": "sensor",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "c328feff-375e-4b92-9077-09797191e0f8",
+                    "value": 10035
+                },
+                {
+                    "filterId": "393c7f70-2c63-4e94-a336-505cb813a68b",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "3d6863f0-99e3-4e34-a092-0ab6b31d8218",
+                    "value": 1
+                },
+                {
+                    "filterId": "45513dba-662b-4695-995a-e531a516389c",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "240519c4-c988-4ac4-95fe-c963d1d3dfb1",
+                    "value": 10000
+                },
+                {
+                    "filterId": "45513dba-662b-4695-995a-e531a516389c",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "a5817805-4fb5-4b7e-ae5a-6563164b56c1",
+                    "value": 2
+                },
+                {
+                    "filterId": "45513dba-662b-4695-995a-e531a516389c",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "926951a5-9d71-4097-91aa-4b6a20dbe4da",
+                    "value": 1
+                },
+                {
+                    "filterId": "9be04b64-e118-48f8-a5ff-7e72f84723af",
+                    "name": "ResultType",
+                    "type": "result",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "5c0982b8-46ad-4854-86ef-61b799da2d55",
+                    "value": 739
+                },
+                {
+                    "filterId": "9be04b64-e118-48f8-a5ff-7e72f84723af",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "8ce1d29f-da06-485c-a01f-db5a5c547248",
+                    "value": 1
+                },
+                {
+                    "filterId": "95d6ff6e-bf37-4893-8120-f55a8eee3dc0",
+                    "name": "DefaultValue",
+                    "type": "int",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "8b7c8781-8b65-4f19-8b23-2b78e8dccaa5",
+                    "value": 0
+                },
+                {
+                    "filterId": "95d6ff6e-bf37-4893-8120-f55a8eee3dc0",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "e8ada9e8-1cbd-4997-b0f6-c62889558cb5",
+                    "value": 1
+                },
+                {
+                    "filterId": "95d6ff6e-bf37-4893-8120-f55a8eee3dc0",
+                    "name": "sensorid",
+                    "type": "sensor",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "00f572b4-e7a1-4d6b-afc1-e7ac042d9b48",
+                    "value": 10037
+                },
+                {
+                    "filterId": "e5f8bfae-0ca9-40f0-b442-39ae720e599f",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "9e848101-43bc-4f1f-b6a2-78d0fd4d483d",
+                    "value": 3
+                },
+                {
+                    "filterId": "e5f8bfae-0ca9-40f0-b442-39ae720e599f",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "c691a02d-d2bc-4417-a7bf-c0f9004ca41a",
+                    "value": 32768
+                },
+                {
+                    "filterId": "e5f8bfae-0ca9-40f0-b442-39ae720e599f",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "4978e1d0-cc06-4ff3-9b5c-ee9868051086",
+                    "value": 1
+                },
+                {
+                    "filterId": "d5bf31b7-9504-43cd-be0c-de08bbc8147e",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "cb94568e-76d0-437a-818e-895fd7d7c90e",
+                    "value": 0
+                },
+                {
+                    "filterId": "d5bf31b7-9504-43cd-be0c-de08bbc8147e",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "5019904c-0911-4e1f-a660-6819591f9dba",
+                    "value": 2
+                },
+                {
+                    "filterId": "053b1fc1-e5a5-4d6f-ac33-4b73bf2753c1",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "b47c56bb-d86f-499f-a71a-641e878646e7",
+                    "value": 1
+                },
+                {
+                    "filterId": "053b1fc1-e5a5-4d6f-ac33-4b73bf2753c1",
+                    "name": "ResultType",
+                    "type": "result",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "d37fe5b9-7ee9-4e19-8594-44af5f4f88c8",
+                    "value": 745
+                },
+                {
+                    "filterId": "01ecf790-6af4-4491-b86a-abd6e83da541",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "d473bb7b-3175-43ee-8381-28b779dfe83c",
+                    "value": 1
+                },
+                {
+                    "filterId": "01ecf790-6af4-4491-b86a-abd6e83da541",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "d23d6343-72a3-4e68-a5ff-6f73c4e858dd",
+                    "value": 100
+                },
+                {
+                    "filterId": "01ecf790-6af4-4491-b86a-abd6e83da541",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "8039a802-a319-41ae-a974-9ec6fdb33e87",
+                    "value": 2
+                },
+                {
+                    "filterId": "998994ab-bf60-4aea-bddb-90ec00087f89",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "24dd8d90-e32b-49ea-9f17-1851c4ae51df",
+                    "value": 2
+                },
+                {
+                    "filterId": "998994ab-bf60-4aea-bddb-90ec00087f89",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "b5383796-7b68-48e0-bb60-016480461337",
+                    "value": 0
+                },
+                {
+                    "filterId": "ebf6d375-4c4d-47c5-805c-506f1b8c2a7a",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "480aa8df-6dc2-4802-90bd-8f2fe907c8bc",
+                    "value": 1
+                },
+                {
+                    "filterId": "ebf6d375-4c4d-47c5-805c-506f1b8c2a7a",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "5a72b3cb-cdda-4690-82fa-9fb659e918e6",
+                    "value": 0
+                },
+                {
+                    "filterId": "3dc42d2e-8f88-4ddb-9c65-7838042f5917",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "d9c7f6b2-33c8-4ec6-8977-7c2f3a326ae1",
+                    "value": 0
+                },
+                {
+                    "filterId": "3dc42d2e-8f88-4ddb-9c65-7838042f5917",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "05ab57fc-8276-4050-b757-3831bf7ea816",
+                    "value": 1
+                },
+                {
+                    "filterId": "6b41b8f3-4f3b-43d8-8ea8-2ac787c33c4f",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "1820fd52-e2b0-4f6d-9bbc-42317fc66f9e",
+                    "value": 4000
+                },
+                {
+                    "filterId": "6b41b8f3-4f3b-43d8-8ea8-2ac787c33c4f",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "ed7878d0-8cff-45c9-9368-14c8b6c3b068",
+                    "value": 1
+                },
+                {
+                    "filterId": "29151ad0-718f-439b-8873-18a812d8ba1b",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "16ac888f-1dc6-48a7-8830-4985e626b7b2",
+                    "value": 8
+                },
+                {
+                    "filterId": "29151ad0-718f-439b-8873-18a812d8ba1b",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "667cfa4d-d214-4edb-b5b2-a1fecb9e61e2",
+                    "value": 1
+                },
+                {
+                    "filterId": "b42dc5ed-11f4-49aa-a87d-dcf38f7c98df",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "b6f7f906-0674-462a-8ac6-a7feab52819f",
+                    "value": 1
+                },
+                {
+                    "filterId": "b42dc5ed-11f4-49aa-a87d-dcf38f7c98df",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "bfb4ded4-4843-406f-9317-1a3762b94387",
+                    "value": 2
+                },
+                {
+                    "filterId": "e51829fc-9383-43e3-9135-808952a5b42d",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "345b0db8-d9b1-4448-b9e7-806a744453bf",
+                    "value": 100
+                },
+                {
+                    "filterId": "e51829fc-9383-43e3-9135-808952a5b42d",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "18531175-2e33-456a-a9e0-a0b3a232bfc2",
+                    "value": 1
+                },
+                {
+                    "filterId": "e51829fc-9383-43e3-9135-808952a5b42d",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "87a13108-5408-4ed8-a628-5c9e36efb267",
+                    "value": 2
+                },
+                {
+                    "filterId": "baac57bc-fab0-4080-9dee-ec6f8c335144",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "0b2a1c11-0d94-4739-acf3-58663c8018de",
+                    "value": 3
+                },
+                {
+                    "filterId": "baac57bc-fab0-4080-9dee-ec6f8c335144",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "c8e593bd-d8a2-4993-b2cf-959748209151",
+                    "value": 32768
+                },
+                {
+                    "filterId": "baac57bc-fab0-4080-9dee-ec6f8c335144",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "5a778401-908a-4801-841e-3f226993a669",
+                    "value": 1
+                },
+                {
+                    "filterId": "201ac055-7777-434e-8657-c2979319a4f7",
+                    "name": "sensorid",
+                    "type": "sensor",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "2d267f3d-a45e-483e-be1a-2baf7a709df3",
+                    "value": 10034
+                },
+                {
+                    "filterId": "201ac055-7777-434e-8657-c2979319a4f7",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "3ab3c395-f911-467d-9d82-0359751c22d1",
+                    "value": 1
+                },
+                {
+                    "filterId": "201ac055-7777-434e-8657-c2979319a4f7",
+                    "name": "DefaultValue",
+                    "type": "int",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "971a7527-d35c-4793-bdef-fb4d2094f363",
+                    "value": 0
+                },
+                {
+                    "filterId": "2a872e01-aa4a-468b-8058-139d96e17856",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "7c7b1b04-efa9-4295-b867-9065dd4727bc",
+                    "value": 3
+                },
+                {
+                    "filterId": "2a872e01-aa4a-468b-8058-139d96e17856",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "fa4dc0df-0807-4c9a-b7c3-f06545308432",
+                    "value": 1
+                },
+                {
+                    "filterId": "a144456c-2a96-4f1f-99eb-46670483dd78",
+                    "name": "Slot",
+                    "type": "uint",
+                    "typeId": "355eb4d9-a094-4038-9606-ad771a162aa6",
+                    "uuid": "2f146818-0e35-44f1-977a-873b0036759d",
+                    "value": 1
+                },
+                {
+                    "filterId": "a144456c-2a96-4f1f-99eb-46670483dd78",
+                    "name": "SeamOffset",
+                    "type": "int",
+                    "typeId": "355eb4d9-a094-4038-9606-ad771a162aa6",
+                    "uuid": "fdfde5e2-6dc6-498a-aa84-6302aae1733d",
+                    "value": -2
+                },
+                {
+                    "filterId": "a144456c-2a96-4f1f-99eb-46670483dd78",
+                    "name": "DataOffset",
+                    "type": "int",
+                    "typeId": "355eb4d9-a094-4038-9606-ad771a162aa6",
+                    "uuid": "86d3563f-ef16-4eda-abce-133b6540d263",
+                    "value": 0
+                },
+                {
+                    "filterId": "a144456c-2a96-4f1f-99eb-46670483dd78",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "355eb4d9-a094-4038-9606-ad771a162aa6",
+                    "uuid": "60551149-e0aa-42d9-afc8-3188410fd862",
+                    "value": 1
+                },
+                {
+                    "filterId": "7e8a6b39-16e2-4ec6-b9d0-9dc56b87a335",
+                    "name": "ResultType",
+                    "type": "result",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "2fc86618-d023-46bf-8d42-0ae9a61ebc06",
+                    "value": 744
+                },
+                {
+                    "filterId": "7e8a6b39-16e2-4ec6-b9d0-9dc56b87a335",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "284e1b5c-3008-4a22-97af-7be850a69e87",
+                    "value": 1
+                },
+                {
+                    "filterId": "df3ebfeb-cddf-4817-b663-218bf5a490b2",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "e716cbd5-9504-4cc9-8e09-f8565f362260",
+                    "value": 3
+                },
+                {
+                    "filterId": "df3ebfeb-cddf-4817-b663-218bf5a490b2",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "8916b7ec-17b7-4619-be85-dbef4f9605af",
+                    "value": 32768
+                },
+                {
+                    "filterId": "df3ebfeb-cddf-4817-b663-218bf5a490b2",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "567c1fe3-32fb-4d4d-abc8-2e74bf86c4eb",
+                    "value": 1
+                },
+                {
+                    "filterId": "9d49ded5-73e5-4b48-aaa8-91f2935968d9",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "e2942aa1-c7a2-4c3e-bd4d-2a305068d3d8",
+                    "value": 1
+                },
+                {
+                    "filterId": "9d49ded5-73e5-4b48-aaa8-91f2935968d9",
+                    "name": "ResultType",
+                    "type": "result",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "ab3ba081-a3bc-4e5f-a5f7-b6f1b4910f02",
+                    "value": 743
+                },
+                {
+                    "filterId": "a7205e4a-0b66-4364-9e37-cb1c9997428f",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "a1ad4018-ecf1-42ca-a06c-78c6e502652c",
+                    "value": 1
+                },
+                {
+                    "filterId": "a7205e4a-0b66-4364-9e37-cb1c9997428f",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "8e44ac38-764d-43c4-b888-95462a6eed13",
+                    "value": 32768
+                },
+                {
+                    "filterId": "a7205e4a-0b66-4364-9e37-cb1c9997428f",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "50889f75-dbfb-4995-8602-331fee226565",
+                    "value": 3
+                },
+                {
+                    "filterId": "cc1361cd-5aa4-4dd3-8109-a15af6af8213",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "dc9a408d-bfc7-4bbe-85db-373b0a4834b6",
+                    "value": 1
+                },
+                {
+                    "filterId": "cc1361cd-5aa4-4dd3-8109-a15af6af8213",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "ae0e679a-d838-4547-b7a6-40a38b34c3a3",
+                    "value": 1
+                },
+                {
+                    "filterId": "cc1361cd-5aa4-4dd3-8109-a15af6af8213",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "22eb49cd-7e80-435b-894a-50e00cb4a119",
+                    "value": 0
+                },
+                {
+                    "filterId": "aff75331-e110-4afc-85da-f06da1b01314",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "b6e979dd-f53a-496a-8bf0-60aa68df9ab9",
+                    "value": 2
+                },
+                {
+                    "filterId": "aff75331-e110-4afc-85da-f06da1b01314",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "13124e52-a92a-4c22-bbc4-94785aba6b28",
+                    "value": 0
+                },
+                {
+                    "filterId": "474d53af-4e5c-4eba-a286-db11f92e76b9",
+                    "name": "Constant",
+                    "type": "enum",
+                    "typeId": "0dcc8697-aed5-4f3f-86aa-66f843e0502a",
+                    "uuid": "0e58e76b-9604-4804-88cd-7a05088092b0",
+                    "value": 5
+                },
+                {
+                    "filterId": "474d53af-4e5c-4eba-a286-db11f92e76b9",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "0dcc8697-aed5-4f3f-86aa-66f843e0502a",
+                    "uuid": "a9828fe8-001b-4f04-a0ff-ce1847bafe3e",
+                    "value": 1
+                },
+                {
+                    "filterId": "2cacc594-9298-4327-9fbf-3713b18b930d",
+                    "name": "sensorid",
+                    "type": "sensor",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "c3537532-d72e-484f-84a3-7a06dd1b675d",
+                    "value": 10036
+                },
+                {
+                    "filterId": "2cacc594-9298-4327-9fbf-3713b18b930d",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "21a7daec-af97-4a04-b6b9-95af58fae7f4",
+                    "value": 1
+                },
+                {
+                    "filterId": "2cacc594-9298-4327-9fbf-3713b18b930d",
+                    "name": "DefaultValue",
+                    "type": "int",
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91",
+                    "uuid": "4537a147-e2eb-4e30-8687-9f41211364df",
+                    "value": 0
+                },
+                {
+                    "filterId": "cca4c31c-e432-4de8-9c36-be8f7198d102",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "1e3e3894-69d3-4d94-b359-fb11d8bf7b38",
+                    "value": 1
+                },
+                {
+                    "filterId": "cca4c31c-e432-4de8-9c36-be8f7198d102",
+                    "name": "Value",
+                    "type": "double",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "6e47001d-81e7-4fd7-a8eb-130f48b492d8",
+                    "value": -1
+                },
+                {
+                    "filterId": "cca4c31c-e432-4de8-9c36-be8f7198d102",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d",
+                    "uuid": "2848d173-7d52-4511-b910-db8cbaf04676",
+                    "value": 2
+                },
+                {
+                    "filterId": "9349b064-4ea8-4007-8f85-64125a7cd10a",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "b19caaa0-58fd-4ec2-b781-41465adde6d5",
+                    "value": 3.69
+                },
+                {
+                    "filterId": "9349b064-4ea8-4007-8f85-64125a7cd10a",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "24a40d3c-f19d-4f19-9805-e896c029224f",
+                    "value": 1
+                },
+                {
+                    "filterId": "ac0fdf41-19d5-40eb-a471-84b3bc4cc274",
+                    "name": "InputContourType",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "45b204ea-477f-44e8-8eb5-9ddbb0f62c78",
+                    "value": 1
+                },
+                {
+                    "filterId": "ac0fdf41-19d5-40eb-a471-84b3bc4cc274",
+                    "name": "InputPositionUnit",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "67a93394-bc56-4c85-925c-b0b56f70187a",
+                    "value": 0
+                },
+                {
+                    "filterId": "ac0fdf41-19d5-40eb-a471-84b3bc4cc274",
+                    "name": "Result",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "44d52368-813e-4e70-bbc2-5bf455c93b03",
+                    "value": 0
+                },
+                {
+                    "filterId": "ac0fdf41-19d5-40eb-a471-84b3bc4cc274",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4",
+                    "uuid": "6e111664-e712-4753-8e2b-74743c8840ee",
+                    "value": 4
+                },
+                {
+                    "filterId": "4f5e3a7e-6334-4861-9678-dc38cfe875a7",
+                    "name": "DataOffset",
+                    "type": "int",
+                    "typeId": "04d19f78-3fcf-4443-88c5-e63d8e9249d1",
+                    "uuid": "cee2ce34-945a-4d82-aaef-c401b0ecce19",
+                    "value": 0
+                },
+                {
+                    "filterId": "4f5e3a7e-6334-4861-9678-dc38cfe875a7",
+                    "name": "Slot",
+                    "type": "uint",
+                    "typeId": "04d19f78-3fcf-4443-88c5-e63d8e9249d1",
+                    "uuid": "afc3aa76-f884-4a26-9eb9-12c49ade19d5",
+                    "value": 4
+                },
+                {
+                    "filterId": "4f5e3a7e-6334-4861-9678-dc38cfe875a7",
+                    "name": "SeamOffset",
+                    "type": "int",
+                    "typeId": "04d19f78-3fcf-4443-88c5-e63d8e9249d1",
+                    "uuid": "38ebe019-c557-41f5-8458-ecc3829c125d",
+                    "value": -1
+                },
+                {
+                    "filterId": "4f5e3a7e-6334-4861-9678-dc38cfe875a7",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "04d19f78-3fcf-4443-88c5-e63d8e9249d1",
+                    "uuid": "7461e8df-b980-4a9a-bf76-17d71d82ed9f",
+                    "value": 1
+                },
+                {
+                    "filterId": "fd1da554-4519-40a2-9858-a2921114d2a0",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "1953c30e-eb70-4b59-a31f-6bd9f2892ffe",
+                    "value": 1
+                },
+                {
+                    "filterId": "fd1da554-4519-40a2-9858-a2921114d2a0",
+                    "name": "ResultType",
+                    "type": "result",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "6f51ee22-1925-4489-a376-952c8ab3ea52",
+                    "value": 737
+                },
+                {
+                    "filterId": "5de8d406-a0e1-43d5-b54f-d35a63cf5638",
+                    "name": "Max",
+                    "type": "double",
+                    "typeId": "86bb9a88-1f9e-4ebb-8ac2-4705c912dace",
+                    "uuid": "8896837e-eb5a-45ba-ad32-81517dc217e2",
+                    "value": 1000
+                },
+                {
+                    "filterId": "5de8d406-a0e1-43d5-b54f-d35a63cf5638",
+                    "name": "NioType",
+                    "type": "error",
+                    "typeId": "86bb9a88-1f9e-4ebb-8ac2-4705c912dace",
+                    "uuid": "edb7a608-c6a1-4633-bf00-5112f9a4cfff",
+                    "value": 5030
+                },
+                {
+                    "filterId": "5de8d406-a0e1-43d5-b54f-d35a63cf5638",
+                    "name": "ResultType",
+                    "type": "result",
+                    "typeId": "86bb9a88-1f9e-4ebb-8ac2-4705c912dace",
+                    "uuid": "96536d00-dff2-457d-9dae-61bea84a6ddb",
+                    "value": 107
+                },
+                {
+                    "filterId": "5de8d406-a0e1-43d5-b54f-d35a63cf5638",
+                    "name": "Min",
+                    "type": "double",
+                    "typeId": "86bb9a88-1f9e-4ebb-8ac2-4705c912dace",
+                    "uuid": "53fc635f-7aa1-48aa-afcc-24b42b77ba27",
+                    "value": -1000
+                },
+                {
+                    "filterId": "5de8d406-a0e1-43d5-b54f-d35a63cf5638",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "86bb9a88-1f9e-4ebb-8ac2-4705c912dace",
+                    "uuid": "35922a74-99be-4f88-a455-2af2d3ff1a9f",
+                    "value": 1
+                },
+                {
+                    "filterId": "644f7f72-e63b-492a-9f1a-52c1abcdcf30",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "50e25a1c-dfd1-4c66-8f05-669716a7a964",
+                    "value": 0
+                },
+                {
+                    "filterId": "644f7f72-e63b-492a-9f1a-52c1abcdcf30",
+                    "name": "Operation",
+                    "type": "enum",
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e",
+                    "uuid": "57063362-66bc-47f6-a340-47314da5a0d3",
+                    "value": 2
+                },
+                {
+                    "filterId": "f0c4c8e6-81b1-4ac4-91b9-eb34ad81c80f",
+                    "name": "ResultType",
+                    "type": "result",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "cb2ef300-785a-4a9d-aa6c-1e14c26f1ba2",
+                    "value": 740
+                },
+                {
+                    "filterId": "f0c4c8e6-81b1-4ac4-91b9-eb34ad81c80f",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c",
+                    "uuid": "ecc3a38b-b6ce-4002-802e-946e5899f097",
+                    "value": 1
+                }
+            ],
+            "uuid": "79438e8f-2383-49fa-8ed6-a04630b33bb9"
+        }
+    ],
+    "hardware": {
+        "parameterSet": {
+            "parameters": [
+                    {
+                        "filterId": "00000000-0000-0000-0000-000000000000",
+                        "name": "ProductParameter",
+                        "type": "int",
+                        "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                        "uuid": "64b2628c-e616-4d13-9563-f044ba5fe59a",
+                        "value": 2
+                    }
+            ],
+            "uuid": "a4946749-b293-428d-93cc-e5c0e158e713"
+        },
+        "startPosYAxis": 0
+    },
+    "lengthUnit": "millimeter",
+    "lwmTriggerSignalThreshold": 0,
+    "lwmTriggerSignalType": -1,
+    "name": "Test_Weld",
+    "overlyingError": [
+    ],
+    "presetId": "00000000-0000-0000-0000-000000000000",
+    "qualityNorm": "00000000-0000-0000-0000-000000000000",
+    "seamSeries": [
+        {
+            "graph": "00000000-0000-0000-0000-000000000000",
+            "graphParamSet": "00000000-0000-0000-0000-000000000000",
+            "hardware": {
+                "parameterSet": {
+                    "parameters": [
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "seamSeriesParameter",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "64b2628c-e616-4d13-9563-f044ba5fe59a",
+                                    "value": 2
+                                }
+                    ],
+                    "uuid": "d09af40b-d3d7-47ae-bbe1-a4b44c13d34d"
+                }
+            },
+            "name": "",
+            "number": 0,
+            "overlyingError": [
+            ],
+            "presetId": "00000000-0000-0000-0000-000000000000",
+            "referenceCurves": [
+            ],
+            "seams": [
+                {
+                    "graph": "2a810871-c0df-4742-961a-ab1153704c65",
+                    "graphParamSet": "97917e70-0edc-41c5-87e3-331cfced81ac",
+                    "hardware": {
+                        "parameterSet": {
+                            "parameters": [
+                            ],
+                            "uuid": "77bff530-dee9-4e15-96dc-634693cdb5df"
+                        }
+                    },
+                    "intervalSumError": [
+                    ],
+                    "linkedSeams": [
+                    ],
+                    "movingDirection": 0,
+                    "name": "Get seam shape",
+                    "number": 0,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "presetId": "00000000-0000-0000-0000-000000000000",
+                    "referenceCurves": [
+                    ],
+                    "roi": {
+                        "X": 0,
+                        "Y": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "seamIntervals": [
+                        {
+                            "length": "100000",
+                            "level": 0,
+                            "name": "First Seam Interval",
+                            "number": 0,
+                            "uuid": "08276c5d-eef1-4ec8-85f9-7650681e3f7f"
+                        }
+                    ],
+                    "subgraphs": [
+                    ],
+                    "sumError": [
+                    ],
+                    "targetDifference": 0,
+                    "thicknessLeft": 0,
+                    "thicknessRight": 0,
+                    "triggerDelta": 10000,
+                    "uuid": "d39a7fbd-020d-4407-8fba-d4fb732bb099",
+                    "velocity": 100000
+                },
+                {
+                    "graph": "3723941f-ecdc-4ce0-8f90-6411076a2891",
+                    "graphParamSet": "8f977e53-7127-423f-aeb2-f32e03427580",
+                    "hardware": {
+                        "parameterSet": {
+                        }
+                    },
+                    "intervalSumError": [
+                    ],
+                    "linkedSeams": [
+                    ],
+                    "movingDirection": 0,
+                    "name": "Depth Measurement",
+                    "number": 1,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "presetId": "00000000-0000-0000-0000-000000000000",
+                    "referenceCurves": [
+                    ],
+                    "roi": {
+                        "X": 0,
+                        "Y": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "seamIntervals": [
+                        {
+                            "length": "100000",
+                            "level": 0,
+                            "name": "First Seam Interval",
+                            "number": 0,
+                            "uuid": "bb7c70f3-07d8-4dae-a57e-cc7584880055"
+                        }
+                    ],
+                    "subgraphs": [
+                    ],
+                    "sumError": [
+                    ],
+                    "targetDifference": 0,
+                    "thicknessLeft": 0,
+                    "thicknessRight": 0,
+                    "triggerDelta": 10000,
+                    "uuid": "e926956d-71b3-4921-bc82-4ea4728f21d7",
+                    "velocity": 100000
+                },
+                {
+                    "graph": "9e58c899-f0c6-492d-81c6-237019a1cf7e",
+                    "graphParamSet": "79438e8f-2383-49fa-8ed6-a04630b33bb9",
+                    "hardware": {
+                        "parameterSet": {
+                            "parameters": [
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "Scanner_Wobble_Mode",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "64b2628c-e616-4d13-9563-f044ba5fe59a",
+                                    "value": 2
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LaserDelay",
+                                    "type": "double",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "d521680c-ffd2-4a15-9694-17a098c470e4",
+                                    "value": 0
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "Scanner_LaserPowerStatic",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "78515456-36f9-4316-bd29-13855a8959e1",
+                                    "value": 25
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "Scanner_FileNumber",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "b8fa4609-478c-463c-abbb-c59c91115e73",
+                                    "value": 10
+                                }
+                            ],
+                            "uuid": "1edfca72-9dc2-4aef-b7a7-9a1e45709c6f"
+                        }
+                    },
+                    "intervalSumError": [
+                    ],
+                    "linkedSeams": [
+                    ],
+                    "movingDirection": 0,
+                    "name": "Weld",
+                    "number": 2,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "presetId": "00000000-0000-0000-0000-000000000000",
+                    "referenceCurves": [
+                    ],
+                    "roi": {
+                        "X": 0,
+                        "Y": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "seamIntervals": [
+                        {
+                            "length": "100000",
+                            "level": 0,
+                            "name": "First Seam Interval",
+                            "number": 0,
+                            "uuid": "2fb7f571-46e5-41e5-937f-a93585cb41f1"
+                        }
+                    ],
+                    "subgraphs": [
+                    ],
+                    "sumError": [
+                    ],
+                    "targetDifference": 0,
+                    "thicknessLeft": 0,
+                    "thicknessRight": 0,
+                    "triggerDelta": 1000,
+                    "uuid": "bac873a2-8ba0-4afb-b294-9cb196776f6c",
+                    "velocity": 10000
+                }
+            ],
+            "subgraphs": [
+            ],
+            "sumError": [
+            ],
+            "uuid": "ab867bbe-765f-4e55-969f-f9bc3808c46e"
+        }
+    ],
+    "signalQuality": [
+        {
+            "blue": 0,
+            "green": 100,
+            "red": 0,
+            "value": 0
+        },
+        {
+            "blue": 0,
+            "green": 255,
+            "red": 255,
+            "value": 0.5
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 255,
+            "value": 1
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 139,
+            "value": 1.0099999904632568
+        }
+    ],
+    "trigger": {
+        "mode": "Burst",
+        "source": "Software"
+    },
+    "type": 1,
+    "uuid": "8d75d0e5-2f28-4a20-81f9-e7e6678ff58c"
+}

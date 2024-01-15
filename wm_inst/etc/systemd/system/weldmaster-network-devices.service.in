@@ -1,0 +1,10 @@
+[Unit]
+Description=Configure Weldmaster Network Devices on system startup
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=@CMAKE_INSTALL_PREFIX@/opt/configure-network-devices.sh
+
+[Install]
+WantedBy=multi-user.target

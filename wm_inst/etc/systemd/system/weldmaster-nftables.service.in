@@ -1,0 +1,19 @@
+[Unit]
+Description=Weldmaster nftables
+Wants=network-pre.target
+Before=network-pre.target shutdown.target
+Conflicts=shutdown.target
+DefaultDependencies=no
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+StandardInput=null
+ProtectSystem=full
+ProtectHome=true
+ExecStart=@CMAKE_INSTALL_PREFIX@/@WM_INSTALL_DIR@/batch/firewall.sh
+ExecReload=@CMAKE_INSTALL_PREFIX@/@WM_INSTALL_DIR@/batch/firewall.sh
+ExecStop=/usr/sbin/nft flush ruleset
+
+[Install]
+WantedBy=sysinit.target

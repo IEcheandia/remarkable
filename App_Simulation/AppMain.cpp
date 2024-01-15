@@ -1,0 +1,200 @@
+/**
+ *  @file
+ *  @copyright  Precitec Vision GmbH & Co. KG
+ *  @author     Ralph Kirchner, Wolfgang Reichl (WoR), Andreas Beschorner (BA), Stefan Birmanns (SB), Simon Hilsenbeck (HS)
+ *  @date       2009
+ *  @brief      Main application, which controls the workflow.
+ */
+
+#include "AppMain.h"
+
+#include <string.h>
+#include <errno.h>
+
+#include "message/module.h"
+#include "fliplib/Fliplib.h"
+
+#include "Poco/Version.h"
+#include "Poco/UUID.h"
+#include "Poco/Thread.h"
+
+#include "workflow/stateMachine/stateContext.h"
+#include "common/connectionConfiguration.h"
+#include "analyzer/centralDeviceManager.h"
+#include "system/tools.h"
+
+namespace precitec
+{
+	using namespace interface;
+	using namespace system;
+	using namespace message;
+
+namespace Simulation
+{
+
+AppMain::AppMain() :
+	BaseModule(system::module::SimulationModul),
+	dbProxy_(),
+	triggerCmdProxy_(),
+	resultsProxy_(),
+	recorderProxy_(),
+	systemStatusProxy_(),
+	calibrationProxy_(),
+	inspectionOutProxy_(),
+	productTeachInProxy_(),
+	weldHeadMsgProxy_(),
+	videoRecorderProxy_(),
+	centralDeviceManager_(true ),
+	inspectManager_(
+		&dbProxy_,
+		&weldHeadMsgProxy_,
+		&triggerCmdProxy_,
+		&resultsProxy_,
+		&recorderProxy_,
+		&systemStatusProxy_,
+		&videoRecorderProxy_,
+		&centralDeviceManager_,
+        true),
+    m_oGrabberStatusProxy(),
+	stateContext_(
+		new StateContext(
+				Poco::UUID("1E10A698-12B3-40E4-958B-4F051DBF6179"),
+				dbProxy_,
+				inspectManager_,
+				systemStatusProxy_,
+				calibrationProxy_ ,
+				inspectionOutProxy_,
+				centralDeviceManager_,
+				productTeachInProxy_,
+				weldHeadMsgProxy_,
+				videoRecorderProxy_,
+				m_oGrabberStatusProxy)
+	),
+	inspectCmdServer_			( stateContext_ ),
+	inspectCmdHandler_			( &inspectCmdServer_ ),
+	inspectServer_				( stateContext_ ),
+	inspectHandler_				( &inspectServer_ ),
+	dbNotificationServer_		( stateContext_ ),
+	dbNotificationHandler_ 		( &dbNotificationServer_ ),
+	sensorServer_				( &inspectManager_ ),
+	sensorHandler_				( &sensorServer_ ),
+	sensorServerSim_			( &inspectManager_ ),
+	sensorHandlerSim_			( &sensorServerSim_ ),
+	calibDataMsgServer_         ( &inspectManager_ ),
+	calibDataMsgHandler_        ( &calibDataMsgServer_ ),
+	m_simulationCmdServer(&triggerCmdProxy_, &centralDeviceManager_, stateContext_),
+	m_simulationCmdHandler(&m_simulationCmdServer),
+	m_querySystemStatusServer(),
+	m_querySystemStatusHandler(&m_querySystemStatusServer)
+{
+    m_querySystemStatusServer.setStateContext(stateContext_);
+    stateContext_->setSimulationStation(true);
+	ConnectionConfiguration::instance().setInt( pidKeys[SIMULATION_KEY_INDEX], getpid() ); // let ConnectServer know our pid
+}
+
+AppMain::~AppMain()
+{
+}
+
+void AppMain::runClientCode()
+{
+	// Es wird immer wieder versucht die Verbindung aufzubauen, bis der Prozess ordentlich beendet werden
+	// soll. -> Ende StateMachine
+	while (true)
+	{
+		try
+		{
+			wmLog( eDebug, "Trying to connect to wmHost...\n" );
+
+#if !defined(NDEBUG)
+			ConnectionConfiguration::instance().dump();
+#endif
+
+			wmLog( eDebug, "Host connection established...[OK]\n" );
+
+			notifyStartupFinished();
+            centralDeviceManager_.init();
+
+			// Ab jetzt gehts rund
+			wmLog( eDebug, "Startup workflow manager...\n" );
+			stateContext_->reset();
+			wmLog( eDebug, "Initalizing workflow manager...\n" );
+			stateContext_->initialize();
+			wmLog( eDebug, "Running workflow manager...\n" );
+
+            initGrabberForSimulation();
+
+			//stateContext_->getCalibration().start(eInitCalibrationData);
+			stateContext_->waitForTermination();
+			stateContext_->exit();
+
+			wmLog( eInfo, "Terminate workflow manager...\n");
+			return; // full exit
+		}
+		catch(Poco::Exception& p_rException)
+		{
+			wmLog( eError, "Poco::Exception: %s:\n", p_rException.what() );
+			wmLog( eError, "'%s'\n", p_rException.message().c_str() );
+		}
+		catch(std::exception& p_rException)
+		{
+			wmLog( eError, "Exception: %s\n", p_rException.what() );
+		}
+		catch (...)
+		{
+			wmLog( eError, "Unhandled exception during startup of App_Workflow!\n");
+		}
+	}
+}
+
+void AppMain::initGrabberForSimulation()
+{
+    // tell grabber to go into product instance mode
+    SmpKeyValue keyValue{new TKeyValue<bool>{"TestimagesProductInstanceMode"}};
+    keyValue->setValue(true);
+    centralDeviceManager_.force(analyzer::g_oCameraID, keyValue);
+}
+
+int AppMain::init(int argc, char * argv[])
+{
+	processCommandLineArguments(argc, argv);
+	wmLog( eDebug, "Assigned station id: %s\n", stateContext_->getStationID().toString().c_str() );
+
+	// Handler registrieren
+	//registerPublication( &dbProxy_ );
+
+	registerPublication( &inspectionOutProxy_ ); // Ausloeser BUG
+	registerPublication( &triggerCmdProxy_ );
+	registerPublication( &resultsProxy_ );
+	registerPublication( &recorderProxy_ );
+	registerPublication( &systemStatusProxy_ );
+	registerPublication( &calibrationProxy_ );
+	registerPublication( &videoRecorderProxy_ );
+    registerPublication( &m_oGrabberStatusProxy );
+    registerPublication( &dbProxy_ );
+	//registerPublication(&productTeachInProxy_);
+
+	// nun sagen wir was wir anbieten (alle handler) und was wir brauchen (hier keinen proxy)
+	registerSubscription(&inspectCmdHandler_);
+	registerSubscription(&inspectHandler_);
+	registerSubscription(&sensorHandler_);
+	registerSubscription(&calibDataMsgHandler_);
+    registerSubscription(&m_simulationCmdHandler);
+    registerSubscription(&dbNotificationHandler_);
+    registerSubscription(&m_querySystemStatusHandler);
+
+    centralDeviceManager_.publishAllProxies(this);
+
+	// BaseModule initialsieren
+	initialize(this);
+
+	return 0;
+}
+
+void AppMain::uninitialize()
+{
+    stateContext_->beginTermination();
+}
+
+}
+}

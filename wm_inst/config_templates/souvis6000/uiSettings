@@ -1,0 +1,10 @@
+[Features]
+SeamIntervalsOnProductStructure=true
+ConfigureBlackLevelOffsetVoltagesOnCamera=true
+ConfigureLinLogOnCamera=true
+ConfigureThicknessOnSeam=true
+ConfigureMovingDirectionOnSeam=true
+LedCalibration=true
+QualityFaultCategory2=true
+ScalePlotterFromSettings=true
+VirtualKeyboard=false

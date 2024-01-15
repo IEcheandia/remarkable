@@ -1,0 +1,538 @@
+{
+    "assemblyImage": "",
+    "default": false,
+    "endless": false,
+    "errorLevels": [
+        {
+            "blue": 0,
+            "green": 100,
+            "red": 0,
+            "value": 0
+        },
+        {
+            "blue": 0,
+            "green": 255,
+            "red": 255,
+            "value": 0.5
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 255,
+            "value": 1
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 139,
+            "value": 1.0099999904632568
+        }
+    ],
+    "filterParameterSets": [
+        {
+            "parameters": [
+                {
+                    "filterId": "1a54392c-53bf-494a-b550-b5e0466a50c5",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "d6d77096-1521-43e6-8a74-b8da34116bc1",
+                    "value": 1
+                },
+                {
+                    "filterId": "1a54392c-53bf-494a-b550-b5e0466a50c5",
+                    "name": "sensorid",
+                    "type": "int",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "cebede6d-fdd2-4a0d-9dab-fb4b10c41ece",
+                    "value": 1
+                },
+                {
+                    "filterId": "1a54392c-53bf-494a-b550-b5e0466a50c5",
+                    "name": "GridSize",
+                    "type": "double",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "c5f4dcc9-df1b-4d13-9512-9e433dd2091d",
+                    "value": 1
+                },
+                {
+                    "filterId": "9ff6a090-0cba-43eb-959a-6636553eb4b1",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "09373485-aa76-42bb-b7c3-09964c48c98a",
+                    "value": 100
+                },
+                {
+                    "filterId": "9ff6a090-0cba-43eb-959a-6636553eb4b1",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "80e1b8fb-e961-4d39-a806-a8319b475e23",
+                    "value": 1
+                },
+                {
+                    "filterId": "f3996526-1d0e-4eec-8cbe-6e9be9a55bcb",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "54086eaa-23ba-43a2-9c7a-65beaa1fcdfc",
+                    "value": 10
+                },
+                {
+                    "filterId": "f3996526-1d0e-4eec-8cbe-6e9be9a55bcb",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "b20d467c-964a-43cb-9605-3edf986b5359",
+                    "value": 1
+                },
+                {
+                    "filterId": "b149cc19-66c4-4c5a-93c8-0f3a6876ffd2",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "e4d59539-ecf6-446c-b5f6-192755c58f3e",
+                    "uuid": "88dd75c7-9a04-4e86-aec0-f078a0b1d892",
+                    "value": 1
+                },
+                {
+                    "filterId": "b149cc19-66c4-4c5a-93c8-0f3a6876ffd2",
+                    "name": "Style",
+                    "type": "enum",
+                    "typeId": "e4d59539-ecf6-446c-b5f6-192755c58f3e",
+                    "uuid": "8f023b52-9654-4b96-9eea-0e6b962a24d0",
+                    "value": 0
+                },
+                {
+                    "filterId": "b149cc19-66c4-4c5a-93c8-0f3a6876ffd2",
+                    "name": "Red",
+                    "type": "uint",
+                    "typeId": "e4d59539-ecf6-446c-b5f6-192755c58f3e",
+                    "uuid": "a0c3ef01-fef7-432d-babd-07dd5bb38cd0",
+                    "value": 0
+                },
+                {
+                    "filterId": "b149cc19-66c4-4c5a-93c8-0f3a6876ffd2",
+                    "name": "Green",
+                    "type": "uint",
+                    "typeId": "e4d59539-ecf6-446c-b5f6-192755c58f3e",
+                    "uuid": "e90ed477-333c-4baf-bea7-4ccc05477a4b",
+                    "value": 255
+                },
+                {
+                    "filterId": "b149cc19-66c4-4c5a-93c8-0f3a6876ffd2",
+                    "name": "Blue",
+                    "type": "uint",
+                    "typeId": "e4d59539-ecf6-446c-b5f6-192755c58f3e",
+                    "uuid": "649dd435-f204-4feb-b142-71a61338850c",
+                    "value": 0
+                }
+            ],
+            "uuid": "1f0d1400-db98-4246-8cfa-6d503f79e4b4"
+        },
+        {
+            "parameters": [
+                {
+                    "filterId": "1a54392c-53bf-494a-b550-b5e0466a50c5",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "d6d77096-1521-43e6-8a74-b8da34116bc1",
+                    "value": 1
+                },
+                {
+                    "filterId": "1a54392c-53bf-494a-b550-b5e0466a50c5",
+                    "name": "sensorid",
+                    "type": "int",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "cebede6d-fdd2-4a0d-9dab-fb4b10c41ece",
+                    "value": 1
+                },
+                {
+                    "filterId": "1a54392c-53bf-494a-b550-b5e0466a50c5",
+                    "name": "GridSize",
+                    "type": "double",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "c5f4dcc9-df1b-4d13-9512-9e433dd2091d",
+                    "value": 1
+                },
+                {
+                    "filterId": "9ff6a090-0cba-43eb-959a-6636553eb4b1",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "09373485-aa76-42bb-b7c3-09964c48c98a",
+                    "value": 200
+                },
+                {
+                    "filterId": "9ff6a090-0cba-43eb-959a-6636553eb4b1",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "80e1b8fb-e961-4d39-a806-a8319b475e23",
+                    "value": 1
+                },
+                {
+                    "filterId": "f3996526-1d0e-4eec-8cbe-6e9be9a55bcb",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "54086eaa-23ba-43a2-9c7a-65beaa1fcdfc",
+                    "value": 50
+                },
+                {
+                    "filterId": "f3996526-1d0e-4eec-8cbe-6e9be9a55bcb",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "b20d467c-964a-43cb-9605-3edf986b5359",
+                    "value": 1
+                },
+                {
+                    "filterId": "b149cc19-66c4-4c5a-93c8-0f3a6876ffd2",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "e4d59539-ecf6-446c-b5f6-192755c58f3e",
+                    "uuid": "88dd75c7-9a04-4e86-aec0-f078a0b1d892",
+                    "value": 1
+                },
+                {
+                    "filterId": "b149cc19-66c4-4c5a-93c8-0f3a6876ffd2",
+                    "name": "Style",
+                    "type": "enum",
+                    "typeId": "e4d59539-ecf6-446c-b5f6-192755c58f3e",
+                    "uuid": "8f023b52-9654-4b96-9eea-0e6b962a24d0",
+                    "value": 0
+                },
+                {
+                    "filterId": "b149cc19-66c4-4c5a-93c8-0f3a6876ffd2",
+                    "name": "Red",
+                    "type": "uint",
+                    "typeId": "e4d59539-ecf6-446c-b5f6-192755c58f3e",
+                    "uuid": "a0c3ef01-fef7-432d-babd-07dd5bb38cd0",
+                    "value": 0
+                },
+                {
+                    "filterId": "b149cc19-66c4-4c5a-93c8-0f3a6876ffd2",
+                    "name": "Green",
+                    "type": "uint",
+                    "typeId": "e4d59539-ecf6-446c-b5f6-192755c58f3e",
+                    "uuid": "e90ed477-333c-4baf-bea7-4ccc05477a4b",
+                    "value": 255
+                },
+                {
+                    "filterId": "b149cc19-66c4-4c5a-93c8-0f3a6876ffd2",
+                    "name": "Blue",
+                    "type": "uint",
+                    "typeId": "e4d59539-ecf6-446c-b5f6-192755c58f3e",
+                    "uuid": "649dd435-f204-4feb-b142-71a61338850c",
+                    "value": 0
+                }
+            ],
+            "uuid": "a9fefa8b-b356-41db-8218-e49de755d4ca"
+        },
+        {
+            "parameters": [
+                {
+                    "filterId": "1a54392c-53bf-494a-b550-b5e0466a50c5",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "d6d77096-1521-43e6-8a74-b8da34116bc1",
+                    "value": 1
+                },
+                {
+                    "filterId": "1a54392c-53bf-494a-b550-b5e0466a50c5",
+                    "name": "sensorid",
+                    "type": "int",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "cebede6d-fdd2-4a0d-9dab-fb4b10c41ece",
+                    "value": 1
+                },
+                {
+                    "filterId": "1a54392c-53bf-494a-b550-b5e0466a50c5",
+                    "name": "GridSize",
+                    "type": "double",
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad",
+                    "uuid": "c5f4dcc9-df1b-4d13-9512-9e433dd2091d",
+                    "value": 1
+                },
+                {
+                    "filterId": "9ff6a090-0cba-43eb-959a-6636553eb4b1",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "09373485-aa76-42bb-b7c3-09964c48c98a",
+                    "value": 500
+                },
+                {
+                    "filterId": "9ff6a090-0cba-43eb-959a-6636553eb4b1",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "80e1b8fb-e961-4d39-a806-a8319b475e23",
+                    "value": 1
+                },
+                {
+                    "filterId": "f3996526-1d0e-4eec-8cbe-6e9be9a55bcb",
+                    "name": "scalar",
+                    "type": "double",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "54086eaa-23ba-43a2-9c7a-65beaa1fcdfc",
+                    "value": 600
+                },
+                {
+                    "filterId": "f3996526-1d0e-4eec-8cbe-6e9be9a55bcb",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba",
+                    "uuid": "b20d467c-964a-43cb-9605-3edf986b5359",
+                    "value": 1
+                },
+                {
+                    "filterId": "b149cc19-66c4-4c5a-93c8-0f3a6876ffd2",
+                    "name": "Verbosity",
+                    "type": "enum",
+                    "typeId": "e4d59539-ecf6-446c-b5f6-192755c58f3e",
+                    "uuid": "88dd75c7-9a04-4e86-aec0-f078a0b1d892",
+                    "value": 1
+                },
+                {
+                    "filterId": "b149cc19-66c4-4c5a-93c8-0f3a6876ffd2",
+                    "name": "Style",
+                    "type": "enum",
+                    "typeId": "e4d59539-ecf6-446c-b5f6-192755c58f3e",
+                    "uuid": "8f023b52-9654-4b96-9eea-0e6b962a24d0",
+                    "value": 0
+                },
+                {
+                    "filterId": "b149cc19-66c4-4c5a-93c8-0f3a6876ffd2",
+                    "name": "Red",
+                    "type": "uint",
+                    "typeId": "e4d59539-ecf6-446c-b5f6-192755c58f3e",
+                    "uuid": "a0c3ef01-fef7-432d-babd-07dd5bb38cd0",
+                    "value": 0
+                },
+                {
+                    "filterId": "b149cc19-66c4-4c5a-93c8-0f3a6876ffd2",
+                    "name": "Green",
+                    "type": "uint",
+                    "typeId": "e4d59539-ecf6-446c-b5f6-192755c58f3e",
+                    "uuid": "e90ed477-333c-4baf-bea7-4ccc05477a4b",
+                    "value": 0
+                },
+                {
+                    "filterId": "b149cc19-66c4-4c5a-93c8-0f3a6876ffd2",
+                    "name": "Blue",
+                    "type": "uint",
+                    "typeId": "e4d59539-ecf6-446c-b5f6-192755c58f3e",
+                    "uuid": "649dd435-f204-4feb-b142-71a61338850c",
+                    "value": 0
+                }
+            ],
+            "uuid": "7958fed3-1ac0-4fa3-82a9-6792ef09e783"
+        }
+    ],
+    "hardware": {
+        "parameterSet": {
+        },
+        "startPosYAxis": 0
+    },
+    "lengthUnit": "millimeter",
+    "name": "ParameterSetTest",
+    "overlyingError": [
+    ],
+    "presetId": "00000000-0000-0000-0000-000000000000",
+    "qualityNorm": "00000000-0000-0000-0000-000000000000",
+    "seamSeries": [
+        {
+            "graph": "00000000-0000-0000-0000-000000000000",
+            "graphParamSet": "00000000-0000-0000-0000-000000000000",
+            "hardware": {
+                "parameterSet": {
+                }
+            },
+            "name": "",
+            "number": 0,
+            "overlyingError": [
+            ],
+            "presetId": "00000000-0000-0000-0000-000000000000",
+            "referenceCurveSet": [
+            ],
+            "seams": [
+                {
+                    "graph": "34402b81-f532-4c2f-a3fa-917238672ec2",
+                    "graphParamSet": "1f0d1400-db98-4246-8cfa-6d503f79e4b4",
+                    "hardware": {
+                        "parameterSet": {
+                        }
+                    },
+                    "intervalSumError": [
+                    ],
+                    "movingDirection": 0,
+                    "name": "",
+                    "number": 0,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "presetId": "00000000-0000-0000-0000-000000000000",
+                    "referenceCurveSet": [
+                    ],
+                    "roi": {
+                        "X": 0,
+                        "Y": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "seamIntervals": [
+                        {
+                            "length": "100000",
+                            "level": 0,
+                            "name": "First Seam Interval",
+                            "number": 0,
+                            "uuid": "475691b2-e5bc-42f4-9b0c-dd326bb8cf48"
+                        }
+                    ],
+                    "subgraphs": [
+                    ],
+                    "sumError": [
+                    ],
+                    "targetDifference": 0,
+                    "thicknessLeft": 0,
+                    "thicknessRight": 0,
+                    "triggerDelta": 10000,
+                    "uuid": "f6306aca-8129-4a2e-9655-bca8eff4915c",
+                    "velocity": 100000
+                },
+                {
+                    "graph": "34402b81-f532-4c2f-a3fa-917238672ec2",
+                    "graphParamSet": "a9fefa8b-b356-41db-8218-e49de755d4ca",
+                    "hardware": {
+                        "parameterSet": {
+                        }
+                    },
+                    "intervalSumError": [
+                    ],
+                    "movingDirection": 0,
+                    "name": "",
+                    "number": 1,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "presetId": "00000000-0000-0000-0000-000000000000",
+                    "referenceCurveSet": [
+                    ],
+                    "roi": {
+                        "X": 0,
+                        "Y": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "seamIntervals": [
+                        {
+                            "length": "100000",
+                            "level": 0,
+                            "name": "First Seam Interval",
+                            "number": 0,
+                            "uuid": "ef9e7db5-baf0-4260-b1e0-5aa488fd389b"
+                        }
+                    ],
+                    "subgraphs": [
+                    ],
+                    "sumError": [
+                    ],
+                    "targetDifference": 0,
+                    "thicknessLeft": 0,
+                    "thicknessRight": 0,
+                    "triggerDelta": 10000,
+                    "uuid": "0238162b-3cd6-4fd0-82a2-6e9b376e6e01",
+                    "velocity": 100000
+                },
+                {
+                    "graph": "34402b81-f532-4c2f-a3fa-917238672ec2",
+                    "graphParamSet": "7958fed3-1ac0-4fa3-82a9-6792ef09e783",
+                    "hardware": {
+                        "parameterSet": {
+                        }
+                    },
+                    "intervalSumError": [
+                    ],
+                    "movingDirection": 0,
+                    "name": "",
+                    "number": 2,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "presetId": "00000000-0000-0000-0000-000000000000",
+                    "referenceCurveSet": [
+                    ],
+                    "roi": {
+                        "X": 0,
+                        "Y": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "seamIntervals": [
+                        {
+                            "length": "100000",
+                            "level": 0,
+                            "name": "First Seam Interval",
+                            "number": 0,
+                            "uuid": "60ca7450-92d9-4a91-a081-239b79668b92"
+                        }
+                    ],
+                    "subgraphs": [
+                    ],
+                    "sumError": [
+                    ],
+                    "targetDifference": 0,
+                    "thicknessLeft": 0,
+                    "thicknessRight": 0,
+                    "triggerDelta": 10000,
+                    "uuid": "2360ef05-09d3-4aac-b9d8-7bcee08d4cfe",
+                    "velocity": 100000
+                }
+            ],
+            "subgraphs": [
+            ],
+            "sumError": [
+            ],
+            "uuid": "2c2bdddc-82e6-447c-a971-bd9c94cf2130"
+        }
+    ],
+    "signalQuality": [
+        {
+            "blue": 0,
+            "green": 100,
+            "red": 0,
+            "value": 0
+        },
+        {
+            "blue": 0,
+            "green": 255,
+            "red": 255,
+            "value": 0.5
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 255,
+            "value": 1
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 139,
+            "value": 1.0099999904632568
+        }
+    ],
+    "trigger": {
+        "mode": "Burst",
+        "source": "Software"
+    },
+    "type": 101,
+    "uuid": "f34fdc27-2881-4bd0-b076-f08a4835dfce"
+}

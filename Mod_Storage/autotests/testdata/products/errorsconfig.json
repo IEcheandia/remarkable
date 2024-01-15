@@ -1,0 +1,185 @@
+{
+    "messwerte": [
+        {
+            "enum": 1001,
+            "lineColor": "#FF0000",
+            "maxValue": 10000,
+            "minValue": 10000,
+            "name": "X position out of limits",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "b353b29f-a335-429d-bf42-290e2290fd25",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 1002,
+            "lineColor": "#FF0000",
+            "maxValue": 10000,
+            "minValue": 10000,
+            "name": "Y position out of limits",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "7dc800e5-6645-484b-b492-c8acda0d1951",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 1003,
+            "lineColor": "#FF0000",
+            "maxValue": 10000,
+            "minValue": 10000,
+            "name": "Z position out of limits",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "26d832f4-963e-4186-ab54-bc2ef8329b98",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 1004,
+            "lineColor": "#FF0000",
+            "maxValue": 10000,
+            "minValue": 10000,
+            "name": "Value out of limits",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "39b7487f-1929-43bf-986c-d9c4858730e1",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 1005,
+            "lineColor": "#FF0000",
+            "maxValue": 10000,
+            "minValue": 10000,
+            "name": "RankViolation",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "e3209564-c2b0-4ab9-849c-fa5c45223f7d",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 1006,
+            "lineColor": "#FF0000",
+            "maxValue": 10000,
+            "minValue": 10000,
+            "name": "GapPositionError",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "ea0ea47f-1a02-4fef-b865-f6368c4fd661",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 1007,
+            "lineColor": "#FF0000",
+            "maxValue": 10000,
+            "minValue": 10000,
+            "name": "LaserPowerOutOfLimits",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "9b26d4ab-3b61-499e-9bb7-681a0c8b793b",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 1008,
+            "lineColor": "#FF0000",
+            "maxValue": 10000,
+            "minValue": 10000,
+            "name": "SensorOutOfLimit",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "a1828ea7-ac8d-4755-861a-ccdb02e73bb9",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 5015,
+            "lineColor": "#FF0000",
+            "maxValue": 10000,
+            "minValue": 10000,
+            "name": "5015",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "0fd70b10-4bc5-4f78-b734-5eb116599fde",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 5027,
+            "lineColor": "#FF0000",
+            "maxValue": 10000,
+            "minValue": 10000,
+            "name": "5027",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "1451187a-041c-4929-8542-22c0d80fb9f4",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 5020,
+            "lineColor": "#FF0000",
+            "maxValue": 10000,
+            "minValue": 10000,
+            "name": "5020",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "cfc05971-d8cf-41ac-b6ef-4e8c3048c1dc",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 5018,
+            "lineColor": "#FF0000",
+            "maxValue": 10000,
+            "minValue": 10000,
+            "name": "5018",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "1da1db9e-1b08-40a2-86f8-94b7da61f38c",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 5024,
+            "lineColor": "#FF0000",
+            "maxValue": 10000,
+            "minValue": 10000,
+            "name": "5024",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "4a9780cd-f5f7-48ef-a309-aab62d55c06d",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 5019,
+            "lineColor": "#FF0000",
+            "maxValue": 10000,
+            "minValue": 10000,
+            "name": "5019",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "f34970e4-8429-4d13-b688-fdd047476397",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 5004,
+            "lineColor": "#FF0000",
+            "maxValue": 10000,
+            "minValue": 10000,
+            "name": "5004",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "aac814b5-60ce-44bb-ac46-61a85541d1f3",
+            "visible": 1,
+            "visualization": 1
+        }
+    ]
+}
+

@@ -1,0 +1,18 @@
+install(
+    FILES
+        libcomdll.so
+        libfasttrack_40.so
+        libfasttrack_160.so
+        libmv1_d1024e_c026_160.so
+        libmv1_d2048x1088_160.so
+        libmv1_d2048x1088_240.so
+        libmv1_d2048x1088i_160.so
+        libmv1_d2048x1088i_240.so
+        libmv_d1024_80.so
+        libmv_d1024_160.so
+        libmv_d1024e_80.so
+        libpfcam.a
+        libpfcam.so
+    DESTINATION
+        ${WM_LIB_INSTALL_DIR}
+)

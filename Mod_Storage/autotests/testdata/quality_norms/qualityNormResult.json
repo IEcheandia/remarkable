@@ -1,0 +1,48 @@
+{
+    "enum": 115,
+    "name": "S6K Concavity",
+    "level 1": {
+        "gaugeRange": [
+            {
+                "range": 99999.0,
+                "minFactor": 0.1,
+                "minOffset": 0,
+                "maxFactor": 0.1,
+                "maxOffset": 0,
+                "length": 2.0
+            }
+        ]
+    },
+    "level 2": {
+        "gaugeRange": [
+            {
+                "range": 1.0,
+                "minFactor": 0,
+                "minOffset": 0,
+                "maxFactor": 0.1,
+                "maxOffset": 0,
+                "length": 2.0
+            },
+            {
+                "range": 99999.0,
+                "minFactor": 0,
+                "minOffset": 0,
+                "maxFactor": 0.2,
+                "maxOffset": 0,
+                "length": 2.0
+            }
+        ]
+    },
+    "level 3": {
+        "gaugeRange": [
+            {
+                "range": 99999.0,
+                "minFactor": 0,
+                "minOffset": 0.2,
+                "maxFactor": 0.3,
+                "maxOffset": 0.4,
+                "length": 1.0
+            }
+        ]
+    }
+}

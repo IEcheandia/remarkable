@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphData>
+    <GraphID>af45c249-dcb0-4621-996c-5c9aeb403132</GraphID>
+    <Name>MyBeautifulGraph</Name>
+    <Header>
+        <GraphName>MyBeautifulGraph</GraphName>
+        <Version Major="1" Minor="2"/>
+        <HeaderFilterInfoList/>
+    </Header>
+    <ParameterSatzList/>
+    <InstanzFilterList/>
+    <InstanzPipeList/>
+    <InstanzVariantList/>
+    <InstanzAttributeList/>
+    <MesswerttypList/>
+</GraphData>

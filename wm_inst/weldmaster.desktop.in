@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Weldmaster
+Exec=@CMAKE_INSTALL_PREFIX@/opt/wm_inst/batch/runStandalone
+TryExec=@CMAKE_INSTALL_PREFIX@/opt/wm_inst/batch/runStandalone
+Path=@CMAKE_INSTALL_PREFIX@/opt/wm_inst/
+NoDisplay=true

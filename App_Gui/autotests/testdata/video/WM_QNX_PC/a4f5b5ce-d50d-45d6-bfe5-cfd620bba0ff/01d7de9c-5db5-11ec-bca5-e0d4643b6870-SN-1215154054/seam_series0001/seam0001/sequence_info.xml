@@ -1,0 +1,14 @@
+<video_recorder>
+	<date_time>211215-154058588</date_time>
+	<is_livemode>false</is_livemode>
+	<product_name>iron_product</product_name>
+	<product_instance>01d7de9c-5db5-11ec-bca5-e0d4643b6870</product_instance>
+	<product_UUID>775d193b-6a7e-4fe4-9016-3acfd92085dd</product_UUID>
+	<product_type>1</product_type>
+	<product_number>1215154054</product_number>
+	<seam_series>1</seam_series>
+	<seam>1</seam>
+	<trigger_delta>10000</trigger_delta>
+	<nb_images>1</nb_images>
+	<nb_samples>0</nb_samples>
+</video_recorder>

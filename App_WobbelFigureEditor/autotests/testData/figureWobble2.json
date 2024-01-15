@@ -1,0 +1,38 @@
+{
+  "Name": "Test",
+  "ID": "2",
+  "Description": "Test wobble figure",
+  "MicroVectorFactor": 1,
+  "Figure": [
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": 0.0
+    },
+    {
+      "EndPosition": [
+        3.0,
+        0.0
+      ],
+      "Power": 0.15
+    },
+    {
+      "EndPosition": [
+        -3.0,
+        0.0
+      ],
+      "Power": 0.5
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": -0.65
+    }
+  ]
+}
+
+

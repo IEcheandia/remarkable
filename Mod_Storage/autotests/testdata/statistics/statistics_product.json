@@ -1,0 +1,461 @@
+{
+    "assemblyImage": "",
+    "default": false,
+    "endless": false,
+    "errorLevels": [
+        {
+            "blue": 0,
+            "green": 100,
+            "red": 0,
+            "value": 0
+        },
+        {
+            "blue": 0,
+            "green": 255,
+            "red": 255,
+            "value": 0.5
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 255,
+            "value": 1
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 139,
+            "value": 1.0099999904632568
+        }
+    ],
+    "filterParameterSets": [
+        {
+        }
+    ],
+    "hardware": {
+        "parameterSet": {
+        },
+        "startPosYAxis": 0
+    },
+    "lengthUnit": "millimeter",
+    "name": "Statistics",
+    "overlyingError": [
+    ],
+    "presetId": "00000000-0000-0000-0000-000000000000",
+    "qualityNorm": "00000000-0000-0000-0000-000000000000",
+    "seamSeries": [
+        {
+            "graph": "00000000-0000-0000-0000-000000000000",
+            "graphParamSet": "00000000-0000-0000-0000-000000000000",
+            "hardware": {
+                "parameterSet": {
+                }
+            },
+            "name": "Series_1",
+            "number": 0,
+            "overlyingError": [
+            ],
+            "presetId": "00000000-0000-0000-0000-000000000000",
+            "referenceCurves": [
+            ],
+            "seams": [
+                {
+                    "graph": "b3e75a8e-0523-4a6f-beb2-083a6ecea3bf",
+                    "graphParamSet": "76f86c6a-6a02-4720-b696-8ad3e5c837a3",
+                    "hardware": {
+                        "parameterSet": {
+                        }
+                    },
+                    "intervalSumError": [
+                    ],
+                    "linkedSeams": [
+                        {
+                            "graph": "00000000-0000-0000-0000-000000000000",
+                            "graphParamSet": "00000000-0000-0000-0000-000000000000",
+                            "hardware": {
+                                "parameterSet": {
+                                }
+                            },
+                            "label": "4",
+                            "name": "5",
+                            "number": 4,
+                            "positionInAssemblyImage": {
+                                "X": -1,
+                                "Y": -1
+                            },
+                            "presetId": "00000000-0000-0000-0000-000000000000",
+                            "referenceCurves": [
+                            ],
+                            "subgraphs": [
+                            ],
+                            "sumError": [
+                            ],
+                            "uuid": "6db0ba11-c553-46fb-bc1d-9b14c5a51f76"
+                        },
+                        {
+                            "graph": "00000000-0000-0000-0000-000000000000",
+                            "graphParamSet": "00000000-0000-0000-0000-000000000000",
+                            "hardware": {
+                                "parameterSet": {
+                                }
+                            },
+                            "label": "5",
+                            "name": "6",
+                            "number": 5,
+                            "positionInAssemblyImage": {
+                                "X": -1,
+                                "Y": -1
+                            },
+                            "presetId": "00000000-0000-0000-0000-000000000000",
+                            "referenceCurves": [
+                            ],
+                            "subgraphs": [
+                            ],
+                            "sumError": [
+                            ],
+                            "uuid": "9738a3d9-ea7e-4740-87f6-205cef07e40a"
+                        }
+                    ],
+                    "movingDirection": 0,
+                    "name": "Seam_1",
+                    "number": 0,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "presetId": "00000000-0000-0000-0000-000000000000",
+                    "referenceCurves": [
+                    ],
+                    "roi": {
+                        "X": 0,
+                        "Y": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "seamIntervals": [
+                        {
+                            "length": "100000",
+                            "level": 0,
+                            "name": "First Seam Interval",
+                            "number": 0,
+                            "uuid": "1cf2d87c-598e-4812-b0cb-a7ffd2efaacc"
+                        }
+                    ],
+                    "subgraphs": [
+                    ],
+                    "sumError": [
+                        {
+                            "error": 0,
+                            "max": 40,
+                            "maxLimit": 100000,
+                            "min": 5,
+                            "minLimit": -100000,
+                            "name": "Length Outside Static Boundary Failure",
+                            "secondThreshold": 0,
+                            "shift": 0,
+                            "threshold": 10,
+                            "uuid": "b7714768-a207-4ec4-b1e4-2523f6cdf79f",
+                            "value": 504,
+                            "variantId": "3b5fe50f-6fd5-4fbc-bd78-06b892e1f97d"
+                        }
+                    ],
+                    "targetDifference": 0,
+                    "thicknessLeft": 0,
+                    "thicknessRight": 0,
+                    "triggerDelta": 10000,
+                    "uuid": "e0677e0d-0887-43d1-b3d5-c6554dccd81a",
+                    "velocity": 100000
+                },
+                {
+                    "graph": "b3e75a8e-0523-4a6f-beb2-083a6ecea3bf",
+                    "graphParamSet": "697a43f2-0ae7-408a-9144-b5d826d73e19",
+                    "hardware": {
+                        "parameterSet": {
+                        }
+                    },
+                    "intervalSumError": [
+                    ],
+                    "linkedSeams": [
+                    ],
+                    "movingDirection": 0,
+                    "name": "Seam_2",
+                    "number": 1,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "presetId": "00000000-0000-0000-0000-000000000000",
+                    "referenceCurves": [
+                    ],
+                    "roi": {
+                        "X": 0,
+                        "Y": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "seamIntervals": [
+                        {
+                            "length": "100000",
+                            "level": 0,
+                            "name": "First Seam Interval",
+                            "number": 0,
+                            "uuid": "08641f0f-acd4-483c-ac01-9b02b7fb39c7"
+                        }
+                    ],
+                    "subgraphs": [
+                    ],
+                    "sumError": [
+                        {
+                            "error": 1002,
+                            "max": 0.8,
+                            "maxLimit": 100000,
+                            "min": 0.3,
+                            "minLimit": -100000,
+                            "name": "Accumulated Length Outside Static Boundary Failure",
+                            "secondThreshold": 0,
+                            "shift": 0,
+                            "threshold": 15,
+                            "uuid": "c591b3d3-8b26-4cad-9e67-0f32a026d759",
+                            "value": 557,
+                            "variantId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6"
+                        }
+                    ],
+                    "targetDifference": 0,
+                    "thicknessLeft": 0,
+                    "thicknessRight": 0,
+                    "triggerDelta": 10000,
+                    "uuid": "0f24e004-ece6-43ad-a94a-1b8ee4658821",
+                    "velocity": 100000
+                },
+                {
+                    "graph": "b3e75a8e-0523-4a6f-beb2-083a6ecea3bf",
+                    "graphParamSet": "e91df074-1010-4053-9936-41a900b3217c",
+                    "hardware": {
+                        "parameterSet": {
+                        }
+                    },
+                    "intervalSumError": [
+                    ],
+                    "linkedSeams": [
+                    ],
+                    "movingDirection": 0,
+                    "name": "Seam_3",
+                    "number": 2,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "presetId": "00000000-0000-0000-0000-000000000000",
+                    "referenceCurves": [
+                    ],
+                    "roi": {
+                        "X": 0,
+                        "Y": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "seamIntervals": [
+                        {
+                            "length": "100000",
+                            "level": 0,
+                            "name": "First Seam Interval",
+                            "number": 0,
+                            "uuid": "5d34c17c-f1f7-45de-bec0-fc6ddee3b1c7"
+                        }
+                    ],
+                    "subgraphs": [
+                    ],
+                    "sumError": [
+                        {
+                            "error": 1009,
+                            "max": 190.87690124511727,
+                            "maxLimit": 100000,
+                            "min": 188.98081970214838,
+                            "minLimit": -100000,
+                            "name": "Length Outside Static Boundary Failure",
+                            "secondThreshold": 0,
+                            "shift": 0,
+                            "threshold": 5,
+                            "uuid": "379b6dae-368e-42ee-934f-1524e5ae2dc6",
+                            "value": 566,
+                            "variantId": "3b5fe50f-6fd5-4fbc-bd78-06b892e1f97d"
+                        }
+                    ],
+                    "targetDifference": 0,
+                    "thicknessLeft": 0,
+                    "thicknessRight": 0,
+                    "triggerDelta": 10000,
+                    "uuid": "ddc8b6d9-5f88-45b1-af30-818bc232ccd5",
+                    "velocity": 100000
+                },
+                {
+                    "graph": "00000000-0000-0000-0000-000000000000",
+                    "graphParamSet": "875ea27a-6616-490a-9f63-d33a6d94517c",
+                    "hardware": {
+                        "parameterSet": {
+                        }
+                    },
+                    "intervalSumError": [
+                    ],
+                    "linkedSeams": [
+                    ],
+                    "movingDirection": 0,
+                    "name": "Seam_4",
+                    "number": 3,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "presetId": "00000000-0000-0000-0000-000000000000",
+                    "referenceCurves": [
+                    ],
+                    "roi": {
+                        "X": 0,
+                        "Y": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "seamIntervals": [
+                        {
+                            "length": "100000",
+                            "level": 0,
+                            "name": "First Seam Interval",
+                            "number": 0,
+                            "uuid": "02713073-1509-48b7-9782-7a9695c3ff56"
+                        }
+                    ],
+                    "subgraphs": [
+                    ],
+                    "sumError": [
+                    ],
+                    "targetDifference": 0,
+                    "thicknessLeft": 0,
+                    "thicknessRight": 0,
+                    "triggerDelta": 10000,
+                    "uuid": "12ac8037-36a6-4d2b-a135-2f8e49ab9988",
+                    "velocity": 100000
+                }
+            ],
+            "subgraphs": [
+            ],
+            "sumError": [
+            ],
+            "uuid": "45bbcc22-f179-4057-86d5-a9812699e28e"
+        },
+        {
+            "graph": "00000000-0000-0000-0000-000000000000",
+            "graphParamSet": "00000000-0000-0000-0000-000000000000",
+            "hardware": {
+                "parameterSet": {
+                }
+            },
+            "name": "Series_2",
+            "number": 1,
+            "overlyingError": [
+            ],
+            "presetId": "00000000-0000-0000-0000-000000000000",
+            "referenceCurves": [
+            ],
+            "seams": [
+                {
+                    "graph": "0c1486e7-0dea-42c6-9052-d84ac8638877",
+                    "graphParamSet": "fef3f8c6-37b4-468f-ba87-74f0900c0e47",
+                    "hardware": {
+                        "parameterSet": {
+                        }
+                    },
+                    "intervalSumError": [
+                    ],
+                    "linkedSeams": [
+                    ],
+                    "movingDirection": 0,
+                    "name": "Seam_5",
+                    "number": 0,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "presetId": "00000000-0000-0000-0000-000000000000",
+                    "referenceCurves": [
+                    ],
+                    "roi": {
+                        "X": 0,
+                        "Y": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "seamIntervals": [
+                        {
+                            "length": "100000",
+                            "level": 0,
+                            "name": "First Seam Interval",
+                            "number": 0,
+                            "uuid": "19e94b9f-baf1-4690-9d12-138a75ac58f1"
+                        }
+                    ],
+                    "subgraphs": [
+                    ],
+                    "sumError": [
+                        {
+                            "error": 1008,
+                            "max": -0.56,
+                            "maxLimit": 100000,
+                            "min": -0.61,
+                            "minLimit": -100000,
+                            "name": "Length Outside Static Boundary Failure",
+                            "secondThreshold": 0,
+                            "shift": 0,
+                            "threshold": 20,
+                            "uuid": "9d31ffc0-114d-4b59-a638-321f8feaf251",
+                            "value": 510,
+                            "variantId": "3b5fe50f-6fd5-4fbc-bd78-06b892e1f97d"
+                        }
+                    ],
+                    "targetDifference": 0,
+                    "thicknessLeft": 0,
+                    "thicknessRight": 0,
+                    "triggerDelta": 10000,
+                    "uuid": "43783412-44a0-42fa-b9a3-9edf0cd98175",
+                    "velocity": 100000
+                }
+            ],
+            "subgraphs": [
+            ],
+            "sumError": [
+            ],
+            "uuid": "071ffab7-5161-4e92-a3d5-1e50b4227ab1"
+        }
+    ],
+    "signalQuality": [
+        {
+            "blue": 0,
+            "green": 100,
+            "red": 0,
+            "value": 0
+        },
+        {
+            "blue": 0,
+            "green": 255,
+            "red": 255,
+            "value": 0.5
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 255,
+            "value": 1
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 139,
+            "value": 1.0099999904632568
+        }
+    ],
+    "trigger": {
+        "mode": "Burst",
+        "source": "Software"
+    },
+    "type": 1,
+    "uuid": "b79d7cbc-4595-469c-8dd7-c7a26d5cf112"
+}

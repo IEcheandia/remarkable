@@ -1,0 +1,32 @@
+<SystemConfig>
+	<LED_IlluminationEnable>false</LED_IlluminationEnable>
+	<ZCollimatorEnable>false</ZCollimatorEnable>
+	<LaserControlEnable>false</LaserControlEnable>
+	<AxisXEnable>false</AxisXEnable>
+	<AxisYEnable>false</AxisYEnable>
+	<AxisZEnable>false</AxisZEnable>
+	<PlotterLineWidth>3</PlotterLineWidth>
+	<PlotterPointsVisible>1</PlotterPointsVisible>
+	<PlotterLinesVisible>1</PlotterLinesVisible>
+	<PlotterBlocksVisible>1</PlotterBlocksVisible>
+	<ForceHomingOfAxis>false</ForceHomingOfAxis>
+	<ZCollAutoHomingEnable>true</ZCollAutoHomingEnable>
+	<CameraInterfaceType>1</CameraInterfaceType>
+	<Scanner2DEnable>true</Scanner2DEnable>
+	<Scanner2DController>0</Scanner2DController>
+	<SCANMASTER_Application>false</SCANMASTER_Application>
+	<SCANMASTER_GeneralApplication>false</SCANMASTER_GeneralApplication>
+	<ZCollimatorType>1</ZCollimatorType>
+	<ZCollimator_IP_Address>192.168.170.3</ZCollimator_IP_Address>
+	<IDM_Device1Enable>false</IDM_Device1Enable>
+	<Type_of_Sensor>0</Type_of_Sensor>
+	<Scanner2DController_IP_Address>192.168.170.105</Scanner2DController_IP_Address>
+	<HardwareCameraEnabled>false</HardwareCameraEnabled>
+	<SOUVIS6000_TCPIP_Communication_On>false</SOUVIS6000_TCPIP_Communication_On>
+	<LWM40_No1_Enable>false</LWM40_No1_Enable>
+	<Newson_Scanner1Enable>false</Newson_Scanner1Enable>
+	<ScannerGeneralMode>1</ScannerGeneralMode>
+	<FieldbusViaSeparateFieldbusBoard>true</FieldbusViaSeparateFieldbusBoard>
+	<FieldbusInterfaceStandard>true</FieldbusInterfaceStandard>
+	<EtherCATMasterIsActive>false</EtherCATMasterIsActive>
+</SystemConfig>

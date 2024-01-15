@@ -1,0 +1,12 @@
+[Unit]
+Description=Mount second harddisk
+Before=local-fs.target
+
+[Mount]
+Where=/mnt/backup
+What=/dev/sdb1
+Type=ext4
+Options=defaults,noatime,discard,nofail
+
+[Install]
+WantedBy=multi-user.target

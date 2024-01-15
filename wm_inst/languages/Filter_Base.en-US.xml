@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Sgm2Loc>
+  <Precitec.Filter.Calibration.Gruppe Text="Calibration"/>
+  <Precitec.Filter.Gap_Tracking.Gruppe Text="Gap Position Tracking"/>
+  <Precitec.Filter.ImageProcessing.Gruppe Text="Image Processing"/>
+  <Precitec.Filter.LineGeometry.Gruppe Text="Lines"/>
+  <Precitec.Filter.LineTracking.Gruppe Text="Laser Line Tracking"/>
+  <Precitec.Filter.PoreAnalysis.Gruppe Text="Pore Analysis"/>
+  <Precitec.Filter.Resultfilter.Gruppe Text="Result"/>
+  <Precitec.Filter.Seam_Search.Gruppe Text="Seam Search"/>
+  <Precitec.Filter.Sourcefilter.Gruppe Text="Source"/>
+  <Precitec.Filter.Utility.Gruppe Text="Signal Processing"/>
+  <Precitec.Filter.Bridges.Gruppe Text="Bridges"/>
+  <Precitec.Filter.Attribute.Verbosity.Beschreibung Text="Set verbosity level. Determines the level of output (also graphical)."/>
+  <Precitec.Filter.Attribute.Verbosity.Tooltip Text="Set verbosity level."/>
+  <Precitec.Filter.Attribute.Verbosity.Name Text="Verbosity level"/>
+  <Precitec.Filter.Attribute.Verbosity.Unit Text=""/>
+  <Precitec.Filter.Attribute.Basefilter.Verbosity.enum0 Text="None"/>
+  <Precitec.Filter.Attribute.Basefilter.Verbosity.enum1 Text="Low"/>
+  <Precitec.Filter.Attribute.Basefilter.Verbosity.enum2 Text="Medium"/>
+  <Precitec.Filter.Attribute.Basefilter.Verbosity.enum3 Text="High"/>
+  <Precitec.Filter.Attribute.Basefilter.Verbosity.enum4 Text="Maximal"/>
+  <Precitec.Filter.Attribute.TypeOfLaserLine.Beschreibung Text="On which laser line is the filter applied?"/>
+  <Precitec.Filter.Attribute.TypeOfLaserLine.Tooltip Text="Type of laser line"/>
+  <Precitec.Filter.Attribute.TypeOfLaserLine.Name Text="Type of laser line"/>
+  <Precitec.Filter.Attribute.TypeOfLaserLine.Unit Text=""/>
+  <Precitec.Filter.Attribute.TypeOfLaserLine.0 Text="Line laser 1"/>
+  <Precitec.Filter.Attribute.TypeOfLaserLine.1 Text="Line laser 2"/>
+  <Precitec.Filter.Attribute.TypeOfLaserLine.2 Text="Line laser 3"/>
+</Sgm2Loc>

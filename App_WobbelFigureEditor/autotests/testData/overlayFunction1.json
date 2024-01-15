@@ -1,0 +1,15 @@
+{
+  "Namea": "Testfile A",
+  "IDa": "0",
+  "Description!": "Corrupted file",
+  "Function": [
+    [
+      -1.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0
+    ]
+  ]
+}

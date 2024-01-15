@@ -1,0 +1,37 @@
+#!/bin/bash
+
+#
+# Change into the batch directory (so that we have a known current location)
+#
+export CMD_BASE=`dirname "$0"`
+cd "$CMD_BASE"
+
+#
+# Determine the position of the WM installation and set the WM_BASE_DIR variable
+#
+cd ..
+export WM_BASE_DIR=$PWD
+if [ -z $WM_BASE_DIR ]
+then
+	echo "FATAL ERROR: Cannot determine WM_BASE_DIR. Please cd into the batch directory and start runC from there!"
+	exit 1
+fi
+
+export LD_LIBRARY_PATH=$WM_BASE_DIR/lib:/usr/local/lib:/opt/etherlab/lib:/opt/SiliconSoftware/Runtime5.4.2/lib64:$LD_LIBRARY_PATH
+
+#
+# Create the directories, if they are missing
+#
+cd $WM_BASE_DIR
+mkdir data &> /dev/null
+mkdir images &> /dev/null
+mkdir logfiles &> /dev/null
+mkdir setup &> /dev/null
+mkdir video &> /dev/null
+
+#
+# Stop/Start the ConnectServer
+#
+pkill -9 -f ConnectServer
+bin/ConnectServer
+

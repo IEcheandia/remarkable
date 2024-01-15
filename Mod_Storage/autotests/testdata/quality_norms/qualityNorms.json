@@ -1,0 +1,174 @@
+{
+    "qualityNorm": [
+        {
+            "name": "ISO",
+            "uuid": "0477aa1d-168a-4437-80bf-d1da322232c3",
+            "qualityNormResults": [
+                {
+                    "enum": 115,
+                    "name": "S6K Concavity",
+					"level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.1,
+                                "maxOffset": 0,
+                                "length": 2.0
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0,
+                                "length": 2.0
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.3,
+                                "maxOffset": 0,
+                                "length": 2.0
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 116,
+                    "name": "S6K Convexity",
+					"level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.15,
+                                "maxOffset": 0.2,
+                                "length": 2.0
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0.2,
+                                "length": 2.0
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.3,
+                                "maxOffset": 0.2,
+                                "length": 2.0
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 114,
+                    "name": "S6K Mismatch",
+					"level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.1,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0,
+                                "length": 2.0
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.15,
+                                "minOffset": 0,
+                                "maxFactor": 0.25,
+                                "maxOffset": 0,
+                                "length": 2.0
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.25,
+                                "minOffset": 0,
+                                "maxFactor": 0.35,
+                                "maxOffset": 0,
+                                "length": 2.0
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "commonResults": [
+        {
+            "enum": 113,
+            "name": "S6K Seam Width",
+            "level 1": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0.5,
+                        "maxFactor": 0,
+                        "maxOffset": 999,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 2": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0.4,
+                        "maxFactor": 0,
+                        "maxOffset": 999,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 3": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0.3,
+                        "maxFactor": 0,
+                        "maxOffset": 999,
+                        "length": 2.0
+                    }
+                ]
+            }
+        }
+    ]
+}
+
+

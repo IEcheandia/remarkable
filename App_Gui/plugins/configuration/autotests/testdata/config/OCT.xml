@@ -1,0 +1,15 @@
+<key_value_configuration>
+	<SampleFrequency>70000</SampleFrequency>
+	<LampIntensity>23</LampIntensity>
+	<DetectionWindowLeft>2000</DetectionWindowLeft>
+	<DetectionWindowRight>12000</DetectionWindowRight>
+	<QualityThreshold>25</QualityThreshold>
+	<DataAveraging>6</DataAveraging>
+	<SpectralAveraging>5</SpectralAveraging>
+	<JumpSpeed>3018</JumpSpeed>
+	<MarkSpeed>3018</MarkSpeed>
+	<LineWidth>30</LineWidth>
+	<ScanCenterX>0</ScanCenterX>
+	<ScanCenterY>0</ScanCenterY>
+	<WeldingDepthSystemOffset>2000</WeldingDepthSystemOffset>
+</key_value_configuration>

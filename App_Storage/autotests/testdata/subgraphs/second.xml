@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphData>
+    <GraphID>0c3ebf5b-df35-4ac6-9b79-085cba2aba4f</GraphID>
+    <Name>Second</Name>
+    <Header>
+            <Version Major="1" Minor="1" />
+            <GraphName>Second</GraphName>
+            <HeaderFilterInfoList>
+                <HeaderFilterInfo>
+                    <FilterID>be7d83e3-9b98-41f2-a484-d0e74e5e8ea2</FilterID>
+                    <FilterName>precitec::filter::TestFilter</FilterName>
+                    <Version>Version 0.0.1</Version>
+                    <KomponenteID>f642831a-53b6-455c-8adf-88079d15eaba</KomponenteID>
+                    <KomponenteAssemblyName>Test_Component</KomponenteAssemblyName>
+                </HeaderFilterInfo>
+                <HeaderFilterInfo>
+                    <FilterID>b0fdaf09-4789-484a-8c98-fb42152bc23c</FilterID>
+                    <FilterName>precitec::filter::AnotherFilter</FilterName>
+                    <Version>Version 0.0.1</Version>
+                    <KomponenteID>f642831a-53b6-455c-8adf-88079d15eaba</KomponenteID>
+                    <KomponenteAssemblyName>Test_Component</KomponenteAssemblyName>
+                </HeaderFilterInfo>
+                <HeaderFilterInfo>
+                    <FilterID>8310c333-20a2-4a91-a9f9-e72199d0604b</FilterID>
+                    <FilterName>precitec::filter::bridges::ImageIn</FilterName>
+                    <Version>Version 0.0.1</Version>
+                    <KomponenteID>3899ecce-4f8d-4022-8a5f-641862372ea8</KomponenteID>
+                    <KomponenteAssemblyName>Bridges</KomponenteAssemblyName>
+                </HeaderFilterInfo>
+            </HeaderFilterInfoList>
+    </Header>
+  <ParameterSatzList>
+    <ParameterSatz>
+      <ParametersatzID>0a0f7918-776d-44e6-b4f2-87c27bd51c3b</ParametersatzID>
+      <TypID>188ed30a-33bd-4d5b-bd18-60cdc655c3c1</TypID>
+      <ContentName>parametersatz.ContentName</ContentName>
+      <ContentBeschreibung>parametersatz.ContentBeschreibung</ContentBeschreibung>
+      <ContentTooltip>parametersatz.ContentTooltip</ContentTooltip>
+      <TypName>Graph</TypName>
+      <Name>New parameter set</Name>
+      <Beschreibung>Comment for new parameter set</Beschreibung>
+    </ParameterSatz>
+  </ParameterSatzList>
+    <InstanzFilterList>
+        <InstanzFilter>
+            <InstanzFilterID>33675875-d7e5-47ba-85c6-fe34238cd56c</InstanzFilterID>
+            <FilterID>be7d83e3-9b98-41f2-a484-d0e74e5e8ea2</FilterID>
+            <Name>A Filter</Name>
+            <InstanzFilterGrouping Group="-1" Parent="-1" GroupName="" />
+        </InstanzFilter>
+        <InstanzFilter>
+            <InstanzFilterID>f43aaa22-eab6-4bc5-88f7-07d48148acf8</InstanzFilterID>
+            <FilterID>b0fdaf09-4789-484a-8c98-fb42152bc23c</FilterID>
+            <Name>Second Filter</Name>
+            <InstanzFilterGrouping Group="-1" Parent="-1" GroupName="" />
+        </InstanzFilter>
+        <InstanzFilter>
+            <InstanzFilterID>45a5f057-8bd0-4212-93c7-5bdb6a78f1c3</InstanzFilterID>
+            <FilterID>8310c333-20a2-4a91-a9f9-e72199d0604b</FilterID>
+            <Name>Image</Name>
+            <InstanzFilterGrouping Group="1" Parent="-1" GroupName="Bridge" />
+        </InstanzFilter>
+    </InstanzFilterList>
+    <InstanzAttributeList>
+        <InstanzAttribute>
+            <InstanzAttributeID>0b0e26ea-cd24-4298-af96-4b3655f62ff4</InstanzAttributeID>
+            <InstanzVariantID>e14b12b4-8e36-4e74-b37f-3d33b60d13a0</InstanzVariantID>
+            <VariantID>340f3182-8fb9-4744-901b-112fc91c4536</VariantID>
+            <InstanceFilterID>33675875-d7e5-47ba-85c6-fe34238cd56c</InstanceFilterID>
+            <AttributeID>340f3182-8fb9-4744-901b-112fc91c4536</AttributeID>
+            <AttributeName>An attribute</AttributeName>
+            <UserLevel>3</UserLevel>
+            <Visible>true</Visible>
+            <Value>1</Value>
+            <Blob></Blob>
+            <Publicity>true</Publicity>
+        </InstanzAttribute>
+    </InstanzAttributeList>
+    <InstanzPipeList>
+        <InstanzPipe>
+            <InstanzPipeID>5bb78aad-6947-4d57-8ad9-d4ca182637c3</InstanzPipeID>
+            <PipePath></PipePath>
+            <ReceiverConnectorID>f6535000-71f1-44cb-9018-0653cb3e3d87</ReceiverConnectorID>
+            <ReceiverConnectorName>Bar</ReceiverConnectorName>
+            <ReceiverConnectorGroup>0</ReceiverConnectorGroup>
+            <ReceiverInstFilterID>f43aaa22-eab6-4bc5-88f7-07d48148acf8</ReceiverInstFilterID>
+            <SenderConnectorID>3c342ee7-8ce8-44c6-8fc1-703021c52db7</SenderConnectorID>
+            <SenderConnectorName>Image</SenderConnectorName>
+            <SenderInstFilterID>45a5f057-8bd0-4212-93c7-5bdb6a78f1c3</SenderInstFilterID>
+        </InstanzPipe>
+    </InstanzPipeList>
+</GraphData>
+

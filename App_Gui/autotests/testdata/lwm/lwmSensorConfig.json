@@ -1,0 +1,52 @@
+{
+    "messwerte": [
+        {
+            "enum": 10034,
+            "lineColor": "#6495ed",
+            "maxValue": 1000,
+            "minValue": -1000,
+            "name": "LWM Plasma Label",
+            "plottable": 0,
+            "plotterNumber": 2,
+            "uuid": "29d2e675-eeec-4ffe-8e9f-12bf7a8ad881",
+            "visible": 0,
+            "visualization": 1
+        },
+        {
+            "enum": 10035,
+            "lineColor": "#a9a9a9",
+            "maxValue": 1000,
+            "minValue": -1000,
+            "name": "LWM Temperature Label",
+            "plottable": 0,
+            "plotterNumber": 2,
+            "uuid": "22c3271c-4949-4eb5-950c-2e74d86a2c11",
+            "visible": 0,
+            "visualization": 1
+        },
+        {
+            "enum": 10036,
+            "lineColor": "#00ced1",
+            "maxValue": 1000,
+            "minValue": -1000,
+            "name": "LWM Back Reflection Label",
+            "plottable": 0,
+            "plotterNumber": 2,
+            "uuid": "4c38bd28-4ff8-4948-b6ba-975871c54042",
+            "visible": 0,
+            "visualization": 1
+        },
+        {
+            "enum": 10037,
+            "lineColor": "#f8f8ff",
+            "maxValue": 1000,
+            "minValue": -1000,
+            "name": "LWM Laser Power Monitor Label",
+            "plottable": 0,
+            "plotterNumber": 2,
+            "uuid": "5fbe5120-6e76-4f5a-a805-7b632fe48463",
+            "visible": 0,
+            "visualization": 1
+        }
+    ]
+}

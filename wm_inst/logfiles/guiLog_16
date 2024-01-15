@@ -1,0 +1,205 @@
+{
+    "hash": "1c05e785aa07e54c914f34df361915019a2381758fc0cd86b5422a6eee225556",
+    "log": [
+        {
+            "changes": [
+                {
+                    "className": "precitec::gui::components::userLog::ButtonClickedChange",
+                    "data": {
+                        "checkable": true,
+                        "checked": true,
+                        "objectName": "topBar-login",
+                        "text": "Login"
+                    },
+                    "date": "2024-01-09T16:16:53",
+                    "message": "Button Login clicked"
+                }
+            ],
+            "date": "2024-01-09T16:16:53",
+            "hash": "7bedcc3f2154251afb633dbbd06e032add85f47c7f4dda2ae665f31fe22544a7",
+            "role": "Operator",
+            "user": {
+                "name": "view",
+                "role": {
+                    "id": 1,
+                    "name": "Operator"
+                }
+            }
+        },
+        {
+            "changes": [
+                {
+                    "className": "precitec::gui::components::userLog::ButtonClickedChange",
+                    "data": {
+                        "checkable": false,
+                        "checked": false,
+                        "objectName": "",
+                        "text": "precitec"
+                    },
+                    "date": "2024-01-09T16:16:54",
+                    "message": "Button precitec clicked"
+                }
+            ],
+            "date": "2024-01-09T16:16:54",
+            "hash": "d6562fc93acf8ee8d4dfa261a88f989359824ef8e06537adb3c6c1a6a2d1148d",
+            "role": "Operator",
+            "user": {
+                "name": "view",
+                "role": {
+                    "id": 1,
+                    "name": "Operator"
+                }
+            }
+        },
+        {
+            "changes": [
+                {
+                    "className": "precitec::gui::components::userLog::ButtonClickedChange",
+                    "data": {
+                        "checkable": false,
+                        "checked": false,
+                        "objectName": "",
+                        "text": "Login"
+                    },
+                    "date": "2024-01-09T16:16:54",
+                    "message": "Button Login clicked"
+                }
+            ],
+            "date": "2024-01-09T16:16:54",
+            "hash": "ea6695d5b24622be6deb1603a90a12c90a61122926f49115980a73828a6fa851",
+            "role": "Super User",
+            "user": {
+                "name": "precitec",
+                "role": {
+                    "id": 0,
+                    "name": "Super User"
+                }
+            }
+        },
+        {
+            "changes": [
+                {
+                    "className": "precitec::gui::components::userLog::ButtonClickedChange",
+                    "data": {
+                        "checkable": false,
+                        "checked": false,
+                        "objectName": "",
+                        "text": "Reset system error"
+                    },
+                    "date": "2024-01-09T16:16:55",
+                    "message": "Button Reset system error clicked"
+                }
+            ],
+            "date": "2024-01-09T16:16:55",
+            "hash": "47d26a3bd4df776e81ab537788689961be71f3f279e9000408dc762d19dbca31",
+            "role": "Super User",
+            "user": {
+                "name": "precitec",
+                "role": {
+                    "id": 0,
+                    "name": "Super User"
+                }
+            }
+        },
+        {
+            "changes": [
+                {
+                    "className": "precitec::gui::components::userLog::ButtonClickedChange",
+                    "data": {
+                        "checkable": true,
+                        "checked": true,
+                        "objectName": "topBar-configuration",
+                        "text": "Configuration"
+                    },
+                    "date": "2024-01-09T16:16:56",
+                    "message": "Button Configuration clicked"
+                }
+            ],
+            "date": "2024-01-09T16:16:56",
+            "hash": "6a97783ca20c394b6eb25aeed971766f70ac5569b100bfea7116dbe993e9da9d",
+            "role": "Super User",
+            "user": {
+                "name": "precitec",
+                "role": {
+                    "id": 0,
+                    "name": "Super User"
+                }
+            }
+        },
+        {
+            "changes": [
+                {
+                    "className": "precitec::gui::components::userLog::ButtonClickedChange",
+                    "data": {
+                        "checkable": false,
+                        "checked": false,
+                        "objectName": "",
+                        "text": "Product Structure"
+                    },
+                    "date": "2024-01-09T16:16:58",
+                    "message": "Button Product Structure clicked"
+                }
+            ],
+            "date": "2024-01-09T16:16:58",
+            "hash": "a4cfa39e247122a548c4b0285c5be5e352a0e296dc2546d2875b7c94de088a06",
+            "role": "Super User",
+            "user": {
+                "name": "precitec",
+                "role": {
+                    "id": 0,
+                    "name": "Super User"
+                }
+            }
+        },
+        {
+            "changes": [
+                {
+                    "className": "precitec::gui::components::userLog::ButtonClickedChange",
+                    "data": {
+                        "checkable": false,
+                        "checked": false,
+                        "objectName": "",
+                        "text": "26: Area 26 - ST66 - C225-C234"
+                    },
+                    "date": "2024-01-09T16:17:00",
+                    "message": "Button 26: Area 26 - ST66 - C225-C234 clicked"
+                }
+            ],
+            "date": "2024-01-09T16:17:00",
+            "hash": "33e3be7258957725bd6c5abf106669b3409e77b331108e2e0a45b3cfa5e5a286",
+            "role": "Super User",
+            "user": {
+                "name": "precitec",
+                "role": {
+                    "id": 0,
+                    "name": "Super User"
+                }
+            }
+        },
+        {
+            "changes": [
+                {
+                    "className": "precitec::gui::components::userLog::ButtonClickedChange",
+                    "data": {
+                        "checkable": false,
+                        "checked": false,
+                        "objectName": "",
+                        "text": "3: Move Scanner"
+                    },
+                    "date": "2024-01-09T16:17:02",
+                    "message": "Button 3: Move Scanner clicked"
+                }
+            ],
+            "date": "2024-01-09T16:17:02",
+            "hash": "d5b707c8e357f83d74947ab2b6777ff7f085712cb31cad0645e6e65611e3965f",
+            "role": "Super User",
+            "user": {
+                "name": "precitec",
+                "role": {
+                    "id": 0,
+                    "name": "Super User"
+                }
+            }
+        }
+    ]
+}

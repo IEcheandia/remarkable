@@ -1,0 +1,15 @@
+[connection]
+id=Weldmaster
+uuid=01e570d2-4fcf-4212-af2a-2ef4b40859ef
+type=ethernet
+interface-name=
+permissions=
+
+[ethernet]
+mac-address=
+mac-address-blacklist=
+
+[ipv4]
+address1=192.168.7.198/24
+dns-search=
+method=manual

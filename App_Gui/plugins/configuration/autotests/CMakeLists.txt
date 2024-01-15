@@ -1,0 +1,30 @@
+qtTestCase(
+    NAME
+        testUpsModel
+    SRCS
+        upsModelTest.cpp
+        ../upsModel.cpp
+        ../upsConfigurationChangeEntry.cpp
+    LIBS
+        Precitec::precitecusermanagement
+)
+
+qtTestCase(
+    NAME
+        testHardwareConfigurationBackupModel
+    SRCS
+        hardwareConfigurationBackupModelTest.cpp
+        ../hardwareConfigurationBackupModel.cpp
+        ../hardwareConfigurationBackupChangeEntry.cpp
+        ../hardwareConfigurationRestoreChangeEntry.cpp
+        ../systemHardwareBackupHelper.cpp
+        ../etherCATConfigurationChangeEntry.cpp
+        ../etherCATConfigurationController.cpp
+        ../upsModel.cpp
+        ../upsConfigurationChangeEntry.cpp
+
+    LIBS
+        Precitec::precitecusermanagement
+        Precitec::precitecnetworkmanagement
+        ${POCO_LIBS}
+)

@@ -1,0 +1,13 @@
+<key_value_configuration>
+	<ConservativeCheckOvertriggering>false</ConservativeCheckOvertriggering>
+	<DebugInspectManagerTime_us>400</DebugInspectManagerTime_us>
+	<DebugTimings>false</DebugTimings>
+	<DisableHWResults>true</DisableHWResults>
+	<FieldLight1DefaultIntensity>0</FieldLight1DefaultIntensity>
+	<IsParallelInspection>false</IsParallelInspection>
+	<LineLaser1DefaultIntensity>0</LineLaser1DefaultIntensity>
+	<LineLaser2DefaultIntensity>80</LineLaser2DefaultIntensity>
+	<LogAllFilterProcessingTime>false</LogAllFilterProcessingTime>
+	<RealTimeGraphProcessing>false</RealTimeGraphProcessing>
+	<ToleranceOvertriggering_ms>0</ToleranceOvertriggering_ms>
+</key_value_configuration>

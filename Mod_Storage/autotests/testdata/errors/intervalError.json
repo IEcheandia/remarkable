@@ -1,0 +1,37 @@
+{
+    "error": 1006,
+    "intervalIds": [
+        {
+            "error": "d22b18aa-90d9-48b4-86b4-fe2d5a138ee8",
+            "interval": "dc35b02a-a943-428b-8ec2-f40e1ec5e42f"
+        },
+        {
+            "error": "831a17ce-2356-46a1-b2bc-9886385290a8",
+            "interval": "e292aca2-f97d-497b-a082-154043d5eb85"
+        }
+    ],
+    "intervalLevels": {
+        "level 1": {
+            "max": 14,
+            "min": 13.4,
+            "threshold": 15
+        },
+        "level 2": {
+            "max": 17.8,
+            "min": 16.5,
+            "threshold": 18
+        },
+        "level 3": {
+            "max": 0,
+            "min": 0,
+            "threshold": 0
+        }
+    },
+    "maxLimit": 99000,
+    "minLimit": -99000,
+    "name": "My Interval Error",
+    "shift": 3.7,
+    "uuid": "94f507f1-4215-4fbd-afd1-fe34b77347e5",
+    "value": 566,
+    "variantId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6"
+}

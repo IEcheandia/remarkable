@@ -1,0 +1,167 @@
+{
+    "assemblyImage": "",
+    "default": false,
+    "endless": false,
+    "filterParameterSets": [
+        {
+            "uuid": "6F086211-FBD4-4493-A580-6FF11E4925DD"
+        },
+        {
+            "parameters": [
+                {
+                    "uuid": "7F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "name": "Test",
+                    "typeId": "8F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "filterId": "9F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "type": "bool",
+                    "value": true
+                }
+            ]
+        }
+    ],
+    "hardware": {
+        "parameterSet": {
+        },
+        "startPosYAxis": 0
+    },
+    "seamSeries": [
+        {
+            "hardware": {
+                "parameterSet": {
+                }
+            },
+            "name": "",
+            "number": 0,
+            "seams": [
+                {
+                   "hardware": {
+                        "parameterSet": {
+                        }
+                    },
+                    "name": "",
+                    "number": 0,
+                    "seamIntervals": [
+                        {
+                            "hardware": {
+                                "parameterSet": {
+                                }
+                            },
+                            "uuid": "1fdaef5c-1283-4db1-bc8d-f5161df7d862",
+                            "graphParamSet": "6F086211-FBD4-4493-A580-6FF11E4925DD",
+                            "velocity": 30000
+                        }
+                    ],
+                    "uuid": "29fbfecb-59f8-4eac-b5b3-1031a0d31b02",
+                    "velocity": 30000
+                }
+            ],
+            "uuid": "7bea5013-7e36-460b-8ca4-7a7b1115b309",
+            "velocity": 0
+        }
+    ],
+    "sumError": {
+        "parameterSet": {
+            "parameters": [
+                {
+                    "filterId": "36525998-9adc-4189-bb67-83ab9a30ba91",
+                    "name": "Min",
+                    "type": "double",
+                    "typeId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6",
+                    "uuid": "dc31a7b6-41ee-404e-aee4-f0e0e6e6ec04",
+                    "value": -10
+                },
+                {
+                    "filterId": "36525998-9adc-4189-bb67-83ab9a30ba91",
+                    "name": "MesswertTyp",
+                    "type": "messwert",
+                    "typeId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6",
+                    "uuid": "8b2b3d41-353d-4a40-81a4-2c6809fc179a",
+                    "value": 7
+                },
+                {
+                    "filterId": "36525998-9adc-4189-bb67-83ab9a30ba91",
+                    "name": "Length",
+                    "type": "double",
+                    "typeId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6",
+                    "uuid": "91bc780e-071e-44d9-8208-0fcc0c43de8b",
+                    "value": 145
+                },
+                {
+                    "filterId": "36525998-9adc-4189-bb67-83ab9a30ba91",
+                    "name": "MaxLimit",
+                    "type": "double",
+                    "typeId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6",
+                    "uuid": "3a1dd2da-57c9-49b2-9be4-bbf8285b456d",
+                    "value": 100000
+                },
+                {
+                    "filterId": "36525998-9adc-4189-bb67-83ab9a30ba91",
+                    "name": "FehlerTyp",
+                    "type": "fehler",
+                    "typeId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6",
+                    "uuid": "e9e3e2c6-0897-4446-995b-7e301e5a5279",
+                    "value": 1009
+                },
+                {
+                    "filterId": "36525998-9adc-4189-bb67-83ab9a30ba91",
+                    "name": "Scope",
+                    "type": "string",
+                    "typeId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6",
+                    "uuid": "a43df1ba-96ad-478f-9d47-c3e2b13b8f82",
+                    "value": "Seam"
+                },
+                {
+                    "filterId": "36525998-9adc-4189-bb67-83ab9a30ba91",
+                    "name": "MinLimit",
+                    "type": "double",
+                    "typeId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6",
+                    "uuid": "f3c36886-aa1d-4747-931d-2756b2a51ae0",
+                    "value": -100000
+                },
+                {
+                    "filterId": "36525998-9adc-4189-bb67-83ab9a30ba91",
+                    "name": "Max",
+                    "type": "double",
+                    "typeId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6",
+                    "uuid": "94f26e51-5046-4f03-ba96-6aa77d8c78ef",
+                    "value": 1058
+                },
+                {
+                    "filterId": "36525998-9adc-4189-bb67-83ab9a30ba91",
+                    "name": "SeamInterval",
+                    "type": "int",
+                    "typeId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6",
+                    "uuid": "8854479a-cb81-439e-9e10-b244e4afb0e5",
+                    "value": 0
+                },
+                {
+                    "filterId": "36525998-9adc-4189-bb67-83ab9a30ba91",
+                    "name": "Shift",
+                    "type": "double",
+                    "typeId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6",
+                    "uuid": "80793729-b163-48f5-8b53-570143888c93",
+                    "value": 0
+                },
+                {
+                    "filterId": "36525998-9adc-4189-bb67-83ab9a30ba91",
+                    "name": "SeamSerie",
+                    "type": "int",
+                    "typeId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6",
+                    "uuid": "e4a1d0e0-f56d-4bde-aeaf-600515b50b66",
+                    "value": 0
+                },
+                {
+                    "filterId": "36525998-9adc-4189-bb67-83ab9a30ba91",
+                    "name": "Seam",
+                    "type": "int",
+                    "typeId": "cedeacb4-d4bb-4fdc-945a-bdc54e5848a6",
+                    "uuid": "06260e45-17f7-453b-8c55-f69fdc884bd6",
+                    "value": 0
+                }
+            ],
+            "uuid": "9d35e410-741f-4727-81ac-0b1ad3b84b3b"
+        }
+    },
+    "type": 2,
+    "uuid": "3D2C5B0F-5040-43D9-900A-E150AD489DDC"
+}

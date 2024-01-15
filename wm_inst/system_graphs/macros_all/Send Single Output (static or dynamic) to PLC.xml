@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GraphData>
+    <GraphID>e86c63c6-e34f-11ec-9922-000c29573d91</GraphID>
+    <Name>Send Single Output (static or dynamic) to PLC</Name>
+    <Kommentar>Input will be sent to the PLC as static or dynamic value (see fieldbus documentation).</Kommentar>
+    <Erstellungsdatum>06/03/2022 17:14:48</Erstellungsdatum>
+    <DefaultGraph>0</DefaultGraph>
+    <Group>04 Signal Processing</Group>
+    <Header>
+        <InfoHeader>Copyright © Precitec GmbH &amp;amp; Co. KG  2013</InfoHeader>
+        <InfoUser/>
+        <GraphName>Send Single Output (static or dynamic) to PLC</GraphName>
+        <GraphFileName>Send Single Output (static or dynamic) to PLC.xml</GraphFileName>
+        <Version Major="1" Minor="2"/>
+        <SicherungsDatum>06/03/2022 17:14:48</SicherungsDatum>
+        <HeaderFilterInfoList>
+            <HeaderFilterInfo>
+                <FilterID>e40693d3-9e7f-4ba3-b3e1-a12d722efb41</FilterID>
+                <FilterName>precitec::filter::PureResult</FilterName>
+                <Version>Version 0.1.0</Version>
+                <KomponenteID>4462301f-7abd-46fd-ac5b-c6dab54faa94</KomponenteID>
+                <KomponenteAssemblyName>Filter_Results</KomponenteAssemblyName>
+            </HeaderFilterInfo>
+        </HeaderFilterInfoList>
+    </Header>
+    <ParameterSatzList>
+        <ParameterSatz>
+            <ParametersatzID>e86c63d0-e34f-11ec-b46f-000c29573d91</ParametersatzID>
+            <TypID>e86c63c6-e34f-11ec-9922-000c29573d91</TypID>
+            <ContentName>parametersatz.ContentName</ContentName>
+            <ContentBeschreibung>parametersatz.ContentBeschreibung</ContentBeschreibung>
+            <ContentTooltip>parametersatz.ContentTooltip</ContentTooltip>
+            <TypName>Graph</TypName>
+            <Name>Parameter set</Name>
+            <Beschreibung>Comment</Beschreibung>
+        </ParameterSatz>
+    </ParameterSatzList>
+    <InstanzFilterList>
+        <InstanzFilter>
+            <InstanzFilterID>98d1b340-2b8a-4727-88be-63b50db62f1d</InstanzFilterID>
+            <FilterID>e40693d3-9e7f-4ba3-b3e1-a12d722efb41</FilterID>
+            <GraphID>e86c63c6-e34f-11ec-9922-000c29573d91</GraphID>
+            <Name>Analog out 1</Name>
+            <InstanzFilterDescription PosX="364" PosY="-65" Breite="80" Hoehe="80"/>
+            <InstanzFilterGrouping Group="-1" Parent="-1" GroupName=""/>
+        </InstanzFilter>
+    </InstanzFilterList>
+    <InstanzPipeList>
+        <InstanzPipe>
+            <InstanzPipeID>e86c64ac-e34f-11ec-8548-000c29573d91</InstanzPipeID>
+            <PipePath></PipePath>
+            <ReceiverConnectorID>33e1c20b-1f4d-46b5-bf11-188c5d6aadb6</ReceiverConnectorID>
+            <ReceiverConnectorName></ReceiverConnectorName>
+            <ReceiverConnectorGroup>0</ReceiverConnectorGroup>
+            <ReceiverInstFilterID>98d1b340-2b8a-4727-88be-63b50db62f1d</ReceiverInstFilterID>
+            <SenderConnectorID>5885798a-69e7-4c3d-a45b-15e2045ce8c3</SenderConnectorID>
+            <SenderConnectorName>Output value</SenderConnectorName>
+            <SenderInstFilterID>5885798a-69e7-4c3d-a45b-15e2045ce8c3</SenderInstFilterID>
+        </InstanzPipe>
+    </InstanzPipeList>
+    <InstanzVariantList>
+        <InstanzVariant>
+            <InstanzVariantID>0d69cc71-e182-4f2e-95e3-5d80d9a1c784</InstanzVariantID>
+            <ParentID>00000000-0000-0000-0000-000000000000</ParentID>
+            <VariantID>1d788750-1ba4-457e-b1aa-759b473a236c</VariantID>
+            <ParametersatzID>e86c63d0-e34f-11ec-b46f-000c29573d91</ParametersatzID>
+            <InstanceFilterID>98d1b340-2b8a-4727-88be-63b50db62f1d</InstanceFilterID>
+            <HardwareKonfigID>00000000-0000-0000-0000-000000000000</HardwareKonfigID>
+            <StationID>00000000-0000-0000-0000-000000000000</StationID>
+            <ProduktID>00000000-0000-0000-0000-000000000000</ProduktID>
+            <EditListOrder/>
+            <Name/>
+        </InstanzVariant>
+    </InstanzVariantList>
+    <InstanzAttributeList>
+        <InstanzAttribute>
+            <InstanzAttributeID>a9110329-674e-40de-b296-ed2a2b3b062d</InstanzAttributeID>
+            <InstanzVariantID>0d69cc71-e182-4f2e-95e3-5d80d9a1c784</InstanzVariantID>
+            <VariantID>1d788750-1ba4-457e-b1aa-759b473a236c</VariantID>
+            <InstanceFilterID>98d1b340-2b8a-4727-88be-63b50db62f1d</InstanceFilterID>
+            <AttributeID>1bab875b-3599-4c75-bb75-e3640dfc7c74</AttributeID>
+            <AttributeName>Verbosity</AttributeName>
+            <UserLevel>0</UserLevel>
+            <Visible>true</Visible>
+            <Value>1</Value>
+            <Blob/>
+            <Publicity>true</Publicity>
+            <HelpFile></HelpFile>
+        </InstanzAttribute>
+        <InstanzAttribute>
+            <InstanzAttributeID>44de1b54-ae2a-47bc-bba6-62119b4e4f29</InstanzAttributeID>
+            <InstanzVariantID>0d69cc71-e182-4f2e-95e3-5d80d9a1c784</InstanzVariantID>
+            <VariantID>1d788750-1ba4-457e-b1aa-759b473a236c</VariantID>
+            <InstanceFilterID>98d1b340-2b8a-4727-88be-63b50db62f1d</InstanceFilterID>
+            <AttributeID>8b47f3a6-bb10-4384-b7de-b1b4cb60e510</AttributeID>
+            <AttributeName>ResultType</AttributeName>
+            <UserLevel>0</UserLevel>
+            <Visible>true</Visible>
+            <Value>109</Value>
+            <Blob/>
+            <Publicity>true</Publicity>
+            <HelpFile></HelpFile>
+        </InstanzAttribute>
+    </InstanzAttributeList>
+    <MesswerttypList/>
+    <FehlertypList/>
+    <SensorTypList/>
+    <GraphPortList/>
+    <Macros/>
+    <InConnectors>
+        <Connector>
+            <ID>5885798a-69e7-4c3d-a45b-15e2045ce8c3</ID>
+            <Name>Output value</Name>
+            <Type>4</Type>
+            <Position PosX="292" PosY="-10" Breite="25" Hoehe="25"/>
+        </Connector>
+    </InConnectors>
+    <OutConnectors/>
+    <GraphItemsExtensionList/>
+</GraphData>

@@ -1,0 +1,22 @@
+qtTestCase(
+    NAME
+        macroUUIDMappingTest
+    SRCS
+        macroUUIDMappingTest.cpp
+        ../src/macroUUIDMapping.cpp
+    LIBS
+        ${POCO_LI8BS}
+        fliplib
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        graphMacroExtenderTest
+    SRCS
+        graphMacroExtenderTest.cpp
+    LIBS
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+)

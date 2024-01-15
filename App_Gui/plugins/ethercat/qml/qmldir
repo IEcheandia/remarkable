@@ -1,0 +1,3 @@
+module precitec.gui.components.ethercat
+SlaveOverview 1.0 qrc:///precitec/ethercat/SlaveOverview.qml
+plugin precitecethercatcomponentplugin

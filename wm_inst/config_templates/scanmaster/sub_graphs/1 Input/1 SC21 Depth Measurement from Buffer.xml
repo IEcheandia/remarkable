@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GraphData>
+    <GraphID>99644d47-1e1c-4132-bffd-c5af2e181546</GraphID>
+    <Name>1 SC21 Depth Measurement from Buffer</Name>
+    <Kommentar>New graph comment!</Kommentar>
+    <Erstellungsdatum>02/15/2021 13:37:22</Erstellungsdatum>
+    <DefaultGraph>0</DefaultGraph>
+    <Header>
+        <InfoHeader>Copyright © Precitec GmbH &amp;amp; Co. KG  2013</InfoHeader>
+        <InfoUser/>
+        <GraphName>1 SC21 Depth Measurement from Buffer</GraphName>
+        <GraphFileName>Step 3 Get Depth from Buffer.xml</GraphFileName>
+        <Version Major="1" Minor="2"/>
+        <SicherungsDatum>02/15/2021 13:37:22</SicherungsDatum>
+        <HeaderFilterInfoList>
+            <HeaderFilterInfo>
+                <FilterID>2c49dc9e-9216-414a-a134-a0cbf89fd36d</FilterID>
+                <FilterName>precitec::filter::BufferPlayer</FilterName>
+                <Version>Version 0.0.1</Version>
+                <KomponenteID>5e6df79f-39e2-4a9f-a76f-82e884afe0e9</KomponenteID>
+                <KomponenteAssemblyName>Filter_Utility</KomponenteAssemblyName>
+                <KomponenteErstellungsDatum>02/15/2021 13:37:22</KomponenteErstellungsDatum>
+            </HeaderFilterInfo>
+            <HeaderFilterInfo>
+                <FilterID>1a7f9c78-ff0a-4574-ad2d-a587f0561e13</FilterID>
+                <FilterName>precitec::filter::ParameterFilter</FilterName>
+                <Version>Version 0.0.1</Version>
+                <KomponenteID>5e6df79f-39e2-4a9f-a76f-82e884afe0e9</KomponenteID>
+                <KomponenteAssemblyName>Filter_Utility</KomponenteAssemblyName>
+                <KomponenteErstellungsDatum>02/15/2021 13:37:22</KomponenteErstellungsDatum>
+            </HeaderFilterInfo>
+            <HeaderFilterInfo>
+                <FilterID>488967c8-02f2-4a18-b88d-7f2c5b9749b4</FilterID>
+                <FilterName>precitec::filter::DoubleSink</FilterName>
+                <Version>Version 0.0.1</Version>
+                <KomponenteID>3899ecce-4f8d-4022-8a5f-641862372ea8</KomponenteID>
+                <KomponenteAssemblyName>Filter_Bridges</KomponenteAssemblyName>
+                <KomponenteErstellungsDatum>02/15/2021 13:37:22</KomponenteErstellungsDatum>
+            </HeaderFilterInfo>
+            <HeaderFilterInfo>
+                <FilterID>8310c333-20a2-4a91-a9f9-e72199d0604b</FilterID>
+                <FilterName>precitec::filter::ImageSource</FilterName>
+                <Version>Version 0.0.1</Version>
+                <KomponenteID>3899ecce-4f8d-4022-8a5f-641862372ea8</KomponenteID>
+                <KomponenteAssemblyName>Filter_Bridges</KomponenteAssemblyName>
+                <KomponenteErstellungsDatum>02/15/2021 13:37:22</KomponenteErstellungsDatum>
+            </HeaderFilterInfo>
+        </HeaderFilterInfoList>
+    </Header>
+    <ParameterSatzList>
+        <ParameterSatz>
+            <ParametersatzID>7bbb0219-2258-4891-b446-1b6901f68f07</ParametersatzID>
+            <TypID>99644d47-1e1c-4132-bffd-c5af2e181546</TypID>
+            <ContentName>parametersatz.ContentName</ContentName>
+            <ContentBeschreibung>parametersatz.ContentBeschreibung</ContentBeschreibung>
+            <ContentTooltip>parametersatz.ContentTooltip</ContentTooltip>
+            <TypName>Graph</TypName>
+            <Name>Parameter set</Name>
+            <Beschreibung>Comment</Beschreibung>
+        </ParameterSatz>
+    </ParameterSatzList>
+    <InstanzFilterList>
+        <InstanzFilter>
+            <InstanzFilterID>13f07e16-a014-4cb8-8696-6acbe3b3522b</InstanzFilterID>
+            <FilterID>2c49dc9e-9216-414a-a134-a0cbf89fd36d</FilterID>
+            <GraphID>99644d47-1e1c-4132-bffd-c5af2e181546</GraphID>
+            <Name>Player</Name>
+            <InstanzFilterDescription PosX="412" PosY="50" Breite="80" Hoehe="80"/>
+            <InstanzFilterGrouping Group="-1" Parent="-1" GroupName="Not grouped"/>
+        </InstanzFilter>
+        <InstanzFilter>
+            <InstanzFilterID>aeee52f0-db3a-4c38-b5f7-f50a51a0dc05</InstanzFilterID>
+            <FilterID>1a7f9c78-ff0a-4574-ad2d-a587f0561e13</FilterID>
+            <GraphID>99644d47-1e1c-4132-bffd-c5af2e181546</GraphID>
+            <Name>Zero</Name>
+            <InstanzFilterDescription PosX="269" PosY="151" Breite="80" Hoehe="80"/>
+            <InstanzFilterGrouping Group="-1" Parent="-1" GroupName="Not grouped"/>
+        </InstanzFilter>
+        <InstanzFilter>
+            <InstanzFilterID>6e60528a-00fe-484f-9400-76348e283446</InstanzFilterID>
+            <FilterID>488967c8-02f2-4a18-b88d-7f2c5b9749b4</FilterID>
+            <GraphID>99644d47-1e1c-4132-bffd-c5af2e181546</GraphID>
+            <Name>IDMmm</Name>
+            <InstanzFilterDescription PosX="560" PosY="48" Breite="80" Hoehe="80"/>
+            <InstanzFilterGrouping Group="-1" Parent="-1" GroupName="Not grouped"/>
+        </InstanzFilter>
+        <InstanzFilter>
+            <InstanzFilterID>98aba77b-fc37-4f6f-8adf-0391967a239d</InstanzFilterID>
+            <FilterID>8310c333-20a2-4a91-a9f9-e72199d0604b</FilterID>
+            <GraphID>99644d47-1e1c-4132-bffd-c5af2e181546</GraphID>
+            <Name>Img</Name>
+            <InstanzFilterDescription PosX="147" PosY="-44" Breite="80" Hoehe="80"/>
+            <InstanzFilterGrouping Group="-1" Parent="-1" GroupName="Not grouped"/>
+        </InstanzFilter>
+    </InstanzFilterList>
+    <InstanzPipeList>
+        <InstanzPipe>
+            <InstanzPipeID>25a69e0c-fad8-46be-ad2f-a9bedf90041a</InstanzPipeID>
+            <PipePath></PipePath>
+            <ReceiverConnectorID>62d61e83-0aff-4b38-9d51-b9b5dcaf8dd6</ReceiverConnectorID>
+            <ReceiverConnectorName>pos</ReceiverConnectorName>
+            <ReceiverConnectorGroup>1024</ReceiverConnectorGroup>
+            <ReceiverInstFilterID>13f07e16-a014-4cb8-8696-6acbe3b3522b</ReceiverInstFilterID>
+            <SenderConnectorID>2495a1d1-6022-48c8-9b56-6e6ca2d67d88</SenderConnectorID>
+            <SenderConnectorName>Scalar</SenderConnectorName>
+            <SenderInstFilterID>aeee52f0-db3a-4c38-b5f7-f50a51a0dc05</SenderInstFilterID>
+        </InstanzPipe>
+        <InstanzPipe>
+            <InstanzPipeID>fa06676f-4a34-48ce-ad04-5e855a168d5a</InstanzPipeID>
+            <PipePath></PipePath>
+            <ReceiverConnectorID>4c9eab1e-685a-4a8e-a811-e91f81fb04a0</ReceiverConnectorID>
+            <ReceiverConnectorName></ReceiverConnectorName>
+            <ReceiverConnectorGroup>0</ReceiverConnectorGroup>
+            <ReceiverInstFilterID>6e60528a-00fe-484f-9400-76348e283446</ReceiverInstFilterID>
+            <SenderConnectorID>cceb7de0-dec2-49b2-bc2a-30bc5a947e10</SenderConnectorID>
+            <SenderConnectorName>Data</SenderConnectorName>
+            <SenderInstFilterID>13f07e16-a014-4cb8-8696-6acbe3b3522b</SenderInstFilterID>
+        </InstanzPipe>
+        <InstanzPipe>
+            <InstanzPipeID>246e4915-b530-4603-b149-fb5bcd88d941</InstanzPipeID>
+            <PipePath></PipePath>
+            <ReceiverConnectorID>b1fc92b7-be22-4765-b202-45fd88d6c2ce</ReceiverConnectorID>
+            <ReceiverConnectorName></ReceiverConnectorName>
+            <ReceiverConnectorGroup>0</ReceiverConnectorGroup>
+            <ReceiverInstFilterID>aeee52f0-db3a-4c38-b5f7-f50a51a0dc05</ReceiverInstFilterID>
+            <SenderConnectorID>0efa222b-906c-41ba-86e6-49c8fb06b8ef</SenderConnectorID>
+            <SenderConnectorName>Bridge</SenderConnectorName>
+            <SenderInstFilterID>98aba77b-fc37-4f6f-8adf-0391967a239d</SenderInstFilterID>
+        </InstanzPipe>
+        <InstanzPipe>
+            <InstanzPipeID>2b2d1457-33c0-47ff-a2c7-547c9d46eddb</InstanzPipeID>
+            <PipePath></PipePath>
+            <ReceiverConnectorID>540cff31-b5fe-4ef6-b30d-fe7a5ad5910d</ReceiverConnectorID>
+            <ReceiverConnectorName>image</ReceiverConnectorName>
+            <ReceiverConnectorGroup>1024</ReceiverConnectorGroup>
+            <ReceiverInstFilterID>13f07e16-a014-4cb8-8696-6acbe3b3522b</ReceiverInstFilterID>
+            <SenderConnectorID>0efa222b-906c-41ba-86e6-49c8fb06b8ef</SenderConnectorID>
+            <SenderConnectorName>Bridge</SenderConnectorName>
+            <SenderInstFilterID>98aba77b-fc37-4f6f-8adf-0391967a239d</SenderInstFilterID>
+        </InstanzPipe>
+    </InstanzPipeList>
+    <InstanzVariantList>
+        <InstanzVariant>
+            <InstanzVariantID>f1be1559-d522-42a0-86e8-78d5d32d3c30</InstanzVariantID>
+            <ParentID>00000000-0000-0000-0000-000000000000</ParentID>
+            <VariantID>04d19f78-3fcf-4443-88c5-e63d8e9249d1</VariantID>
+            <ParametersatzID>7bbb0219-2258-4891-b446-1b6901f68f07</ParametersatzID>
+            <InstanceFilterID>13f07e16-a014-4cb8-8696-6acbe3b3522b</InstanceFilterID>
+            <HardwareKonfigID>00000000-0000-0000-0000-000000000000</HardwareKonfigID>
+            <StationID>00000000-0000-0000-0000-000000000000</StationID>
+            <ProduktID>00000000-0000-0000-0000-000000000000</ProduktID>
+            <EditListOrder/>
+            <Name/>
+        </InstanzVariant>
+        <InstanzVariant>
+            <InstanzVariantID>69055f60-88fa-4961-98f5-7c75ab175279</InstanzVariantID>
+            <ParentID>00000000-0000-0000-0000-000000000000</ParentID>
+            <VariantID>7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba</VariantID>
+            <ParametersatzID>7bbb0219-2258-4891-b446-1b6901f68f07</ParametersatzID>
+            <InstanceFilterID>aeee52f0-db3a-4c38-b5f7-f50a51a0dc05</InstanceFilterID>
+            <HardwareKonfigID>00000000-0000-0000-0000-000000000000</HardwareKonfigID>
+            <StationID>00000000-0000-0000-0000-000000000000</StationID>
+            <ProduktID>00000000-0000-0000-0000-000000000000</ProduktID>
+            <EditListOrder/>
+            <Name/>
+        </InstanzVariant>
+    </InstanzVariantList>
+    <InstanzAttributeList>
+        <InstanzAttribute>
+            <InstanzAttributeID>a9999bbf-8d80-4c0c-8c6e-6d730a6d8072</InstanzAttributeID>
+            <InstanzVariantID>f1be1559-d522-42a0-86e8-78d5d32d3c30</InstanzVariantID>
+            <VariantID>04d19f78-3fcf-4443-88c5-e63d8e9249d1</VariantID>
+            <InstanceFilterID>13f07e16-a014-4cb8-8696-6acbe3b3522b</InstanceFilterID>
+            <AttributeID>d04045fa-bdae-49c0-bf8d-f505aabb4ec9</AttributeID>
+            <AttributeName>Verbosity</AttributeName>
+            <UserLevel>0</UserLevel>
+            <Visible>true</Visible>
+            <Value>1</Value>
+            <Blob/>
+            <Publicity>true</Publicity>
+            <HelpFile></HelpFile>
+        </InstanzAttribute>
+        <InstanzAttribute>
+            <InstanzAttributeID>404558f4-d0d9-4fba-a5b1-586a2f6263fd</InstanzAttributeID>
+            <InstanzVariantID>f1be1559-d522-42a0-86e8-78d5d32d3c30</InstanzVariantID>
+            <VariantID>04d19f78-3fcf-4443-88c5-e63d8e9249d1</VariantID>
+            <InstanceFilterID>13f07e16-a014-4cb8-8696-6acbe3b3522b</InstanceFilterID>
+            <AttributeID>fc09b2a7-a22e-494e-a8e3-9b3e66ffe116</AttributeID>
+            <AttributeName>Slot</AttributeName>
+            <UserLevel>0</UserLevel>
+            <Visible>true</Visible>
+            <Value>3</Value>
+            <Blob/>
+            <Publicity>true</Publicity>
+            <HelpFile></HelpFile>
+        </InstanzAttribute>
+        <InstanzAttribute>
+            <InstanzAttributeID>820fc7b9-7972-4bb0-8898-0c2f6f286657</InstanzAttributeID>
+            <InstanzVariantID>f1be1559-d522-42a0-86e8-78d5d32d3c30</InstanzVariantID>
+            <VariantID>04d19f78-3fcf-4443-88c5-e63d8e9249d1</VariantID>
+            <InstanceFilterID>13f07e16-a014-4cb8-8696-6acbe3b3522b</InstanceFilterID>
+            <AttributeID>5c86f7e4-0e4e-4064-a8b0-e85f88b6541c</AttributeID>
+            <AttributeName>SeamOffset</AttributeName>
+            <UserLevel>0</UserLevel>
+            <Visible>true</Visible>
+            <Value>-1</Value>
+            <Blob/>
+            <Publicity>true</Publicity>
+            <HelpFile></HelpFile>
+        </InstanzAttribute>
+        <InstanzAttribute>
+            <InstanzAttributeID>7bc2459e-89f6-4819-9c68-468f3c387b68</InstanzAttributeID>
+            <InstanzVariantID>f1be1559-d522-42a0-86e8-78d5d32d3c30</InstanzVariantID>
+            <VariantID>04d19f78-3fcf-4443-88c5-e63d8e9249d1</VariantID>
+            <InstanceFilterID>13f07e16-a014-4cb8-8696-6acbe3b3522b</InstanceFilterID>
+            <AttributeID>e6aca62a-9e3b-4a1e-8470-e85879d5afc5</AttributeID>
+            <AttributeName>DataOffset</AttributeName>
+            <UserLevel>0</UserLevel>
+            <Visible>true</Visible>
+            <Value>0</Value>
+            <Blob/>
+            <Publicity>true</Publicity>
+            <HelpFile></HelpFile>
+        </InstanzAttribute>
+        <InstanzAttribute>
+            <InstanzAttributeID>4dc112c9-8ecf-4a8a-8853-3c815e3655cf</InstanzAttributeID>
+            <InstanzVariantID>69055f60-88fa-4961-98f5-7c75ab175279</InstanzVariantID>
+            <VariantID>7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba</VariantID>
+            <InstanceFilterID>aeee52f0-db3a-4c38-b5f7-f50a51a0dc05</InstanceFilterID>
+            <AttributeID>95b2ba6a-b1ea-40cf-a91f-76eb2f0b7064</AttributeID>
+            <AttributeName>scalar</AttributeName>
+            <UserLevel>0</UserLevel>
+            <Visible>true</Visible>
+            <Value>0</Value>
+            <Blob/>
+            <Publicity>true</Publicity>
+            <HelpFile></HelpFile>
+        </InstanzAttribute>
+        <InstanzAttribute>
+            <InstanzAttributeID>07f5c721-cae4-4807-a0b7-1a224ed94cd9</InstanzAttributeID>
+            <InstanzVariantID>69055f60-88fa-4961-98f5-7c75ab175279</InstanzVariantID>
+            <VariantID>7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba</VariantID>
+            <InstanceFilterID>aeee52f0-db3a-4c38-b5f7-f50a51a0dc05</InstanceFilterID>
+            <AttributeID>41766f66-56c2-436c-bf2a-a56ab4a68062</AttributeID>
+            <AttributeName>Verbosity</AttributeName>
+            <UserLevel>0</UserLevel>
+            <Visible>true</Visible>
+            <Value>1</Value>
+            <Blob/>
+            <Publicity>true</Publicity>
+            <HelpFile></HelpFile>
+        </InstanzAttribute>
+    </InstanzAttributeList>
+    <MesswerttypList/>
+    <FehlertypList/>
+    <SensorTypList/>
+    <GraphPortList/>
+    <GraphItemsExtensionList>
+        <GraphItemExtension>
+            <ItemsExtensionID>4e3f31d8-6c1d-4c28-98c7-e0fbbcae2976</ItemsExtensionID>
+            <GraphID>99644d47-1e1c-4132-bffd-c5af2e181546</GraphID>
+            <GraphEditItemID>25a69e0c-fad8-46be-ad2f-a9bedf90041a</GraphEditItemID>
+            <GraphEditItemType>7</GraphEditItemType>
+            <PipeInPortID>f132ea6a-0b0a-48bb-9335-d0a5ff8c31f6</PipeInPortID>
+        </GraphItemExtension>
+        <GraphItemExtension>
+            <ItemsExtensionID>491a79f3-ff5b-4c36-bacf-f58dcc5279c8</ItemsExtensionID>
+            <GraphID>99644d47-1e1c-4132-bffd-c5af2e181546</GraphID>
+            <GraphEditItemID>fa06676f-4a34-48ce-ad04-5e855a168d5a</GraphEditItemID>
+            <GraphEditItemType>7</GraphEditItemType>
+            <PipeInPortID>f132ea6a-0b0a-48bb-9335-d0a5ff8c31f6</PipeInPortID>
+        </GraphItemExtension>
+        <GraphItemExtension>
+            <ItemsExtensionID>f3cfc2d1-126b-4a16-9768-f3b023f72605</ItemsExtensionID>
+            <GraphID>99644d47-1e1c-4132-bffd-c5af2e181546</GraphID>
+            <GraphEditItemID>246e4915-b530-4603-b149-fb5bcd88d941</GraphEditItemID>
+            <GraphEditItemType>7</GraphEditItemType>
+            <PipeInPortID>f132ea6a-0b0a-48bb-9335-d0a5ff8c31f6</PipeInPortID>
+        </GraphItemExtension>
+        <GraphItemExtension>
+            <ItemsExtensionID>ecf90689-947a-470b-98ee-e1c2145a3841</ItemsExtensionID>
+            <GraphID>99644d47-1e1c-4132-bffd-c5af2e181546</GraphID>
+            <GraphEditItemID>2b2d1457-33c0-47ff-a2c7-547c9d46eddb</GraphEditItemID>
+            <GraphEditItemType>7</GraphEditItemType>
+            <PipeInPortID>f132ea6a-0b0a-48bb-9335-d0a5ff8c31f6</PipeInPortID>
+        </GraphItemExtension>
+    </GraphItemsExtensionList>
+</GraphData>

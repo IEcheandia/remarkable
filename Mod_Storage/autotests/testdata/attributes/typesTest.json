@@ -1,0 +1,17 @@
+{
+   "attributes" : [
+      {
+         "contentName" : "Precitec.Filter.Attribute.ImageArithmetic.InvertLUT.Name", "defaultValue" : "0", "description" : "Precitec.Filter.Attribute.ImageArithmetic.InvertLUT.Beschreibung", "editListOrder" : 9, "enum" : "Precitec.Filter.Attribute.ImageArithmetic.InvertLUT.Aufzaehlung", "mandatory" : true, "maxLength" : 0, "maxValue" : "1", "minValue" : "0", "name" : "InvertLUT", "publicity" : true, "step" : 1, "toolTip" : "Precitec.Filter.Attribute.ImageArithmetic.InvertLUT.Tooltip", "type" : "bool", "unit" : "Precitec.Filter.Attribute.ImageArithmetic.InvertLUT.Unit", "userLevel" : 0, "uuid" : "90C39F20-8AD1-4081-93A5-5D01222B897F", "variantId" : "80A76F75-F055-412A-B92D-364F135CE8E3", "visible" : true
+      },
+      {
+         "contentName" : "Precitec.Filter.Attribute.ImageArithmetic.ResolutionX.Name", "defaultValue" : "1", "description" : "Precitec.Filter.Attribute.ImageArithmetic.ResolutionX.Beschreibung", "editListOrder" : 1, "enum" : "Precitec.Filter.Attribute.ImageArithmetic.ResolutionX.Aufzaehlung", "mandatory" : true, "maxLength" : 0, "maxValue" : "10000", "minValue" : "0", "name" : "ResolutionX", "publicity" : true, "step" : 1, "toolTip" : "Precitec.Filter.Attribute.ImageArithmetic.ResolutionX.Tooltip", "type" : "uint", "unit" : "Precitec.Filter.Attribute.ImageArithmetic.ResolutionX.Unit", "userLevel" : 0, "uuid" : "2AEEFC0C-3899-4415-8D72-11944B599526", "variantId" : "80A76F75-F055-412A-B92D-364F135CE8E3", "visible" : true
+      },
+      {
+         "contentName" : "Precitec.Filter.Attribute.ImageArithmetic.Operation.Name", "defaultValue" : "0", "description" : "Precitec.Filter.Attribute.ImageArithmetic.Operation.Beschreibung", "editListOrder" : 6, "enum" : "Precitec.Filter.Attribute.ImageArithmetic.Operation.Aufzaehlung", "mandatory" : true, "maxLength" : 0, "maxValue" : "8", "minValue" : "0", "name" : "Operation", "publicity" : true, "step" : 1, "toolTip" : "Precitec.Filter.Attribute.ImageArithmetic.Operation.Tooltip", "type" : "enum", "unit" : "Precitec.Filter.Attribute.ImageArithmetic.Operation.Unit", "userLevel" : 0, "uuid" : "50E14B55-E8B1-4C3E-88DC-E2C766D7B5FE", "variantId" : "80A76F75-F055-412A-B92D-364F135CE8E3", "visible" : true
+      },
+      {
+         "contentName" : "Precitec.Filter.Attribute.DeviationCheck.RefVal.Name", "defaultValue" : "7.0", "description" : "Precitec.Filter.Attribute.DeviationCheck.RefVal.Beschreibung", "editListOrder" : 2, "enum" : "Precitec.Filter.Attribute.DeviationCheck.RefVal.Aufzaehlung", "mandatory" : true, "maxLength" : 0, "maxValue" : "100000.0", "minValue" : "-100000.0", "name" : "RefVal", "publicity" : true, "step" : 1, "toolTip" : "Precitec.Filter.Attribute.DeviationCheck.RefVal.Tooltip", "type" : "double", "unit" : "Precitec.Filter.Attribute.DeviationCheck.RefVal.Unit", "userLevel" : 0, "uuid" : "60FCEB17-B1FE-4E30-9189-36642D1B1983", "variantId" : "80A76F75-F055-412A-B92D-364F135CE8E3", "visible" : true
+      }
+   ], "fields" : [
+   ]
+}

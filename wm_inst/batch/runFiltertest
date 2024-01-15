@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#get the absolute path of the wm installation from the path of the current script
+export WM_BASE_DIR=$(realpath -s "$(dirname $BASH_SOURCE)/..")
+echo $WM_BASE_DIR
+
+if [ -z $WM_BASE_DIR ]
+then
+	echo "FATAL ERROR: Cannot determine WM_BASE_DIR"
+	exit 1
+fi
+
+export LD_LIBRARY_PATH=$WM_BASE_DIR/lib:/usr/local/lib:/opt/etherlab/lib:/opt/SiliconSoftware/Runtime5.4.2/lib64:$LD_LIBRARY_PATH
+
+#call filtertest with the provided command line arguments 
+$WM_BASE_DIR/bin/filtertest "${@}"

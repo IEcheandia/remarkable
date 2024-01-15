@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+	Author: HS
+	Date	2011
+	Parameters for the video recorder application.
+	See also 'parameter.h' in 'Mod_VideoRecorder' and g_oMaxNbRecordingsToSearch in literal.cpp.
+	NB: g_oMaxNbRecordingsToSearch >= NbProductsToKeep + NbLiveModeToKeep has to be satisfied.
+	
+ 	'IsShutOff'			- [true, false]		Flag if recording is globally disabled, overrides IsEnabled.
+ 	'IsEnabled'			- [true, false]		Flag if recording is enabled.
+	'SkipIfFull'		- [true, false]		Flag skipping frames when queue is full.
+ 	'NioMode'			- [enum]			Recording mode concerning NIOs.
+	'NbProductsToKeep'	- [1 - 10000]		Number of product folders to be hold on disk.
+	'NbLiveModeToKeep'	- [1 - 1000]		Number of live mode folders to be hold on disk.
+ 	'NbMaxImgLive'		- [0 - 100000]		Max number of images to be recorded in live mode cycle.
+ 	'MaxDiskUsage'		- [0.0 - 1.0]		Maximum usage of disk space.
+-->
+
+<key_value_configuration>
+	<IsShutOff>false</IsShutOff>
+	<IsEnabled>false</IsEnabled>
+	<SkipIfFull>true</SkipIfFull>
+	<NioMode>0</NioMode>
+	<NbProductsToKeep>500</NbProductsToKeep>
+	<NbLiveModeToKeep>5</NbLiveModeToKeep>
+	<NbMaxImgLive>1000000</NbMaxImgLive>
+	<MaxDiskUsage>0.9</MaxDiskUsage>
+</key_value_configuration>

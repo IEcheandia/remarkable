@@ -1,0 +1,40 @@
+{
+    "messwerte": [
+        {
+            "enum": 10000,
+            "lineColor": "#483d8b",
+            "maxValue": 10,
+            "minValue": -10,
+            "name": "My X Axis position",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "14759cd4-7c68-42ee-a2e4-d1fe9c83223a",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 10001,
+            "lineColor": "#2f4f4f",
+            "maxValue": 15,
+            "minValue": -15,
+            "name": "My Y Axis position",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "775c7c50-be29-453e-9e28-344fd794e61d",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 10002,
+            "lineColor": "#00ced1",
+            "maxValue": 20,
+            "minValue": -20,
+            "name": "My Z Axis position",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "e2a129f5-e1cf-4e2c-bf5d-f06edd4aacc4",
+            "visible": 1,
+            "visualization": 1
+        }
+    ]
+}

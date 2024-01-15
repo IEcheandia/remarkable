@@ -1,0 +1,74 @@
+qtTestCase(
+    NAME
+        testOverlayGroupModel
+    SRCS
+        testOverlayGroupModel.cpp
+        ../overlayGroupModel.cpp
+)
+
+qtTestCase(
+    NAME
+        testOverlayGroupFilterModel
+    SRCS
+        testOverlayGroupFilterModel.cpp
+        ../overlayGroupModel.cpp
+        ../overlayGroupFilterModel.cpp
+)
+
+qtTestCase(
+    NAME
+        testImageNode
+    SRCS
+        testImageNode.cpp
+        ../imageNode.cpp
+        ../../../../Filtertest/dummyLogger.cpp
+    LIBS
+        Qt5::Quick
+        ${POCO_LIBS}
+        Framework_Module
+        System
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testNodeBasedOverlayCanvas
+    SRCS
+        testNodeBasedOverlayCanvas.cpp
+        ../imageNode.cpp
+        ../nodeBasedOverlayCanvas.cpp
+    LIBS
+        Qt5::Quick
+        ${POCO_LIBS}
+        Framework_Module
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testImageItem
+    SRCS
+        testImageItem.cpp
+        ../imageItem.cpp
+        ../imageNode.cpp
+        ../nodeBasedOverlayCanvas.cpp
+        ../overlayGroupModel.cpp
+        ../overlayGroupFilterModel.cpp
+    LIBS
+        Qt5::Quick
+        ${POCO_LIBS}
+        Framework_Module
+        Interfaces
+        Precitec::precitecnotifications
+)
+
+qtTestCase(
+    NAME
+        testSourceImageItem
+    SRCS
+        testSourceImageItem.cpp
+        ../sourceImageItem.cpp
+    LIBS
+        Qt5::Quick
+        Qt5::Concurrent
+)

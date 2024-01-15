@@ -1,0 +1,49 @@
+{
+  "Name": "Basic figure line",
+  "ID": "2",
+  "Description": "Line with 4 points",
+  "MicroVectorFactor": 1,
+  "PowerModulationMode": 1,
+  "Figure": [
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": 0.5,
+      "RingPower": 0.5
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.5
+      ],
+      "Power": 0.75,
+      "RingPower": 0.75
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": 0.5,
+      "RingPower": 0.5
+    },
+    {
+      "EndPosition": [
+        0.0,
+        -0.5
+      ],
+      "Power": 0.35,
+      "RingPower": 0.45
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": 0.5,
+      "RingPower": 0.5
+    }
+  ]
+}

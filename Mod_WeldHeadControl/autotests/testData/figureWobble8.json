@@ -1,0 +1,81 @@
+{
+  "Name": "New figure",
+  "ID": "8",
+  "Description": "No description",
+  "MicroVectorFactor": 4,
+  "PowerModulationMode": 8,
+  "Figure": [
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": 0.75,
+      "RingPower": 0.6
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.71
+      ],
+      "Power": 0.5,
+      "RingPower": 0.5
+    },
+    {
+      "EndPosition": [
+        0.0,
+        1.0
+      ],
+      "Power": 0.4,
+      "RingPower": 0.55
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.71
+      ],
+      "Power": 0.2,
+      "RingPower": 0.3
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": 0.35,
+      "RingPower": 0.4
+    },
+    {
+      "EndPosition": [
+        0.0,
+        -0.71
+      ],
+      "Power": 0.45,
+      "RingPower": 0.5
+    },
+    {
+      "EndPosition": [
+        0.0,
+        -1.0
+      ],
+      "Power": 0.6,
+      "RingPower": 0.6
+    },
+    {
+      "EndPosition": [
+        0.0,
+        -0.71
+      ],
+      "Power": 0.85,
+      "RingPower": 0.75
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": 0.75,
+      "RingPower": 0.6
+    }
+  ]
+}

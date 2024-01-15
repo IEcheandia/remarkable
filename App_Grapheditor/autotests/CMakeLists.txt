@@ -1,0 +1,35 @@
+set(test_SRCS
+    testGroupController.cpp
+    ../src/groupController.cpp
+    ../src/graphHelper.cpp
+    ../src/FilterComment.cpp
+    ../src/FilterConnector.cpp
+    ../src/FilterGraph.cpp
+    ../src/FilterGroup.cpp
+    ../src/FilterNode.cpp
+    ../src/FilterPort.cpp
+    ../src/filterMacro.cpp
+    ../src/filterMacroConnector.cpp
+    ../src/abstractNodeController.cpp
+    ../src/plausibilityController.cpp
+    ../../Filtertest/dummyLogger.cpp
+)
+qt5_add_resources(test_SRCS ../resources_plugin.qrc)
+
+qtTestCase(
+    NAME
+        testGroupController
+    SRCS
+        ${test_SRCS}
+    LIBS
+        Qt5::Quick
+        Qt5::QuickControls2
+        ${POCO_LIBS}
+        fliplib
+        Framework_Module
+        Mod_Storage
+        System
+        Interfaces
+        /usr/lib/x86_64-linux-gnu/libQuickQanava.so
+        /usr/lib/x86_64-linux-gnu/libQuickContainers.so
+)

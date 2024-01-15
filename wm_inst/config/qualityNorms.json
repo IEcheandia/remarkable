@@ -1,0 +1,1217 @@
+{
+    "qualityNorm": [
+        {
+            "name": "ISO",
+            "uuid": "0477aa1d-168a-4437-80bf-d1da322232c3",
+            "qualityNormResults": [
+                {
+                    "enum": 115,
+                    "name": "S6K Concavity",
+					"level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.1,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.3,
+                                "maxOffset": 0,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 116,
+                    "name": "S6K Convexity",
+					"level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.15,
+                                "maxOffset": 0.2,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0.2,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.3,
+                                "maxOffset": 0.2,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 114,
+                    "name": "S6K Mismatch",
+					"level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.1,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.15,
+                                "minOffset": 0,
+                                "maxFactor": 0.25,
+                                "maxOffset": 0,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.25,
+                                "minOffset": 0,
+                                "maxFactor": 0.35,
+                                "maxOffset": 0,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "GM",
+            "uuid": "02fdb218-87fd-498b-99d2-9b0c5e6e0d84",
+            "qualityNormResults": [
+                {
+                    "enum": 115,
+                    "name": "S6K Concavity",
+                    "level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 1.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.1,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            },
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                             {
+                                "range": 1.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.15,
+                                "maxOffset": 0,
+                                "length": 0.5
+                            },
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.3,
+                                "maxOffset": 0,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                     "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 1.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.25,
+                                "maxOffset": 0,
+                                "length": 0.7
+                            },
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.4,
+                                "maxOffset": 0,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 116,
+                    "name": "S6K Convexity",
+                    "level 1": {
+                        "gaugeRange": [
+                             {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.1,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                             {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.15,
+                                "maxOffset": 0,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                     "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.25,
+                                "maxOffset": 0,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 114,
+                    "name": "S6K Mismatch",
+                    "level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.1,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.15,
+                                "minOffset": 0,
+                                "maxFactor": 0.25,
+                                "maxOffset": 0,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.25,
+                                "minOffset": 0,
+                                "maxFactor": 0.35,
+                                "maxOffset": 0,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "GME",
+            "uuid": "74748aea-d943-400e-bce7-e4694ffc3f67",
+            "qualityNormResults": [
+                {
+                    "enum": 115,
+                    "name": "S6K Concavity",
+                    "level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.1,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.3,
+                                "maxOffset": 0,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 116,
+                    "name": "S6K Convexity",
+                    "level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.07,
+                                "maxOffset": 0.03,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.12,
+                                "maxOffset": 0.03,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.25,
+                                "maxOffset": 0.03,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 114,
+                    "name": "S6K Mismatch",
+                    "level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.1,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.15,
+                                "minOffset": 0,
+                                "maxFactor": 0.25,
+                                "maxOffset": 0,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.25,
+                                "minOffset": 0,
+                                "maxFactor": 0.35,
+                                "maxOffset": 0,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Ford",
+            "uuid": "995f79b7-a570-4d7c-ab00-b4c3ceee0935",
+            "qualityNormResults": [
+                {
+                    "enum": 115,
+                    "name": "S6K Concavity",
+                    "level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.1,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.3,
+                                "maxOffset": 0,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 116,
+                    "name": "S6K Convexity",
+                    "level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.1,
+                                "maxOffset": 0.2,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.15,
+                                "maxOffset": 0.2,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.25,
+                                "maxOffset": 0.2,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 114,
+                    "name": "S6K Mismatch",
+                    "level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.1,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.15,
+                                "minOffset": 0,
+                                "maxFactor": 0.25,
+                                "maxOffset": 0,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.25,
+                                "minOffset": 0,
+                                "maxFactor": 0.35,
+                                "maxOffset": 0,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PSA",
+            "uuid": "02f135e4-5c08-4b57-8ea2-137ce71bd714",
+            "qualityNormResults": [
+                {
+                    "enum": 115,
+                    "name": "S6K Concavity",
+                    "level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.1,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.15,
+                                "maxOffset": 0,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 116,
+                    "name": "S6K Convexity",
+                    "level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.1,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.15,
+                                "maxOffset": 0,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 114,
+                    "name": "S6K Mismatch",
+                    "level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.1,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.15,
+                                "minOffset": 0,
+                                "maxFactor": 0.25,
+                                "maxOffset": 0,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.2,
+                                "minOffset": 0,
+                                "maxFactor": 0.3,
+                                "maxOffset": 0,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "SEL 100",
+            "uuid": "0435706e-bc59-4c7f-8bb2-5d66edb02f73",
+            "qualityNormResults": [
+                {
+                    "enum": 115,
+                    "name": "S6K Concavity",
+                    "level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 1.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0,
+                                "maxOffset": 0.1,
+                                "length": 0.3
+                            },
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.1,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                   "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0,
+                                "maxOffset": 0.15,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0,
+                                "maxOffset": 0.2,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 116,
+                    "name": "S6K Convexity",
+                    "level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 1.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0,
+                                "maxOffset": 0.1,
+                                "length": 0.3
+                            },
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.1,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0,
+                                "maxOffset": 0.15,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0,
+                                "maxOffset": 0.2,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 114,
+                    "name": "S6K Mismatch",
+                    "level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 1.0,
+                                "minFactor": 0,
+                                "minOffset": -0.1,
+                                "maxFactor": 0,
+                                "maxOffset": 0.2,
+                                "length": 0.3
+                            },
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.1,
+                                "minOffset": 0,
+                                "maxFactor": 0.2,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": -0.15,
+                                "maxFactor": 0,
+                                "maxOffset": 0.3,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": -0.2,
+                                "maxFactor": 0,
+                                "maxOffset": 0.4,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "name": "TIS",
+            "uuid": "9bde658f-044e-42f8-b7b2-b35fb14defc1",
+            "qualityNormResults": [
+                {
+                    "enum": 115,
+                    "name": "S6K Concavity",
+					"level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.1,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.15,
+                                "maxOffset": 0,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0.25,
+                                "maxOffset": 0,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 116,
+                    "name": "S6K Convexity",
+					"level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0,
+                                "maxOffset": 0.5,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0,
+                                "maxOffset": 0.65,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": 0,
+                                "minOffset": 0,
+                                "maxFactor": 0,
+                                "maxOffset": 0.8,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enum": 114,
+                    "name": "S6K Mismatch",
+					"level 1": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.28,
+                                "minOffset": 0,
+                                "maxFactor": 0.28,
+                                "maxOffset": 0,
+                                "length": 0.3
+                            }
+                       ]
+                    },
+                    "level 2": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.35,
+                                "minOffset": 0,
+                                "maxFactor": 0.35,
+                                "maxOffset": 0,
+                                "length": 0.5
+                            }
+                       ]
+                    },
+                    "level 3": {
+                        "gaugeRange": [
+                            {
+                                "range": 99999.0,
+                                "minFactor": -0.5,
+                                "minOffset": 0,
+                                "maxFactor": 0.5,
+                                "maxOffset": 0,
+                                "length": 0.7
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "commonResults": [
+        {
+            "enum": 113,
+            "name": "S6K Seam Width",
+            "level 1": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0.5,
+                        "maxFactor": 0,
+                        "maxOffset": 999,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 2": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0.4,
+                        "maxFactor": 0,
+                        "maxOffset": 999,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 3": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0.3,
+                        "maxFactor": 0,
+                        "maxOffset": 999,
+                        "length": 2.0
+                    }
+                ]
+            }
+        },
+        {
+            "enum": 117,
+            "name": "S6K Pore Size mm2",
+            "level 1": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0,
+                        "maxFactor": 0,
+                        "maxOffset": 0.3,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 2": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0,
+                        "maxFactor": 0,
+                        "maxOffset": 0.4,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 3": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0,
+                        "maxFactor": 0,
+                        "maxOffset": 0.6,
+                        "length": 2.0
+                    }
+                ]
+            }
+        },
+        {
+            "enum": 118,
+            "name": "S6K Surface Size",
+            "level 1": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0,
+                        "maxFactor": 0,
+                        "maxOffset": 2.0,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 2": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0,
+                        "maxFactor": 0,
+                        "maxOffset": 3.0,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 3": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0,
+                        "maxFactor": 0,
+                        "maxOffset": 4.0,
+                        "length": 2.0
+                    }
+                ]
+            }
+        },
+        {
+            "enum": 713,
+            "name": "Roundness pos.",
+            "level 1": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0,
+                        "maxFactor": 0,
+                        "maxOffset": 2.0,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 2": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0,
+                            "maxFactor": 0,
+                        "maxOffset": 2.0,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 3": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0,
+                        "maxFactor": 0,
+                        "maxOffset": 2.0,
+                        "length": 2.0
+                    }
+                ]
+            }
+        },
+        {
+            "enum": 714,
+            "name": "Roundness neg.",
+            "level 1": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0,
+                        "maxFactor": 0,
+                        "maxOffset": 2.0,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 2": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0,
+                        "maxFactor": 0,
+                        "maxOffset": 2.0,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 3": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0,
+                        "maxFactor": 0,
+                        "maxOffset": 2.0,
+                        "length": 2.0
+                    }
+                ]
+            }
+        },
+        {
+            "enum": 119,
+            "name" : "S6K min. Ablation Width",
+            "level 1": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 1.0,
+                        "maxFactor": 0,
+                        "maxOffset": 999,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 2": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0.6,
+                        "maxFactor": 0,
+                        "maxOffset": 999,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 3": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0.3,
+                        "maxFactor": 0,
+                        "maxOffset": 999,
+                        "length": 2.0
+                    }
+                ]
+            }
+        },
+        {
+            "enum": 120,
+            "name" : "S6K max. Ablation Intensity",
+            "level 1": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0,
+                        "maxFactor": 0,
+                        "maxOffset": 40.0,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 2": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0,
+                        "maxFactor": 0,
+                        "maxOffset": 50.0,
+                        "length": 2.0
+                    }
+                ]
+            },
+            "level 3": {
+                "gaugeRange": [
+                    {
+                        "range": 99999.0,
+                        "minFactor": 0,
+                        "minOffset": 0,
+                        "maxFactor": 0,
+                        "maxOffset": 60.0,
+                        "length": 2.0
+                    }
+                ]
+            }
+        }
+    ]
+}
+

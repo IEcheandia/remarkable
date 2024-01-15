@@ -1,0 +1,76 @@
+#!/bin/bash
+
+if [ $UID -eq 0 ]; then
+  # Drop root privs
+  USER=`id -nu 1000`
+  exec su "${USER}" "$0" "$@"
+fi
+
+# now we are normal user
+
+#
+# Change into the batch directory (so that we have a known current location)
+#
+export CMD_BASE=`dirname "$0"`
+cd "$CMD_BASE"
+# store the argument 
+FILE=${1}
+echo "File to zip ${FILE}" 
+
+#
+# Determine the position of the WM installation and set the WM_BASE_DIR variable
+#
+cd ..
+export WM_BASE_DIR=$PWD
+
+#
+# Just a sanity check - is the WM_BASE_DIR variable set?
+#
+if [ -z $WM_BASE_DIR ]
+then
+	echo "FATAL ERROR: Cannot determine WM_BASE_DIR. ."
+	exit 1
+fi
+
+#
+# Change to the project directory
+#
+cd ${WM_BASE_DIR}
+
+#
+#Create directory if not exists
+#
+mkdir -p ${WM_BASE_DIR}/logfiles/transfer
+
+#
+# check if file exists, create if not found (avoid errors later on)
+#
+if [ ! -e logfiles/${FILE} ]; 
+then
+	echo "File ${FILE} not found; create empty file"
+	touch "logfiles/${FILE}"
+fi
+# echo "File " ${args[0]} " exists, do something reasonable with it ! "
+
+#
+# copy the file 
+#
+if cp -v -p logfiles/${FILE}  logfiles/transfer/${FILE}
+then
+   echo "File "logfiles/${FILE}" successful copied"
+else   
+   echo "Error copy File "logfiles/${FILE}" ; exit"
+   exit 1
+fi
+#
+# pack the file 
+#
+if gzip -f logfiles/transfer/${FILE}
+then
+   echo "File logfiles/${FILE} successful ziped to logfiles/transfer/${FILE}.gz"
+else   
+   echo "Error zipping File logfiles/${FILE}"
+   exit 1
+ fi
+ 
+exit 0

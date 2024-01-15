@@ -1,0 +1,212 @@
+{
+    "uuid": "2F086211-FBD4-4493-A580-6FF11E4925DE",
+    "name": "Product 2",
+    "type": 2,
+    "endless": true,
+    "overlyingError": [
+        {
+            "error": 1008,
+            "name": "My Error Name",
+            "threshold": 1.5,
+            "uuid": "2560e134-3ee4-40bd-96ff-a925fafb4d77",
+            "value": 109,
+            "variantId": "396ca433-ad11-4073-a2b2-5314cc41d152"
+        }
+    ],
+    "hardware": {
+        "parameterSet": {
+            "uuid": "3F086211-FBD4-4493-A580-6FF11E4925DF",
+            "parameters": [
+                {
+                    "typeId": "96599c45-4e20-4aaa-826d-25463670dd09",
+                    "name": "BoolValue",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "typeId": "06599c45-4e20-4aaa-826d-25463670dd09",
+                    "name": "IntValue",
+                    "type": "int",
+                    "value": 2
+                },
+                {
+                    "typeId": "16599c45-4e20-4aaa-826d-25463670dd09",
+                    "name": "UintValue",
+                    "type": "uint",
+                    "value": 3
+                },
+                {
+                    "typeId": "26599c45-4e20-4aaa-826d-25463670dd09",
+                    "name": "FloatValue",
+                    "type": "float",
+                    "value": 4.1
+                },
+                {
+                    "typeId": "36599c45-4e20-4aaa-826d-25463670dd09",
+                    "name": "DoubleValue",
+                    "type": "double",
+                    "value": 5.12
+                }
+            ]
+        }
+    },
+    "filterParameterSets": [
+        {
+            "uuid": "6F086211-FBD4-4493-A580-6FF11E4925DD",
+            "parameters": [
+                {
+                    "uuid": "7F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "name": "Test",
+                    "typeId": "8F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "filterId": "4F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "uuid": "9F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "typeId": "46599c45-4e20-4aaa-826d-25463670dd09",
+                    "filterId": "4F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "name": "UintValue",
+                    "type": "uint",
+                    "value": 3
+                },
+                {
+                    "uuid": "9F086211-FBD4-4493-A580-6FF11E4925DF",
+                    "typeId": "56599c45-4e20-4aaa-826d-25463670dd09",
+                    "name": "FloatValue",
+                    "type": "float",
+                    "filterId": "4F086211-FBD4-4493-A580-6FF11E4925DF",
+                    "value": 4.1
+                },
+                {
+                    "uuid": "9F086211-FBD4-4493-A580-6FF11E4925FF",
+                    "typeId": "66599c45-4e20-4aaa-826d-25463670dd09",
+                    "name": "DoubleValue",
+                    "type": "double",
+                    "filterId": "4F086211-FBD4-4493-A580-6FF11E4925EF",
+                    "value": 5.12
+                }
+            ]
+        },
+        {
+            "uuid": "DA165F6A-B562-47D0-A4EC-A0E2FD777DCA",
+            "parameters": [
+                {
+                    "uuid": "7F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "name": "Test",
+                    "typeId": "8F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "filterId": "4F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "uuid": "9F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "typeId": "46599c45-4e20-4aaa-826d-25463670dd09",
+                    "filterId": "4F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "name": "UintValue",
+                    "type": "uint",
+                    "value": 3
+                },
+                {
+                    "uuid": "9F086211-FBD4-4493-A580-6FF11E4925DF",
+                    "typeId": "56599c45-4e20-4aaa-826d-25463670dd09",
+                    "name": "FloatValue",
+                    "type": "float",
+                    "filterId": "4F086211-FBD4-4493-A580-6FF11E4925DF",
+                    "value": 4.1
+                },
+                {
+                    "uuid": "9F086211-FBD4-4493-A580-6FF11E4925FF",
+                    "typeId": "66599c45-4e20-4aaa-826d-25463670dd09",
+                    "name": "DoubleValue",
+                    "type": "double",
+                    "filterId": "4F086211-FBD4-4493-A580-6FF11E4925EF",
+                    "value": 5.12
+                }
+            ]
+        }
+
+    ],
+    "seamSeries": [
+        {
+            "number": 0,
+            "seams": [
+                {
+                    "number": 0,
+                    "triggerDelta": 1000,
+                    "velocity": 100000,
+                    "hardware": {
+                        "parameterSet": {
+                            "parameters": [
+                            ],
+                            "uuid": "c648c43d-340b-4707-bdb4-9e0879adaaaa"
+                        }
+                    },
+                    "seamIntervals": [
+                        {
+                            "number": 0,
+                            "triggerDelta": 1000,
+                            "velocity": 100000,
+                            "graph": "b142af2c-cca8-4b88-828c-5e14490e7337",
+                            "graphParamSet": "6F086211-FBD4-4493-A580-6FF11E4925DD",
+                            "length": 100000000,
+                            "uuid": "d10cd9fe-36f0-44c3-9398-828c3df2df08"
+                        },
+                        {
+                            "number": 1,
+                            "triggerDelta": 1000,
+                            "velocity": 100000,
+                            "length": 100000000,
+                            "uuid" : "127b19cf-996b-4fec-a1ea-ba58f4fc387e"
+                        },
+                        {
+                            "number": 2,
+                            "triggerDelta": 1000,
+                            "velocity": 100000,
+                            "length": 100000000,
+                            "uuid" : "1ffcaded-6088-4da0-b99c-6d6bcb01ecf0"
+                        }
+                    ]
+                },
+                {
+                    "number": 1,
+                    "triggerDelta": 1000,
+                    "velocity": 100000,
+                    "seamIntervals": [
+                        {
+                            "number": 0,
+                            "triggerDelta": 1000,
+                            "velocity": 100000,
+                            "graphParamSet": "DA165F6A-B562-47D0-A4EC-A0E2FD777DCA",
+                            "length": 100000000
+                        },
+                        {
+                            "number": 1,
+                            "triggerDelta": 1000,
+                            "velocity": 100000,
+                            "subgraphs": [
+                                "ce515db8-45b2-446a-af96-4d3aa3b44a1c",
+                                "4a2922e0-746e-4bed-b45e-d60792094ff3",
+                                "1d962b39-5b70-4d7f-aa1a-b9ae3fa5e4e1",
+                                "27aa0c5c-c151-4c64-821d-9e80a64204a8"
+                            ],
+                            "length": 100000000
+                        },
+                        {
+                            "number": 2,
+                            "triggerDelta": 1000,
+                            "velocity": 100000,
+                            "subgraphs": [
+                                "ce515db8-45b2-446a-af96-4d3aa3b44a1c",
+                                "4a2922e0-746e-4bed-b45e-d60792094ff3",
+                                "1d962b39-5b70-4d7f-aa1a-b9ae3fa5e4e1",
+                                "27aa0c5c-c151-4c64-821d-9e80a64204a8"
+                            ],
+                            "length": 100000000
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+add_subdirectory(configuration)
+add_subdirectory(ethercat)
+add_subdirectory(image)
+add_subdirectory(logging)
+add_subdirectory(general)
+add_subdirectory(filterParameterEditor)
+add_subdirectory(scheduler)
+add_subdirectory(postProcessing)

@@ -1,0 +1,35 @@
+if [ -x /usr/bin/xdg-user-dirs-update ]; then
+        /usr/bin/xdg-user-dirs-update
+fi
+
+if [[ $XDG_VTNR -eq 1 ]]; then
+  clear
+  export XDG_SESSION_TYPE=wayland
+  export XDG_CURRENT_DESKTOP=KDE
+
+  VERSION=`cat /etc/os-release | grep VERSION_ID | cut -d = -f 2 | tr -d '"'`
+
+  if [ "$VERSION" -lt "11" ]; then
+    export KWIN_DRM_AMS=1
+    export QT_WAYLAND_SHELL_INTEGRATION=wl-shell
+  fi
+
+  export XDG_CONFIG_DIRS=/etc/weldmaster-kiosk/:/etc/xdg/
+  export SISODIR5=@SISODIR5@/
+
+  lspci -n | grep 8086:0042
+  OLD_INTEL=$?
+  if [ $OLD_INTEL -eq 0 ]; then
+    export PRECITEC_PLOTTER_NO_SMOOTH=1
+  fi
+
+  if [ "$VERSION" -lt "12" ]; then
+    export QT_IM_MODULE=maliit
+    export QT_PLUGIN_PATH=/opt/maliit/lib/qt5/plugins/
+    dbus-run-session kwin_wayland --xwayland --inputmethod=/opt/maliit/bin/maliit-wrapper.sh --exit-with-session @CMAKE_INSTALL_PREFIX@/opt/wm_inst/batch/runStandalone kbuildsycoca5  "@_qt5DBus_install_prefix@/bin/qdbus org.kde.kded5 /kded loadModule kscreen" &> /dev/null
+  else
+    dbus-run-session kwin_wayland --xwayland --exit-with-session @CMAKE_INSTALL_PREFIX@/opt/wm_inst/batch/runStandalone kbuildsycoca5  "@_qt5DBus_install_prefix@/bin/qdbus org.kde.kded5 /kded loadModule kscreen" &> /dev/null
+  fi
+
+  exit
+fi

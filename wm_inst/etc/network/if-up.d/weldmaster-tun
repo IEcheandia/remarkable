@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [[ "${IFACE}" = tun0 ]]; then
+    /usr/sbin/nft list table inet filter | grep tun0
+    FOUND=$?
+
+    if [[ $FOUND == 1 ]]; then
+        /usr/sbin/nft add rule inet filter input position 6 iif tun0 accept
+    fi
+fi

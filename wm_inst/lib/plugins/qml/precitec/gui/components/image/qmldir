@@ -1,0 +1,9 @@
+module precitec.gui.components.image
+Image 1.0 ImageComponent.qml
+SourceImage 1.0 SourceImageComponent.qml
+MeasureDialog 1.0 ImageMeasuringDialog.qml
+PointSelector 1.0 PointSelector.qml
+InfoBoxDialog 1.0 InfoBoxDialog.qml
+InfoBoxTab 1.0 InfoBoxTab.qml
+ExtractTemplateDialog 1.0 ExtractTemplateDialog.qml
+plugin precitecimagecomponentplugin

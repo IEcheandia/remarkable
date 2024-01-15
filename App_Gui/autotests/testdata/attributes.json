@@ -1,0 +1,6 @@
+{
+"attributes": [
+    {"variantId": "1F50352E-A92A-4521-B184-E16809345026", "uuid": "DB178308-E2FD-4FA7-B60C-42CDDADA0B85", "name": "ExposureTime", "type": "float", "mandatory": true, "maxLength": 0, "minValue": 0, "maxValue": 120, "defaultValue": 2, "unit": "", "description": "ExposureTime", "toolTip": "ExposureTime", "userLevel": 0, "visible": true, "step": 1, "enum": "", "contentName": "ExposureTime", "editListOrder": 0, "publicity": true},
+    {"variantId": "3C57ACDE-707E-4C7D-A6B5-0E9352568095", "uuid": "F4FE85AC-94C6-4EFC-A780-6FCB7B7413CF", "name": "LEDPanel1Intensity", "type": "int", "mandatory": true, "maxLength": 0, "minValue": 0, "maxValue": 100, "defaultValue": 50, "unit": "", "description": "LEDPanel1Intensity", "toolTip": "LEDPanel1Intensity", "userLevel": 0, "visible": true, "step": 1, "enum": "", "contentName": "LEDPanel1Intensity", "editListOrder": 0, "publicity": true}
+]
+}

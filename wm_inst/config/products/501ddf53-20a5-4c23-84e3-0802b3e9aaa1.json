@@ -1,0 +1,360 @@
+{
+    "assemblyImage": "",
+    "default": false,
+    "endless": false,
+    "errorLevels": [
+        {
+            "blue": 0,
+            "green": 100,
+            "red": 0,
+            "value": 0
+        },
+        {
+            "blue": 0,
+            "green": 255,
+            "red": 255,
+            "value": 0.5
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 255,
+            "value": 1
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 139,
+            "value": 1.0099999904632568
+        }
+    ],
+    "filterParameterSets": [
+        {
+            "parameters": [
+            ],
+            "uuid": "4a4900b4-25bb-4fbb-9665-31b5be65a227"
+        },
+        {
+            "parametersGroupedByFilter": [
+                {
+                    "filterId": "61134723-a23c-4413-9942-01572bd70edd",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "76700cdc-8851-46cb-a96a-0ddeb36ea8e7",
+                            "value": 1
+                        },
+                        {
+                            "name": "sensorid",
+                            "type": "int",
+                            "uuid": "0bc6f920-ce8e-4503-bde3-3ebd0ab16fb0",
+                            "value": 1
+                        },
+                        {
+                            "name": "GridSize",
+                            "type": "double",
+                            "uuid": "68ad3c78-3909-4ab2-aef4-5d08c97bd9ef",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad"
+                },
+                {
+                    "filterId": "da5e96be-a84b-3e2e-a6e6-d00a89564d78",
+                    "parameters": [
+                        {
+                            "name": "Constant",
+                            "type": "enum",
+                            "uuid": "4082b5e4-b88c-3a4e-b92b-a2966776e0ca",
+                            "value": 14
+                        },
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "5ff5b03f-c466-306b-b5e5-7cad6edd9653",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "ba42e50a-04e6-42ec-a0a1-341cfc3fe73f"
+                },
+                {
+                    "filterId": "387b9cf2-b0d4-3fca-9237-36f3da4f9459",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "507e24a3-8405-3e17-8ad9-00348212e143",
+                            "value": 1
+                        },
+                        {
+                            "name": "Operation",
+                            "type": "enum",
+                            "uuid": "43f5f725-06d8-33e3-aa3c-70b85b445a3e",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e"
+                },
+                {
+                    "filterId": "43ee1411-161a-3663-9592-e158eac0bc06",
+                    "parameters": [
+                        {
+                            "name": "Constant",
+                            "type": "enum",
+                            "uuid": "b1d150fd-b620-31ee-9b1a-66948e4bb046",
+                            "value": 11
+                        },
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "1b9766d0-f0b8-39a4-86f6-f9b1415f7300",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "ba42e50a-04e6-42ec-a0a1-341cfc3fe73f"
+                },
+                {
+                    "filterId": "e3ae6e2d-9c55-318e-ac73-ff5c1b09b320",
+                    "parameters": [
+                        {
+                            "name": "Constant",
+                            "type": "enum",
+                            "uuid": "993f9d00-7c69-3aab-abc2-b2b5e242db1d",
+                            "value": 4
+                        },
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "93bceefb-a04a-3b4c-8f27-65707103e85b",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "0dcc8697-aed5-4f3f-86aa-66f843e0502a"
+                },
+                {
+                    "filterId": "993c5b04-cafe-33a3-9090-ad77f8be59e4",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "6c477675-4490-3971-b1ed-46ecf8b6f084",
+                            "value": 1
+                        },
+                        {
+                            "name": "Operation",
+                            "type": "enum",
+                            "uuid": "efa3895e-e388-30e3-af32-bb15f85c8565",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e"
+                },
+                {
+                    "filterId": "5b6d7bcc-75d1-37da-9dab-f2f1fb31d9d7",
+                    "parameters": [
+                        {
+                            "name": "Constant",
+                            "type": "enum",
+                            "uuid": "9c67c484-238e-3c01-afca-765ee2dca800",
+                            "value": 13
+                        },
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "827dbf15-7fae-3e45-8527-cf43c1af8155",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "ba42e50a-04e6-42ec-a0a1-341cfc3fe73f"
+                },
+                {
+                    "filterId": "0b7868cd-a438-392f-8c53-68ef4e03598d",
+                    "parameters": [
+                        {
+                            "name": "Constant",
+                            "type": "enum",
+                            "uuid": "83bb81b7-2daa-32ea-ab4e-500b18ee9750",
+                            "value": 12
+                        },
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "7da46cfa-4ea0-3e9c-9fc7-113fd4eb3702",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "ba42e50a-04e6-42ec-a0a1-341cfc3fe73f"
+                },
+                {
+                    "filterId": "41ced900-f3ac-3ee8-8f6e-bf7187a8497f",
+                    "parameters": [
+                        {
+                            "name": "rgbGreen",
+                            "type": "uint",
+                            "uuid": "7b81645d-7f40-3e80-84f1-bcaf399a195e",
+                            "value": 255
+                        },
+                        {
+                            "name": "rgbRed",
+                            "type": "uint",
+                            "uuid": "73d2c540-f47b-35ad-b01c-556b7d21f9b7",
+                            "value": 0
+                        },
+                        {
+                            "name": "rgbBlue",
+                            "type": "uint",
+                            "uuid": "884d17f7-2493-3ce5-a2b2-4d8085dfbb79",
+                            "value": 0
+                        },
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "029d8245-ec0e-346c-a19a-ae13eefa8d87",
+                            "value": 1
+                        },
+                        {
+                            "name": "rgbAlpha",
+                            "type": "uint",
+                            "uuid": "2194cb08-c102-339e-9c78-27415891b6e7",
+                            "value": 255
+                        }
+                    ],
+                    "typeId": "78ab07b0-913e-4c3a-ab5f-ca7cef722ef9"
+                },
+                {
+                    "filterId": "b2f6be00-5a77-3709-8e54-09bf839309d5",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "a8c4e7b5-317d-3e30-8108-9479ffac65bd",
+                            "value": 1
+                        },
+                        {
+                            "name": "Constant",
+                            "type": "enum",
+                            "uuid": "d62f310f-7d53-3b83-a37b-2cec654631cc",
+                            "value": 3
+                        }
+                    ],
+                    "typeId": "0dcc8697-aed5-4f3f-86aa-66f843e0502a"
+                }
+            ],
+            "uuid": "97f0564e-12eb-4bd6-9a2c-0b61e8547380"
+        }
+    ],
+    "hardware": {
+        "parameterSet": {
+        },
+        "startPosYAxis": 0
+    },
+    "lengthUnit": "millimeter",
+    "lwmTriggerSignalThreshold": 0,
+    "lwmTriggerSignalType": -1,
+    "name": "product_determine",
+    "overlyingError": [
+    ],
+    "presetId": "00000000-0000-0000-0000-000000000000",
+    "qualityNorm": "00000000-0000-0000-0000-000000000000",
+    "seamSeries": [
+        {
+            "graphParamSet": "00000000-0000-0000-0000-000000000000",
+            "hardware": {
+                "parameterSet": {
+                }
+            },
+            "name": "",
+            "number": 0,
+            "overlyingError": [
+            ],
+            "presetId": "00000000-0000-0000-0000-000000000000",
+            "referenceCurves": [
+            ],
+            "seams": [
+                {
+                    "graph": "2f84d9a6-8d9f-4db2-b77a-3b8dfcf77b46",
+                    "graphParamSet": "97f0564e-12eb-4bd6-9a2c-0b61e8547380",
+                    "hardware": {
+                        "parameterSet": {
+                        }
+                    },
+                    "intervalSumError": [
+                    ],
+                    "linkedSeams": [
+                    ],
+                    "movingDirection": 0,
+                    "name": "",
+                    "number": 0,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "presetId": "00000000-0000-0000-0000-000000000000",
+                    "referenceCurves": [
+                    ],
+                    "roi": {
+                        "X": 0,
+                        "Y": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "seamIntervals": [
+                        {
+                            "length": "100000",
+                            "level": 0,
+                            "name": "First Seam Interval",
+                            "number": 0,
+                            "uuid": "e838d6c4-63ec-4e5b-84a1-5d68dd46b673"
+                        }
+                    ],
+                    "sumError": [
+                    ],
+                    "targetDifference": 0,
+                    "thicknessLeft": 0,
+                    "thicknessRight": 0,
+                    "triggerDelta": 10000,
+                    "uuid": "fc7f8a75-7c8e-4463-b1eb-a002e071e410",
+                    "velocity": 100000
+                }
+            ],
+            "subgraphs": [
+            ],
+            "sumError": [
+            ],
+            "uuid": "29bacfca-35c9-425d-aa46-92dd2cce2084"
+        }
+    ],
+    "signalQuality": [
+        {
+            "blue": 0,
+            "green": 100,
+            "red": 0,
+            "value": 0
+        },
+        {
+            "blue": 0,
+            "green": 255,
+            "red": 255,
+            "value": 0.5
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 255,
+            "value": 1
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 139,
+            "value": 1.0099999904632568
+        }
+    ],
+    "trigger": {
+        "mode": "Burst",
+        "source": "Software"
+    },
+    "type": 2,
+    "uuid": "501ddf53-20a5-4c23-84e3-0802b3e9aaa1"
+}

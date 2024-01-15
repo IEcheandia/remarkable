@@ -1,0 +1,143 @@
+{
+    "hash": "8ae3f5fef0d88365031ee9b595823ff0afd3c7e293e418ad3a9efece2e8a5ba3",
+    "log": [
+        {
+            "changes": [
+                {
+                    "className": "precitec::gui::components::user::UserChangedEvent",
+                    "data": {
+                        "current": "precitec",
+                        "previous": "view"
+                    },
+                    "date": "2024-01-09T16:16:54",
+                    "message": "Logged in user changed"
+                }
+            ],
+            "date": "2024-01-09T16:16:54",
+            "hash": "b6634fa4212b8312e07cbb90453e4602fda1ef7b178c44f02651df0b32a2ddfa",
+            "role": "Super User",
+            "user": {
+                "name": "precitec",
+                "role": {
+                    "id": 0,
+                    "name": "Super User"
+                }
+            }
+        },
+        {
+            "changes": [
+                {
+                    "className": "precitec::gui::QuitSystemFaultChangeEntry",
+                    "data": {
+                        "station": "WM-QNX-PC"
+                    },
+                    "date": "2024-01-09T16:16:55",
+                    "message": "Quit system fault"
+                }
+            ],
+            "date": "2024-01-09T16:16:55",
+            "hash": "158269afbf319875ed8f7c2eecd36a094746905d0aeb1ea2104c3a5ea33a1319",
+            "role": "Super User",
+            "user": {
+                "name": "precitec",
+                "role": {
+                    "id": 0,
+                    "name": "Super User"
+                }
+            }
+        },
+        {
+            "changes": [
+                {
+                    "className": "precitec::gui::DeviceKeyValueChangeEntry",
+                    "data": {
+                        "device": "{a60d345e-16ca-4710-ab4d-cad65cc42959}",
+                        "key": "DisableHWResults",
+                        "value": true
+                    },
+                    "date": "2024-01-09T16:17:17",
+                    "message": "Device key value changed"
+                }
+            ],
+            "date": "2024-01-09T16:17:17",
+            "hash": "f47f8829858e6192baf23b841507954deaee6019d1f28d76593a283d9f43a021",
+            "role": "Super User",
+            "user": {
+                "name": "precitec",
+                "role": {
+                    "id": 0,
+                    "name": "Super User"
+                }
+            }
+        },
+        {
+            "changes": [
+                {
+                    "className": "precitec::gui::components::user::UserChangedEvent",
+                    "data": {
+                        "current": "precitec",
+                        "previous": "view"
+                    },
+                    "date": "2024-01-09T18:19:00",
+                    "message": "Logged in user changed"
+                }
+            ],
+            "date": "2024-01-09T18:19:00",
+            "hash": "e41149c4a179d8ef7543f0c202d0d84e30572226e2a1119b9ad794ac83ab0cfd",
+            "role": "Super User",
+            "user": {
+                "name": "precitec",
+                "role": {
+                    "id": 0,
+                    "name": "Super User"
+                }
+            }
+        },
+        {
+            "changes": [
+                {
+                    "className": "precitec::gui::QuitSystemFaultChangeEntry",
+                    "data": {
+                        "station": "WM-QNX-PC"
+                    },
+                    "date": "2024-01-09T18:19:01",
+                    "message": "Quit system fault"
+                }
+            ],
+            "date": "2024-01-09T18:19:01",
+            "hash": "7f17b76496eb5fe5e30a86c8a54ba368e8e7b01a33804365d21e872420905686",
+            "role": "Super User",
+            "user": {
+                "name": "precitec",
+                "role": {
+                    "id": 0,
+                    "name": "Super User"
+                }
+            }
+        },
+        {
+            "changes": [
+                {
+                    "className": "precitec::gui::DeviceKeyValueChangeEntry",
+                    "data": {
+                        "device": "{a60d345e-16ca-4710-ab4d-cad65cc42959}",
+                        "key": "DisableHWResults",
+                        "value": true
+                    },
+                    "date": "2024-01-09T18:19:12",
+                    "message": "Device key value changed"
+                }
+            ],
+            "date": "2024-01-09T18:19:12",
+            "hash": "abe5b78342858f4fc6b0429c7062cd2cd63ec2da8c5fe874e37446cf744fcedc",
+            "role": "Super User",
+            "user": {
+                "name": "precitec",
+                "role": {
+                    "id": 0,
+                    "name": "Super User"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "date": "2021-05-28T14:16:36.037Z",
+    "nio": [
+    ],
+    "nioSwitchedOff": false,
+    "processedSeamSeries": [
+        {
+            "nio": [
+            ],
+            "uuid": "45bbcc22-f179-4057-86d5-a9812699e28e"
+        }
+    ],
+    "processedSeams": [
+        {
+            "nio": [
+            ],
+            "seamSeriesUuid": "45bbcc22-f179-4057-86d5-a9812699e28e",
+            "uuid": "e0677e0d-0887-43d1-b3d5-c6554dccd81a"
+        }
+    ],
+    "serialNumber": 531161636,
+    "uuid": "ceda2cec-c21a-11eb-9f01-38afd7af6851"
+}

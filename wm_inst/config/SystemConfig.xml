@@ -1,0 +1,19 @@
+<SystemConfig>
+	<File_New_Created>false</File_New_Created>
+	<Type_of_Sensor>2</Type_of_Sensor>
+	<HasCamera>false</HasCamera>
+	<LED_CONTROLLER_TYPE>0</LED_CONTROLLER_TYPE>
+	<Scanner2DEnable>true</Scanner2DEnable>
+	<LWM40_No1_Enable>true</LWM40_No1_Enable>
+	<CameraInterfaceType>0</CameraInterfaceType>
+	<FieldbusBoard_TypeOfFieldbus>3</FieldbusBoard_TypeOfFieldbus>
+	<FieldbusTwoSeparateFieldbusBoards>true</FieldbusTwoSeparateFieldbusBoards>
+	<ScanlabScanner_Lens_Type>2</ScanlabScanner_Lens_Type>
+	<LED_IlluminationEnable>true</LED_IlluminationEnable>
+	<HardwareCameraEnabled>false</HardwareCameraEnabled>
+	<ZCollimatorType>1</ZCollimatorType>
+	<LaserControlEnable>false</LaserControlEnable>
+	<Scanner2DController>0</Scanner2DController>
+	<SCANMASTER_Application>true</SCANMASTER_Application>
+	<SCANMASTER_GeneralApplication>true</SCANMASTER_GeneralApplication>
+</SystemConfig>

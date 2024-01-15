@@ -1,0 +1,26 @@
+{
+  "Name": "PreviewTest_1",
+  "ID": "1",
+  "Description": "Test figure for preview with SmartMove. The figure is a line with two points. All points have use last valid value for all parameters.",
+  "Ramps": [],
+  "Figure": [
+    {
+      "EndPosition": [
+        -10.0,
+        0.0
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        10.0,
+        0.0
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    }
+  ]
+}

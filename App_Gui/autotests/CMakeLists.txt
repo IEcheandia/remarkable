@@ -1,0 +1,924 @@
+qtTestCase(
+    NAME
+        testDetectionController
+    SRCS
+        detectionControllerTest.cpp
+        ../src/detectionController.cpp
+        ../src/deviceKeyValueChangeEntry.cpp
+        ../src/deviceProxyWrapper.cpp
+        ../src/liveModeController.cpp
+        ../src/systemStatusServer.cpp
+    LIBS
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        fliplib
+        Mod_Storage
+        Framework_Module
+        System
+        Interfaces
+        Precitec::precitecnotifications
+)
+
+qtTestCase(
+    NAME
+        testReferenceCurvesModel
+    SRCS
+        referenceCurvesModelTest.cpp
+        ../src/referenceCurvesModel.cpp
+    LIBS
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        fliplib
+        Mod_Storage
+        Framework_Module
+        System
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testInstanceResultModel
+    SRCS
+        instanceResultModelTest.cpp
+        ../src/instanceResultModel.cpp
+        ../src/instanceResultSortModel.cpp
+    LIBS
+        Qt5::Concurrent
+        Qt5::Gui
+        Precitec::precitecplotter
+        ${POCO_LIBS}
+        precitecweldmasterguigeneral
+        Mod_Storage
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testReferenceCurveConstructor
+    SRCS
+        referenceCurveConstructorTest.cpp
+        ../src/referenceCurveConstructor.cpp
+        ../src/instanceResultModel.cpp
+        ../src/instanceResultSortModel.cpp
+    LIBS
+        Qt5::Concurrent
+        Qt5::Gui
+        Precitec::precitecplotter
+        ${POCO_LIBS}
+        precitecweldmasterguigeneral
+        Mod_Storage
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testLaserControlMeasureModel
+    SRCS
+        laserControlMeasureModelTest.cpp
+        ../src/abstractLaserControlModel.cpp
+        ../src/laserControlMeasureModel.cpp
+        ../src/abstractLaserControlTaskModel.cpp
+    LIBS
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        fliplib
+        Mod_Storage
+        Framework_Module
+        System
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testLaserControlProductModel
+    SRCS
+        laserControlProductModelTest.cpp
+        ../src/abstractLaserControlModel.cpp
+        ../src/laserControlProductModel.cpp
+        ../src/abstractLaserControlTaskModel.cpp
+    LIBS
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        fliplib
+        Mod_Storage
+        Framework_Module
+        System
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testScanfieldSeamModel
+    SRCS
+        scanfieldSeamModelTest.cpp
+        ../src/scanfieldSeamModel.cpp
+        ../src/scanfieldModule.cpp
+        ../src/hardwareParameters.cpp
+        ../src/hardwareParametersModule.cpp
+        ../src/scanfieldImageToJpgConverter.cpp
+        ../src/bmpToJpgConverter.cpp
+    LIBS
+        ${POCO_LIBS}
+        Mod_Storage
+        precitecweldmasterguigeneral
+        Analyzer_Interface
+)
+
+qtTestCase(
+    NAME
+        testScanfieldSeamController
+    SRCS
+        scanfieldSeamControllerTest.cpp
+        ../src/scanfieldSeamController.cpp
+        ../src/scanfieldModule.cpp
+        ../src/hardwareParameters.cpp
+        ../src/hardwareParametersModule.cpp
+        ../src/scanfieldImageToJpgConverter.cpp
+        ../src/bmpToJpgConverter.cpp
+    LIBS
+        ${POCO_LIBS}
+        Mod_Storage
+        precitecweldmasterguigeneral
+        Analyzer_Interface
+)
+
+qtTestCase(
+    NAME
+        testScanfieldModule
+    SRCS
+        scanfieldModuleTest.cpp
+        ../src/scanfieldModule.cpp
+        ../src/deviceProxyWrapper.cpp
+        ../src/deviceKeyValueChangeEntry.cpp
+        ../src/scanfieldImageToJpgConverter.cpp
+        ../src/bmpToJpgConverter.cpp
+    LIBS
+        ${POCO_LIBS}
+        Qt5::Concurrent
+        Mod_Storage
+        precitecweldmasterguigeneral
+        Analyzer_Interface
+)
+
+qtTestCase(
+    NAME
+        testLaserControlModel
+    SRCS
+        laserControlModelTest.cpp
+        ../src/abstractLaserControlModel.cpp
+        ../src/laserControlModel.cpp
+        ../src/productController.cpp
+        ../src/productAddedChangeEntry.cpp
+        ../src/productModifiedChangeEntry.cpp
+        ../src/productDeletedChangeEntry.cpp
+        ../src/separatelyProductExporter.cpp
+    LIBS
+        precitecweldmasterguigeneral
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        Precitec::precitecnotifications
+        fliplib
+        Mod_Storage
+        Framework_Module
+        System
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testSimpleErrorModel
+    SRCS
+        simpleErrorModelTest.cpp
+        ../src/simpleErrorModel.cpp
+        ../src/errorGroupModel.cpp
+    LIBS
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        fliplib
+        Mod_Storage
+        Framework_Module
+        System
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testSeamErrorModel
+    SRCS
+        seamErrorModelTest.cpp
+        ../src/seamErrorModel.cpp
+        ../src/simpleErrorModel.cpp
+        ../src/errorGroupModel.cpp
+    LIBS
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        fliplib
+        Mod_Storage
+        Framework_Module
+        System
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testIntervalErrorModel
+    SRCS
+        intervalErrorModelTest.cpp
+        ../src/intervalErrorModel.cpp
+        ../src/simpleErrorModel.cpp
+        ../src/errorGroupModel.cpp
+    LIBS
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        fliplib
+        Mod_Storage
+        Framework_Module
+        System
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testHardwareParameterSeamModel
+    SRCS
+        hardwareParameterSeamModelTest.cpp
+        ../src/abstractHardwareParameterModel.cpp
+        ../src/hardwareParameterSeamModel.cpp
+        ../src/hardwareParameters.cpp
+    LIBS
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        fliplib
+        Mod_Storage
+        Framework_Module
+        System
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testHardwareParameterProductModel
+    SRCS
+        hardwareParameterProductModelTest.cpp
+        ../src/abstractHardwareParameterModel.cpp
+        ../src/hardwareParameterProductModel.cpp
+        ../src/hardwareParameters.cpp
+    LIBS
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        fliplib
+        Mod_Storage
+        Framework_Module
+        System
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testAssemblyImagesModel
+    SRCS
+        assemblyImagesModelTest.cpp
+        ../src/assemblyImagesModel.cpp
+    LIBS
+        Qt5::Concurrent
+        Qt5::Gui
+)
+
+qtTestCase(
+    NAME
+        testSeamsOnAssemblyImageModel
+    SRCS
+        seamsOnAssemblyImageModelTest.cpp
+        ../src/seamsOnAssemblyImageModel.cpp
+        ../src/seamsOnAssemblyImageFilterModel.cpp
+    LIBS
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        fliplib
+        Mod_Storage
+        Framework_Module
+        System
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testAssemblyImageInspectionModel
+    SRCS
+        assemblyImageInspectionModelTest.cpp
+        ../src/assemblyImageInspectionModel.cpp
+    LIBS
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        fliplib
+        Mod_Storage
+        Framework_Module
+        System
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testResultsModel
+    SRCS
+        resultsModelTest.cpp
+        ../src/resultsModel.cpp
+)
+
+qtTestCase(
+    NAME
+        testResultsFilterModel
+    SRCS
+        resultsFilterModelTest.cpp
+        ../src/resultsFilterModel.cpp
+        ../src/resultsModel.cpp
+)
+
+qtTestCase(
+    NAME
+        testResultsStatisticsModel
+    SRCS
+        resultsStatisticsModelTest.cpp
+        ../src/resultsStatisticsModel.cpp
+)
+
+qtTestCase(
+    NAME
+        testWizardModel
+    SRCS
+        wizardModelTest.cpp
+        ../src/wizardModel.cpp
+)
+
+qtTestCase(
+    NAME
+        testProductWizardFilterModel
+    SRCS
+        productWizardFilterModelTest.cpp
+        ../src/abstractWizardFilterModel.cpp
+        ../src/productWizardFilterModel.cpp
+        ../src/wizardModel.cpp
+)
+
+qtTestCase(
+    NAME
+        testSeamSeriesWizardFilterModel
+    SRCS
+        seamSeriesWizardFilterModelTest.cpp
+        ../src/abstractWizardFilterModel.cpp
+        ../src/seamSeriesWizardFilterModel.cpp
+        ../src/wizardModel.cpp
+    LIBS
+        precitecweldmasterguigeneral
+)
+
+qtTestCase(
+    NAME
+        testSeamWizardFilterModel
+    SRCS
+        seamWizardFilterModelTest.cpp
+        ../src/abstractWizardFilterModel.cpp
+        ../src/linkedSeamWizardFilterModel.cpp
+        ../src/seamWizardFilterModel.cpp
+        ../src/wizardModel.cpp
+    LIBS
+        precitecweldmasterguigeneral
+)
+
+qtTestCase(
+    NAME
+        testWizardFilterModel
+    SRCS
+        wizardFilterModelTest.cpp
+        ../src/abstractWizardFilterModel.cpp
+        ../src/wizardFilterModel.cpp
+        ../src/wizardModel.cpp
+)
+
+qtTestCase(
+    NAME
+        testEtherCATStartupUpdater
+    SRCS
+        etherCATStartupUpdaterTest.cpp
+        ../src/KeyValueConfigUpdater/etherCATConfigUpdater.cpp
+        ../src/KeyValueConfigUpdater/etherCATStartupUpdater.cpp
+        ../src/KeyValueConfigUpdater/keyValueConfigUpdater.cpp
+)
+
+qtTestCase(
+    NAME
+        testNutConfigUpdater
+    SRCS
+        nutConfigUpdaterTest.cpp
+        ../src/KeyValueConfigUpdater/nutConfigUpdater.cpp
+        ../src/KeyValueConfigUpdater/keyValueConfigUpdater.cpp
+)
+
+qtTestCase(
+    NAME
+        testLatestProductErrorsModel
+    SRCS
+        latestProductErrorsModelTest.cpp
+        ../src/latestProductErrorsModel.cpp
+    LIBS
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        fliplib
+        Mod_Storage
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testHistoryModel
+    SRCS
+        historyModelTest.cpp
+        ../src/historyModel.cpp
+    LIBS
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        fliplib
+        Mod_Storage
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testErrorGroupModel
+    SRCS
+        errorGroupModelTest.cpp
+        ../src/errorGroupModel.cpp
+    LIBS
+        Qt5::Gui
+)
+
+qtTestCase(
+    NAME
+        testErrorGroupFilterModel
+    SRCS
+        errorGroupFilterModelTest.cpp
+        ../src/simpleErrorModel.cpp
+        ../src/errorGroupModel.cpp
+        ../src/errorGroupFilterModel.cpp
+    LIBS
+        Qt5::Gui
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testIntervalErrorConfigModel
+    SRCS
+        intervalErrorConfigModelTest.cpp
+        ../src/intervalErrorConfigModel.cpp
+    LIBS
+        Qt5::Gui
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+        Precitec::precitecplotter
+)
+
+qtTestCase(
+    NAME
+        testIntervalErrorSimpleConfigModel
+    SRCS
+        intervalErrorSimpleConfigModelTest.cpp
+        ../src/intervalErrorSimpleConfigModel.cpp
+    LIBS
+        Qt5::Gui
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testOverlyingErrorModel
+    SRCS
+        overlyingErrorModelTest.cpp
+        ../src/overlyingErrorModel.cpp
+    LIBS
+        Qt5::Gui
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testProductErrorModel
+    SRCS
+        productErrorModelTest.cpp
+        ../src/productErrorModel.cpp
+        ../src/overlyingErrorModel.cpp
+    LIBS
+        Qt5::Gui
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testSeamSeriesErrorModel
+    SRCS
+        seamSeriesErrorModelTest.cpp
+        ../src/seamSeriesErrorModel.cpp
+        ../src/overlyingErrorModel.cpp
+    LIBS
+        Qt5::Gui
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testStaticErrorConfigController
+    SRCS
+        staticErrorConfigControllerTest.cpp
+        ../src/staticErrorConfigController.cpp
+    LIBS
+        Qt5::Gui
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+        Precitec::precitecplotter
+)
+
+qtTestCase(
+    NAME
+        testReferenceErrorConfigController
+    SRCS
+        referenceErrorConfigControllerTest.cpp
+        ../src/referenceErrorConfigController.cpp
+    LIBS
+        precitecweldmasterguigeneral
+        Qt5::Gui
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+        Precitec::precitecplotter
+)
+
+qtTestCase(
+    NAME
+        testReferenceImageController
+    SRCS
+        referenceImageControllerTest.cpp
+        ../src/referenceImageController.cpp
+        ../src/abstractHardwareParameterModel.cpp
+        ../src/hardwareParameters.cpp
+    LIBS
+        Qt5::Gui
+        Mod_Storage
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testTopBarButtonModel
+    SRCS
+        topBarButtonModelTest.cpp
+        ../src/topBarButtonModel.cpp
+        ../src/permissions.h
+)
+
+qtTestCase(
+    NAME
+        testTopBarButtonFilterModel
+    SRCS
+        topBarButtonFilterModelTest.cpp
+        ../src/topBarButtonFilterModel.cpp
+        ../src/topBarButtonModel.cpp
+)
+
+qtTestCase(
+    NAME
+        testMeasureTaskNumberValidator
+    SRCS
+        measureTaskNumberValidatorTest.cpp
+        ../src/measureTaskNumberValidator.cpp
+    LIBS
+        Qt5::Gui
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testDivideBy16Validator
+    SRCS
+        divideBy16ValidatorTest.cpp
+        ../src/divideBy16Validator.cpp
+    LIBS
+        Qt5::Gui
+)
+
+qtTestCase(
+    NAME
+        testHardwareParametersOverviewModel
+    SRCS
+        hardwareParametersOverviewModelTest.cpp
+        ../src/hardwareParametersOverviewModel.cpp
+        ../src/abstractHardwareParameterModel.cpp
+        ../src/hardwareParameters.cpp
+    LIBS
+        precitecweldmasterguigeneral
+        Qt5::Gui
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testParameterSetToGraphDeltaModel
+    SRCS
+        parameterSetToGraphDeltaModelTest.cpp
+        ../src/parameterSetToGraphDeltaModel.cpp
+        ../src/abstractParameterSetDeltaModel.cpp
+        ../src/filterAttributeSortFilterModel.cpp
+    LIBS
+        precitecweldmasterguigeneral
+        Qt5::Gui
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testParameterSetsDeltaModel
+    SRCS
+        parameterSetsDeltaModelTest.cpp
+        ../src/parameterSetsDeltaModel.cpp
+        ../src/abstractParameterSetDeltaModel.cpp
+        ../src/filterAttributeSortFilterModel.cpp
+    LIBS
+        precitecweldmasterguigeneral
+        Qt5::Gui
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testLwmController
+    SRCS
+        lwmControllerTest.cpp
+        ../src/lwmController.cpp
+        ../src/liveModeController.cpp
+        ../src/systemStatusServer.cpp
+        ../src/deviceProxyWrapper.cpp
+        ../src/deviceKeyValueChangeEntry.cpp
+        ../src/hardwareParameters.cpp
+    LIBS
+        Qt5::Concurrent
+        Mod_Storage
+        Interfaces
+        Precitec::precitecplotter
+)
+
+qtTestCase(
+    NAME
+        testScanLabController
+    SRCS
+        scanLabControllerTest.cpp
+        ../src/scanLabController.cpp
+        ../src/liveModeController.cpp
+        ../src/systemStatusServer.cpp
+        ../src/deviceProxyWrapper.cpp
+        ../src/deviceKeyValueChangeEntry.cpp
+        ../src/hardwareParameters.cpp
+        ../src/deviceNotificationServer.cpp
+    LIBS
+        Qt5::Concurrent
+        Mod_Storage
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testSubGraphAlternativesModel
+    SRCS
+        testSubGraphAlternativesModel.cpp
+        ../src/subGraphAlternativesModel.cpp
+    LIBS
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        productControllerTest
+    SRCS
+        productControllerTest.cpp
+        ../src/productController.cpp
+        ../src/productAddedChangeEntry.cpp
+        ../src/productModifiedChangeEntry.cpp
+        ../src/productDeletedChangeEntry.cpp
+        ../src/separatelyProductExporter.cpp
+     LIBS
+        precitecweldmasterguigeneral
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        Precitec::precitecnotifications
+        fliplib
+        Mod_Storage
+        Framework_Module
+        System
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        xlsxHardwareParametersWorksheetTest
+    SRCS
+        xlsxHardwareParametersWorksheetTest.cpp
+        ../src/xlsxWorkbook.cpp
+        ../src/parametersExporter.cpp
+        ../src/xlsxAbstractWorksheet.cpp
+        ../src/xlsxHardwareParametersWorksheet.cpp
+        ../src/xlsxProductSeamGraphWorksheets.cpp
+        ../src/xlsxSeamGraphParametersWorksheet.cpp
+    LIBS
+        precitecweldmasterguigeneral
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        xlsxProductSeamGraphWorksheetsTest
+    SRCS
+        xlsxProductSeamGraphWorksheetsTest.cpp
+        ../src/xlsxWorkbook.cpp
+        ../src/parametersExporter.cpp
+        ../src/xlsxAbstractWorksheet.cpp
+        ../src/xlsxHardwareParametersWorksheet.cpp
+        ../src/xlsxProductSeamGraphWorksheets.cpp
+        ../src/xlsxSeamGraphParametersWorksheet.cpp
+    LIBS
+        precitecweldmasterguigeneral
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        xlsxSeamGraphParametersWorksheetTest
+    SRCS
+        xlsxSeamGraphParametersWorksheetTest.cpp
+        ../src/xlsxWorkbook.cpp
+        ../src/parametersExporter.cpp
+        ../src/xlsxAbstractWorksheet.cpp
+        ../src/xlsxHardwareParametersWorksheet.cpp
+        ../src/xlsxProductSeamGraphWorksheets.cpp
+        ../src/xlsxSeamGraphParametersWorksheet.cpp
+    LIBS
+        precitecweldmasterguigeneral
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+)
+
+qtTestCase(
+   NAME
+        parametersExporterTest
+   SRCS
+        parametersExporterTest.cpp
+        ../src/xlsxWorkbook.cpp
+        ../src/parametersExporter.cpp
+        ../src/xlsxAbstractWorksheet.cpp
+        ../src/xlsxHardwareParametersWorksheet.cpp
+        ../src/xlsxProductSeamGraphWorksheets.cpp
+        ../src/xlsxSeamGraphParametersWorksheet.cpp
+   LIBS
+        precitecweldmasterguigeneral
+        Mod_Storage
+        ${POCO_LIBS}
+        fliplib
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        seamProductInstanceCopyHandlerTest
+    SRCS
+        seamProductInstanceCopyHandlerTest.cpp
+        ../src/seamProduceInstanceCopyHandler.cpp
+        ../src/productInstancesCacheEditor.cpp
+        ../../Filtertest/dummyLogger.cpp
+    LIBS
+        precitecweldmasterguigeneral
+        Mod_Storage
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        emptyProductInstanceCreatorTest
+    SRCS
+        emptyProductInstanceCreatorTest.cpp
+        ../src/emptyProductInstanceCreator.cpp
+    LIBS
+        precitecweldmasterguigeneral
+        Mod_Storage
+        Interfaces
+)
+
+qtTestCase(
+     NAME
+        productInstanceTransferHandlerTest
+     SRCS
+        productInstanceTransferHandlerTest.cpp
+        ../src/productInstanceTransferHandler.cpp
+        ../src/emptyProductInstanceCreator.cpp
+        ../src/seamProduceInstanceCopyHandler.cpp
+        ../src/productInstancesCacheEditor.cpp
+     LIBS
+        precitecweldmasterguigeneral
+        Mod_Storage
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        productInstancesTransferController
+    SRCS
+        productInstancesTransferControllerTest.cpp
+        ../src/productInstancesTransferController.cpp
+        ../src/productInstanceTransferHandler.cpp
+        ../src/emptyProductInstanceCreator.cpp
+        ../src/seamProduceInstanceCopyHandler.cpp
+        ../src/checkedFilterModel.cpp
+        ../src/productInstancesCacheEditor.cpp
+    LIBS
+        precitecweldmasterguigeneral
+        Mod_Storage
+        Interfaces
+)
+
+qtTestCase(
+   NAME
+        productInstancesCacheEditorTest
+   SRCS
+        productInstancesCacheEditorTest.cpp
+        ../src/productInstancesCacheEditor.cpp
+        ../../Filtertest/dummyLogger.cpp
+   LIBS
+        precitecweldmasterguigeneral
+        Mod_Storage
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        productInstancesCacheControllerTest
+    SRCS
+        productInstancesCacheControllerTest.cpp
+        ../src/productInstancesCacheController.cpp
+        ../src/productInstancesCacheEditor.cpp
+        ../../Filtertest/dummyLogger.cpp
+    LIBS
+        precitecweldmasterguigeneral
+        Mod_Storage
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        assemblyImageFromProductInstanceTableModelTest
+    SRCS
+        testAssemblyImageFromProductInstanceTableModel.cpp
+        ../src/assemblyImageFromProductInstanceTableModel.cpp
+        ../src/assemblyImageInspectionModel.cpp
+    LIBS
+        Mod_Storage
+        Interfaces
+)

@@ -1,0 +1,49 @@
+{
+  "Name": "Line",
+  "ID": "2",
+  "Description": "Line with 4 lines",
+  "MicroVectorFactor": 1,
+  "PowerModulationMode": 1,
+  "Figure": [
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.5
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        0.0,
+        -0.5
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0
+    }
+  ]
+}

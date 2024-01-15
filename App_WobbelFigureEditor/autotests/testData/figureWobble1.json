@@ -1,0 +1,38 @@
+{
+  "Nameg": "Test",
+  "IDs": "1",
+  "Description!": "Corrupted file",
+  "MicroVectorFactor3": 1,
+  "Figure": [
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": 0.0
+    },
+    {
+      "EndPosition": [
+        3.0,
+        0.0
+      ],
+      "Power": 0.15
+    },
+    {
+      "EndPosition": [
+        -3.0,
+        0.0
+      ],
+      "Power": 0.5
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": -0.65
+    }
+  ]
+}
+
+

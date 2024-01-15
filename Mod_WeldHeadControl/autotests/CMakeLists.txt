@@ -1,0 +1,207 @@
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOMOC ON)
+
+qtTestCase(
+    NAME
+        testLEDComEthernet1D
+    SRCS
+        ledComEth1Test.cpp
+        ../src/LEDControl/LEDcomEth1.cpp
+        ../src/LEDControl/LEDcomBase.cpp
+    LIBS
+        Qt5::Concurrent
+        Qt5::Network
+)
+
+qtTestCase(
+    NAME
+        testLoadWobbleFigure
+    SRCS
+        loadWobbleFigureTest.cpp
+        ../../Filtertest/dummyLogger.cpp
+    LIBS
+        ${POCO_LIBS}
+        pthread
+        ${SCANLAB_LIB}
+        Interfaces
+        Qt5::Concurrent
+        Framework_Module
+        Mod_WeldHeadControl
+)
+
+qtTestCase(
+    NAME
+        testPrePosition
+    SRCS
+        prePositionTest.cpp
+        ../../Filtertest/dummyLogger.cpp
+    LIBS
+        ${POCO_LIBS}
+        pthread
+        ${SCANLAB_LIB}
+        Interfaces
+        Qt5::Concurrent
+        Framework_Module
+        Mod_WeldHeadControl
+)
+
+qtTestCase(
+    NAME
+        testScannerLogger
+    SRCS
+        scannerLoggerTest.cpp
+        ../../Filtertest/dummyLogger.cpp
+    LIBS
+        ${POCO_LIBS}
+        pthread
+        ${SCANLAB_LIB}
+        Interfaces
+        Qt5::Concurrent
+        Framework_Module
+        Mod_WeldHeadControl
+)
+
+qtTestCase(
+    NAME
+        testPositionDifferenceTolerance
+    SRCS
+        positionDifferenceToleranceTest.cpp
+        ../../Filtertest/dummyLogger.cpp
+        LIBS
+        ${POCO_LIBS}
+        pthread
+        ${SCANLAB_LIB}
+        Interfaces
+        Qt5::Concurrent
+        Framework_Module
+        Mod_WeldHeadControl
+        )
+
+qtTestCase(
+    NAME
+        testFillVelocity
+    SRCS
+        fillVelocityTest.cpp
+        ../../Filtertest/dummyLogger.cpp
+    LIBS
+        ${POCO_LIBS}
+        pthread
+        ${SCANLAB_LIB}
+        Interfaces
+        Qt5::Concurrent
+        Framework_Module
+        Mod_WeldHeadControl
+)
+
+qtTestCase(
+    NAME
+        testCheckListOverflow
+    SRCS
+        checkListOverflowTest.cpp
+        ../../Filtertest/dummyLogger.cpp
+    LIBS
+        ${POCO_LIBS}
+        pthread
+        ${SCANLAB_LIB}
+        Interfaces
+        Qt5::Concurrent
+        Framework_Module
+        Mod_WeldHeadControl
+)
+
+qtTestCase(
+    NAME
+        testCalculator
+    SRCS
+        calculatorTest.cpp
+        ../src/Scanlab/calculator.cpp
+    LIBS
+)
+
+qtTestCase(
+    NAME
+        testLogger
+    SRCS
+        loggerTest.cpp
+        ../src/Scanlab/scannerLogger.cpp
+        ../../Filtertest/dummyLogger.cpp
+    LIBS
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testScanner
+    SRCS
+        scannerTest.cpp
+        ../src/Scanlab/RTC6Scanner.cpp
+        ../src/Scanlab/scannerLogger.cpp
+        ../../Filtertest/dummyLogger.cpp
+    LIBS
+        pthread
+        Interfaces
+        ${SCANLAB_LIB}
+)
+
+qtTestCase(
+    NAME
+        testContourGenerator
+    SRCS
+        contourGeneratorTest.cpp
+        ../src/Scanlab/contourGenerator.cpp
+    LIBS
+)
+
+qtTestCase(
+    NAME
+        testSmartMoveInterpreter
+    SRCS
+        smartMoveInterpreterTest.cpp
+        ../src/Scanlab/smartMoveInterpreter.cpp
+    LIBS
+        Analyzer_Interface
+)
+
+qtTestCase(
+    NAME
+        testGlobalCommandGenerator
+    SRCS
+        globalCommandGeneratorTest.cpp
+        ../src/Scanlab/globalCommandGenerator.cpp
+    LIBS
+)
+
+qtTestCase(
+    NAME
+        testSmartMoveGlobalInterpreter
+    SRCS
+        smartMoveGlobalInterpreterTest.cpp
+        ../src/Scanlab/smartMoveGlobalInterpreter.cpp
+)
+
+qtTestCase(
+    NAME
+        testSmartMoveCalculator
+    SRCS
+        smartMoveCalculatorTest.cpp
+        ../src/Scanlab/smartMoveCalculator.cpp
+)
+
+qtTestCase(
+    NAME
+        testSmartMoveControl
+    SRCS
+        smartMoveControlTest.cpp
+        ../../Filtertest/dummyLogger.cpp
+    LIBS
+        Interfaces
+        Mod_WeldHeadControl
+)
+
+qtTestCase(
+    NAME
+        testLensModel
+    SRCS
+        lensModelTest.cpp
+        ../src/Scanlab/lensModel.cpp
+)

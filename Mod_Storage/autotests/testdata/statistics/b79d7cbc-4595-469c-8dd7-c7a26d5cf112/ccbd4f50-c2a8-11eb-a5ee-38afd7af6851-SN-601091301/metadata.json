@@ -1,0 +1,49 @@
+{
+    "date": "2021-06-01T07:13:01.028Z",
+    "nio": [
+        {
+            "count": 1,
+            "type": 1004
+        }
+    ],
+    "nioSwitchedOff": false,
+    "processedSeamSeries": [
+        {
+            "nio": [
+                {
+                    "count": 1,
+                    "type": 1004
+                }
+            ],
+            "uuid": "45bbcc22-f179-4057-86d5-a9812699e28e"
+        }
+    ],
+    "processedSeams": [
+        {
+            "nio": [
+                {
+                    "count": 1,
+                    "type": 1004
+                }
+            ],
+            "seamSeriesUuid": "45bbcc22-f179-4057-86d5-a9812699e28e",
+            "uuid": "e0677e0d-0887-43d1-b3d5-c6554dccd81a"
+        },
+        {
+            "linkTo": "e0677e0d-0887-43d1-b3d5-c6554dccd81a",
+            "nio": [
+            ],
+            "seamSeriesUuid": "45bbcc22-f179-4057-86d5-a9812699e28e",
+            "uuid": "6db0ba11-c553-46fb-bc1d-9b14c5a51f76"
+        },
+        {
+            "linkTo": "e0677e0d-0887-43d1-b3d5-c6554dccd81a",
+            "nio": [
+            ],
+            "seamSeriesUuid": "45bbcc22-f179-4057-86d5-a9812699e28e",
+            "uuid": "9738a3d9-ea7e-4740-87f6-205cef07e40a"
+        }
+    ],
+    "serialNumber": 601091301,
+    "uuid": "ccbd4f50-c2a8-11eb-a5ee-38afd7af6851"
+}

@@ -1,0 +1,52 @@
+#!/bin/bash
+
+if [ $UID -eq 0 ]; then
+  # Drop root privs
+  USER=`id -nu 1000`
+  exec su "${USER}" "$0" "$@"
+fi
+
+# now we are normal user
+
+#
+# Change into the batch directory (so that we have a known current location)
+#
+export CMD_BASE=`dirname "$0"`
+cd "$CMD_BASE"
+
+#
+# Determine the position of the WM installation and set the WM_BASE_DIR variable
+#
+cd ..
+export WM_BASE_DIR=$PWD
+
+#
+# Just a sanity check - is the WM_BASE_DIR variable set?
+#
+if [ -z $WM_BASE_DIR ]
+then
+	echo "FATAL ERROR: Cannot determine WM_BASE_DIR. ."
+	exit 1
+fi
+
+#
+# Change to the project directory
+#
+cd $WM_BASE_DIR
+
+#
+# remove a packed file (if any)
+#
+rm -f logfiles/wmlogs.plf
+
+#
+# Tar all logfile and bzip2 them
+# tar is created in tmp directory to prevent it from including itself
+# Also the transfer folder gets excluded
+#
+TEMPFILE=`mktemp -t wmlogs.plf.XXXXXX`
+tar cvfj ${TEMPFILE} --exclude="logfiles/transfer" logfiles
+mv ${TEMPFILE} logfiles/wmlogs.plf
+
+#ls -l logfiles
+

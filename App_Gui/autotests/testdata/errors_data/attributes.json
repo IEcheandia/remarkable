@@ -1,0 +1,6 @@
+{
+"attributes": [
+    {"contentName" : "Precitec.ProduktParameter.Content.MML4.Length", "defaultValue" : "10", "description" : "Precitec.ProduktParameter.Beschreibung.MML4.Length", "editListOrder" : 6, "enum" : "", "mandatory" : true, "maxLength" : 0, "maxValue" : "10000000", "minValue" : "0", "name" : "Length", "publicity" : true, "step" : 1, "toolTip" : "Precitec.ProduktParameter.Tooltip.MML4.Length", "type" : "double", "unit" : "Precitec.ProduktParameter.Unit.MML4.Length", "userLevel" : 0, "uuid" : "B95050CC-0659-4B9A-B277-DD92A20B26C8", "variantId" : "37E21057-EFD4-4C18-A298-BE9F804C6C04", "visible" : true},
+    {"contentName" : "Precitec.ProduktParameter.Content.MML.Max", "defaultValue" : "3", "description" : "Precitec.ProduktParameter.Beschreibung.MML.Max", "editListOrder" : 1, "enum" : "", "mandatory" : true, "maxLength" : 0, "maxValue" : "100000", "minValue" : "-100000", "name" : "Max", "publicity" : true, "step" : 1, "toolTip" : "Precitec.ProduktParameter.Tooltip.MML.Max", "type" : "double", "unit" : "Precitec.ProduktParameter.Unit.MML.Max", "userLevel" : 0, "uuid" : "FF17395F-C8AA-4C75-8C28-ABF3DE2A66F3", "variantId" : "CEDEACB4-D4BB-4FDC-945A-BDC54E5848A6", "visible" : true}
+]
+}

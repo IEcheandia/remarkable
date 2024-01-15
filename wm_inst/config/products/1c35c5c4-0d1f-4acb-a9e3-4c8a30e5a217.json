@@ -1,0 +1,640 @@
+{
+    "assemblyImage": "",
+    "default": false,
+    "endless": false,
+    "errorLevels": [
+        {
+            "blue": 0,
+            "green": 100,
+            "red": 0,
+            "value": 0
+        },
+        {
+            "blue": 0,
+            "green": 255,
+            "red": 255,
+            "value": 0.5
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 255,
+            "value": 1
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 139,
+            "value": 1.0099999904632568
+        }
+    ],
+    "filterParameterSets": [
+        {
+            "parametersGroupedByFilter": [
+                {
+                    "filterId": "39b42b74-f253-4605-be13-cb47026f70ac",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "7a42b081-724b-4a76-825d-f3b2665b48eb",
+                            "value": 1
+                        },
+                        {
+                            "name": "sensorid",
+                            "type": "int",
+                            "uuid": "c2dedd9d-f05f-42e7-9581-058c6b4e1cb9",
+                            "value": 1
+                        },
+                        {
+                            "name": "GridSize",
+                            "type": "double",
+                            "uuid": "3591b4f8-6123-444e-b057-b0c4ca21e230",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "52477129-33ee-4bad-a3dc-0b8ac907ebad"
+                },
+                {
+                    "filterId": "2f1fdfdd-fa8d-4a16-899b-f9e9e428bd59",
+                    "parameters": [
+                        {
+                            "name": "scalar",
+                            "type": "double",
+                            "uuid": "38679cc2-a360-4ae4-98ce-01292d828f57",
+                            "value": 10
+                        },
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "637e09eb-7cdf-49c2-bc76-75f22e099ee6",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba"
+                },
+                {
+                    "filterId": "550d2dc2-9521-4238-b2a2-3427001c3e24",
+                    "parameters": [
+                        {
+                            "name": "scalar",
+                            "type": "double",
+                            "uuid": "ee63adbd-080a-494e-a297-4e68d3545cde",
+                            "value": 1
+                        },
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "4f1dc48a-cd1e-4cf4-b826-2b46c7ceb1fc",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba"
+                },
+                {
+                    "filterId": "18f3f5e8-eb4a-39a8-84cd-aa8ae8f5a2ed",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "c5bd390f-f160-35c7-8866-7d2fe32e81be",
+                            "value": 1
+                        },
+                        {
+                            "name": "InputContourType",
+                            "type": "enum",
+                            "uuid": "b489e6a8-b821-30b3-9155-7c9fa396ec91",
+                            "value": 1
+                        },
+                        {
+                            "name": "InputPositionUnit",
+                            "type": "enum",
+                            "uuid": "6f199b95-7881-3bde-9140-8ed8a071c237",
+                            "value": 1
+                        },
+                        {
+                            "name": "Result",
+                            "type": "enum",
+                            "uuid": "5fd2f452-4c5c-3610-a46e-8321df4a370e",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "b5c8596f-2419-4908-8c82-86f4ff1e98f4"
+                },
+                {
+                    "filterId": "b00f2689-d4b0-368a-93ce-21523f8675c5",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "3e804869-1747-3040-90e6-e0d47c50f99e",
+                            "value": 1
+                        },
+                        {
+                            "name": "NumPoints",
+                            "type": "int",
+                            "uuid": "0ba6c95f-3163-38df-95cb-8860151b829e",
+                            "value": 3
+                        },
+                        {
+                            "name": "InputType",
+                            "type": "enum",
+                            "uuid": "8f036a69-4fa7-3429-a235-b6c1da07e8df",
+                            "value": 0
+                        },
+                        {
+                            "name": "Radius",
+                            "type": "double",
+                            "uuid": "9ef2ff70-5ad8-34f1-b5e8-2b2c4a6c65aa",
+                            "value": 0
+                        }
+                    ],
+                    "typeId": "efcc499d-7d40-4075-846e-e0cbce8a2abf"
+                },
+                {
+                    "filterId": "50d8fc4f-62b2-3478-b08f-c590b8749caf",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "4249a13b-51e3-3a5a-8d70-5a7e51bf84b9",
+                            "value": 1
+                        },
+                        {
+                            "name": "Constant",
+                            "type": "enum",
+                            "uuid": "4e9f6252-1af4-3b31-af80-6870cf3f4963",
+                            "value": 5
+                        }
+                    ],
+                    "typeId": "0dcc8697-aed5-4f3f-86aa-66f843e0502a"
+                },
+                {
+                    "filterId": "43eab906-47a0-3b2a-9086-d0b6ed77d07f",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "33e5026e-a088-3c85-b46d-f61206aec255",
+                            "value": 1
+                        },
+                        {
+                            "name": "Operation",
+                            "type": "enum",
+                            "uuid": "7cce7b1f-7664-3962-ba1d-c9f19540c8aa",
+                            "value": 8
+                        },
+                        {
+                            "name": "Value",
+                            "type": "double",
+                            "uuid": "ebaa5e8a-e18f-3537-a846-e59d95aea646",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d"
+                },
+                {
+                    "filterId": "afe383ef-06c9-3283-bd98-4bdec3468d7c",
+                    "parameters": [
+                        {
+                            "name": "scalar",
+                            "type": "double",
+                            "uuid": "e417af5c-b011-3680-b3cc-586b5c9736c7",
+                            "value": 0
+                        },
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "e2aa3b57-2c0f-38b4-bc84-cd36d6174f31",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba"
+                },
+                {
+                    "filterId": "664f5eec-a448-33c9-b273-c49e0615a798",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "849b9c4f-5b11-35a5-97ad-40511c7b25d1",
+                            "value": 1
+                        },
+                        {
+                            "name": "Operation",
+                            "type": "enum",
+                            "uuid": "f13c75a0-eaf0-3969-a747-aacfe4adac6b",
+                            "value": 9
+                        }
+                    ],
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e"
+                },
+                {
+                    "filterId": "59686686-77e8-3b5c-9381-268136c36ad0",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "a4392772-8f06-3ff3-aa74-140a904784d9",
+                            "value": 1
+                        },
+                        {
+                            "name": "Operation",
+                            "type": "enum",
+                            "uuid": "6ec20afe-75dd-3e4a-b1df-78282fe87d2d",
+                            "value": 7
+                        }
+                    ],
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e"
+                },
+                {
+                    "filterId": "a40a4bcc-7982-3f79-a9d6-c95380cf7129",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "bda7d38f-6f71-38d4-bcd4-8bf8cbcb868f",
+                            "value": 1
+                        },
+                        {
+                            "name": "Operation",
+                            "type": "enum",
+                            "uuid": "5e0144da-bce6-3cd7-8214-e6fca84c1c4a",
+                            "value": 2
+                        },
+                        {
+                            "name": "Value",
+                            "type": "double",
+                            "uuid": "717af9ef-f534-32b3-94b2-24b35980062d",
+                            "value": 255
+                        }
+                    ],
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d"
+                },
+                {
+                    "filterId": "9391853a-ea43-31e0-a855-f09653ed914a",
+                    "parameters": [
+                        {
+                            "name": "scalar",
+                            "type": "double",
+                            "uuid": "ebd1cb2b-9f01-3120-ac54-ed0e36532422",
+                            "value": 0
+                        },
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "918880a9-1263-3637-a859-4f70b841a418",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba"
+                },
+                {
+                    "filterId": "9ae59696-17e7-3ae7-9a54-f362a9f29525",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "dd2b0930-a995-3e7e-b9b7-4c8017079aa3",
+                            "value": 1
+                        },
+                        {
+                            "name": "Operation",
+                            "type": "enum",
+                            "uuid": "d2ef9d28-cec9-30e1-ac9c-a8c39e122190",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e"
+                },
+                {
+                    "filterId": "7b1d71fd-ca80-3e24-8497-5f0d55a1f045",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "d0507c47-3b32-3b56-93d3-8ab714159988",
+                            "value": 1
+                        },
+                        {
+                            "name": "Operation",
+                            "type": "enum",
+                            "uuid": "bc3006e4-d386-3dcc-b457-c2b7586d80a9",
+                            "value": 1
+                        }
+                    ],
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e"
+                },
+                {
+                    "filterId": "91914507-e7b5-3dee-81ae-df6cca73bf67",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "94d37253-f920-360b-868c-9af1868afa52",
+                            "value": 1
+                        },
+                        {
+                            "name": "ResultType",
+                            "type": "result",
+                            "uuid": "841f00ec-3902-3c37-926f-325a10de4571",
+                            "value": 760
+                        }
+                    ],
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c"
+                },
+                {
+                    "filterId": "bc68874a-60c1-3362-b134-eb11fd98b830",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "ce36c695-9253-36bd-89ca-d72b28553ec5",
+                            "value": 1
+                        },
+                        {
+                            "name": "ResultType",
+                            "type": "result",
+                            "uuid": "c849257c-14c4-3550-991b-f78ad8d025cc",
+                            "value": 761
+                        }
+                    ],
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c"
+                },
+                {
+                    "filterId": "7da69546-c0ab-3f81-b470-ef42daf4a25c",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "867633b2-c738-3fc8-a433-68b17eff9e82",
+                            "value": 1
+                        },
+                        {
+                            "name": "Operation",
+                            "type": "enum",
+                            "uuid": "06872cb3-e043-3691-b398-f6c8d7fcc139",
+                            "value": 8
+                        },
+                        {
+                            "name": "Value",
+                            "type": "double",
+                            "uuid": "b2f46771-7982-3a4d-b580-a5a895aef088",
+                            "value": 10
+                        }
+                    ],
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d"
+                },
+                {
+                    "filterId": "cd718ff0-df96-3c52-a031-bc1a060425b9",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "2bbaea92-6868-340d-bc6a-8400859b8eca",
+                            "value": 1
+                        },
+                        {
+                            "name": "Operation",
+                            "type": "enum",
+                            "uuid": "8a9a8ae2-ee15-3f5a-9a42-e8a7bebb1666",
+                            "value": 12
+                        }
+                    ],
+                    "typeId": "fa6b5c7d-2782-4532-8ac0-9e7acd1fbf3e"
+                },
+                {
+                    "filterId": "0153bebd-9c76-394e-b241-b83e9d1a6ba4",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "971d8e83-f706-30b7-8378-15c0563db0c6",
+                            "value": 1
+                        },
+                        {
+                            "name": "Operation",
+                            "type": "enum",
+                            "uuid": "9829f715-c669-3517-ab32-30823a85efb1",
+                            "value": 2
+                        },
+                        {
+                            "name": "Value",
+                            "type": "double",
+                            "uuid": "98386301-b342-361b-82de-02a120906bf2",
+                            "value": 1000
+                        }
+                    ],
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d"
+                },
+                {
+                    "filterId": "fc9ceca0-ba16-3338-a9fa-1e4a963413a6",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "3e4f1608-da11-3a0f-8fea-d39f830781d8",
+                            "value": 1
+                        },
+                        {
+                            "name": "Operation",
+                            "type": "enum",
+                            "uuid": "9b6e3680-2b7d-3732-a084-8274a6bb1f0a",
+                            "value": 2
+                        },
+                        {
+                            "name": "Value",
+                            "type": "double",
+                            "uuid": "e3b91235-a34a-3e18-8a24-5de2c9222ff2",
+                            "value": 1000
+                        }
+                    ],
+                    "typeId": "a94268ac-329e-4cc6-a47f-292b4f06490d"
+                },
+                {
+                    "filterId": "daa10c4b-a915-3cc1-a363-231f98fa00cc",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "a5d24d58-a8e1-3255-b592-db589f8d80ad",
+                            "value": 1
+                        },
+                        {
+                            "name": "ResultType",
+                            "type": "result",
+                            "uuid": "9914c164-1226-3e8f-ad22-523560466f99",
+                            "value": 763
+                        }
+                    ],
+                    "typeId": "1d788750-1ba4-457e-b1aa-759b473a236c"
+                },
+                {
+                    "filterId": "055d787b-c73f-331c-be84-e5b541d253c5",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "de4fb291-59dc-3c46-acdd-c2852ab5ba34",
+                            "value": 1
+                        },
+                        {
+                            "name": "sensorid",
+                            "type": "sensor",
+                            "uuid": "7ffa7ea9-6206-3a9f-a6a3-bb7cc7c9e3cb",
+                            "value": 10032
+                        },
+                        {
+                            "name": "DefaultValue",
+                            "type": "int",
+                            "uuid": "3fb664f4-1196-32c8-ab8b-a472e7621795",
+                            "value": 100
+                        }
+                    ],
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91"
+                },
+                {
+                    "filterId": "e9f0e0dc-8aef-30e9-b1f8-e6ba8c6f47a0",
+                    "parameters": [
+                        {
+                            "name": "Verbosity",
+                            "type": "enum",
+                            "uuid": "c8b9addb-e68c-36d2-8f6b-0c544f973a61",
+                            "value": 1
+                        },
+                        {
+                            "name": "sensorid",
+                            "type": "sensor",
+                            "uuid": "9c6c2524-4f63-35b1-afda-2e6892f75ca8",
+                            "value": 10033
+                        },
+                        {
+                            "name": "DefaultValue",
+                            "type": "int",
+                            "uuid": "a7102351-9c87-31f1-9a65-d0af1611c174",
+                            "value": 100
+                        }
+                    ],
+                    "typeId": "7005ffb6-246b-495d-be40-a50fccdf5e91"
+                }
+            ],
+            "uuid": "ef3943b7-608a-4746-a6c8-4131c67782e7"
+        }
+    ],
+    "hardware": {
+        "parameterSet": {
+        },
+        "startPosYAxis": 0
+    },
+    "lengthUnit": "millimeter",
+    "lwmTriggerSignalThreshold": 0,
+    "lwmTriggerSignalType": -1,
+    "name": "ProductTest",
+    "overlyingError": [
+    ],
+    "presetId": "00000000-0000-0000-0000-000000000000",
+    "qualityNorm": "00000000-0000-0000-0000-000000000000",
+    "seamSeries": [
+        {
+            "graphParamSet": "00000000-0000-0000-0000-000000000000",
+            "hardware": {
+                "parameterSet": {
+                }
+            },
+            "name": "",
+            "number": 0,
+            "overlyingError": [
+            ],
+            "presetId": "00000000-0000-0000-0000-000000000000",
+            "referenceCurves": [
+            ],
+            "seams": [
+                {
+                    "graph": "16e7d86d-f748-4fb7-a090-873e101bc522",
+                    "graphParamSet": "ef3943b7-608a-4746-a6c8-4131c67782e7",
+                    "hardware": {
+                        "parameterSet": {
+                            "parameters": [
+                            ],
+                            "uuid": "773a8784-3621-46f3-9306-d5f9116a72f2"
+                        }
+                    },
+                    "intervalSumError": [
+                    ],
+                    "linkedSeams": [
+                    ],
+                    "movingDirection": 0,
+                    "name": "seamtest",
+                    "number": 0,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "presetId": "00000000-0000-0000-0000-000000000000",
+                    "referenceCurves": [
+                    ],
+                    "roi": {
+                        "X": 0,
+                        "Y": 0,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "seamIntervals": [
+                        {
+                            "length": "100000",
+                            "level": 0,
+                            "name": "First Seam Interval",
+                            "number": 0,
+                            "uuid": "066b9a53-017a-4b46-bd8c-40ce6a525c0f"
+                        }
+                    ],
+                    "sumError": [
+                    ],
+                    "targetDifference": 0,
+                    "thicknessLeft": 0,
+                    "thicknessRight": 0,
+                    "triggerDelta": 10000,
+                    "uuid": "56c044e1-aeaa-47af-90ec-549045b72654",
+                    "velocity": 100000
+                }
+            ],
+            "subgraphs": [
+            ],
+            "sumError": [
+            ],
+            "uuid": "492579c4-e2e1-4e75-92b5-ed2a7e200bed"
+        }
+    ],
+    "signalQuality": [
+        {
+            "blue": 0,
+            "green": 100,
+            "red": 0,
+            "value": 0
+        },
+        {
+            "blue": 0,
+            "green": 255,
+            "red": 255,
+            "value": 0.5
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 255,
+            "value": 1
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 139,
+            "value": 1.0099999904632568
+        }
+    ],
+    "trigger": {
+        "mode": "Burst",
+        "source": "Software"
+    },
+    "type": 5,
+    "uuid": "1c35c5c4-0d1f-4acb-a9e3-4c8a30e5a217"
+}

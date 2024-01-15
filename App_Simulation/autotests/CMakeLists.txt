@@ -1,0 +1,14 @@
+testCase(
+    NAME
+        commandServerTest
+    SRCS
+        commandServerTest.cpp
+        centralDeviceManager.cpp
+        ../commandServer.cpp
+        ../../Mod_GrabberNoHw/src/sequenceInformation.cpp
+        ../../Mod_GrabberNoHw/src/vdrFileInfo.cpp
+        ../../Filtertest/dummyLogger.cpp
+    LIBS
+        Interfaces
+        Mod_VideoRecorder
+)

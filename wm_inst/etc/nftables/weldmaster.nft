@@ -1,0 +1,34 @@
+#!/usr/sbin/nft -f
+
+flush ruleset
+
+table inet filter {
+        chain input {
+                type filter hook input priority 0;
+
+                # accept any localhost traffic
+                iif lo accept
+
+                # accept traffic originated from us
+                ct state established,related accept
+
+                # activate the following line to accept common local services
+                # port 4840 is required for the Weldmaster OPC UA service
+                tcp dport { 22, 1194, 4840 } ct state new accept
+
+                # accept subnet 128.1.1.0
+                ip saddr 128.1.1.0/24 tcp dport 30312 accept
+
+                #accept subnet 192.168.170.0
+                ip saddr 192.168.170.0/24 accept
+
+                # accept vnc on 192.168.7.0
+                ip saddr 192.168.7.0/24 tcp dport { 5900 } accept
+
+                # accept neighbour discovery otherwise IPv6 connectivity breaks.
+                ip6 nexthdr icmpv6 icmpv6 type { nd-neighbor-solicit,  nd-router-advert, nd-neighbor-advert } accept
+
+                # count and drop any other traffic
+                counter drop
+        }
+}

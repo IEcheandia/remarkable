@@ -1,0 +1,4 @@
+module precitec.gui.components.logging
+LogView 1.0 LogView.qml
+LogStatusBarItem 1.0 LogStatusBarItem.qml
+plugin precitecloggercomponentplugin

@@ -1,0 +1,20 @@
+{
+"gaugeRange": [
+        {
+            "range": 1.0,
+            "minFactor": 0,
+            "minOffset": 0,
+            "maxFactor": 0.1,
+            "maxOffset": 0,
+            "length": 2.0
+        },
+        {
+            "range": 99999.0,
+            "minFactor": 0,
+            "minOffset": 0,
+            "maxFactor": 0.2,
+            "maxOffset": 0,
+            "length": 2.0
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+<video_recorder>
+	<date_time>211213-152900326</date_time>
+	<is_livemode>false</is_livemode>
+	<product_name>two_line_product</product_name>
+	<product_instance>02cf29c6-5c21-11ec-adf3-e0d4643b6870</product_instance>
+	<product_UUID>f439a74d-8c56-41e9-abe3-d98d5dc0718b</product_UUID>
+	<product_type>3</product_type>
+	<product_number>1213152859</product_number>
+	<seam_series>0</seam_series>
+	<seam>4</seam>
+	<trigger_delta>10000</trigger_delta>
+	<nb_images>2</nb_images>
+	<nb_samples>0</nb_samples>
+</video_recorder>

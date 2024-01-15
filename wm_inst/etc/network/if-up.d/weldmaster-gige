@@ -1,0 +1,24 @@
+#!/bin/bash
+
+/usr/sbin/nft list table inet filter | grep "${IFACE}"
+FOUND=$?
+
+if [[ $FOUND == 1 ]]; then
+    vendor=`cat /sys/class/net/${IFACE}/device/vendor`
+    device=`cat /sys/class/net/${IFACE}/device/device`
+    if [ "${vendor}" = "0x1fc9" ]; then
+        # Tehuti
+        if [ "${device}" = "0x4027" ] || [ "${device}" = "0x4022" ]; then
+            # TN9710P
+            /usr/sbin/nft add rule inet filter input position 6 iif ${IFACE} accept
+            echo 8228 > /sys/class/net/${IFACE}/mtu
+        fi
+    fi
+    if [ "${vendor}" = "0x1d6a" ]; then
+        # Acquatia/Marvell
+        if [ "${device}" = "0x07b1" ] || [ "${device}" = "0x00b1" ]; then
+            /usr/sbin/nft add rule inet filter input position 6 iif ${IFACE} accept
+            echo 8228 > /sys/class/net/${IFACE}/mtu
+        fi
+    fi
+fi

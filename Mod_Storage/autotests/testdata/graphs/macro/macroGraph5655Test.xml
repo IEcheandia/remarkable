@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GraphData>
+    <GraphID>1d305148-7f7e-11ec-bdaa-e0d4643b6870</GraphID>
+    <Name>G04 SYS Parameter offsets</Name>
+    <Kommentar></Kommentar>
+    <Erstellungsdatum>01/27/2022 15:33:37</Erstellungsdatum>
+    <DefaultGraph>0</DefaultGraph>
+    <Header>
+        <InfoHeader>Copyright © Precitec GmbH &amp;amp; Co. KG  2013</InfoHeader>
+        <InfoUser/>
+        <GraphName>macroGraph5655Test</GraphName>
+        <GraphFileName>macroGraph5655Test.xml</GraphFileName>
+        <Version Major="1" Minor="2"/>
+        <SicherungsDatum>01/27/2022 15:33:37</SicherungsDatum>
+        <HeaderFilterInfoList>
+            <HeaderFilterInfo>
+                <FilterID>1a7f9c78-ff0a-4574-ad2d-a587f0561e13</FilterID>
+                <FilterName>precitec::filter::ParameterFilter</FilterName>
+                <Version>Version 0.0.2</Version>
+                <KomponenteID>5e6df79f-39e2-4a9f-a76f-82e884afe0e9</KomponenteID>
+                <KomponenteAssemblyName>Filter_Utility</KomponenteAssemblyName>
+            </HeaderFilterInfo>
+        </HeaderFilterInfoList>
+    </Header>
+    <ParameterSatzList>
+        <ParameterSatz>
+            <ParametersatzID>1d305152-7f7e-11ec-a5a1-e0d4643b6870</ParametersatzID>
+            <TypID>1d305148-7f7e-11ec-bdaa-e0d4643b6870</TypID>
+            <ContentName>parametersatz.ContentName</ContentName>
+            <ContentBeschreibung>parametersatz.ContentBeschreibung</ContentBeschreibung>
+            <ContentTooltip>parametersatz.ContentTooltip</ContentTooltip>
+            <TypName>Graph</TypName>
+            <Name>Parameter set</Name>
+            <Beschreibung>Comment</Beschreibung>
+        </ParameterSatz>
+    </ParameterSatzList>
+    <InstanzFilterList>
+        <InstanzFilter>
+            <InstanzFilterID>90f3217d-fb66-4fe8-9166-1a15e48dcaa5</InstanzFilterID>
+            <FilterID>1a7f9c78-ff0a-4574-ad2d-a587f0561e13</FilterID>
+            <GraphID>1d305148-7f7e-11ec-bdaa-e0d4643b6870</GraphID>
+            <Name>G04 P02 offset z micrometer</Name>
+            <InstanzFilterDescription PosX="230" PosY="3160" Breite="80" Hoehe="80"/>
+            <InstanzFilterGrouping Group="-1" Parent="-1" GroupName=""/>
+        </InstanzFilter>
+        <InstanzFilter>
+            <InstanzFilterID>40fb4647-d354-4480-8f38-b04a9fae61ac</InstanzFilterID>
+            <FilterID>1a7f9c78-ff0a-4574-ad2d-a587f0561e13</FilterID>
+            <GraphID>1d305148-7f7e-11ec-bdaa-e0d4643b6870</GraphID>
+            <Name>G04 P01 offset y micrometer</Name>
+            <InstanzFilterDescription PosX="230" PosY="3050" Breite="80" Hoehe="80"/>
+            <InstanzFilterGrouping Group="-1" Parent="-1" GroupName=""/>
+        </InstanzFilter>
+    </InstanzFilterList>
+    <InstanzPipeList>
+        <InstanzPipe>
+            <InstanzPipeID>1d305d50-7f7e-11ec-aea5-e0d4643b6870</InstanzPipeID>
+            <PipePath></PipePath>
+            <ReceiverConnectorID>b1fc92b7-be22-4765-b202-45fd88d6c2ce</ReceiverConnectorID>
+            <ReceiverConnectorName></ReceiverConnectorName>
+            <ReceiverConnectorGroup>0</ReceiverConnectorGroup>
+            <ReceiverInstFilterID>40fb4647-d354-4480-8f38-b04a9fae61ac</ReceiverInstFilterID>
+            <SenderConnectorID>48fcb991-964c-4adb-9467-219c821fbd56</SenderConnectorID>
+            <SenderConnectorName>trigger</SenderConnectorName>
+            <SenderInstFilterID>48fcb991-964c-4adb-9467-219c821fbd56</SenderInstFilterID>
+        </InstanzPipe>
+        <InstanzPipe>
+            <InstanzPipeID>1d305f12-7f7e-11ec-8c0e-e0d4643b6870</InstanzPipeID>
+            <PipePath></PipePath>
+            <ReceiverConnectorID>cc8e1e51-df4f-4527-9bcc-6a5065d993ef</ReceiverConnectorID>
+            <ReceiverConnectorName>offset z micrometer</ReceiverConnectorName>
+            <ReceiverConnectorGroup>-1</ReceiverConnectorGroup>
+            <ReceiverInstFilterID>cc8e1e51-df4f-4527-9bcc-6a5065d993ef</ReceiverInstFilterID>
+            <SenderConnectorID>2495a1d1-6022-48c8-9b56-6e6ca2d67d88</SenderConnectorID>
+            <SenderConnectorName>Scalar</SenderConnectorName>
+            <SenderInstFilterID>90f3217d-fb66-4fe8-9166-1a15e48dcaa5</SenderInstFilterID>
+        </InstanzPipe>
+        <InstanzPipe>
+            <InstanzPipeID>1d306070-7f7e-11ec-9069-e0d4643b6870</InstanzPipeID>
+            <PipePath></PipePath>
+            <ReceiverConnectorID>956364ea-5988-43a6-8b54-a02acf62ed9c</ReceiverConnectorID>
+            <ReceiverConnectorName>offset y micrometer</ReceiverConnectorName>
+            <ReceiverConnectorGroup>-1</ReceiverConnectorGroup>
+            <ReceiverInstFilterID>956364ea-5988-43a6-8b54-a02acf62ed9c</ReceiverInstFilterID>
+            <SenderConnectorID>2495a1d1-6022-48c8-9b56-6e6ca2d67d88</SenderConnectorID>
+            <SenderConnectorName>Scalar</SenderConnectorName>
+            <SenderInstFilterID>40fb4647-d354-4480-8f38-b04a9fae61ac</SenderInstFilterID>
+        </InstanzPipe>
+        <InstanzPipe>
+            <InstanzPipeID>1d3061d8-7f7e-11ec-8872-e0d4643b6870</InstanzPipeID>
+            <PipePath></PipePath>
+            <ReceiverConnectorID>b1fc92b7-be22-4765-b202-45fd88d6c2ce</ReceiverConnectorID>
+            <ReceiverConnectorName></ReceiverConnectorName>
+            <ReceiverConnectorGroup>0</ReceiverConnectorGroup>
+            <ReceiverInstFilterID>90f3217d-fb66-4fe8-9166-1a15e48dcaa5</ReceiverInstFilterID>
+            <SenderConnectorID>bb374908-8f52-474e-87c6-dc67cb72674f</SenderConnectorID>
+            <SenderConnectorName>trigger</SenderConnectorName>
+            <SenderInstFilterID>bb374908-8f52-474e-87c6-dc67cb72674f</SenderInstFilterID>
+        </InstanzPipe>
+    </InstanzPipeList>
+    <InstanzVariantList>
+        <InstanzVariant>
+            <InstanzVariantID>e07272c3-f61e-4dd0-8360-f1d5a4b9fc11</InstanzVariantID>
+            <ParentID>00000000-0000-0000-0000-000000000000</ParentID>
+            <VariantID>7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba</VariantID>
+            <ParametersatzID>1d305152-7f7e-11ec-a5a1-e0d4643b6870</ParametersatzID>
+            <InstanceFilterID>90f3217d-fb66-4fe8-9166-1a15e48dcaa5</InstanceFilterID>
+            <HardwareKonfigID>00000000-0000-0000-0000-000000000000</HardwareKonfigID>
+            <StationID>00000000-0000-0000-0000-000000000000</StationID>
+            <ProduktID>00000000-0000-0000-0000-000000000000</ProduktID>
+            <EditListOrder/>
+            <Name/>
+        </InstanzVariant>
+        <InstanzVariant>
+            <InstanzVariantID>4ca8bbca-5e44-4a69-a4b5-897c42b7e868</InstanzVariantID>
+            <ParentID>00000000-0000-0000-0000-000000000000</ParentID>
+            <VariantID>7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba</VariantID>
+            <ParametersatzID>1d305152-7f7e-11ec-a5a1-e0d4643b6870</ParametersatzID>
+            <InstanceFilterID>40fb4647-d354-4480-8f38-b04a9fae61ac</InstanceFilterID>
+            <HardwareKonfigID>00000000-0000-0000-0000-000000000000</HardwareKonfigID>
+            <StationID>00000000-0000-0000-0000-000000000000</StationID>
+            <ProduktID>00000000-0000-0000-0000-000000000000</ProduktID>
+            <EditListOrder/>
+            <Name/>
+        </InstanzVariant>
+    </InstanzVariantList>
+    <InstanzAttributeList>
+        <InstanzAttribute>
+            <InstanzAttributeID>ba960ff1-69f7-41fc-931c-172634780e90</InstanzAttributeID>
+            <InstanzVariantID>e07272c3-f61e-4dd0-8360-f1d5a4b9fc11</InstanzVariantID>
+            <VariantID>7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba</VariantID>
+            <InstanceFilterID>90f3217d-fb66-4fe8-9166-1a15e48dcaa5</InstanceFilterID>
+            <AttributeID>41766f66-56c2-436c-bf2a-a56ab4a68062</AttributeID>
+            <AttributeName>Verbosity</AttributeName>
+            <UserLevel>0</UserLevel>
+            <Visible>true</Visible>
+            <Value>0</Value>
+            <Blob>1</Blob>
+            <Publicity>false</Publicity>
+            <HelpFile></HelpFile>
+        </InstanzAttribute>
+        <InstanzAttribute>
+            <InstanzAttributeID>9f77bffd-3432-4a57-b205-86d7897e70c7</InstanzAttributeID>
+            <InstanzVariantID>e07272c3-f61e-4dd0-8360-f1d5a4b9fc11</InstanzVariantID>
+            <VariantID>7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba</VariantID>
+            <InstanceFilterID>90f3217d-fb66-4fe8-9166-1a15e48dcaa5</InstanceFilterID>
+            <AttributeID>95b2ba6a-b1ea-40cf-a91f-76eb2f0b7064</AttributeID>
+            <AttributeName>scalar</AttributeName>
+            <UserLevel>3</UserLevel>
+            <Visible>true</Visible>
+            <Value>0</Value>
+            <Blob>1</Blob>
+            <Publicity>true</Publicity>
+            <HelpFile></HelpFile>
+        </InstanzAttribute>
+        <InstanzAttribute>
+            <InstanzAttributeID>43a5730d-016f-4d5d-81a5-0adb7a8b11be</InstanzAttributeID>
+            <InstanzVariantID>4ca8bbca-5e44-4a69-a4b5-897c42b7e868</InstanzVariantID>
+            <VariantID>7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba</VariantID>
+            <InstanceFilterID>40fb4647-d354-4480-8f38-b04a9fae61ac</InstanceFilterID>
+            <AttributeID>95b2ba6a-b1ea-40cf-a91f-76eb2f0b7064</AttributeID>
+            <AttributeName>scalar</AttributeName>
+            <UserLevel>3</UserLevel>
+            <Visible>true</Visible>
+            <Value>0</Value>
+            <Blob>1</Blob>
+            <Publicity>true</Publicity>
+            <HelpFile></HelpFile>
+        </InstanzAttribute>
+        <InstanzAttribute>
+            <InstanzAttributeID>71e055c9-3fc1-4148-9b45-cef621a0d846</InstanzAttributeID>
+            <InstanzVariantID>4ca8bbca-5e44-4a69-a4b5-897c42b7e868</InstanzVariantID>
+            <VariantID>7bc89cb7-48e0-4c94-9f6a-0f5f7fdbeeba</VariantID>
+            <InstanceFilterID>40fb4647-d354-4480-8f38-b04a9fae61ac</InstanceFilterID>
+            <AttributeID>41766f66-56c2-436c-bf2a-a56ab4a68062</AttributeID>
+            <AttributeName>Verbosity</AttributeName>
+            <UserLevel>0</UserLevel>
+            <Visible>true</Visible>
+            <Value>0</Value>
+            <Blob>1</Blob>
+            <Publicity>false</Publicity>
+            <HelpFile></HelpFile>
+        </InstanzAttribute>
+    </InstanzAttributeList>
+    <MesswerttypList/>
+    <FehlertypList/>
+    <SensorTypList/>
+    <GraphPortList/>
+    <Macros/>
+    <InConnectors>
+        <Connector>
+            <ID>48fcb991-964c-4adb-9467-219c821fbd56</ID>
+            <Name>trigger</Name>
+            <Type>0</Type>
+            <Position PosX="140" PosY="3060" Breite="57" Hoehe="12"/>
+        </Connector>
+        <Connector>
+            <ID>bb374908-8f52-474e-87c6-dc67cb72674f</ID>
+            <Name>trigger</Name>
+            <Type>0</Type>
+            <Position PosX="140" PosY="3170" Breite="57" Hoehe="12"/>
+        </Connector>
+    </InConnectors>
+    <OutConnectors>
+        <Connector>
+            <ID>cc8e1e51-df4f-4527-9bcc-6a5065d993ef</ID>
+            <Name>offset z micrometer</Name>
+            <Type>4</Type>
+            <Position PosX="330" PosY="3170" Breite="104" Hoehe="12"/>
+        </Connector>
+        <Connector>
+            <ID>956364ea-5988-43a6-8b54-a02acf62ed9c</ID>
+            <Name>offset y micrometer</Name>
+            <Type>4</Type>
+            <Position PosX="330" PosY="3060" Breite="104" Hoehe="12"/>
+        </Connector>
+    </OutConnectors>
+    <GraphItemsExtensionList>
+        <GraphItemExtension>
+            <ItemsExtensionID>2433c123-b492-4627-b0d3-27a864093ab7</ItemsExtensionID>
+            <GraphID>1d305148-7f7e-11ec-bdaa-e0d4643b6870</GraphID>
+            <GraphEditItemID>90f3217d-fb66-4fe8-9166-1a15e48dcaa5</GraphEditItemID>
+            <GraphEditItemType>0</GraphEditItemType>
+            <PipeInPortID>f132ea6a-0b0a-48bb-9335-d0a5ff8c31f6</PipeInPortID>
+        </GraphItemExtension>
+        <GraphItemExtension>
+            <ItemsExtensionID>623da2ba-dea6-4cca-af0b-a6e8f4109094</ItemsExtensionID>
+            <GraphID>1d305148-7f7e-11ec-bdaa-e0d4643b6870</GraphID>
+            <GraphEditItemID>40fb4647-d354-4480-8f38-b04a9fae61ac</GraphEditItemID>
+            <GraphEditItemType>0</GraphEditItemType>
+            <PipeInPortID>f132ea6a-0b0a-48bb-9335-d0a5ff8c31f6</PipeInPortID>
+        </GraphItemExtension>
+    </GraphItemsExtensionList>
+</GraphData>

@@ -1,0 +1,7 @@
+module precitec.gui.configuration
+BackupPage 1.0 qrc:///precitec/weldmaster/gui/configuration/BackupPage.qml
+HardwareConfigurationBackup 1.0 qrc:///precitec/weldmaster/gui/configuration/HardwareConfigurationBackup.qml
+RestorePage 1.0 qrc:///precitec/weldmaster/gui/configuration/RestorePage.qml
+UpdatePage 1.0 qrc:///precitec/weldmaster/gui/configuration/UpdatePage.qml
+ShutdownPage 1.0 qrc:///precitec/weldmaster/gui/configuration/ShutdownPage.qml
+plugin precitecweldmasterguiconfigurationplugin

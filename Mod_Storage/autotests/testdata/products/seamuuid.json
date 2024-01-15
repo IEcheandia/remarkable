@@ -1,0 +1,60 @@
+{
+    "uuid": "1F086211-FBD4-4493-A580-6FF11E4925DE",
+    "name": "FooBar",
+    "type": 1,
+    "endless": true,
+    "trigger": {
+        "source": "Grabber",
+        "mode": "Single"
+    },
+    "hardware": {
+        "startPosYAxis": 1
+    },
+    "seamSeries": [
+        {
+            "number": 0,
+            "uuid": "bcc3332d-dc4d-4b94-9dc9-604262ec8666",
+            "seams": [
+                {
+                    "uuid": "99f71378-ef2a-4ada-8c1f-b022c53505e4",
+                    "number": 0
+                }
+            ]
+        },
+        {
+            "number": 1,
+            "uuid": "f9d9a202-965c-4500-9bc4-41a829072d15",
+            "seams": [
+                {
+                    "uuid": "8471ced1-ab55-4138-90a8-20fe49426acc",
+                    "number": 0
+                },
+                {
+                    "uuid": "56178094-2d5c-47ed-81e5-528094e5f8fe",
+                    "number": 1,
+                    "velocity": 3520
+                }
+            ]
+        },
+        {
+            "uuid": "2F086211-FBD4-4493-A580-6FF11E4925DE",
+            "number": 2,
+            "seams": [
+                {
+                    "uuid": "b7872d0b-e19f-4f28-b731-3f6931b5199c",
+                    "number": 0
+                },
+                {
+                    "uuid": "68575ccc-3c34-4dc0-94ee-c92bb8811e53",
+                    "number": 1
+                },
+                {
+                    "uuid": "3F086211-FBD4-4493-A580-6FF11E4925DF",
+                    "number": 2,
+                    "triggerDelta": 1000
+                }
+            ]
+        }
+    ]
+}
+

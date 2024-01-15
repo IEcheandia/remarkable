@@ -1,0 +1,26 @@
+{
+    "date": "2024-01-09T17:19:03.380Z",
+    "extendedProductInfo": "",
+    "nio": [],
+    "nioSwitchedOff": false,
+    "processedSeamSeries": [
+        {
+            "nio": [],
+            "number": 0,
+            "uuid": "6a9b72d0-6558-469a-8cc8-a3aa297e74b4"
+        }
+    ],
+    "processedSeams": [
+        {
+            "nio": [],
+            "number": 0,
+            "seamSeriesUuid": "6a9b72d0-6558-469a-8cc8-a3aa297e74b4",
+            "uuid": "2af56a3b-531e-43db-ae3a-fee212f46350"
+        }
+    ],
+    "productName": "Live Mode",
+    "productType": -1,
+    "productUuid": "274a7eca-7654-4893-9d6a-351e6c688a95",
+    "serialNumber": 0,
+    "uuid": "2fa721f0-af13-11ee-9b8a-c475abfb68eb"
+}

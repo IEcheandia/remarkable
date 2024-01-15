@@ -1,0 +1,20 @@
+#!/bin/bash
+
+MAC=""
+
+for device in `ls /sys/class/net/`; do
+        ip link set ${device} up;
+        if [ `cat /sys/class/net/${device}/carrier` -eq 1 ]; then
+                ip -4 addr show ${device} | grep inet > /dev/null;
+                HAS_IP=$?;
+                if [ ${HAS_IP} -eq 1 ]; then
+                        MAC=`cat /sys/class/net/${device}/address`;
+                fi
+        fi
+done
+
+if ! [ -e /etc/ethercat.conf ]; then
+    ln -s /opt/etherlab/etc/ethercat.conf /etc/ethercat.conf
+    sed -i 's/DEVICE_MODULES=""/DEVICE_MODULES="generic"/g' /opt/etherlab/etc/ethercat.conf
+    sed -i "s/MASTER0_DEVICE=\"\"/MASTER0_DEVICE=\"${MAC}\"/g" /opt/etherlab/etc/ethercat.conf
+fi

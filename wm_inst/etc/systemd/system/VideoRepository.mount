@@ -1,0 +1,17 @@
+[Unit]
+Description=Mount weldmaster Video repostitory at boot
+Requires=systemd-networkd.service
+After=network-online.target
+Wants=network-online.target
+
+[Mount]
+# Replace Windows-PC-Name by the actual name of the system
+What=//Windows-PC-Name/VideoRepository
+Where=/VideoRepository
+# Replace ip with ip address of Windows-PC
+Options=credentials=/root/credentials,uid=1000,gid=1000,ip=127.0.0.1,iocharset=utf8,vers=2.1,noserverino
+Type=cifs
+TimeoutSec=30
+
+[Install]
+WantedBy=multi-user.target

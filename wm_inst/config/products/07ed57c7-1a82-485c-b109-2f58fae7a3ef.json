@@ -1,0 +1,165 @@
+{
+    "assemblyImage": "",
+    "default": false,
+    "endless": false,
+    "errorLevels": [
+        {
+            "blue": 0,
+            "green": 100,
+            "red": 0,
+            "value": 0
+        },
+        {
+            "blue": 0,
+            "green": 255,
+            "red": 255,
+            "value": 0.5
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 255,
+            "value": 1
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 139,
+            "value": 1.0099999904632568
+        }
+    ],
+    "filterParameterSets": [
+    ],
+    "hardware": {
+        "parameterSet": {
+            "parameters": [
+                {
+                    "filterId": "00000000-0000-0000-0000-000000000000",
+                    "name": "IsEnabled",
+                    "type": "bool",
+                    "typeId": "96599c45-4e20-4aaa-826d-25463670dd09",
+                    "uuid": "962e4790-ecba-4e59-bffb-6156f5272ada",
+                    "value": true
+                },
+                {
+                    "filterId": "00000000-0000-0000-0000-000000000000",
+                    "name": "ExposureTime",
+                    "type": "float",
+                    "typeId": "1f50352e-a92a-4521-b184-e16809345026",
+                    "uuid": "17805266-c94a-4522-a57e-17fa142d432d",
+                    "value": 1
+                }
+            ],
+            "uuid": "105ad5d7-4b72-4ab2-9553-a323004f4e78"
+        },
+        "startPosYAxis": 0
+    },
+    "lengthUnit": "millimeter",
+    "lwmTriggerSignalThreshold": 0,
+    "lwmTriggerSignalType": -1,
+    "name": "Verification",
+    "overlyingError": [
+    ],
+    "presetId": "00000000-0000-0000-0000-000000000000",
+    "qualityNorm": "00000000-0000-0000-0000-000000000000",
+    "seamSeries": [
+        {
+            "graphParamSet": "00000000-0000-0000-0000-000000000000",
+            "hardware": {
+                "parameterSet": {
+                }
+            },
+            "name": "",
+            "number": 0,
+            "overlyingError": [
+            ],
+            "presetId": "00000000-0000-0000-0000-000000000000",
+            "referenceCurves": [
+            ],
+            "seams": [
+                {
+                    "graph": "d969550b-35b6-4902-9b27-b677e31eab77",
+                    "graphParamSet": "5cf7cccb-7ebb-4be5-88df-40ac83534a66",
+                    "hardware": {
+                        "parameterSet": {
+                        }
+                    },
+                    "intervalSumError": [
+                    ],
+                    "linkedSeams": [
+                    ],
+                    "movingDirection": 0,
+                    "name": "Seam results",
+                    "number": 0,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "presetId": "00000000-0000-0000-0000-000000000000",
+                    "referenceCurves": [
+                    ],
+                    "roi": {
+                        "X": -1,
+                        "Y": -1,
+                        "height": 0,
+                        "width": 0
+                    },
+                    "seamIntervals": [
+                        {
+                            "length": "1000000",
+                            "level": 0,
+                            "name": "Seam results",
+                            "number": 0,
+                            "uuid": "ac365ddc-e229-4520-94b5-c9206ca74ba0"
+                        }
+                    ],
+                    "sumError": [
+                    ],
+                    "targetDifference": 0,
+                    "thicknessLeft": 0,
+                    "thicknessRight": 0,
+                    "triggerDelta": 1000,
+                    "uuid": "4435e9e4-cc56-4e98-95cb-139d4ff35e65",
+                    "velocity": 100000
+                }
+            ],
+            "subgraphs": [
+            ],
+            "sumError": [
+            ],
+            "uuid": "273278de-a200-4940-aeb4-09749c58378b"
+        }
+    ],
+    "signalQuality": [
+        {
+            "blue": 0,
+            "green": 100,
+            "red": 0,
+            "value": 0
+        },
+        {
+            "blue": 0,
+            "green": 255,
+            "red": 255,
+            "value": 0.5
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 255,
+            "value": 1
+        },
+        {
+            "blue": 0,
+            "green": 0,
+            "red": 139,
+            "value": 1.0099999904632568
+        }
+    ],
+    "trigger": {
+        "mode": "Burst",
+        "source": "Software"
+    },
+    "type": 1,
+    "uuid": "07ed57c7-1a82-485c-b109-2f58fae7a3ef"
+}

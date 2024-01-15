@@ -1,0 +1,13 @@
+@PACKAGE_INIT@
+set_and_check(WeldMaster_INCLUDE_DIR "@PACKAGE_INCLUDE_INSTALL_DIR@")
+set(WeldMaster_BASE_DIR "@CMAKE_INSTALL_PREFIX@/@WM_INSTALL_DIR@/")
+
+include(CMakeFindDependencyMacro)
+find_dependency(Qt5Core)
+find_dependency(Qt5Concurrent)
+find_dependency(PrecitecUserManagement)
+find_dependency(PrecitecPlotter)
+find_dependency(PrecitecNotifications)
+find_dependency(PrecitecRemovableDevices)
+
+include("${CMAKE_CURRENT_LIST_DIR}/WeldMasterTargets.cmake")

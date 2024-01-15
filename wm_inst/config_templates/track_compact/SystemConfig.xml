@@ -1,0 +1,16 @@
+<SystemConfig>
+	<LED_IlluminationEnable>false</LED_IlluminationEnable>
+	<LED_MaxCurrent_mA_Chan1>1000</LED_MaxCurrent_mA_Chan1>
+	<LED_MaxCurrent_mA_Chan2>1000</LED_MaxCurrent_mA_Chan2>
+	<LED_MaxCurrent_mA_Chan3>1000</LED_MaxCurrent_mA_Chan3>
+	<LED_MaxCurrent_mA_Chan4>1000</LED_MaxCurrent_mA_Chan4>
+	<ZCollimatorEnable>false</ZCollimatorEnable>
+	<LaserControlEnable>false</LaserControlEnable>
+	<AxisXEnable>false</AxisXEnable>
+	<AxisYEnable>true</AxisYEnable>
+	<AxisZEnable>false</AxisZEnable>
+	<PlotterLineWidth>3</PlotterLineWidth>
+	<PlotterPointsVisible>1</PlotterPointsVisible>
+	<PlotterLinesVisible>1</PlotterLinesVisible>
+	<PlotterBlocksVisible>1</PlotterBlocksVisible>
+</SystemConfig>

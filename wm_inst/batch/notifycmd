@@ -1,0 +1,69 @@
+#!/bin/bash
+#
+# NUT NOTIFYCMD script
+
+PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/usr/local/bin
+
+trap "exit 0" SIGTERM
+
+if [ "$NOTIFYTYPE" = "ONLINE" ]
+then
+        echo $0: power restored | wall
+        echo "UPS_ONLINE" | netcat -w 1 -u localhost 55555
+       # Cause all instances of this script to exit.
+        killall -s SIGTERM `basename $0`
+fi
+
+if [ "$NOTIFYTYPE" = "ONBATT" ]
+then
+        echo $0: 3 minutes till system powers down... | wall
+        echo "UPS_ONBATT" | netcat -w 1 -u localhost 55555
+        # Loop with one second interval to allow SIGTERM reception.
+        let "n = 180"
+        while [ $n -ne 0 ]
+        do
+                sleep 1
+                let "n--"
+        done
+        # shutdown request
+        echo $0: shutdown now... | wall
+        /sbin/upsdrvctl shutdown
+        echo "UPS_SHUTDOWN" | netcat -w 1 -u localhost 55555
+fi
+
+if [ "$NOTIFYTYPE" = "LOWBATT" ]
+then
+        #echo $0: LOWBATT | wall
+        echo "UPS_LOWBATT" | netcat -w 1 -u localhost 55555
+fi
+
+if [ "$NOTIFYTYPE" = "COMMOK" ]
+then
+        #echo $0: COMMOK | wall
+        echo "UPS_COMMOK" | netcat -w 1 -u localhost 55555
+        
+fi
+
+if [ "$NOTIFYTYPE" = "COMMBAD" ]
+then
+        #echo $0: COMMBAD | wall
+        echo "UPS_COMMBAD" | netcat -w 1 -u localhost 55555
+fi
+
+if [ "$NOTIFYTYPE" = "REPLBATT" ]
+then
+        #echo $0: REPLBATT | wall
+        echo "REPLBATT" | netcat -w 1 -u localhost 55555
+fi
+
+if [ "$NOTIFYTYPE" = "NOCOMM" ]
+then
+        #echo $0: NOCOMM | wall
+        echo "UPS_NOCOMM" | netcat -w 1 -u localhost 55555
+fi
+
+if [ "$NOTIFYTYPE" = "NOPARENT" ]
+then
+        #echo $0: NOPARENT | wall
+        echo "UPS_NOPARENT" | netcat -w 1 -u localhost 55555
+fi

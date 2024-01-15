@@ -1,0 +1,76 @@
+{
+    "messwerte": [
+        {
+            "enum": 6,
+            "lineColor": "#21dde4",
+            "maxValue": 1000,
+            "minValue": -1000,
+            "name": "Invertiert",
+            "plottable": 1,
+            "plotterNumber": 3,
+            "uuid": "542beb04-ba9d-4708-a784-8b664792fc9b",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 7,
+            "lineColor": "#0af419",
+            "maxValue": 1000,
+            "minValue": -1000,
+            "name": "Verzögert",
+            "plottable": 1,
+            "plotterNumber": 3,
+            "uuid": "7fa9da1f-10dc-4b52-855f-86a712e58835",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 0,
+            "lineColor": "#1f2ac8",
+            "maxValue": 1000,
+            "minValue": -1000,
+            "name": "Sinus",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "94d4ef7d-756b-4f7b-b729-f1cafcafd656",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 5,
+            "lineColor": "#c7d02a",
+            "maxValue": 1000,
+            "minValue": -1000,
+            "name": "Wurzel",
+            "plottable": 1,
+            "plotterNumber": 2,
+            "uuid": "b639a996-f911-4bc8-8458-89ce823c5c59",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 1,
+            "lineColor": "#18c73e",
+            "maxValue": 1000,
+            "minValue": -1000,
+            "name": "Positiv",
+            "plottable": 1,
+            "plotterNumber": 1,
+            "uuid": "d7a71839-58ad-4dd5-be6a-450249b661b7",
+            "visible": 1,
+            "visualization": 1
+        },
+        {
+            "enum": 2,
+            "lineColor": "#d40f0f",
+            "maxValue": 1000,
+            "minValue": -1000,
+            "name": "Negativ",
+            "plottable": 1,
+            "plotterNumber": 2,
+            "uuid": "da4d1f00-3f31-454d-9c9c-3075ae567315",
+            "visible": 1,
+            "visualization": 1
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "uuid": "62f4ed0c-5d43-42ca-94cd-ec300f8377fa",
+    "name": "Product with a linked graph on a seam",
+    "type": 3,
+    "endless": true,
+    "seamSeries": [
+        {
+            "number": 0,
+            "seams": [
+                {
+                    "graph": "af45c249-dcb0-4621-996c-5c9aeb403132",
+                    "name": "Seam with graph",
+                    "number": 0,
+                    "seamIntervals": [],
+                    "uuid": "784f62cd-c2fc-4422-85f0-4ed1cd41f0b1"
+                },
+                {
+                    "linkedGraph": "784f62cd-c2fc-4422-85f0-4ed1cd41f0b1",
+                    "name": "Seam with graph linked to the other seam",
+                    "number": 1,
+                    "seamIntervals": [],
+                    "uuid": "ddd5a37e-5e68-444a-8783-bb1c98b37ebc"
+                },
+                {
+                    "subgraphs": [],
+                    "name": "Seam with empty subGraphs",
+                    "number": 2,
+                    "seamIntervals": [],
+                    "uuid": "8f922861-98e4-418f-a081-c67de1836f49"
+                },
+                {
+                    "linkedGraph": "8f922861-98e4-418f-a081-c67de1836f49",
+                    "name": "Seam with graph linked to seam with empty subGraphs",
+                    "number": 3,
+                    "seamIntervals": [],
+                    "uuid": "c1a0be41-776c-446a-8025-9906a156adda"
+                },
+                {
+                    "subgraphs": [
+                        "ce515db8-45b2-446a-af96-4d3aa3b44a1c",
+                        "4a2922e0-746e-4bed-b45e-d60792094ff3",
+                        "1d962b39-5b70-4d7f-aa1a-b9ae3fa5e4e1",
+                        "27aa0c5c-c151-4c64-821d-9e80a64204a8"
+                    ],
+                    "name": "Seam with subGraphs",
+                    "number": 4,
+                    "seamIntervals": [],
+                    "uuid": "24053b68-7cdb-4e44-b1b4-2ee0b839d138"
+                },
+                {
+                    "linkedGraph": "24053b68-7cdb-4e44-b1b4-2ee0b839d138",
+                    "name": "Seam with graph linked to seam with subGraphs",
+                    "number": 5,
+                    "seamIntervals": [],
+                    "uuid": "05b74e84-6829-46f2-b781-7c57d79d206b"
+                },
+                {
+                    "linkedGraph": "784f62cd-c2fc-4422-85f0-4ed1cd41f0b1",
+                    "name": "Seam with graph linked to seam with graph linked to seam with graph.",
+                    "number": 6,
+                    "seamIntervals": [],
+                    "uuid": "cfe43bf9-7961-448f-acd2-2960919a1948"
+                }
+            ]
+        }
+    ]
+}

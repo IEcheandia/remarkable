@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphData>
+    <GraphID>b142af2c-cca8-4b88-828c-5e14490e7337</GraphID>
+    <Name>TestGraph</Name>
+    <Header>
+        <GraphName>TestGraph</GraphName>
+        <Version Major="1" Minor="2"/>
+        <HeaderFilterInfoList/>
+    </Header>
+    <ParameterSatzList/>
+    <InstanzFilterList/>
+    <InstanzPipeList/>
+    <InstanzVariantList/>
+    <InstanzAttributeList/>
+    <MesswerttypList/>
+</GraphData>

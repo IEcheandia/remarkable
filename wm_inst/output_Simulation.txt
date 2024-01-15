@@ -1,0 +1,458 @@
+Adapter.Name: enp0s31f6
+CHRCommunication.Watch: False
+CalibDataBase.Port: 8676
+Calibration.Watch: False
+CameraHeight: 1024
+CameraWidth: 1024
+Communicator.Watch: false
+DBNotification.Port: 8660
+DataBase.Port: 8654
+DeviceCalib_CHRComm.Port: 20009
+DeviceNotification.Port: 8683
+Device_Kamera.Port: 8655
+DoDiscover: False
+ECatMaster.Watch: False
+Fieldbus.Watch: False
+Grabber.Watch: False
+Gui.Watch: False
+Has.Camera: False
+Inspect.EnableYAxisOnStartup: 0
+Inspect.LineLaser1Intensity: 90
+InspectCommand.Port: 8656
+InspectionControl.Watch: False
+LogNotification.Port: 8682
+LoggerServer.Watch: True
+MMProtocol.Port: 59910
+ModuleManager.Watch: True
+MultiCastGroup.Address: 239.255.1.2
+MultiCastGroup.Port: 25513
+ProductTeachIn.Port: 8671
+QnxLogger.Port: 8673
+Receptor.Port: 59900
+Recorder.Port: 8657
+Result.Port: 8658
+Scheduler.Watch: False
+SensorSimulation.Port: 8661
+Service.Watch: False
+Simulation.Watch: True
+SimulationCmd.Port: 8681
+Start.Config: simulationstartup.config
+Station.Name: SIMULATION
+Station.UUID: 1E10A698-12B3-40E4-958B-4F051DBF6179
+Status.Port: 8659
+Storage.Watch: True
+TCPCommunication.Watch: False
+Trigger.Watch: False
+VIInspection_Inspection.Port: 8663
+VIInspection_InspectionCmd.Port: 8664
+VIService.Port: 8665
+VIServiceProxy.Port: 8666
+VIWeldHeadPublish.Port: 8668
+VIWeldHeadSubscribe.Port: 8662
+VideoRecorder.Port: 8667
+VideoRecorder.Watch: False
+VideoRecorderCmd.Port: 8674
+WeldHeadControl.Watch: False
+Workflow.Watch: False
+found PCI Device: 0x1eac 0x1001
+found PCI Device: 0x8086 0xa0b8
+found PCI Device: 0x8086 0x9a13
+found PCI Device: 0x8086 0xa082
+found PCI Device: 0x10ec 0x522a
+found PCI Device: 0x8086 0xa0bf
+found PCI Device: 0x8086 0x9a27
+found PCI Device: 0x8086 0x9a03
+found PCI Device: 0x8086 0xa0f0
+found PCI Device: 0x8086 0xa0e0
+found PCI Device: 0x8086 0x9a25
+found PCI Device: 0x8086 0xa0a4
+found PCI Device: 0x8086 0x9a1d
+found PCI Device: 0x8086 0xa0c8
+found PCI Device: 0x8086 0x9a14
+found PCI Device: 0x1c5c 0x174a
+found PCI Device: 0x8086 0x9a09
+found PCI Device: 0x8086 0xa0ef
+found PCI Device: 0x8086 0x15fc
+found PCI Device: 0x8086 0x9a49
+found PCI Device: 0x8086 0xa0ed
+found PCI Device: 0x8086 0xa0a3
+found PCI Device: 0x8086 0x9a1b
+Filename: /home/developer/git/weldmaster/qnx/wm_inst/config/SystemConfig.xml
+Before asyncStart...
+After asyncStart...
+sh: 1: /home/developer/git/weldmaster/qnx/wm_inst/batch/setupFifo.sh: Permission denied
+MM INIT
+MM INIT
+MM::starting up
+receptor running -> MM::locked
+ShMemStream: ModuleName: GrabberModul
+ShMemStream: Shared Memory Name: wmLogSIMULATIONGrabberModul
+Device Sertver CTOR...
+TRegistrar<MsgServer>::addSubscription Device
+TRegistrar<MsgServer>::addSubscription endDevice
+TRegistrar<MsgServer>::activateMatchingPublications for Device
+TRegistrar<MsgServer>::activateMatchingPublications Device no publisher yet
+INFO | 09.01.2024 - 22:41:41.690 |  | TRegistar: module:  subscribe ok in Device 
+TRegistrar<MsgServer>::addSubscription GrabberStatus
+TRegistrar<MsgServer>::addSubscription endGrabberStatus
+TRegistrar<MsgServer>::activateMatchingPublications for GrabberStatus
+TRegistrar<MsgServer>::activateMatchingPublications GrabberStatus no publisher yet
+INFO | 09.01.2024 - 22:41:41.690 |  | TRegistar: module:  subscribe ok in GrabberStatus 
+INFO | 09.01.2024 - 22:41:41.690 |  | TRegistrar<MsgServer>::< GrabberModul > autosubscribing , interface: Trigger 
+TRegistrar<MsgServer>::addSubscription Trigger
+TRegistrar<MsgServer>::addSubscription endTrigger
+TRegistrar<MsgServer>::activateMatchingPublications for Trigger
+TRegistrar<MsgServer>::activateMatchingPublications Trigger no publisher yet
+INFO | 09.01.2024 - 22:41:41.690 |  | TRegistrar<MsgServer>::< GrabberModul > autosubscribing , interface: TriggerCmd 
+TRegistrar<MsgServer>::addSubscription TriggerCmd
+TRegistrar<MsgServer>::addSubscription endTriggerCmd
+TRegistrar<MsgServer>::activateMatchingPublications for TriggerCmd
+TRegistrar<MsgServer>::activateMatchingPublications TriggerCmd no publisher yet
+TRegistrar<MsgServer>::<GrabberModul> publishing Sensor
+TRegistrar<MsgServer>::activateMatchingSubscriptions for Sensor ok
+size of first level folders: 0
+Notify startup finished - GrabberModul
+ShMemStream: ModuleName: CalibrationModul
+ShMemStream: Shared Memory Name: wmLogSIMULATIONCalibrationModul
+Filename: /home/developer/git/weldmaster/qnx/wm_inst/config/SystemConfig.xml
+CalibrationManager::CTOR 
+	GrabberModul
+	 + E-TriggerCmd   E-Trigger   M-GrabberStatus   M-Device   
+	 - E-Sensor   
+Notify startup finished - CalibrationModul
+TRegistrar<MsgServer>::addSubscription Device
+TRegistrar<MsgServer>::addSubscription endDevice
+TRegistrar<MsgServer>::activateMatchingPublications for Device
+TRegistrar<MsgServer>::activateMatchingPublications Device no publisher yet
+INFO | 09.01.2024 - 22:41:42.235 |  | TRegistar: module:  subscribe ok in Device 
+TRegistrar<MsgServer>::addSubscription Calibration
+TRegistrar<MsgServer>::addSubscription endCalibration
+TRegistrar<MsgServer>::activateMatchingPublications for Calibration
+TRegistrar<MsgServer>::activateMatchingPublications Calibration no publisher yet
+INFO | 09.01.2024 - 22:41:42.235 |  | TRegistar: module:  subscribe ok in Calibration 
+TRegistrar<MsgServer>::addSubscription CalibrationCoordinatesRequest
+TRegistrar<MsgServer>::addSubscription endCalibrationCoordinatesRequest
+TRegistrar<MsgServer>::activateMatchingPublications for CalibrationCoordinatesRequest
+TRegistrar<MsgServer>::activateMatchingPublications CalibrationCoordinatesRequest no publisher yet
+INFO | 09.01.2024 - 22:41:42.235 |  | TRegistar: module:  subscribe ok in CalibrationCoordinatesRequest 
+TRegistrar<MsgServer>::<CalibrationModul> publishing Device
+found existing subscriber GrabberModul for Device
+Device
+TRegistrar<MsgServer>::activateMatchingSubscriptions for Device ok
+TRegistrar<MsgServer>::<CalibrationModul> publishing CalibDataMsg
+TRegistrar<MsgServer>::activateMatchingSubscriptions waiting for subscriber CalibDataMsg
+ starting to wait for subscriber for CalibDataMsg
+ShMemStream: ModuleName: StorageModul
+ShMemStream: Shared Memory Name: wmLogSIMULATIONStorageModul
+	GrabberModul
+	 + E-TriggerCmd   E-Trigger   M-GrabberStatus   M-Device   
+	 - E-Sensor   
+	CalibrationModul
+	 + M-CalibrationCoordinatesRequest   M-Calibration   M-Device   
+	 - M-Device   M-CalibDataMsg   
+TRegistrar<MsgServer>::addSubscription Device
+TRegistrar<MsgServer>::addSubscription endDevice
+TRegistrar<MsgServer>::activateMatchingPublications for Device
+TRegistrar<MsgServer>::activateMatchingPublications Device no publisher yet
+INFO | 09.01.2024 - 22:41:43.084 |  | TRegistar: module:  subscribe ok in Device 
+TRegistrar<MsgServer>::addSubscription Db
+TRegistrar<MsgServer>::addSubscription endDb
+TRegistrar<MsgServer>::activateMatchingPublications for Db
+TRegistrar<MsgServer>::activateMatchingPublications Db no publisher yet
+INFO | 09.01.2024 - 22:41:43.084 |  | TRegistar: module:  subscribe ok in Db 
+INFO | 09.01.2024 - 22:41:43.084 |  | TRegistrar<MsgServer>::< StorageModul > autosubscribing , interface: StorageUpdate 
+TRegistrar<MsgServer>::addSubscription StorageUpdate
+TRegistrar<MsgServer>::addSubscription endStorageUpdate
+TRegistrar<MsgServer>::activateMatchingPublications for StorageUpdate
+TRegistrar<MsgServer>::activateMatchingPublications StorageUpdate no publisher yet
+TRegistrar<MsgServer>::<StorageModul> publishing DbNotification
+TRegistrar<MsgServer>::activateMatchingSubscriptions for DbNotification ok
+TRegistrar<MsgServer>::<StorageModul> publishing SchedulerEvents
+TRegistrar<MsgServer>::activateMatchingSubscriptions for SchedulerEvents ok
+	GrabberModul
+	 + E-TriggerCmd   E-Trigger   M-GrabberStatus   M-Device   
+	 - E-Sensor   
+	CalibrationModul
+	 + M-CalibrationCoordinatesRequest   M-Calibration   M-Device   
+	 - M-Device   M-CalibDataMsg   
+	StorageModul
+	 + E-StorageUpdate   M-Db   M-Device   
+	 - E-DbNotification   E-SchedulerEvents   
+INFO | 09.01.2024 - 22:41:45.371 |  | TRegistrar<MsgServer>::< UserInterfaceModul > autosubscribing , interface: Recorder 
+TRegistrar<MsgServer>::addSubscription Recorder
+TRegistrar<MsgServer>::addSubscription endRecorder
+TRegistrar<MsgServer>::activateMatchingPublications for Recorder
+TRegistrar<MsgServer>::activateMatchingPublications Recorder no publisher yet
+INFO | 09.01.2024 - 22:41:45.371 |  | TRegistrar<MsgServer>::< UserInterfaceModul > autosubscribing , interface: Results 
+TRegistrar<MsgServer>::addSubscription Results
+TRegistrar<MsgServer>::addSubscription endResults
+TRegistrar<MsgServer>::activateMatchingPublications for Results
+TRegistrar<MsgServer>::activateMatchingPublications Results no publisher yet
+INFO | 09.01.2024 - 22:41:45.378 |  | TRegistrar<MsgServer>::< UserInterfaceModul > autosubscribing , interface: SystemStatus 
+TRegistrar<MsgServer>::addSubscription SystemStatus
+TRegistrar<MsgServer>::addSubscription endSystemStatus
+TRegistrar<MsgServer>::activateMatchingPublications for SystemStatus
+TRegistrar<MsgServer>::activateMatchingPublications SystemStatus no publisher yet
+TRegistrar<MsgServer>::<UserInterfaceModul> publishing InspectionCmd
+TRegistrar<MsgServer>::activateMatchingSubscriptions for InspectionCmd ok
+TRegistrar<MsgServer>::<UserInterfaceModul> publishing QuerySystemStatus
+TRegistrar<MsgServer>::activateMatchingSubscriptions for QuerySystemStatus ok
+TRegistrar<MsgServer>::<UserInterfaceModul> publishing RecorderPoll
+TRegistrar<MsgServer>::activateMatchingSubscriptions for RecorderPoll ok
+TRegistrar<MsgServer>::<UserInterfaceModul> publishing SchedulerEvents
+TRegistrar<MsgServer>::activateMatchingSubscriptions for SchedulerEvents ok
+TRegistrar<MsgServer>::<UserInterfaceModul> publishing StorageUpdate
+found existing subscriber StorageModul for StorageUpdate
+TRegistrar<MsgServer>::activateMatchingSubscriptions for StorageUpdate ok
+TRegistrar<MsgServer>::<UserInterfaceModul> publishing InspectionOut
+TRegistrar<MsgServer>::activateMatchingSubscriptions for InspectionOut ok
+TRegistrar<MsgServer>::<UserInterfaceModul> publishing Recorder
+found existing subscriber UserInterfaceModul for Recorder
+TRegistrar<MsgServer>::activateMatchingSubscriptions for Recorder ok
+TRegistrar<MsgServer>::<UserInterfaceModul> publishing Results
+found existing subscriber UserInterfaceModul for Results
+TRegistrar<MsgServer>::activateMatchingSubscriptions for Results ok
+TRegistrar<MsgServer>::<UserInterfaceModul> publishing TriggerCmd
+found existing subscriber GrabberModul for TriggerCmd
+TRegistrar<MsgServer>::activateMatchingSubscriptions for TriggerCmd ok
+TRegistrar<MsgServer>::<UserInterfaceModul> publishing SystemStatus
+found existing subscriber UserInterfaceModul for SystemStatus
+TRegistrar<MsgServer>::activateMatchingSubscriptions for SystemStatus ok
+TRegistrar<MsgServer>::<UserInterfaceModul> publishing VideoRecorder
+TRegistrar<MsgServer>::activateMatchingSubscriptions for VideoRecorder ok
+TRegistrar<MsgServer>::<UserInterfaceModul> publishing CalibrationCoordinatesRequest
+found existing subscriber CalibrationModul for CalibrationCoordinatesRequest
+TRegistrar<MsgServer>::activateMatchingSubscriptions for CalibrationCoordinatesRequest ok
+TRegistrar<MsgServer>::<UserInterfaceModul> publishing SimulationCmd
+TRegistrar<MsgServer>::activateMatchingSubscriptions waiting for subscriber SimulationCmd
+ starting to wait for subscriber for SimulationCmd
+Notify startup finished - StorageModul
+ShMemStream: ModuleName: SimulationModul
+ShMemStream: Shared Memory Name: wmLogSIMULATIONSimulationModul
+Filename: /home/developer/git/weldmaster/qnx/wm_inst/config/SystemConfig.xml
+	GrabberModul
+	 + E-TriggerCmd   E-Trigger   M-GrabberStatus   M-Device   
+	 - E-Sensor   
+	CalibrationModul
+	 + M-CalibrationCoordinatesRequest   M-Calibration   M-Device   
+	 - M-Device   M-CalibDataMsg   
+	StorageModul
+	 + E-StorageUpdate   M-Db   M-Device   
+	 - E-DbNotification   E-SchedulerEvents   
+	UserInterfaceModul
+	 + E-SystemStatus   E-Results   E-Recorder   
+	 - E-InspectionCmd   E-QuerySystemStatus   E-RecorderPoll   E-SchedulerEvents   E-StorageUpdate   E-InspectionOut   E-Recorder   E-Results   E-TriggerCmd   E-SystemStatus   E-VideoRecorder   M-CalibrationCoordinatesRequest   M-SimulationCmd   
+TRegistrar<MsgServer>::addSubscription CalibDataMsg
+TRegistrar<MsgServer>::addSubscription endCalibDataMsg
+TRegistrar<MsgServer>::activateMatchingPublications for CalibDataMsg
+found publisher: activating for CalibDataMsg
+CalibDataMsg
+ waiting publisher activated
+TRegistrar<MsgServer>::activateMatchingPublications looking for waiting publisher
+freed publisher
+TRegistrar<MsgServer>::activateMatchingPublications CalibDataMsg ok 
+INFO | 09.01.2024 - 22:41:50.994 |  | TRegistar: module:  subscribe ok in CalibDataMsg 
+TRegistrar<MsgServer>::addSubscription SimulationCmd
+TRegistrar<MsgServer>::addSubscription endSimulationCmd
+TRegistrar<MsgServer>::activateMatchingPublications for SimulationCmd
+found publisher: activating for SimulationCmd
+ waiting publisher activated
+TRegistrar<MsgServer>::activateMatchingPublications looking for waiting publisher
+freed publisher
+TRegistrar<MsgServer>::activateMatchingPublications SimulationCmd ok 
+INFO | 09.01.2024 - 22:41:51.054 |  | TRegistar: module:  subscribe ok in SimulationCmd 
+TRegistrar<MsgServer>::<UserInterfaceModul> publishing Db
+found existing subscriber StorageModul for Db
+INFO | 09.01.2024 - 22:41:51.057 |  | TRegistrar<MsgServer>::< SimulationModul > autosubscribing , interface: Sensor 
+TRegistrar<MsgServer>::addSubscription Sensor
+TRegistrar<MsgServer>::activateMatchingSubscriptions for Db ok
+TRegistrar<MsgServer>::addSubscription endSensor
+TRegistrar<MsgServer>::activateMatchingPublications for Sensor
+found publisher: activating for Sensor
+TRegistrar<MsgServer>::<UserInterfaceModul> publishing WeldHeadMsg
+Sensor
+ waiting publisher activated
+TRegistrar<MsgServer>::activateMatchingPublications looking for waiting publisher
+TRegistrar<MsgServer>::activateMatchingPublications Sensor ok 
+TRegistrar<MsgServer>::activateMatchingSubscriptions waiting for subscriber WeldHeadMsg
+ starting to wait for subscriber for WeldHeadMsg
+INFO | 09.01.2024 - 22:41:51.154 |  | TRegistrar<MsgServer>::< SimulationModul > autosubscribing , interface: Inspection 
+TRegistrar<MsgServer>::addSubscription Inspection
+TRegistrar<MsgServer>::addSubscription endInspection
+TRegistrar<MsgServer>::activateMatchingPublications for Inspection
+TRegistrar<MsgServer>::activateMatchingPublications Inspection no publisher yet
+INFO | 09.01.2024 - 22:41:51.154 |  | TRegistrar<MsgServer>::< SimulationModul > autosubscribing , interface: InspectionCmd 
+TRegistrar<MsgServer>::addSubscription InspectionCmd
+TRegistrar<MsgServer>::addSubscription endInspectionCmd
+TRegistrar<MsgServer>::activateMatchingPublications for InspectionCmd
+found publisher: activating for InspectionCmd
+ waiting publisher activated
+TRegistrar<MsgServer>::activateMatchingPublications looking for waiting publisher
+TRegistrar<MsgServer>::activateMatchingPublications InspectionCmd ok 
+INFO | 09.01.2024 - 22:41:51.183 |  | TRegistrar<MsgServer>::< SimulationModul > autosubscribing , interface: DbNotification 
+TRegistrar<MsgServer>::addSubscription DbNotification
+TRegistrar<MsgServer>::addSubscription endDbNotification
+TRegistrar<MsgServer>::activateMatchingPublications for DbNotification
+found publisher: activating for DbNotification
+DbNotification
+ waiting publisher activated
+TRegistrar<MsgServer>::activateMatchingPublications looking for waiting publisher
+TRegistrar<MsgServer>::activateMatchingPublications DbNotification ok 
+INFO | 09.01.2024 - 22:41:51.206 |  | TRegistrar<MsgServer>::< SimulationModul > autosubscribing , interface: QuerySystemStatus 
+TRegistrar<MsgServer>::addSubscription QuerySystemStatus
+TRegistrar<MsgServer>::addSubscription endQuerySystemStatus
+TRegistrar<MsgServer>::activateMatchingPublications for QuerySystemStatus
+found publisher: activating for QuerySystemStatus
+ waiting publisher activated
+TRegistrar<MsgServer>::activateMatchingPublications looking for waiting publisher
+TRegistrar<MsgServer>::activateMatchingPublications QuerySystemStatus ok 
+TRegistrar<MsgServer>::<SimulationModul> publishing InspectionOut
+TRegistrar<MsgServer>::activateMatchingSubscriptions for InspectionOut ok
+TRegistrar<MsgServer>::<SimulationModul> publishing TriggerCmd
+found existing subscriber GrabberModul for TriggerCmd
+TriggerCmd
+TRegistrar<MsgServer>::activateMatchingSubscriptions for TriggerCmd ok
+TRegistrar<MsgServer>::<SimulationModul> publishing Results
+found existing subscriber UserInterfaceModul for Results
+Results
+TRegistrar<MsgServer>::activateMatchingSubscriptions for Results ok
+TRegistrar<MsgServer>::<SimulationModul> publishing Recorder
+found existing subscriber UserInterfaceModul for Recorder
+Recorder
+TRegistrar<MsgServer>::activateMatchingSubscriptions for Recorder ok
+TRegistrar<MsgServer>::<SimulationModul> publishing SystemStatus
+found existing subscriber UserInterfaceModul for SystemStatus
+SystemStatus
+TRegistrar<MsgServer>::activateMatchingSubscriptions for SystemStatus ok
+TRegistrar<MsgServer>::<SimulationModul> publishing VideoRecorder
+TRegistrar<MsgServer>::activateMatchingSubscriptions for VideoRecorder ok
+TRegistrar<MsgServer>::<SimulationModul> publishing Calibration
+found existing subscriber CalibrationModul for Calibration
+Calibration
+TRegistrar<MsgServer>::activateMatchingSubscriptions for Calibration ok
+TRegistrar<MsgServer>::<SimulationModul> publishing GrabberStatus
+found existing subscriber GrabberModul for GrabberStatus
+GrabberStatus
+TRegistrar<MsgServer>::activateMatchingSubscriptions for GrabberStatus ok
+TRegistrar<MsgServer>::<SimulationModul> publishing Db
+found existing subscriber StorageModul for Db
+Db
+TRegistrar<MsgServer>::activateMatchingSubscriptions for Db ok
+TRegistrar<MsgServer>::<SimulationModul> publishing Device
+found existing subscriber GrabberModul for Device
+Device
+TRegistrar<MsgServer>::activateMatchingSubscriptions for Device ok
+TRegistrar<MsgServer>::<SimulationModul> publishing Device
+found existing subscriber StorageModul for Device
+Device
+TRegistrar<MsgServer>::activateMatchingSubscriptions for Device ok
+TRegistrar<MsgServer>::<SimulationModul> publishing Device
+found existing subscriber CalibrationModul for Device
+Device
+TRegistrar<MsgServer>::activateMatchingSubscriptions for Device ok
+Notify startup finished - SimulationModul
+initialize simulation linux
+Workflow: handle Calibration Data -- getting calib...
+Simulation : handle calibration data 
+
+calibrate Aufruf mit eInitCalibrationData: 4
+CalibrationManager::calibrate( 4 )
+ShMemStream: ModuleName: LoggerServer
+ShMemStream: Shared Memory Name: wmLogSIMULATIONLoggerServer
+Found logger shared memory region: wmLogSIMULATIONLoggerServer
+Found logger shared memory region: wmLogSIMULATIONSimulationModul
+Found logger shared memory region: wmLogSIMULATIONStorageModul
+Found logger shared memory region: wmLogSIMULATIONCalibrationModul
+Found logger shared memory region: wmLogSIMULATIONGrabberModul
+	GrabberModul
+	 + E-TriggerCmd   E-Trigger   M-GrabberStatus   M-Device   
+	 - E-Sensor   
+	CalibrationModul
+	 + M-CalibrationCoordinatesRequest   M-Calibration   M-Device   
+	 - M-Device   M-CalibDataMsg   
+	StorageModul
+	 + E-StorageUpdate   M-Db   M-Device   
+	 - E-DbNotification   E-SchedulerEvents   
+	UserInterfaceModul
+	 + E-SystemStatus   E-Results   E-Recorder   
+	 - E-InspectionCmd   E-QuerySystemStatus   E-RecorderPoll   E-SchedulerEvents   E-StorageUpdate   E-InspectionOut   E-Recorder   E-Results   E-TriggerCmd   E-SystemStatus   E-VideoRecorder   M-CalibrationCoordinatesRequest   M-SimulationCmd   M-Db   M-WeldHeadMsg   
+	SimulationModul
+	 + E-QuerySystemStatus   E-DbNotification   E-InspectionCmd   E-Inspection   E-Sensor   M-SimulationCmd   M-CalibDataMsg   
+	 - E-InspectionOut   E-TriggerCmd   E-Results   E-Recorder   E-SystemStatus   E-VideoRecorder   M-Calibration   M-GrabberStatus   M-Db   M-Device   M-Device   M-Device   
+TRegistrar<MsgServer>::<LoggerServer> publishing InspectionCmd
+found existing subscriber SimulationModul for InspectionCmd
+InspectionCmd
+TRegistrar<MsgServer>::activateMatchingSubscriptions for InspectionCmd ok
+Notify startup finished - LoggerServer
+Enter getOSCalibrationDataFromHW 
+CalibData HomeDir=/home/developer/git/weldmaster/qnx/wm_inst/
+Filename: /home/developer/git/weldmaster/qnx/wm_inst/config/SystemConfig.xml
+Get os calibration data: SensorModel Linear magnification (coax)
+getOSCalibrationDataFromHW: coax case
+sendCalibDataChangedSignal 
+Simulation: sendCalibDataChangedSignal but don't save to disk
+calib data changed 
+Setting sensormodel to undefined, waiting for set3dcoords
+Received 3dcoords for sensor 0
+Sensor 0 ---> coax values: 0.21384, 1.9995, magnification at center = 32.3978 , 32.2184 angle=83.8956 degrees
+
+sendCorrectionGrid_response 1
+Init: Getting product 274a7eca-7654-4893-9d6a-351e6c688a95 <Live Mode>
+Init: Getting product <Live Mode
+Init: Getting product <Verification
+Init: Getting product <product_determine
+Init: Getting product <Product_SimulationTest
+Init: Getting product <Test Marking Engine
+Init: Getting product <ProductTest
+Init: Getting product <Area 26 - ST66 - C225-C234
+getOSCalibrationDataFromHW return value = 1
+unitinializing module CalibrationModul
+Receptorunitinializing module StorageModul
+ handler received unexpected Message:254
+getMessage: Pulse received, habe aber keinen Pulse erwartet !
+DTor Receiver...
+getMessage: Pulse received, habe aber keinen Pulse erwartet !
+DTor Receiver...
+SharedMem::~SharedMem()   ShMem: /ImageShMemSIMULATION #5 @7f1a03400000(134217728)
+SharedMem::~SharedMem()   closed file descriptor5
+getMessage: Pulse received, habe aber keinen Pulse erwartet !
+DTor Receiver...
+unitinializing module CalibrationModul
+getMessage: Pulse received, habe aber keinen Pulse erwartet !
+DTor Receiver...
+getMessage: Pulse received, habe aber keinen Pulse erwartet !
+DTor Receiver...
+SharedMem::~SharedMem()   ShMem: /ImageShMemSIMULATION #11 @7f72c1509000(134217728)
+SharedMem::~SharedMem()   closed file descriptor11
+SharedMem::~SharedMem()   ShMem:  #-1 @0(0)
+SharedMem::~SharedMem()   closed file descriptor-1
+SharedMem::~SharedMem()   ShMem:  #-1 @0(0)
+SharedMem::~SharedMem()   closed file descriptor-1
+getMessage: Pulse received, habe aber keinen Pulse erwartet !
+DTor Receiver...
+SharedMem::~SharedMem()   ShMem: /xFerMemSIMULATION13 #31 @7fe928052000(32256)
+SharedMem::~SharedMem()   closed file descriptor31
+Module handler received unexpected Message:254
+MM ending regularily
+DTor Receiver...
+Registrar handler received unexpected Message:254
+DTor Receiver...
+DTor Receiver...
+RegistrarSharedMem::~SharedMem()   ShMem:  #-1 @0(0)
+ handler received unexpected Message:SharedMem::~SharedMem()   closed file descriptor-1
+254
+SharedMem::~SharedMem()   ShMem: /xFerMemSIMULATION11 #16 @7f72a7f5f000(67764480)
+SharedMem::~SharedMem()   closed file descriptor16
+DTor Receiver...
+Module handler received unexpected Message:254
+Registrar handler received unexpected Message:254
+DTor Receiver...
+SharedMem::~SharedMem()   ShMem:  #-1 @0(0)
+SharedMem::~SharedMem()   closed file descriptor-1
+DTor Receiver...
+SharedMem::~SharedMem()   ShMem: /xFerMemSIMULATION12 #16 @7fc580927000(64512)
+SharedMem::~SharedMem()   closed file descriptor16
+Module handler received unexpected Message:254
+DTor Receiver...
+SharedMem::~SharedMem()   ShMem:  #-1 @0(0)
+SharedMem::~SharedMem()   closed file descriptor-1

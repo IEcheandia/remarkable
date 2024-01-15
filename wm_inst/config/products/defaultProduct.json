@@ -1,0 +1,27 @@
+{
+    "uuid": "274A7ECA-7654-4893-9D6A-351E6C688A95",
+    "name": "Live Mode",
+    "type": -1,
+    "default": true,
+    "seamSeries": [
+        {
+            "number": 0,
+            "seams": [
+                {
+                    "number": 0,
+                    "velocity": 30000,
+                    "triggerDelta": 3000,
+                    "seamIntervals": [
+                        {
+                            "number": 0,
+                            "velocity": 30000,
+                            "triggerDelta": 3000,
+                            "length": "6000000000",
+                            "graph": "F9BB3465-CFDB-4DE2-8C8D-EB974C667ACA"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+<graph id="00000000-0000-0000-0000-000000000001" name="testgraph">
+  <components path=".">
+    <component file="Filter_ImageSource*"     id="ImageSourceFilterLibrary"/>
+    <component file="Filter_SampleSource*"    id="SampleSourceFilterLibrary"/>
+    <component file="Filter_ImageProcessing*" id="ImageProcessingFilterLibrary"/>
+    <component file="Filter_Utility*"         id="UtilityFilterLibrary"/>
+    <component file="Filter_LineGeometry*"    id="LineGeometryFilterLibrary"/>
+    <component file="Filter_LineTracking*"    id="LineTrackingFilterLibrary"/>
+    <component file="Filter_PoreAnalysis*"    id="PoreAnalysisFilterLibrary"/>
+    <component file="Filter_SeamSearch*"      id="SeamSearchFilterLibrary"/>
+    <component file="Filter_GapTracking*"     id="GapTrackingFilterLibrary"/>
+    <component file="Filter_Results*"         id="ResultsFilterLibrary"/>
+  </components>
+  <filters>
+
+    <filter component="ImageSourceFilterLibrary" id="ImageSource" name="precitec::filter::ImageSource">
+      <param name="sensorid" type="int">1</param>
+      <param name="Verbosity" type="int">0</param>
+    </filter>
+
+    <filter component="ImageProcessingFilterLibrary" id="ROISelector" name="precitec::filter::ROISelector">
+      <param name="Verbosity" type="int">0</param>
+      <param name="X"         type="UInt32">440</param>
+      <param name="Y"         type="UInt32">380</param>
+      <param name="Width"     type="UInt32">50</param>
+      <param name="Height"    type="UInt32">280</param>
+      <param name="rgbRed"    type="UInt32">0</param>
+      <param name="rgbGreen"  type="UInt32">255</param>
+      <param name="rgbBlue"   type="UInt32">0</param>
+      <param name="rgbAlpha"  type="UInt32">255</param>
+      <in pipe="ImageFrame" sender="ImageSource"/>
+    </filter>
+
+    <!--<filter component="PoreAnalysisFilterLibrary" id="Binarize" name="precitec::filter::Binarize">
+      <param name="Verbosity"       type="int">0</param>
+      <param name="Threshold"       type="UInt32">10</param>
+      <param name="ComparisonType"  type="int">0</param>
+      <param name="BinarizeType"    type="int">1</param>
+      <in pipe="ImageFrame" sender="ROISelector"/>
+    </filter>-->
+    
+    <filter component="ImageProcessingFilterLibrary" id="TileFeature1" name="precitec::filter::TileFeature">
+      <param name="Verbosity"       type="int">1</param>
+      <param name="TileSize"        type="UInt32">3</param>
+      <param name="JumpingDistance" type="UInt32">3</param>
+      <param name="AlgoTexture"     type="int">4</param> <!-- 4: mean intensity -->
+      <param name="DrawThreshold"   type="UInt32">20</param>
+      <in pipe="ImageFrame" sender="ROISelector"/>
+    </filter>
+    
+    <filter component="ImageProcessingFilterLibrary" id="Max1" name="precitec::filter::ImageExtremum">
+      <param name="Verbosity"       type="int">1</param>
+      <param name="ExtremumType"    type="int">1</param> <!--1: maximum -->
+      <in pipe="FeatureImageOut" sender="TileFeature1"/>
+    </filter>
+
+     <filter component="UtilityFilterLibrary" id="Normalize1" name="precitec::filter::ContextNormalizeDouble">
+      <param name="Verbosity"       type="int">1</param>
+      <param name="Type1"           type="int">0</param> <!-- x -->
+      <param name="Type2"           type="int">1</param> <!-- y -->
+      <param name="HandleSampling"  type="bool">false</param>
+      <in group="1" pipe="ImageFrame" sender="ROISelector">referenceImage</in>
+      <in group="1" pipe="X" sender="Max1">value1</in>
+      <in group="1" pipe="Y" sender="Max1">value2</in>
+    </filter>
+
+    
+    <filter component="ImageProcessingFilterLibrary" id="ImageArithmetic" name="precitec::filter::ImageArithmetic">
+      <param name="Verbosity"       type="int">5</param>
+      <param name="ResolutionX"     type="UInt32">3</param>
+      <param name="ResolutionY"     type="UInt32">3</param>
+      <param name="TimeWindow"      type="UInt32">1</param>
+      <param name="Operation"       type="int">0</param>
+      <param name="ResampleOutput"  type="bool">false</param>
+      <!-- in pipe="FeatureImageOut" sender="TileFeature1"/-->
+      <in pipe="ImageFrame" sender="ROISelector"/>
+    </filter>
+
+    
+    <filter component="ImageProcessingFilterLibrary" id="Max2" name="precitec::filter::ImageExtremum">
+      <param name="Verbosity"       type="int">1</param>
+      <param name="ExtremumType"    type="int">1</param> <!--1: maximum -->
+      <in pipe="ImageFrame" sender="ImageArithmetic"/>
+    </filter>
+
+     <filter component="UtilityFilterLibrary" id="Normalize2" name="precitec::filter::ContextNormalizeDouble">
+      <param name="Verbosity"       type="int">1</param>
+      <param name="Type1"           type="int">0</param> <!-- x -->
+      <param name="Type2"           type="int">1</param> <!-- y -->
+      <param name="HandleSampling"    type="bool">true</param>
+      <in group="1" pipe="ImageFrame" sender="ROISelector">referenceImage</in>
+      <in group="1" pipe="X" sender="Max2">value1</in>
+      <in group="1" pipe="Y" sender="Max2">value2</in>
+    </filter>
+
+    <filter component="ResultsFilterLibrary" id="ResultX" name="precitec::filter::ExtRangeCheck">
+      <in group="1" pipe="Result1" sender="Normalize2">data_value</in>
+      <in group="1" pipe="Result1" sender="Normalize1">data_min</in>
+      <in group="1" pipe="Result1" sender="Normalize1">data_max</in>
+    </filter>
+    
+    <filter component="ResultsFilterLibrary" id="ResultY" name="precitec::filter::ExtRangeCheck">
+      <in group="1" pipe="Result2" sender="Normalize2">data_value</in>
+      <in group="1" pipe="Result2" sender="Normalize1">data_min</in>
+      <in group="1" pipe="Result2" sender="Normalize1">data_max</in>
+    </filter>
+
+
+
+  </filters>
+</graph>

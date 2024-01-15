@@ -1,0 +1,41 @@
+{
+  "Name": "New figure",
+  "ID": "3",
+  "Description": "No description",
+  "MicroVectorFactor": 500,
+  "PowerModulationMode": 8,
+  "Figure": [
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": 0.0,
+      "RingPower": 0.0
+    },
+    {
+      "EndPosition": [
+        3.0,
+        3.0
+      ],
+      "Power": 0.15,
+      "RingPower": 0.3
+    },
+    {
+      "EndPosition": [
+        -3.0,
+        -3.0
+      ],
+      "Power": 0.6,
+      "RingPower": -0.5
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": -0.75,
+      "RingPower": 0.2
+    }
+  ]
+}

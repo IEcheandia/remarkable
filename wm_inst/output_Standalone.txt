@@ -1,0 +1,88 @@
+Adapter.Name: enp0s31f6
+CHRCommunication.Watch: True
+CalibDataBase.Port: 7676
+Calibration.Watch: True
+CameraHeight: 1024
+CameraWidth: 1024
+DBNotification.Port: 7660
+DataBase.Port: 7654
+DeviceCalib_CHRComm.Port: 10009
+DeviceNotification.Port: 7683
+Device_Kamera.Port: 7655
+DoDiscover: False
+ECatMaster.Watch: True
+Fieldbus.Watch: True
+Grabber.Watch: True
+Gui.Watch: False
+Has.Camera: True
+Inspect.EnableYAxisOnStartup: 0
+Inspect.LineLaser1Intensity: 90
+InspectCommand.Port: 7656
+InspectionControl.Watch: True
+LogNotification.Port: 7682
+LoggerServer.Watch: True
+MMProtocol.Port: 49910
+ModuleManager.Watch: True
+MultiCastGroup.Address: 239.255.1.2
+MultiCastGroup.Port: 25512
+ProductTeachIn.Port: 7671
+QnxLogger.Port: 7673
+Receptor.Port: 49900
+Recorder.Port: 7657
+Result.Port: 7658
+Scheduler.Watch: True
+SensorSimulation.Port: 7661
+Service.Watch: True
+Simulation.Watch: false
+SimulationCmd.Port: 7681
+Start.Config: StandaloneStartup.config
+Station.Name: WM-QNX-PC
+Status.Port: 7659
+Storage.Watch: True
+TCPCommunication.Watch: True
+Trigger.Watch: True
+VIInspection_Inspection.Port: 7663
+VIInspection_InspectionCmd.Port: 7664
+VIService.Port: 7665
+VIServiceProxy.Port: 7666
+VIWeldHeadPublish.Port: 7668
+VIWeldHeadSubscribe.Port: 7662
+VideoRecorder.Port: 7667
+VideoRecorder.Watch: True
+VideoRecorderCmd.Port: 7674
+WeldHeadControl.Watch: True
+Workflow.Watch: True
+found PCI Device: 0x1eac 0x1001
+found PCI Device: 0x8086 0xa0b8
+found PCI Device: 0x8086 0x9a13
+found PCI Device: 0x8086 0xa082
+found PCI Device: 0x10ec 0x522a
+found PCI Device: 0x8086 0xa0bf
+found PCI Device: 0x8086 0x9a27
+found PCI Device: 0x8086 0x9a03
+found PCI Device: 0x8086 0xa0f0
+found PCI Device: 0x8086 0xa0e0
+found PCI Device: 0x8086 0x9a25
+found PCI Device: 0x8086 0xa0a4
+found PCI Device: 0x8086 0x9a1d
+found PCI Device: 0x8086 0xa0c8
+found PCI Device: 0x8086 0x9a14
+found PCI Device: 0x1c5c 0x174a
+found PCI Device: 0x8086 0x9a09
+found PCI Device: 0x8086 0xa0ef
+found PCI Device: 0x8086 0x15fc
+found PCI Device: 0x8086 0x9a49
+found PCI Device: 0x8086 0xa0ed
+found PCI Device: 0x8086 0xa0a3
+found PCI Device: 0x8086 0x9a1b
+Filename: /home/developer/git/weldmaster/qnx/wm_inst/config/SystemConfig.xml
+Before asyncStart...
+After asyncStart...
+sh: 1: /home/developer/git/weldmaster/qnx/wm_inst/batch/setupFifo.sh: Permission denied
+sh: 1: /home/developer/git/weldmaster/qnx/wm_inst/batch/start-gs.sh: Permission denied
+Warning: locale not supported by Xlib, locale set to C
+Warning: locale not supported by Xlib, locale set to C
+Warning: locale not supported by Xlib, locale set to C
+Warning: locale not supported by Xlib, locale set to C
+Warning: locale not supported by Xlib, locale set to C
+Warning: locale not supported by Xlib, locale set to C

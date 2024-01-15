@@ -1,0 +1,23 @@
+qtTestCase(
+    NAME
+        testFileSystemNameValidator
+    SRCS
+        fileSystemNameValidatorTest.cpp
+        ../fileSystemNameValidator.cpp
+    LIBS
+        Qt5::Gui
+)
+
+qtTestCase(
+    NAME
+        testGuiConfiguration
+    SRCS
+        guiConfigurationTest.cpp
+        ../fileSystemNameValidator.cpp
+        ../guiConfiguration.cpp
+        ../weldmasterPaths.cpp
+    LIBS
+        Qt5::Gui
+        Qt5::Concurrent
+        Precitec::precitecusermanagement
+)

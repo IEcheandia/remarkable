@@ -1,0 +1,320 @@
+{
+    "uuid": "C70768ED-823B-44AD-8AB2-60A551CFBA66",
+    "name": "FooBar_2",
+    "type": 2,
+    "endless": true,
+    "trigger": {
+        "source": "Grabber",
+        "mode": "Single"
+    },
+    "hardware": {
+        "startPosYAxis": 1
+    },
+    "seamSeries": [
+        {
+            "number": 0,
+            "uuid": "7e605bce-bd09-407b-921a-61daf73f6b10",
+            "seams": [
+                {
+                    "name": "First seam",
+                    "number": 0,
+                    "presetId": "7d1a636b-5de7-47f9-9e03-a917dc3c2f1d",
+                    "uuid": "f7abd4b8-4497-447d-ba95-615260c4966a",
+                    "hardware": {
+                        "parameterSet": {
+                            "parameters": [
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No3",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "184260dc-5b6b-4cdb-bb9b-cc6aa4f01157",
+                                    "value": 1
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No4",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "4d8487b0-f115-4eba-bdd5-ed35d4d471fe",
+                                    "value": 2
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No5",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "ddc507e2-c767-46a4-9cd1-d2beefcf0183",
+                                    "value": 3
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No6",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "226457ae-6191-4622-ac0a-65a11b7b1f67",
+                                    "value": 4
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No11",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "1a91f7e1-248d-44bb-9146-261b10d75f3d",
+                                    "value": 5
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No12",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "9eae3b45-902d-4848-862c-b3c109a48d05",
+                                    "value": 6
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No13",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "33838170-afef-4429-81c0-9d2aa0b53348",
+                                    "value": 7
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No14",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "65ece114-f5c2-46be-abf5-80f03975b913",
+                                    "value": 8
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No16",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "1d7408e3-3d1b-41eb-acbb-c5f388fc6a19",
+                                    "value": 9
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No17",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "661671f2-10db-46d9-84e1-521ce2f9b604",
+                                    "value": 10
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No18",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "226f4d3a-b1b2-4588-8a9c-728f192cb87e",
+                                    "value": 11
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No19",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "90698c22-cd6d-44df-b88a-7c134bf0957c",
+                                    "value": 12
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No24",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "ed944586-6ba5-4927-b0fc-3aa507eee477",
+                                    "value": 13
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No25",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "5db36523-3278-4cc2-9c92-d784e4e4e502",
+                                    "value": 14
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No26",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "342bbed9-852c-436a-9606-5a67c2b741a1",
+                                    "value": 15
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No27",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "25725056-bde5-4adb-a6ec-5e4f3653a6ff",
+                                    "value": 16
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Send_Data",
+                                    "type": "bool",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "e479762c-961d-4f9b-855a-6cc9fc42b120",
+                                    "value": true
+                                }
+                            ],
+                            "uuid": "abfacc70-ebcb-47de-b58e-a446693c9539"
+                        }
+                    }
+                },
+                {
+                    "name": "Second seam",
+                    "number": 0,
+                    "presetId": "14f819a6-e946-4e55-98e7-727c8f8d7754",
+                    "uuid": "f6fa5403-0b2d-4389-8707-28fc0f8eccae",
+                    "hardware": {
+                        "parameterSet": {
+                            "parameters": [
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No3",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "184260dc-5b6b-4cdb-bb9b-cc6aa4f01157",
+                                    "value": 11
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No4",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "4d8487b0-f115-4eba-bdd5-ed35d4d471fe",
+                                    "value": 12
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No5",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "ddc507e2-c767-46a4-9cd1-d2beefcf0183",
+                                    "value": 13
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No6",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "226457ae-6191-4622-ac0a-65a11b7b1f67",
+                                    "value": 14
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No11",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "1a91f7e1-248d-44bb-9146-261b10d75f3d",
+                                    "value": 15
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No12",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "9eae3b45-902d-4848-862c-b3c109a48d05",
+                                    "value": 16
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No13",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "33838170-afef-4429-81c0-9d2aa0b53348",
+                                    "value": 17
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No14",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "65ece114-f5c2-46be-abf5-80f03975b913",
+                                    "value": 18
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No16",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "1d7408e3-3d1b-41eb-acbb-c5f388fc6a19",
+                                    "value": 19
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No17",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "661671f2-10db-46d9-84e1-521ce2f9b604",
+                                    "value": 20
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No18",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "226f4d3a-b1b2-4588-8a9c-728f192cb87e",
+                                    "value": 21
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No19",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "90698c22-cd6d-44df-b88a-7c134bf0957c",
+                                    "value": 22
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No24",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "ed944586-6ba5-4927-b0fc-3aa507eee477",
+                                    "value": 23
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No25",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "5db36523-3278-4cc2-9c92-d784e4e4e502",
+                                    "value": 24
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No26",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "342bbed9-852c-436a-9606-5a67c2b741a1",
+                                    "value": 25
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Parameter_No27",
+                                    "type": "int",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "25725056-bde5-4adb-a6ec-5e4f3653a6ff",
+                                    "value": 26
+                                },
+                                {
+                                    "filterId": "00000000-0000-0000-0000-000000000000",
+                                    "name": "LC_Send_Data",
+                                    "type": "bool",
+                                    "typeId": "3c57acde-707e-4c7d-a6b5-0e9352568095",
+                                    "uuid": "e479762c-961d-4f9b-855a-6cc9fc42b120",
+                                    "value": true
+                                }
+                            ],
+                            "uuid": "abfacc70-ebcb-47de-b58e-a446693c9539"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
+

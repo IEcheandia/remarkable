@@ -1,0 +1,11 @@
+[Unit]
+Description=Disable hyperthreading
+After=cpugov-performance.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=@CMAKE_INSTALL_PREFIX@/opt/wm_inst/batch/disable-hyper-threading.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,17 @@
+{
+    "Description": "This is a file where manually entered directories for the Grapheditor can be saved. All graphs in the directories can be loaded by selecting the correct directory.",
+    "Directories": [
+        {
+            "IsGraphDir": true,
+            "Name": "System graphs",
+            "Path": "/home/developer/wm_inst/opt/wm_inst/system_graphs/"
+        },
+        {
+            "IsGraphDir": false,
+            "Name": "Custom Subgraphs",
+            "Path": "/home/developer/wm_inst/opt/wm_inst/config//sub_graphs/"
+        }
+    ],
+    "Name": "graphEditorDirectories.json",
+    "Path": "/home/developer/wm_inst/opt/wm_inst/config/"
+}

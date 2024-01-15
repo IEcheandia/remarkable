@@ -1,0 +1,48 @@
+{
+    "uuid": "1F086211-FBD4-4493-A580-6FF11E4925DD",
+    "name": "FooBar",
+    "type": 1,
+    "endless": true,
+    "trigger": {
+        "source": "Grabber",
+        "mode": "Single"
+    },
+    "hardware": {
+        "startPosYAxis": 1
+    },
+    "seamSeries": [
+        {
+            "uuid": "2F086211-FBD4-4493-A580-6FF11E4925DE",
+            "number": 2,
+            "name": "seamSeriesName",
+            "seams": [
+                {
+                    "number": 0,
+                    "name": "seamName",
+                    "seamIntervals": [
+                        {
+                            "name": "seamIntervalName",
+                            "number": 0,
+                            "triggerDelta": 500,
+                            "velocity": 300
+                        },
+                        {
+                            "number": 1,
+                            "triggerDelta": 510,
+                            "velocity": 330,
+                            "length": 20
+                        },
+                        {
+                            "uuid": "AF086211-FBD4-4493-A580-6FF11E4925DE",
+                            "number": 2,
+                            "triggerDelta": 560,
+                            "velocity": 370,
+                            "graph": "BF086211-FBD4-4493-A580-6FF11E4925DF",
+                            "length": 300
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

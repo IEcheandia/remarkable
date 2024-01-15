@@ -1,0 +1,16 @@
+{
+    "error": 1007,
+    "maxLimit": 99000,
+    "minLimit": -99000,
+    "name": "My Seam Error",
+    "shift": 3.7,
+    "uuid": "94f507f1-4215-4fbd-afd1-fe34b77347e5",
+    "value": 517,
+    "variantId": "f8f4e0a8-d259-40f9-b134-68aa24e0a06c",
+    "envelope": "40c4805b-143c-478c-a008-e169001ed508",
+    "threshold": 13,
+    "max": 1.2,
+    "min": 0.99,
+    "useMiddleCurveAsReference": false,
+    "secondThreshold": 2.4
+}

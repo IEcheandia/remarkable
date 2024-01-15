@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphData>
+    <GraphID>e58abf42-77a6-4456-9f78-56e002b38549</GraphID>
+    <Name>Minimal</Name>
+    <Header>
+            <Version Major="1" Minor="1" />
+            <GraphName>Minimal</GraphName>
+            <HeaderFilterInfoList>
+                <HeaderFilterInfo>
+                    <FilterID>be7d83e3-9b98-41f2-a484-d0e74e5e8ea2</FilterID>
+                    <FilterName>precitec::filter::TestFilter</FilterName>
+                    <Version>Version 0.0.1</Version>
+                    <KomponenteID>f642831a-53b6-455c-8adf-88079d15eaba</KomponenteID>
+                    <KomponenteAssemblyName>Test_Component</KomponenteAssemblyName>
+                </HeaderFilterInfo>
+                <HeaderFilterInfo>
+                    <FilterID>b0fdaf09-4789-484a-8c98-fb42152bc23c</FilterID>
+                    <FilterName>precitec::filter::AnotherFilter</FilterName>
+                    <Version>Version 0.0.1</Version>
+                    <KomponenteID>f642831a-53b6-455c-8adf-88079d15eaba</KomponenteID>
+                    <KomponenteAssemblyName>Test_Component</KomponenteAssemblyName>
+                </HeaderFilterInfo>
+                <HeaderFilterInfo>
+                    <FilterID>3f59b49e-7fa3-4fa8-9317-e21947b26bd8</FilterID>
+                    <FilterName>precitec::filter::bridges::ImageOut</FilterName>
+                    <Version>Version 0.0.1</Version>
+                    <KomponenteID>3899ecce-4f8d-4022-8a5f-641862372ea8</KomponenteID>
+                    <KomponenteAssemblyName>Bridges</KomponenteAssemblyName>
+                </HeaderFilterInfo>
+            </HeaderFilterInfoList>
+    </Header>
+    <InstanzFilterList>
+        <InstanzFilter>
+            <InstanzFilterID>cb9f223c-6762-4d8e-9faa-bca71f951444</InstanzFilterID>
+            <FilterID>be7d83e3-9b98-41f2-a484-d0e74e5e8ea2</FilterID>
+            <Name>A Filter</Name>
+            <InstanzFilterGrouping Group="-1" Parent="-1" GroupName="" />
+        </InstanzFilter>
+        <InstanzFilter>
+            <InstanzFilterID>5599b861-7222-4af9-8bf5-b7a116a6ab1f</InstanzFilterID>
+            <FilterID>b0fdaf09-4789-484a-8c98-fb42152bc23c</FilterID>
+            <Name>Second Filter</Name>
+            <InstanzFilterGrouping Group="-1" Parent="-1" GroupName="" />
+        </InstanzFilter>
+        <InstanzFilter>
+            <InstanzFilterID>45d4741e-7d83-42ff-8d25-5a482348dd97</InstanzFilterID>
+            <FilterID>3f59b49e-7fa3-4fa8-9317-e21947b26bd8</FilterID>
+            <Name>Image</Name>
+            <InstanzFilterGrouping Group="1" Parent="-1" GroupName="Bridge" />
+        </InstanzFilter>
+    </InstanzFilterList>
+    <InstanzAttributeList>
+        <InstanzAttribute>
+            <InstanzAttributeID>0b0e26ea-cd24-4298-af96-4b3655f62ff4</InstanzAttributeID>
+            <InstanzVariantID>e14b12b4-8e36-4e74-b37f-3d33b60d13a0</InstanzVariantID>
+            <VariantID>340f3182-8fb9-4744-901b-112fc91c4536</VariantID>
+            <InstanceFilterID>cb9f223c-6762-4d8e-9faa-bca71f951444</InstanceFilterID>
+            <AttributeID>340f3182-8fb9-4744-901b-112fc91c4536</AttributeID>
+            <AttributeName>An attribute</AttributeName>
+            <UserLevel>3</UserLevel>
+            <Visible>true</Visible>
+            <Value>1</Value>
+            <Blob></Blob>
+            <Publicity>true</Publicity>
+        </InstanzAttribute>
+    </InstanzAttributeList>
+    <InstanzPipeList>
+        <InstanzPipe>
+            <InstanzPipeID>d29c6d04-17d2-4696-a1f2-25ff15e0ea6c</InstanzPipeID>
+            <PipePath></PipePath>
+            <ReceiverConnectorID>e4894dca-376f-44a2-af03-1a3b21995e77</ReceiverConnectorID>
+            <ReceiverConnectorName>Foo</ReceiverConnectorName>
+            <ReceiverConnectorGroup>0</ReceiverConnectorGroup>
+            <ReceiverInstFilterID>5599b861-7222-4af9-8bf5-b7a116a6ab1f</ReceiverInstFilterID>
+            <SenderConnectorID>df31acdf-cb2a-4d76-8edd-eda1d7048b8f</SenderConnectorID>
+            <SenderConnectorName>Image</SenderConnectorName>
+            <SenderInstFilterID>cb9f223c-6762-4d8e-9faa-bca71f951444</SenderInstFilterID>
+        </InstanzPipe>
+        <InstanzPipe>
+            <InstanzPipeID>cacf10d1-fde5-4f80-9ac9-f6f61ff0b85f</InstanzPipeID>
+            <PipePath></PipePath>
+            <ReceiverConnectorID>e9d7487d-0807-4f2f-bb34-cab1cb85fa6d</ReceiverConnectorID>
+            <ReceiverConnectorName>Foo</ReceiverConnectorName>
+            <ReceiverConnectorGroup>0</ReceiverConnectorGroup>
+            <ReceiverInstFilterID>45d4741e-7d83-42ff-8d25-5a482348dd97</ReceiverInstFilterID>
+            <SenderConnectorID>d7a49c34-bc77-4384-ae12-ce8594fc52dd</SenderConnectorID>
+            <SenderConnectorName>Image</SenderConnectorName>
+            <SenderInstFilterID>cb9f223c-6762-4d8e-9faa-bca71f951444</SenderInstFilterID>
+        </InstanzPipe>
+    </InstanzPipeList>
+</GraphData>

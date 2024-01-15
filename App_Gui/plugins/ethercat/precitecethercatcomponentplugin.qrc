@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/precitec/ethercat">
+        <file alias="AnalogInView.qml">qml/AnalogInView.qml</file>
+        <file alias="AnalogOutChannelControl.qml">qml/AnalogOutChannelControl.qml</file>
+        <file alias="AnalogOutView.qml">qml/AnalogOutView.qml</file>
+        <file alias="AnalogPlotterBox.qml">qml/AnalogPlotterBox.qml</file>
+        <file alias="DigitalSlaveView.qml">qml/DigitalSlaveView.qml</file>
+        <file alias="GatewayGroup.qml">qml/GatewayGroup.qml</file>
+        <file alias="GatewayView.qml">qml/GatewayView.qml</file>
+        <file alias="SignalGroup.qml">qml/SignalGroup.qml</file>
+        <file alias="SignalAnalyzer.qml">qml/SignalAnalyzer.qml</file>
+        <file alias="SlaveOverview.qml">qml/SlaveOverview.qml</file>
+    </qresource>
+</RCC>

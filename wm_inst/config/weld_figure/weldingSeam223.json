@@ -1,0 +1,278 @@
+{
+  "Name": "POR b-sample both pins",
+  "ID": "223",
+  "Description": "No description",
+  "Ramps": [],
+  "Figure": [
+    {
+      "EndPosition": [
+        -8.881784197001253e-17,
+        -0.4
+      ],
+      "Power": 0.76,
+      "RingPower": 0.69,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.10748522010551198,
+        -0.3906482222840347
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.20994455078013227,
+        -0.3630301678683828
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.3025871075968826,
+        -0.3184372262822575
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.3810810275638183,
+        -0.258954513912731
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.4417560222230113,
+        -0.18736337627991628
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.4817749962596115,
+        -0.10701133541168822
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.4992667069255619,
+        -0.021655563434167205
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.4934132612707631,
+        0.06471279862110572
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.46448835990839576,
+        0.14805526213596562
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.41384449907844534,
+        0.22447482614495287
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.3438497294267117,
+        0.2903981967692523
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.2577769285885109,
+        0.34274287046703567
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.15965076506798997,
+        0.379061268473121
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        0.05405950921197127,
+        0.39765518286174384
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.054059509211970974,
+        0.39765518286174384
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.1596507650679897,
+        0.3790612684731211
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.25777692858851103,
+        0.34274287046703567
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.3438497294267115,
+        0.2903981967692525
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.41384449907844495,
+        0.22447482614495337
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.46448835990839565,
+        0.14805526213596584
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.4934132612707631,
+        0.06471279862110563
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.4992667069255619,
+        -0.021655563434166962
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.4817749962596116,
+        -0.10701133541168797
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.44175602222301147,
+        -0.18736337627991606
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.3810810275638179,
+        -0.25895451391273133
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.3025871075968825,
+        -0.31843722628225757
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.20994455078013255,
+        -0.3630301678683827
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.10748522010551186,
+        -0.39064822228403473
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        -0.005263157894736878,
+        -0.4
+      ],
+      "Power": 0.0,
+      "RingPower": 0.0,
+      "Velocity": -1.0
+    }
+  ]
+}

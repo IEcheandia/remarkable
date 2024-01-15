@@ -1,0 +1,15 @@
+[connection]
+id=GigE-Camera
+uuid=4b062e49-9799-40d0-94d9-3b18df0cfc96
+type=ethernet
+interface-name=
+permissions=
+
+[ethernet]
+mac-address=
+mac-address-blacklist=
+
+[ipv4]
+address1=192.168.255.1/24
+dns-search=
+method=manual

@@ -1,0 +1,89 @@
+{
+    "assemblyImage": "",
+    "default": false,
+    "endless": false,
+    "active": false,
+    "lengthUnit": "millimeter",
+    "name": "Verification",
+    "seamSeries": [
+        {
+            "graph": "00000000-0000-0000-0000-000000000000",
+            "graphParamSet": "00000000-0000-0000-0000-000000000000",
+            "hardware": {
+                "parameterSet": {
+                }
+            },
+            "name": "",
+            "number": 0,
+            "seams": [
+                {
+                    "graph": "00000000-0000-0000-0000-000000000000",
+                    "graphParamSet": "00000000-0000-0000-0000-000000000000",
+                    "hardware": {
+                        "parameterSet": {
+                        }
+                    },
+                    "name": "Seam results",
+                    "number": 0,
+                    "positionInAssemblyImage": {
+                        "X": -1,
+                        "Y": -1
+                    },
+                    "seamIntervals": [
+                        {
+                            "graph": "d969550b-35b6-4902-9b27-b677e31eab77",
+                            "graphParamSet": "5cf7cccb-7ebb-4be5-88df-40ac83534a66",
+                            "hardware": {
+                                "parameterSet": {
+                                }
+                            },
+                            "length": "1000000",
+                            "name": "Seam results",
+                            "number": 0,
+                            "triggerDelta": 1000,
+                            "uuid": "ac365ddc-e229-4520-94b5-c9206ca74ba0",
+                            "velocity": 100000
+                        }
+                    ],
+                    "triggerDelta": 1000,
+                    "uuid": "4435e9e4-cc56-4e98-95cb-139d4ff35e65",
+                    "velocity": 100000
+                }
+            ],
+            "triggerDelta": 0,
+            "uuid": "273278de-a200-4940-aeb4-09749c58378b",
+            "velocity": 0
+        }
+    ],
+    "sumError": {
+        "parameterSet": {
+        }
+    },
+    "trigger": {
+        "mode": "Burst",
+        "source": "Software"
+    },
+    "hardware": {
+        "parameterSet": {
+            "uuid": "105ad5d7-4b72-4ab2-9553-a323004f4e78",
+            "parameters": [
+                {
+                    "uuid": "962e4790-ecba-4e59-bffb-6156f5272ada",
+                    "name": "IsEnabled",
+                    "typeId": "96599C45-4E20-4AAA-826D-25463670DD09",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "uuid": "17805266-c94a-4522-a57e-17fa142d432d",
+                    "name": "ExposureTime",
+                    "typeId": "1F50352E-A92A-4521-B184-E16809345026",
+                    "type": "float",
+                    "value": 1.0
+                }
+            ]
+        }
+    },
+    "type": 1,
+    "uuid": "07ed57c7-1a82-485c-b109-2f58fae7a3ef"
+}

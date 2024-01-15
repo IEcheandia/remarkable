@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Sgm2Loc>
+  <Precitec.Filter.CalibrationResult.Beschreibung Text="Calibration result"/>
+  <Precitec.Filter.CalibrationResult.Tooltip Text="Calibration result"/>
+  <Precitec.Filter.CalibrationResult.Gruppe Text="Calibration"/>
+  <Precitec.Filter.CalibrationResult.Name Text="Calibration result"/>
+  <Precitec.Filter.Attribute.CalibrationResult.LayerSize.Beschreibung Text="Number of adjacent pixel necessary for valid layers"/>
+  <Precitec.Filter.Attribute.CalibrationResult.LayerSize.Tooltip Text="Number of adjacent pixel"/>
+  <Precitec.Filter.Attribute.CalibrationResult.LayerSize.Name Text="Pixel per layer"/>
+  <Precitec.Filter.Attribute.CalibrationResult.LayerSize.Unit Text="Px"/>
+  <Precitec.Filter.Attribute.CalibrationResult.Width.Beschreibung Text="Width of bottom layer of the calibration object"/>
+  <Precitec.Filter.Attribute.CalibrationResult.Width.Tooltip Text="Width of bottom layer"/>
+  <Precitec.Filter.Attribute.CalibrationResult.Width.Name Text="Width"/>
+  <Precitec.Filter.Attribute.CalibrationResult.Width.Unit Text="mm"/>
+  <Precitec.Filter.Attribute.CalibrationResult.DeltaHeight.Beschreibung Text="Height difference of top and botom layer of calibration object"/>
+  <Precitec.Filter.Attribute.CalibrationResult.DeltaHeight.Tooltip Text="Height difference of layers"/>
+  <Precitec.Filter.Attribute.CalibrationResult.DeltaHeight.Name Text="Height difference"/>
+  <Precitec.Filter.Attribute.CalibrationResult.DeltaHeight.Unit Text="mm"/>
+  <Precitec.Filter.DetectCalibrationLayers.Beschreibung Text="Autodetect two main layers of calibration workpiece"/>
+  <Precitec.Filter.DetectCalibrationLayers.Tooltip Text="Autodetect calibration workpiece layers"/>
+  <Precitec.Filter.DetectCalibrationLayers.Gruppe Text="Calibration"/>
+  <Precitec.Filter.DetectCalibrationLayers.Name Text="Autodetect calibration Layers"/>
+  <Precitec.Filter.Attribute.DetectCalibrationLayers.Extent.Beschreibung Text="Allowed devition from maximum intensity"/>
+  <Precitec.Filter.Attribute.DetectCalibrationLayers.Extent.Tooltip Text="Scale factor, applied before filterung"/>
+  <Precitec.Filter.Attribute.DetectCalibrationLayers.Extent.Name Text="Extent"/>
+  <Precitec.Filter.Attribute.DetectCalibrationLayers.Extent.Unit Text="%"/>
+  <Precitec.Filter.Attribute.DetectCalibrationLayers.Threshold.Beschreibung Text="Image intensity threshold"/>
+  <Precitec.Filter.Attribute.DetectCalibrationLayers.Threshold.Tooltip Text="Threshold"/>
+  <Precitec.Filter.Attribute.DetectCalibrationLayers.Threshold.Name Text="Threshold"/>
+  <Precitec.Filter.Attribute.DetectCalibrationLayers.Threshold.Unit Text=""/>
+  <Precitec.Filter.SelectLayerRoi.Beschreibung Text="Select ROI for calibration workpiece layer"/>
+  <Precitec.Filter.SelectLayerRoi.Tooltip Text="Select calibration layer ROI"/>
+  <Precitec.Filter.SelectLayerRoi.Gruppe Text="Calibration"/>
+  <Precitec.Filter.SelectLayerRoi.Name Text="Select calibration layer ROI"/>
+  <Precitec.Filter.Attribute.SelectLayerRoi.Layer.Beschreibung Text="ROI layer"/>
+  <Precitec.Filter.Attribute.SelectLayerRoi.Layer.Tooltip Text="ROI layer"/>
+  <Precitec.Filter.Attribute.SelectLayerRoi.Layer.Name Text="ROI layer"/>
+  <Precitec.Filter.Attribute.SelectLayerRoi.Layer.Unit Text=""/>
+  <Precitec.Filter.Attribute.SelectLayerRoi.Top Text="Top layer"/>
+  <Precitec.Filter.Attribute.SelectLayerRoi.Bot Text="Bottom layer"/>
+</Sgm2Loc>

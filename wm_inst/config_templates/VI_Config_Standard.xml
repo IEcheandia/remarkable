@@ -1,0 +1,897 @@
+<!--
+#define EK1100      0x44c2c52  // 72100946
+#define EL1018      0x3fa3052  // 66728018   8 Bit Dig In
+#define EL2008      0x7d83052  // 131608658  8 Bit Dig Out
+#define EL1819      0x71b3052  // 119222354  16 Bit Dig In
+#define EL2809      0xaf93052  // 184102994  16 Bit Dig Out
+
+#define EL3102      0xc1e3052  // 203305042  2 ch Ana In  -10V - 10V
+#define EL3162      0xc5a3052  // 207237202  2 ch Ana In  0V - 10V
+#define EL3702      0xe763052  // 242626642  2 ch Ana In  -10V - 10V Oversampling
+#define EL4102      0x10063052 // 268841042  2 ch Ana Out 0V - 10V
+#define EL4132      0x10243052 // 270807122  2 ch Ana Out -10V - 10V
+
+#define EL5032      0x13a83052 // 329789522 2 ch EnDat encoder
+#define EL5101      0x13ed3052 // 334311506 1 ch Incremental encoder RS422
+#define EL5151      0x141f3052 // 337588306 1 ch Incremental encoder HTL
+
+#define ACCELNET    0x380      // 896        axis controller Copley
+#define COMPAX      0x2e3bf1   // 3030001    axis controller Parker
+#define HMS_GATEWAY 0x3d       // 61         fieldbus gateway, ethercat side
+#define KUBUS_GATEWAY 0x186e9  // 100073     fieldbus gateway, ethercat side
+#define LWM40_FRONTEND 0x44C0C62 // 72092770
+#define EPOS4       0x63500000 // 1666187264
+
+#define HMS         0x1b       // 27
+#define BECKHOFF    0x2        // 2
+#define COPLEY      0xab       // 171
+#define PARKER      0x2000089  // 33554569
+#define KUNBUS      0x569      // 1385
+#define PRECITEC    0xFE       // 254
+#define MAXON       0xfb       // 251
+
+#define _DIG_8BIT_      8
+#define _DIG_16BIT_     16
+#define _ANALOG_CHAN1_  -1
+#define _ANALOG_CHAN2_  -2
+#define _GATEWAY_       -10
+-->
+
+<VI_Config>
+
+<!--
+###################################################
+# Follwing definitions are for VI_WeldHeadControl #
+###################################################
+-->
+
+	<VI_WeldHeadControl>
+
+		<Axis_X AxisLength="100000">
+		</Axis_X>
+
+		<Axis_Y AxisLength="100000" LowerSoftEnd="-30000" SoftLimitsActive="1" UpperSoftEnd="-1000">
+			<ProductCode>896</ProductCode>
+			<VendorID>171</VendorID>
+			<Instance>1</Instance>
+			<HomeAble>1</HomeAble>
+			<HomingDirPositive>1</HomingDirPositive>
+			<MountingRightTop>1</MountingRightTop>
+		</Axis_Y>
+
+		<Axis_Z AxisLength="100000" LowerSoftEnd="-30000" SoftLimitsActive="1" UpperSoftEnd="-1000">
+			<ProductCode>896</ProductCode>
+			<VendorID>171</VendorID>
+			<Instance>2</Instance>
+			<HomeAble>1</HomeAble>
+			<HomingDirPositive>1</HomingDirPositive>
+			<MountingRightTop>1</MountingRightTop>
+		</Axis_Z>
+
+		<HeadmonitorGateway>
+			<HM_Input>
+				<ProductCode>66728018</ProductCode>
+				<SlaveType>8</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>2</Instance>
+
+				<GlasNotPresent Bit="3"/>
+				<GlasDirty Bit="2"/>
+				<TempGlasFail Bit="1"/>
+				<TempHeadFail Bit="0"/>
+			</HM_Input>
+
+			<HM_Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+
+				<GlasNotPresent Bit="36"/>
+				<GlasDirty Bit="37"/>
+				<TempGlasFail Bit="38"/>
+				<TempHeadFail Bit="39"/>
+			</HM_Output>
+		</HeadmonitorGateway>
+
+		<ScanTracker FocalLength="250" MaxAmplitude="5000">
+<!--
+			SerialCommType:
+			1 = Onboard RS232 Ports
+			2 = Delock89318 PCI-RS422-Board
+			SerialCommPort:
+			1 = Port 1 (COM1, or Port 1 RS422 board)
+			2 = Port 2 (COM2, or Port 2 RS422 board)
+-->
+			<SetSerialComm Port="1" Type="2">
+			</SetSerialComm>
+			<SetScanWidth>
+				<ProductCode>270807122</ProductCode>
+				<SlaveType>-1</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+			</SetScanWidth>
+			<SetScanPos>
+				<ProductCode>270807122</ProductCode>
+				<SlaveType>-2</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+			</SetScanPos>
+			<SetEnableDriver>
+				<ProductCode>131608658</ProductCode>
+				<SlaveType>8</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+				<StartBit>0</StartBit>
+				<Length>1</Length>
+			</SetEnableDriver>
+			<GetScannerOK>
+				<ProductCode>66728018</ProductCode>
+				<SlaveType>8</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+				<StartBit>0</StartBit>
+				<Length>1</Length>
+			</GetScannerOK>
+			<GetScannerLimits>
+				<ProductCode>66728018</ProductCode>
+				<SlaveType>8</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+				<StartBit>1</StartBit>
+				<Length>1</Length>
+			</GetScannerLimits>
+		</ScanTracker>
+
+		<MotZCollimator>
+			<Ref_Travel>
+				<ProductCode>131608658</ProductCode>
+				<SlaveType>8</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+				<StartBit>6</StartBit>
+				<Length>1</Length>
+			</Ref_Travel>
+			<Automatic>
+				<ProductCode>131608658</ProductCode>
+				<SlaveType>8</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+				<StartBit>7</StartBit>
+				<Length>1</Length>
+			</Automatic>
+			<Error>
+				<ProductCode>66728018</ProductCode>
+				<SlaveType>8</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+				<StartBit>6</StartBit>
+				<Length>1</Length>
+			</Error>
+			<Pos_Reached>
+				<ProductCode>66728018</ProductCode>
+				<SlaveType>8</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+				<StartBit>7</StartBit>
+				<Length>1</Length>
+			</Pos_Reached>
+			<Analog_In>
+				<ProductCode>268841042</ProductCode>
+				<SlaveType>-1</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+			</Analog_In>
+		</MotZCollimator>
+
+		<LaserControl>
+			<LCStartSignal>
+				<ProductCode>131608658</ProductCode>
+				<SlaveType>8</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+				<StartBit>2</StartBit>
+				<Length>1</Length>
+			</LCStartSignal>
+			<LCErrorSignal>
+				<ProductCode>66728018</ProductCode>
+				<SlaveType>8</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+				<StartBit>2</StartBit>
+				<Length>1</Length>
+			</LCErrorSignal>
+			<LCReadySignal>
+				<ProductCode>66728018</ProductCode>
+				<SlaveType>8</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+				<StartBit>3</StartBit>
+				<Length>1</Length>
+			</LCReadySignal>
+			<LCLimitWarning>
+				<ProductCode>66728018</ProductCode>
+				<SlaveType>8</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+				<StartBit>4</StartBit>
+				<Length>1</Length>
+			</LCLimitWarning>
+			<LCPowerOffset>
+				<ProductCode>268841042</ProductCode>
+				<SlaveType>-2</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+			</LCPowerOffset>
+		</LaserControl>
+
+<!-- Following is for external LineLaser -->
+		<SetLineLaser1Intensity>
+			<ProductCode>268841042</ProductCode>
+			<SlaveType>-1</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>1</Instance>
+		</SetLineLaser1Intensity>
+
+		<SetFieldLight1Intensity>
+			<ProductCode>268841042</ProductCode>
+			<SlaveType>-2</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>1</Instance>
+		</SetFieldLight1Intensity>
+		
+<!-- Following is for internal LineLaser -->
+		<SetLineLaser2Intensity>
+			<ProductCode>268841042</ProductCode>
+			<SlaveType>-2</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>1</Instance>
+		</SetLineLaser2Intensity>
+
+		<LaserPowerSignal>
+			<ProductCode>203305042</ProductCode>
+			<SlaveType>-2</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>1</Instance>
+		</LaserPowerSignal>
+
+		<EncoderInput1>
+			<ProductCode>334311506</ProductCode>
+			<SlaveType>-1</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>1</Instance>
+		</EncoderInput1>
+
+		<EncoderInput2>
+			<ProductCode>334311506</ProductCode>
+			<SlaveType>-1</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>2</Instance>
+		</EncoderInput2>
+
+		<RobotTrackSpeed>
+			<ProductCode>203305042</ProductCode>
+			<SlaveType>-2</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>1</Instance>
+		</RobotTrackSpeed>
+
+		<OversamplingSignal1>
+			<ProductCode>242626642</ProductCode>
+			<SlaveType>-1</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>1</Instance>
+		</OversamplingSignal1>
+
+		<OversamplingSignal2>
+			<ProductCode>242626642</ProductCode>
+			<SlaveType>-2</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>1</Instance>
+		</OversamplingSignal2>
+
+		<OversamplingSignal3>
+			<ProductCode>242626642</ProductCode>
+			<SlaveType>-1</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>2</Instance>
+		</OversamplingSignal3>
+
+		<OversamplingSignal4>
+			<ProductCode>242626642</ProductCode>
+			<SlaveType>-2</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>2</Instance>
+		</OversamplingSignal4>
+
+		<LWM40_1_Plasma>
+			<ProductCode>72092770</ProductCode>
+			<SlaveType>-1</SlaveType>
+			<VendorID>254</VendorID>
+			<Instance>1</Instance>
+		</LWM40_1_Plasma>
+
+		<LWM40_1_Temperature>
+			<ProductCode>72092770</ProductCode>
+			<SlaveType>-2</SlaveType>
+			<VendorID>254</VendorID>
+			<Instance>1</Instance>
+		</LWM40_1_Temperature>
+
+		<LWM40_1_BackReflection>
+			<ProductCode>72092770</ProductCode>
+			<SlaveType>-3</SlaveType>
+			<VendorID>254</VendorID>
+			<Instance>1</Instance>
+		</LWM40_1_BackReflection>
+
+		<LWM40_1_AnalogInput>
+			<ProductCode>72092770</ProductCode>
+			<SlaveType>-4</SlaveType>
+			<VendorID>254</VendorID>
+			<Instance>1</Instance>
+		</LWM40_1_AnalogInput>
+
+		<GeneralPurpose_AnalogIn1>
+			<ProductCode>203305042</ProductCode>
+			<SlaveType>-1</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>1</Instance>
+		</GeneralPurpose_AnalogIn1>
+
+		<GeneralPurpose_AnalogIn2>
+			<ProductCode>203305042</ProductCode>
+			<SlaveType>-2</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>1</Instance>
+		</GeneralPurpose_AnalogIn2>
+
+		<GeneralPurpose_AnalogIn3>
+			<ProductCode>203305042</ProductCode>
+			<SlaveType>-1</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>2</Instance>
+		</GeneralPurpose_AnalogIn3>
+
+		<GeneralPurpose_AnalogIn4>
+			<ProductCode>203305042</ProductCode>
+			<SlaveType>-2</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>2</Instance>
+		</GeneralPurpose_AnalogIn4>
+
+		<GeneralPurpose_AnalogIn5>
+			<ProductCode>203305042</ProductCode>
+			<SlaveType>-1</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>3</Instance>
+		</GeneralPurpose_AnalogIn5>
+
+		<GeneralPurpose_AnalogIn6>
+			<ProductCode>203305042</ProductCode>
+			<SlaveType>-2</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>3</Instance>
+		</GeneralPurpose_AnalogIn6>
+
+		<GeneralPurpose_AnalogIn7>
+			<ProductCode>203305042</ProductCode>
+			<SlaveType>-1</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>4</Instance>
+		</GeneralPurpose_AnalogIn7>
+
+		<GeneralPurpose_AnalogIn8>
+			<ProductCode>203305042</ProductCode>
+			<SlaveType>-2</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>4</Instance>
+		</GeneralPurpose_AnalogIn8>
+
+		<GeneralPurpose_AnalogOut1>
+			<ProductCode>270807122</ProductCode>
+			<SlaveType>-1</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>1</Instance>
+		</GeneralPurpose_AnalogOut1>
+
+		<GeneralPurpose_AnalogOut2>
+			<ProductCode>270807122</ProductCode>
+			<SlaveType>-2</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>1</Instance>
+		</GeneralPurpose_AnalogOut2>
+
+		<GeneralPurpose_AnalogOut3>
+			<ProductCode>270807122</ProductCode>
+			<SlaveType>-1</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>2</Instance>
+		</GeneralPurpose_AnalogOut3>
+
+		<GeneralPurpose_AnalogOut4>
+			<ProductCode>270807122</ProductCode>
+			<SlaveType>-2</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>2</Instance>
+		</GeneralPurpose_AnalogOut4>
+
+		<GeneralPurpose_AnalogOut5>
+			<ProductCode>270807122</ProductCode>
+			<SlaveType>-1</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>3</Instance>
+		</GeneralPurpose_AnalogOut5>
+
+		<GeneralPurpose_AnalogOut6>
+			<ProductCode>270807122</ProductCode>
+			<SlaveType>-2</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>3</Instance>
+		</GeneralPurpose_AnalogOut6>
+
+		<GeneralPurpose_AnalogOut7>
+			<ProductCode>270807122</ProductCode>
+			<SlaveType>-1</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>4</Instance>
+		</GeneralPurpose_AnalogOut7>
+
+		<GeneralPurpose_AnalogOut8>
+			<ProductCode>270807122</ProductCode>
+			<SlaveType>-2</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>4</Instance>
+		</GeneralPurpose_AnalogOut8>
+
+		<LED_Controller_Temperature_Too_High>
+			<ProductCode>66728018</ProductCode>
+			<SlaveType>8</SlaveType>
+			<VendorID>2</VendorID>
+			<Instance>1</Instance>
+			<StartBit>7</StartBit>
+			<Length>1</Length>
+		</LED_Controller_Temperature_Too_High>
+
+	</VI_WeldHeadControl>
+
+<!--
+#####################################################
+# Follwing definitions are for VI_InspectionControl #
+#####################################################
+-->
+
+	<VI_InspectionControl>
+
+<!--
+###########
+# Outputs #
+###########
+-->
+		<InspectCycleAckn>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>0</StartBit>
+				<Length>1</Length>
+			</Output>
+		</InspectCycleAckn>
+
+		<InspectionOK>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>1</StartBit>
+				<Length>1</Length>
+			</Output>
+		</InspectionOK>
+
+		<SumErrorLatched>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>2</StartBit>
+				<Length>1</Length>
+			</Output>
+		</SumErrorLatched>
+
+		<SumErrorSeamSeries>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>3</StartBit>
+				<Length>1</Length>
+			</Output>
+		</SumErrorSeamSeries>
+
+		<SumErrorSeam>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>4</StartBit>
+				<Length>1</Length>
+			</Output>
+		</SumErrorSeam>
+
+		<InspectionPreStartAckn>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>6</StartBit>
+				<Length>1</Length>
+			</Output>
+		</InspectionPreStartAckn>
+
+		<InspectionStartEndAckn>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>7</StartBit>
+				<Length>1</Length>
+			</Output>
+		</InspectionStartEndAckn>
+
+		<QualityErrorField>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>8</StartBit>
+				<Length>16</Length>
+			</Output>
+		</QualityErrorField>
+
+<!-- vorlaeufig nicht unterstuetzt !
+		<InspectionIncomplete>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>24</StartBit>
+				<Length>1</Length>
+			</Output>
+		</InspectionIncomplete>
+-->
+
+		<SystemReadyStatus>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>32</StartBit>
+				<Length>1</Length>
+			</Output>
+		</SystemReadyStatus>
+
+		<CabinetTemperatureOk>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>35</StartBit>
+				<Length>1</Length>
+			</Output>
+		</CabinetTemperatureOk>
+        
+		<SystemErrorField>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>40</StartBit>
+				<Length>16</Length>
+			</Output>
+		</SystemErrorField>
+
+		<CalibResultsField>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>57</StartBit>
+				<Length>3</Length>
+			</Output>
+		</CalibResultsField>
+
+		<GeneralPurposeDigitalInputAckn>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>60</StartBit>
+				<Length>1</Length>
+			</Output>
+		</GeneralPurposeDigitalInputAckn>
+
+		<PositionResultsField>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>64</StartBit>
+				<Length>16</Length>
+			</Output>
+		</PositionResultsField>
+
+		<ProductTypeMirror>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>80</StartBit>
+				<Length>8</Length>
+			</Output>
+		</ProductTypeMirror>
+
+		<ProductNumberMirror>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>96</StartBit>
+				<Length>32</Length>
+			</Output>
+		</ProductNumberMirror>
+
+		<ExtendedProductInfoMirror_UTF8>
+			<Output>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>224</StartBit>
+				<Length>800</Length>
+			</Output>
+		</ExtendedProductInfoMirror_UTF8>
+
+<!--
+##########
+# Inputs #
+##########
+-->
+		<CabinetTemperatureOk>
+			<Input>			
+				<ProductCode>66728018</ProductCode>
+				<SlaveType>8</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>2</Instance>
+				<StartBit>6</StartBit>
+				<Length>1</Length>
+			</Input>
+		</CabinetTemperatureOk>
+		
+		<InvertedTriggerEmergencyStop>
+			<Input>
+				<ProductCode>66728018</ProductCode>
+				<SlaveType>8</SlaveType>
+				<VendorID>2</VendorID>
+				<Instance>1</Instance>
+				<StartBit>5</StartBit>
+				<Length>1</Length>
+			</Input>
+		</InvertedTriggerEmergencyStop>
+
+		<TriggerAutomaticMode>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>0</StartBit>
+				<Length>1</Length>
+			</Input>
+		</TriggerAutomaticMode>
+
+		<TriggerInspectionInfo>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>1</StartBit>
+				<Length>1</Length>
+			</Input>
+		</TriggerInspectionInfo>
+
+		<TriggerInspectionStartEnd>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>2</StartBit>
+				<Length>1</Length>
+			</Input>
+		</TriggerInspectionStartEnd>
+
+		<TriggerUnblockLineLaser>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>3</StartBit>
+				<Length>1</Length>
+			</Input>
+		</TriggerUnblockLineLaser>
+
+		<TriggerContinuouslyMode>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>5</StartBit>
+				<Length>1</Length>
+			</Input>
+		</TriggerContinuouslyMode>
+
+		<TriggerInspectionPreStart>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>6</StartBit>
+				<Length>1</Length>
+			</Input>
+		</TriggerInspectionPreStart>
+
+		<Seamseries>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>8</StartBit>
+				<Length>8</Length>
+			</Input>
+		</Seamseries>
+
+		<SeamNr>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>16</StartBit>
+				<Length>8</Length>
+			</Input>
+		</SeamNr>
+
+		<TriggerQuitSystemFault>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>32</StartBit>
+				<Length>1</Length>
+			</Input>
+		</TriggerQuitSystemFault>
+
+		<CalibrationType>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>48</StartBit>
+				<Length>8</Length>
+			</Input>
+		</CalibrationType>
+
+		<TriggerCalibrationMode>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>56</StartBit>
+				<Length>1</Length>
+			</Input>
+		</TriggerCalibrationMode>
+
+		<GeneralPurposeDigitalOutputTakeOver>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>59</StartBit>
+				<Length>1</Length>
+			</Input>
+		</GeneralPurposeDigitalOutputTakeOver>
+
+		<GeneralPurposeDigitalInputTakeOver>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>60</StartBit>
+				<Length>1</Length>
+			</Input>
+		</GeneralPurposeDigitalInputTakeOver>
+
+		<GeneralPurposeDigitalInputAddress>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>61</StartBit>
+				<Length>3</Length>
+			</Input>
+		</GeneralPurposeDigitalInputAddress>
+
+		<GeneralPurposeDigitalInput1>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>64</StartBit>
+				<Length>16</Length>
+			</Input>
+		</GeneralPurposeDigitalInput1>
+
+		<ProductType>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>80</StartBit>
+				<Length>8</Length>
+			</Input>
+		</ProductType>
+
+		<ProductNumber>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>96</StartBit>
+				<Length>32</Length>
+			</Input>
+		</ProductNumber>
+
+		<ExtendedProductInfo_UTF8>
+			<Input>
+				<ProductCode>61</ProductCode>
+				<SlaveType>-10</SlaveType>
+				<VendorID>27</VendorID>
+				<Instance>1</Instance>
+				<StartBit>224</StartBit>
+				<Length>800</Length>
+			</Input>
+		</ExtendedProductInfo_UTF8>
+
+	</VI_InspectionControl>
+</VI_Config>

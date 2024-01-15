@@ -1,0 +1,38 @@
+{
+    "Name" : "Test",
+    "ID" : "3",
+    "Description" : "Test file with all information",
+    "Figure" :
+    [
+        {
+            "EndPosition" : [0.0, 0.0],
+            "Power" : 25.0,
+            "RingPower" : 12.5,
+            "Velocity" : 100.0
+        },
+        {
+            "EndPosition" : [-2.5, 0.0],
+            "Power" : 30.0,
+            "RingPower" : 15.0,
+            "Velocity" : 200.0
+        },
+        {
+            "EndPosition" : [0.0, 0.0],
+            "Power" : 55.0,
+            "RingPower" : 27.5,
+            "Velocity" : 130.0
+        },
+        {
+            "EndPosition" : [2.5, 0],
+            "Power" : 2.0,
+            "RingPower" : 1.0,
+            "Velocity" : 150.5
+        },
+        {
+            "EndPosition" : [0.0, 0.0],
+            "Power" : 3.0,
+            "RingPower" : 60.0,
+            "Velocity" : 250.0
+        }
+    ]
+}

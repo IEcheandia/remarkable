@@ -1,0 +1,69 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/figureeditor">
+    <!-- Figure editor pages -->
+    <file alias="/MainView.qml">qml/pages/MainView.qml</file>
+    <file alias="/WobbleFigureView.qml">qml/pages/WobbleFigureView.qml</file>
+
+    <!-- Figure editor components -->
+    <file alias="/FileLoader.qml">qml/components/FileLoader.qml</file>
+    <file alias="/FigureCreatorInterface.qml">qml/components/FigureCreatorInterface.qml</file>
+    <file alias="/FigureButton.qml">qml/components/FigureButton.qml</file>
+    <file alias="/AttributesLine.qml">qml/components/AttributesLine.qml</file>
+    <file alias="/AttributesDefault.qml">qml/components/AttributesDefault.qml</file>
+    <file alias="/AttributesFrequence.qml">qml/components/AttributesFrequence.qml</file>
+    <file alias="/AttributesCircle.qml">qml/components/AttributesCircle.qml</file>
+    <file alias="/AttributesSpiral.qml">qml/components/AttributesSpiral.qml</file>
+    <file alias="/Interference.qml">qml/components/Interference.qml</file>
+    <file alias="/FileLoaderDialog.qml">qml/components/FileLoaderDialog.qml</file>
+    <file alias="/FigureFreeDialog.qml">qml/components/FigureFreeDialog.qml</file>
+    <file alias="/LaserPointProperties.qml">qml/components/LaserPointProperties.qml</file>
+    <file alias="/TrajectoryProperties.qml">qml/components/TrajectoryProperties.qml</file>
+    <file alias="/FigureProperties.qml">qml/components/FigureProperties.qml</file>
+    <file alias="/ObjectProperties.qml">qml/components/ObjectProperties.qml</file>
+    <file alias="/FigureGlobalProperties.qml">qml/components/FigureGlobalProperties.qml</file>
+    <file alias="/ButtonLayout.qml">qml/components/ButtonLayout.qml</file>
+    <file alias="/GridWithOrigin.qml">qml/components/GridWithOrigin.qml</file>
+    <file alias="/WobbleProperties.qml">qml/components/WobbleProperties.qml</file>
+    <file alias="/HeatMapLegend.qml">qml/components/HeatMapLegend.qml</file>
+    <file alias="/FigureSelector.qml">qml/components/FigureSelector.qml</file>
+    <file alias="/FigurePropertieInformation.qml">qml/components/FigurePropertieInformation.qml</file>
+    <file alias="/WobbleFigureLimitsInformation.qml">qml/components/WobbleFigureLimitsInformation.qml</file>
+    <file alias="/ReorderableListDelegate.qml">qml/components/ReorderableListDelegate.qml</file>
+    <file alias="/ReorderableListView.qml">qml/components/ReorderableListView.qml</file>
+
+    <!-- Figure objects -->
+    <file alias="/LaserPoint.qml">qml/objects/LaserPoint.qml</file>
+    <file alias="/LaserTrajectory.qml">qml/objects/LaserTrajectory.qml</file>
+    <file alias="/PrecitecEdge.qml">qml/objects/PrecitecEdge.qml</file>
+
+    <!-- Dialogs -->
+    <file alias="/SaveAsFigureDialog.qml">qml/dialogs/SaveAsFigureDialog.qml</file>
+    <file alias="/ShowPlot.qml">qml/dialogs/ShowPlot.qml</file>
+    <file alias="/Offset.qml">qml/dialogs/Offset.qml</file>
+    <file alias="/ZoomConfiguration.qml">qml/dialogs/ZoomConfiguration.qml</file>
+    <file alias="/PowerRampDialog.qml">qml/dialogs/PowerRampDialog.qml</file>
+    <file alias="/FigurePropertiesDialog.qml">qml/dialogs/FigurePropertiesDialog.qml</file>
+    <file alias="/ProductAndSeamDialog.qml">qml/dialogs/ProductAndSeamDialog.qml</file>
+    <file alias="/SimulationDialog.qml">qml/dialogs/SimulationDialog.qml</file>
+    <file alias="/FigurePropertieTableDialog.qml">qml/dialogs/FigurePropertieTableDialog.qml</file>
+    <file alias="/PreviewDialog.qml">qml/dialogs/PreviewDialog.qml</file>
+    <file alias="/RampDialog.qml">qml/dialogs/RampDialog.qml</file>
+    <file alias="/RequestChangesDialog.qml">qml/dialogs/RequestChangesDialog.qml</file>
+    <file alias="/DxfImportProperties.qml">qml/pages/DxfImportProperties.qml</file>
+    <file alias="/DxfImportDialog.qml">qml/dialogs/DxfImportDialog.qml</file>
+
+    <!-- PrecitecEdges -->
+    <file alias="/PrecitecEdgeCurvedPath.qml">qml/precitecQuickQanava/PrecitecEdgeCurvedPath.qml</file>
+    <file alias="/PrecitecEdgeDstArrowPath.qml">qml/precitecQuickQanava/PrecitecEdgeDstArrowPath.qml</file>
+    <file alias="/PrecitecEdgeDstCirclePath.qml">qml/precitecQuickQanava/PrecitecEdgeDstCirclePath.qml</file>
+    <file alias="/PrecitecEdgeDstRectPath.qml">qml/precitecQuickQanava/PrecitecEdgeDstRectPath.qml</file>
+    <file alias="/PrecitecEdgeOrthoPath.qml">qml/precitecQuickQanava/PrecitecEdgeOrthoPath.qml</file>
+    <file alias="/PrecitecEdgeSrcArrowPath.qml">qml/precitecQuickQanava/PrecitecEdgeSrcArrowPath.qml</file>
+    <file alias="/PrecitecEdgeSrcCirclePath.qml">qml/precitecQuickQanava/PrecitecEdgeSrcCirclePath.qml</file>
+    <file alias="/PrecitecEdgeSrcRectPath.qml">qml/precitecQuickQanava/PrecitecEdgeSrcRectPath.qml</file>
+    <file alias="/PrecitecEdgeStraightPath.qml">qml/precitecQuickQanava/PrecitecEdgeStraightPath.qml</file>
+    <file alias="/PrecitecEdgeStraightPathRamp.qml">qml/precitecQuickQanava/PrecitecEdgeStraightPathRamp.qml</file>
+
+    <file alias="/utils.js">js/utils.js</file>
+</qresource>
+</RCC>

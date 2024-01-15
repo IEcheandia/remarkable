@@ -1,0 +1,15 @@
+module precitec.gui.components.scheduler
+Scheduler 1.0 qrc:///precitec/scheduler/Scheduler.qml
+AddTask 1.0 qrc:///precitec/scheduler/AddTask.qml
+EditTask 1.0 qrc:///precitec/scheduler/EditTask.qml
+CronTriggerConfiguration 1.0 qrc:///precitec/scheduler/CronTriggerConfiguration.qml
+BackupConfigurationComponent 1.0 qrc:///precitec/scheduler/BackupConfigurationComponent.qml
+BackupLocalTaskConfiguration 1.0 qrc:///precitec/scheduler/BackupLocalTaskConfiguration.qml
+BackupRemoteTaskConfiguration 1.0 qrc:///precitec/scheduler/BackupRemoteTaskConfiguration.qml
+ExportProductTaskConfiguration.qml 1.0 qrc:///precitec/scheduler/ExportProductTaskConfiguration.qml
+TransferDirectoryTaskConfiguration 1.0 qrc:///precitec/scheduler/TransferDirectoryTaskConfiguration.qml
+TransferFileTaskConfiguration 1.0 qrc:///precitec/scheduler/TransferFileTaskConfiguration.qml
+TransferMetaDataTaskConfiguration 1.0 qrc:///precitec/scheduler/TransferMetaDataTaskConfiguration.qml
+DeleteBackupsTaskConfiguration.qml 1.0 qrc:///precitec/scheduler/DeleteBackupsTaskConfiguration.qml
+ResultExcelConfiguration.qml 1.0  qrc:///precitec/scheduler/ResultExcelConfiguration.qml
+plugin precitecschedulercomponentplugin

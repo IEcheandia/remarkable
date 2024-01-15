@@ -1,0 +1,41 @@
+{
+  "Name": "Basic figure triangle",
+  "ID": "7",
+  "Description": "Triangle with 3 vectors",
+  "MicroVectorFactor": 1,
+  "PowerModulationMode": 1,
+  "Figure": [
+    {
+      "EndPosition": [
+        0.5,
+        0.0
+      ],
+      "Power": 0.0,
+      "RingPower": 0.0
+    },
+    {
+      "EndPosition": [
+        -0.5,
+        0.5
+      ],
+      "Power": 0.0,
+      "RingPower": 0.0
+    },
+    {
+      "EndPosition": [
+        -0.5,
+        -0.5
+      ],
+      "Power": 0.0,
+      "RingPower": 0.0
+    },
+    {
+      "EndPosition": [
+        0.5,
+        0.0
+      ],
+      "Power": 0.0,
+      "RingPower": 0.0
+    }
+  ]
+}

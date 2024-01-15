@@ -1,0 +1,35 @@
+{
+  "Nam": "New figure",
+  "ID": "1",
+  "Description": "No description",
+  "Figure": [
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": 0.0
+    },
+    {
+      "EndPosition": [
+        3.0,
+        0.0
+      ],
+      "Power": 0.0
+    },
+    {
+      "EndPosition": [
+        -3.0,
+        0.0
+      ],
+      "Power": 0.0
+    },
+    {
+      "EndPosition": [
+        0.0,
+        0.0
+      ],
+      "Power": 0.0
+    }
+  ]
+}

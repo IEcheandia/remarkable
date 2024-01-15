@@ -1,0 +1,75 @@
+qtTestCase(
+    NAME
+        testEthercatGatewayModel
+    SRCS
+        ethercatGatewayModelTest.cpp
+        ../gatewayFilterModel.cpp
+        ../gatewayModel.cpp
+        ../viConfigService.cpp
+    LIBS
+        Qt5::Concurrent
+)
+
+qtTestCase(
+    NAME
+        testEthercatDigitalSlaveModel
+    SRCS
+        ethercatDigitalSlaveModelTest.cpp
+        ../digitalSlaveModel.cpp
+    LIBS
+        Qt5::Concurrent
+)
+
+qtTestCase(
+    NAME
+        testSlaveInfoFilterModel
+    SRCS
+        slaveInfoFilterModelTest.cpp
+        ../slaveInfoFilterModel.cpp
+)
+
+qtTestCase(
+    NAME
+        testSlaveInfoModel
+    SRCS
+        slaveInfoModelTest.cpp
+        ../slaveInfoModel.cpp
+        ../../../src/serviceToGuiServer.cpp
+        ../../../../Filtertest/dummyLogger.cpp
+    LIBS
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        Framework_Module
+        Interfaces
+)
+
+qtTestCase(
+    NAME
+        testViConfigModelTest
+    SRCS
+        viConfigModelTest.cpp
+        ../gatewayModel.cpp
+        ../viConfigModel.cpp
+        ../viConfigService.cpp
+        ../../../src/serviceToGuiServer.cpp
+        ../../../../Filtertest/dummyLogger.cpp
+    LIBS
+        Qt5::Gui
+        Qt5::Concurrent
+        ${POCO_LIBS}
+        Framework_Module
+        Interfaces
+        Precitec::precitecplotter
+)
+
+qtTestCase(
+    NAME
+        testRecordedSignalAnalyzerController
+    SRCS
+        recordedSignalAnalyzerControllerTest.cpp
+        ../recordedSignalAnalyzerController.cpp
+    LIBS
+        Qt5::Gui
+        Qt5::Concurrent
+        Precitec::precitecplotter
+)

@@ -1,0 +1,27 @@
+{
+    "uuid": "1F086211-FBD4-4493-A580-6FF11E4925DE",
+    "name": "Seam with Graph",
+    "type": 1,
+    "endless": true,
+    "trigger": {
+        "source": "Grabber",
+        "mode": "Single"
+    },
+    "hardware": {
+        "startPosYAxis": 1
+    },
+    "seamSeries": [
+        {
+            "number": 0,
+            "uuid": "bcc3332d-dc4d-4b94-9dc9-604262ec8666",
+            "seams": [
+                {
+                    "uuid": "99f71378-ef2a-4ada-8c1f-b022c53505e4",
+                    "number": 0,
+                    "graph": "c1a3dcf1-994a-40af-88a7-4a644c855dfa",
+                    "linkedGraph": "c1a3dcf1-994a-40af-88a7-4a644c855dfa"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "Name": "New figure",
+  "ID": "1",
+  "Description": "No description",
+  "Ramps": [],
+  "Figure": [
+    {
+      "EndPosition": [
+        -25.0,
+        0.0
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    },
+    {
+      "EndPosition": [
+        25.0,
+        0.0
+      ],
+      "Power": -1.0,
+      "RingPower": -1.0,
+      "Velocity": -1.0
+    }
+  ]
+}

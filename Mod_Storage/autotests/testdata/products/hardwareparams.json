@@ -1,0 +1,84 @@
+{
+    "uuid": "1F086211-FBD4-4493-A580-6FF11E4925DD",
+    "name": "FooBar",
+    "type": 1,
+    "endless": true,
+    "hardware": {
+        "parameterSet": {
+            "parameters": [
+                {
+                    "uuid": "2F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "name": "Test",
+                    "typeId": "96599c45-4e20-4aaa-826d-25463670dd09",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "Further Test"
+                },
+                {
+                    "type": "int",
+                    "value": 20
+                },
+                {
+                    "type": "uint",
+                    "value": 50
+                },
+                {
+                    "type": "float",
+                    "value": 50.7
+                },
+                {
+                    "type": "double",
+                    "value": -20050.767
+                }
+            ]
+        }
+    },
+    "filterParameterSets": [
+        {
+            "uuid": "6F086211-FBD4-4493-A580-6FF11E4925DD"
+        },
+        {
+            "uuid": "b450c464-4c40-4608-bc50-4b2fd895af75",
+            "parameters": [
+                {
+                    "uuid": "7F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "name": "Test",
+                    "typeId": "8F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "filterId": "9F086211-FBD4-4493-A580-6FF11E4925DE",
+                    "type": "bool",
+                    "value": true
+                }
+            ]
+        }
+    ],
+    "seamSeries": [
+        {
+            "hardware": {
+                "parameterSet": {
+                    "uuid": "3F086211-FBD4-4493-A580-6FF11E4925DD"
+                }
+            },
+            "seams": [
+                {
+                    "hardware": {
+                        "parameterSet": {
+                            "uuid": "4F086211-FBD4-4493-A580-6FF11E4925DD"
+                        }
+                    },
+                    "seamIntervals": [
+                        {
+                            "hardware": {
+                                "parameterSet": {
+                                    "uuid": "5F086211-FBD4-4493-A580-6FF11E4925DD"
+                                }
+                            },
+                            "graphParamSet": "b450c464-4c40-4608-bc50-4b2fd895af75"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

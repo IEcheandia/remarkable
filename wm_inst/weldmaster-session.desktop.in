@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Weldmaster
+Comment=Weldmaster X11session
+Type=XSession
+Exec=/usr/bin/startkde
+TryExec=/usr/bin/startkde
